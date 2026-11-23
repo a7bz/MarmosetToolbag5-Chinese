@@ -40,23 +40,41 @@ jobs:
       - name: Show artifacts
         run: Get-ChildItem release | Format-Table Name, Length
 
+      # GitHub rewrites release asset names that contain non-ASCII characters (they would show up
+      # as "Toolbag5_.exe"), so the uploads get ASCII names while the build output keeps Chinese.
+      - name: Stage release assets
+        shell: pwsh
+        run: |
+          $tag = "${{ github.ref_type == 'tag' && github.ref_name || inputs.tag }}"
+          if (-not $tag) { $tag = "dev" }
+          New-Item -ItemType Directory -Force -Path upload | Out-Null
+          Copy-Item "release/Toolbag5_汉化补丁.exe"          "upload/Toolbag5-Chinese-Patch-$tag.exe"
+          Copy-Item "release/Toolbag5_汉化补丁_绿色版.zip"    "upload/Toolbag5-Chinese-Patch-$tag-Portable.zip"
+          Copy-Item "release/使用说明.txt"                   "upload/README-zh.txt"
+          Get-ChildItem upload | Format-Table Name, Length
+
       - uses: actions/upload-artifact@v6
         with:
           name: Toolbag5-Chinese-patch
-          path: |
-            release/Toolbag5_汉化补丁.exe
-            release/Toolbag5_汉化补丁_绿色版.zip
-            release/使用说明.txt
+          path: upload/*
 
       - name: Publish release
         if: startsWith(github.ref, 'refs/tags/') || inputs.tag != ''
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           tag_name: ${{ github.ref_type == 'tag' && github.ref_name || inputs.tag }}
-          name: ${{ github.ref_type == 'tag' && github.ref_name || inputs.tag }}
+          name: Toolbag 5 汉化补丁 ${{ github.ref_type == 'tag' && github.ref_name || inputs.tag }}
+          body: |
+            Marmoset Toolbag 5 简体中文界面补丁，适用于 **5.0.3.2（build 5032）**。
+
+            | 文件 | 说明 |
+            | --- | --- |
+            | `Toolbag5-Chinese-Patch-*.exe` | 标准安装包，自动检测安装目录，支持静默安装 `/S` |
+            | `Toolbag5-Chinese-Patch-*-Portable.zip` | 免安装绿色版，解压后运行 `安装.bat` |
+            | `README-zh.txt` | 使用说明 |
+
+            安装前会自动备份 `toolbag.exe` 与 `english.txt`，卸载可完整还原英文。补丁只包含界面翻译与打补丁工具，不包含 Marmoset 的任何程序文件，请先自行安装正版软件。
           draft: false
           generate_release_notes: true
-          files: |
-            release/Toolbag5_汉化补丁.exe
-            release/Toolbag5_汉化补丁_绿色版.zip
-            release/使用说明.txt
+          files: upload/*
+
