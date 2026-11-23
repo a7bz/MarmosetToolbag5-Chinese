@@ -12,18 +12,21 @@ Marmoset Toolbag 5 的简体中文界面补丁。汉化覆盖菜单、面板标�
 
 | 文件 | 说明 |
 | --- | --- |
-| `Toolbag5_汉化补丁.exe` | 标准安装包，自动检测安装目录，支持静默安装 |
-| `Toolbag5_汉化补丁_绿色版.zip` | 免安装绿色版，解压后运行 `安装.bat` |
+| `Toolbag5-Chinese-Patch-v1.0.0.exe` | 标准安装包，自动检测安装目录，支持静默安装 |
+| `Toolbag5-Chinese-Patch-v1.0.0-Portable.zip` | 免安装绿色版，解压后运行 `安装.bat` |
+| `README-zh.txt` | 使用说明 |
+
+> 发布资产使用 ASCII 文件名（GitHub 会清空中文文件名），下载后可按需自行改名。
 
 ## 使用
 
 ### 安装包版
 
-双击 `Toolbag5_汉化补丁.exe`，按提示安装。静默安装：
+双击安装包，按提示安装。静默安装：
 
 ```
-Toolbag5_汉化补丁.exe /S
-Toolbag5_汉化补丁.exe /uninstall /S
+Toolbag5-Chinese-Patch-v1.0.0.exe /S
+Toolbag5-Chinese-Patch-v1.0.0.exe /uninstall /S
 ```
 
 安装日志：`C:\ProgramData\ToolbagZh\setup.log`
@@ -81,6 +84,7 @@ python tools/build_release.py
 
 产出 `dist/Toolbag5_汉化补丁.exe` 与 `release/` 目录（安装包、绿色版 zip、使用说明）。
 需要 .NET Framework 4.8 参考程序集与 Roslyn `csc`（Visual Studio Build Tools 自带）。
+脚本会先用 `vswhere` 自动定位编译器，找不到时也可用环境变量 `CSC_PATH` 指定。
 
 构建前可先自检补丁数据：
 
