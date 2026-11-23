@@ -14,6 +14,7 @@ Everything here is generated; run tools/build_release.py first.
 from __future__ import annotations
 
 import shutil
+import sys
 import zipfile
 from pathlib import Path
 
@@ -60,6 +61,13 @@ def build_zip() -> Path:
 
 
 def main() -> None:
+    # The Windows console is often GBK (or cp1252 on CI runners); avoid crashing while printing
+    # the Chinese artifact names.
+    try:
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
+
     if OUT.exists():
         shutil.rmtree(OUT)
     OUT.mkdir(parents=True)
