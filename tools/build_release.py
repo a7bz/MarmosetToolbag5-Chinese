@@ -19,6 +19,7 @@ import base64
 import gzip
 import hashlib
 import json
+import os
 import struct
 import subprocess
 import sys
@@ -116,41 +117,108 @@ def verify_payload(blob: bytes, patch: dict) -> None:
     assert pos == len(blob), f"trailing bytes: {len(blob) - pos}"
 
 
+def _vswhere_csc() -> list[Path]:
+    """Ask Visual Studio where its Roslyn compiler is. Covers every VS version/edition."""
+    vswhere = Path(r"C:\Program Files (x86)\Microsoft Visual Studio\Installer\vswhere.exe")
+    if not vswhere.exists():
+        return []
+    found: list[Path] = []
+    for extra in (["-requires", "Microsoft.VisualStudio.Component.Roslyn.Compiler"], []):
+        try:
+            r = subprocess.run(
+                [str(vswhere), "-latest", "-products", "*", *extra,
+                 "-find", r"MSBuild\**\Bin\Roslyn\csc.exe"],
+                capture_output=True, text=True, timeout=60,
+            )
+        except Exception:
+            continue
+        for line in r.stdout.splitlines():
+            p = Path(line.strip())
+            if p.is_file() and p not in found:
+                found.append(p)
+    return found
+
+
 def find_csc() -> Path:
-    candidates = [
-        Path(r"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Bin\Roslyn\csc.exe"),
-        Path(r"C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\Roslyn\csc.exe"),
-        Path(r"C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Roslyn\csc.exe"),
-        Path(r"C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Roslyn\csc.exe"),
-        Path(r"C:\Program Files\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin\Roslyn\csc.exe"),
-        Path(r"C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe"),
-    ]
+    # An explicit override keeps odd machine layouts workable.
+    env = os.environ.get("CSC_PATH")
+    if env:
+        p = Path(env)
+        if p.is_file():
+            return p
+        raise SystemExit(f"CSC_PATH is set but not a file: {p}")
+
+    candidates = _vswhere_csc()
+    # Fall back to well-known layouts in case vswhere is missing or the workload differs.
+    # `Microsoft Visual Studio\<year>\<edition>` covers 2017-2026 without listing each one.
+    for base in (Path(r"C:\Program Files\Microsoft Visual Studio"),
+                 Path(r"C:\Program Files (x86)\Microsoft Visual Studio")):
+        if base.is_dir():
+            candidates += sorted(base.glob(r"*\*\MSBuild\*\Bin\Roslyn\csc.exe"))
     for c in candidates:
-        if c.exists():
+        if c.is_file():
             return c
+
+    # Last resort: the in-box .NET Framework compiler. It only speaks C# 5, so the build below
+    # drops /langversion and we let it fail loudly rather than publish a broken installer.
+    legacy = Path(r"C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe")
+    if legacy.is_file():
+        print("warning: no Roslyn csc found, falling back to the in-box C# 5 compiler")
+        return legacy
     raise SystemExit(
         "no C# compiler found; install Visual Studio Build Tools (Roslyn csc is required, "
         "the in-box .NET Framework compiler is too old for C# 7.3)"
     )
 
 
-def find_reference_assemblies() -> Path:
-    base = Path(r"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework")
-    for v in ("v4.8", "v4.7.2", "v4.7.1", "v4.7", "v4.6.2"):
-        p = base / v
-        if p.exists():
+def find_reference_assemblies() -> Path | None:
+    """Locate the .NET Framework reference assemblies; None means use the runtime ones."""
+    roots = [
+        Path(r"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework"),
+        Path(r"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework"),
+    ]
+    # VS ships its own copy under the installation root, so search there as well.
+    for base in (Path(r"C:\Program Files\Microsoft Visual Studio"),
+                 Path(r"C:\Program Files (x86)\Microsoft Visual Studio")):
+        if base.is_dir():
+            roots += sorted(base.glob(r"*\*\Reference Assemblies\Microsoft\Framework\.NETFramework"))
+
+    found: list[Path] = []
+    for root in roots:
+        if not root.is_dir():
+            continue
+        for p in root.glob("v4.*"):
+            # ignore the "v4.X" placeholder folder and pre-4.6 profiles
+            if p.name in ("v4.0", "v4.5", "v4.5.1", "v4.5.2", "v4.6", "v4.6.1", "v4.X"):
+                continue
+            if (p / "System.dll").is_file():
+                found.append(p)
+    if found:
+        # highest version last when sorted naturally; pick the newest
+        found.sort(key=lambda p: [int(x) for x in p.name.lstrip("v").split(".")])
+        return found[-1]
+    print("warning: no .NET Framework reference assemblies found, using the runtime assemblies")
+    return None
+
+
+def framework_dir() -> Path:
+    for p in (Path(r"C:\Windows\Microsoft.NET\Framework64\v4.0.30319"),
+              Path(r"C:\Windows\Microsoft.NET\Framework\v4.0.30319")):
+        if p.is_dir():
             return p
-    raise SystemExit("no .NET Framework reference assemblies found")
+    raise SystemExit("no .NET Framework runtime found")
 
 
 def compile_installer() -> Path:
     csc = find_csc()
     ref = find_reference_assemblies()
+    if ref is None:
+        ref = framework_dir()
+    roslyn = "roslyn" in str(csc).lower()
 
     exe_out = DIST / "Toolbag5_汉化补丁.exe"
     cmd = [
         str(csc), "/nologo", "/target:winexe", "/platform:anycpu", "/optimize+",
-        "/langversion:7.3",
         "/win32manifest:" + str(ROOT / "installer" / "app.manifest"),
         "/win32icon:" + str(ROOT / "installer" / "app.ico"),
         f"/r:{ref / 'System.dll'}",
@@ -163,7 +231,9 @@ def compile_installer() -> Path:
         "/out:" + str(exe_out),
         str(ROOT / "installer" / "Setup.cs"),
     ]
-    print("compiling installer…")
+    if roslyn:
+        cmd.insert(5, "/langversion:7.3")
+    print(f"compiling installer with {csc} …")
     r = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8", errors="replace")
     if r.returncode != 0:
         print(r.stdout or "")
