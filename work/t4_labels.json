@@ -1,0 +1,722 @@
+[
+ {
+  "en": "Bezier",
+  "budget": 8,
+  "offsets": [
+   22196380
+  ],
+  "max_cjk": 2
+ },
+ {
+  "en": "Bold",
+  "budget": 8,
+  "offsets": [
+   22745676
+  ],
+  "max_cjk": 2
+ },
+ {
+  "en": "Collada",
+  "budget": 8,
+  "offsets": [
+   22180968
+  ],
+  "max_cjk": 2
+ },
+ {
+  "en": "Create",
+  "budget": 8,
+  "offsets": [
+   22715284
+  ],
+  "max_cjk": 2
+ },
+ {
+  "en": "Cyan",
+  "budget": 8,
+  "offsets": [
+   22391932
+  ],
+  "max_cjk": 2
+ },
+ {
+  "en": "Darken",
+  "budget": 8,
+  "offsets": [
+   22206848
+  ],
+  "max_cjk": 2
+ },
+ {
+  "en": "Dodge",
+  "budget": 8,
+  "offsets": [
+   22206856
+  ],
+  "max_cjk": 2
+ },
+ {
+  "en": "Handles",
+  "budget": 8,
+  "offsets": [
+   22715360
+  ],
+  "max_cjk": 2
+ },
+ {
+  "en": "Heavy",
+  "budget": 8,
+  "offsets": [
+   22745684
+  ],
+  "max_cjk": 2
+ },
+ {
+  "en": "Lighten",
+  "budget": 8,
+  "offsets": [
+   22392152
+  ],
+  "max_cjk": 2
+ },
+ {
+  "en": "Measure",
+  "budget": 8,
+  "offsets": [
+   22715368
+  ],
+  "max_cjk": 2
+ },
+ {
+  "en": "Overlay",
+  "budget": 8,
+  "offsets": [
+   22206840
+  ],
+  "max_cjk": 2
+ },
+ {
+  "en": "Purple",
+  "budget": 8,
+  "offsets": [
+   22391916
+  ],
+  "max_cjk": 2
+ },
+ {
+  "en": "User",
+  "budget": 8,
+  "offsets": [
+   22429472
+  ],
+  "max_cjk": 2
+ },
+ {
+  "en": "Viewer",
+  "budget": 8,
+  "offsets": [
+   22180984
+  ],
+  "max_cjk": 2
+ },
+ {
+  "en": "Yellow",
+  "budget": 8,
+  "offsets": [
+   22391924
+  ],
+  "max_cjk": 2
+ },
+ {
+  "en": "B-Spline",
+  "budget": 12,
+  "offsets": [
+   22196368
+  ],
+  "max_cjk": 3
+ },
+ {
+  "en": "Cubic",
+  "budget": 12,
+  "offsets": [
+   22196388
+  ],
+  "max_cjk": 3
+ },
+ {
+  "en": "Miles (mi)",
+  "budget": 12,
+  "offsets": [
+   22733392
+  ],
+  "max_cjk": 3
+ },
+ {
+  "en": "Mold",
+  "budget": 12,
+  "offsets": [
+   22715348
+  ],
+  "max_cjk": 3
+ },
+ {
+  "en": "Orange",
+  "budget": 12,
+  "offsets": [
+   22391948
+  ],
+  "max_cjk": 3
+ },
+ {
+  "en": "Rect Select",
+  "budget": 12,
+  "offsets": [
+   22715336
+  ],
+  "max_cjk": 3
+ },
+ {
+  "en": "Alpha Mask",
+  "budget": 16,
+  "offsets": [
+   22137840
+  ],
+  "max_cjk": 5
+ },
+ {
+  "en": "Area / Shape",
+  "budget": 16,
+  "offsets": [
+   22655664
+  ],
+  "max_cjk": 5
+ },
+ {
+  "en": "Color burn",
+  "budget": 16,
+  "offsets": [
+   22206864
+  ],
+  "max_cjk": 5
+ },
+ {
+  "en": "Color Burn",
+  "budget": 16,
+  "offsets": [
+   22392128
+  ],
+  "max_cjk": 5
+ },
+ {
+  "en": "Color Dodge",
+  "budget": 16,
+  "offsets": [
+   22392112
+  ],
+  "max_cjk": 5
+ },
+ {
+  "en": "Diffusion",
+  "budget": 16,
+  "offsets": [
+   22764880
+  ],
+  "max_cjk": 5
+ },
+ {
+  "en": "Displacement",
+  "budget": 16,
+  "offsets": [
+   22154736
+  ],
+  "max_cjk": 5
+ },
+ {
+  "en": "Draft Quality",
+  "budget": 16,
+  "offsets": [
+   22154800
+  ],
+  "max_cjk": 5
+ },
+ {
+  "en": "Fade Replace",
+  "budget": 16,
+  "offsets": [
+   22392232
+  ],
+  "max_cjk": 5
+ },
+ {
+  "en": "Feet (ft)",
+  "budget": 16,
+  "offsets": [
+   22733360
+  ],
+  "max_cjk": 5
+ },
+ {
+  "en": "Inches (in)",
+  "budget": 16,
+  "offsets": [
+   22733536
+  ],
+  "max_cjk": 5
+ },
+ {
+  "en": "Incidence",
+  "budget": 16,
+  "offsets": [
+   22154768
+  ],
+  "max_cjk": 5
+ },
+ {
+  "en": "Kilometers (km)",
+  "budget": 16,
+  "offsets": [
+   22733520
+  ],
+  "max_cjk": 5
+ },
+ {
+  "en": "Linear burn",
+  "budget": 16,
+  "offsets": [
+   22206880
+  ],
+  "max_cjk": 5
+ },
+ {
+  "en": "Linear Burn",
+  "budget": 16,
+  "offsets": [
+   22392216
+  ],
+  "max_cjk": 5
+ },
+ {
+  "en": "Meters (m)",
+  "budget": 16,
+  "offsets": [
+   22733504
+  ],
+  "max_cjk": 5
+ },
+ {
+  "en": "Microsurface",
+  "budget": 16,
+  "offsets": [
+   22764864
+  ],
+  "max_cjk": 5
+ },
+ {
+  "en": "Multiply",
+  "budget": 16,
+  "offsets": [
+   22206824
+  ],
+  "max_cjk": 5
+ },
+ {
+  "en": "Normal Detail",
+  "budget": 16,
+  "offsets": [
+   22392160
+  ],
+  "max_cjk": 5
+ },
+ {
+  "en": "Pass-Thru",
+  "budget": 16,
+  "offsets": [
+   22392176
+  ],
+  "max_cjk": 5
+ },
+ {
+  "en": "Per-Pixel",
+  "budget": 16,
+  "offsets": [
+   22709424
+  ],
+  "max_cjk": 5
+ },
+ {
+  "en": "Per-Vertex",
+  "budget": 16,
+  "offsets": [
+   22709440
+  ],
+  "max_cjk": 5
+ },
+ {
+  "en": "Quadratic",
+  "budget": 16,
+  "offsets": [
+   22196400
+  ],
+  "max_cjk": 5
+ },
+ {
+  "en": "Reflectivity",
+  "budget": 16,
+  "offsets": [
+   22154752
+  ],
+  "max_cjk": 5
+ },
+ {
+  "en": "Round Corner",
+  "budget": 16,
+  "offsets": [
+   22715320
+  ],
+  "max_cjk": 5
+ },
+ {
+  "en": "Scene Bundle",
+  "budget": 16,
+  "offsets": [
+   22180952
+  ],
+  "max_cjk": 5
+ },
+ {
+  "en": "Scribble",
+  "budget": 16,
+  "offsets": [
+   22715304
+  ],
+  "max_cjk": 5
+ },
+ {
+  "en": "Spatial Hash",
+  "budget": 16,
+  "offsets": [
+   22155040
+  ],
+  "max_cjk": 5
+ },
+ {
+  "en": "Text Direction",
+  "budget": 16,
+  "offsets": [
+   22714880
+  ],
+  "max_cjk": 5
+ },
+ {
+  "en": "Text Offset",
+  "budget": 16,
+  "offsets": [
+   22714864
+  ],
+  "max_cjk": 5
+ },
+ {
+  "en": "Untextured",
+  "budget": 16,
+  "offsets": [
+   22154816
+  ],
+  "max_cjk": 5
+ },
+ {
+  "en": "Velocity",
+  "budget": 16,
+  "offsets": [
+   22154784
+  ],
+  "max_cjk": 5
+ },
+ {
+  "en": "Yards (yd)",
+  "budget": 16,
+  "offsets": [
+   22733376
+  ],
+  "max_cjk": 5
+ },
+ {
+  "en": "Hue / Saturation",
+  "budget": 20,
+  "offsets": [
+   22305392
+  ],
+  "max_cjk": 6
+ },
+ {
+  "en": "Accelerated / RTX",
+  "budget": 24,
+  "offsets": [
+   22689888
+  ],
+  "max_cjk": 7
+ },
+ {
+  "en": "Barrel / Pincushion",
+  "budget": 24,
+  "offsets": [
+   22625720
+  ],
+  "max_cjk": 7
+ },
+ {
+  "en": "Centimeters (cm)",
+  "budget": 24,
+  "offsets": [
+   22733480
+  ],
+  "max_cjk": 7
+ },
+ {
+  "en": "Clearcoat Microsurface",
+  "budget": 24,
+  "offsets": [
+   22764744
+  ],
+  "max_cjk": 7
+ },
+ {
+  "en": "Clearcoat Reflection",
+  "budget": 24,
+  "offsets": [
+   22764768
+  ],
+  "max_cjk": 7
+ },
+ {
+  "en": "Clearcoat Reflectivity",
+  "budget": 24,
+  "offsets": [
+   22764808
+  ],
+  "max_cjk": 7
+ },
+ {
+  "en": "Diffuse (Complete)",
+  "budget": 24,
+  "offsets": [
+   22154944
+  ],
+  "max_cjk": 7
+ },
+ {
+  "en": "Diffuse (Direct)",
+  "budget": 24,
+  "offsets": [
+   22154968
+  ],
+  "max_cjk": 7
+ },
+ {
+  "en": "Diffuse (Indirect)",
+  "budget": 24,
+  "offsets": [
+   22154896
+  ],
+  "max_cjk": 7
+ },
+ {
+  "en": "Direction Detail",
+  "budget": 24,
+  "offsets": [
+   22392192
+  ],
+  "max_cjk": 7
+ },
+ {
+  "en": "Lighting (Direct)",
+  "budget": 24,
+  "offsets": [
+   22154992
+  ],
+  "max_cjk": 7
+ },
+ {
+  "en": "Lighting (Indirect)",
+  "budget": 24,
+  "offsets": [
+   22155016
+  ],
+  "max_cjk": 7
+ },
+ {
+  "en": "Millimeters (mm)",
+  "budget": 24,
+  "offsets": [
+   22733552
+  ],
+  "max_cjk": 7
+ },
+ {
+  "en": "Specular (Complete)",
+  "budget": 24,
+  "offsets": [
+   22154920
+  ],
+  "max_cjk": 7
+ },
+ {
+  "en": "Specular (Direct)",
+  "budget": 24,
+  "offsets": [
+   22154848
+  ],
+  "max_cjk": 7
+ },
+ {
+  "en": "Specular (Indirect)",
+  "budget": 24,
+  "offsets": [
+   22154872
+  ],
+  "max_cjk": 7
+ },
+ {
+  "en": "Ambient / Sky Illumination",
+  "budget": 32,
+  "offsets": [
+   22598760
+  ],
+  "max_cjk": 10
+ },
+ {
+  "en": "The Albedo project map of this surface.",
+  "budget": 40,
+  "offsets": [
+   22336200
+  ],
+  "max_cjk": 13
+ },
+ {
+  "en": "The Bump project map of this surface.",
+  "budget": 40,
+  "offsets": [
+   22335688
+  ],
+  "max_cjk": 13
+ },
+ {
+  "en": "The Cavity project map of this surface.",
+  "budget": 40,
+  "offsets": [
+   22335928
+  ],
+  "max_cjk": 13
+ },
+ {
+  "en": "The Fuzz project map of this surface.",
+  "budget": 40,
+  "offsets": [
+   22336656
+  ],
+  "max_cjk": 13
+ },
+ {
+  "en": "The Gloss project map of this surface.",
+  "budget": 40,
+  "offsets": [
+   22335968
+  ],
+  "max_cjk": 13
+ },
+ {
+  "en": "The Mask project map of this surface.",
+  "budget": 40,
+  "offsets": [
+   22336152
+  ],
+  "max_cjk": 13
+ },
+ {
+  "en": "The Normal project map of this surface.",
+  "budget": 40,
+  "offsets": [
+   22336240
+  ],
+  "max_cjk": 13
+ },
+ {
+  "en": "The Sheen project map of this surface.",
+  "budget": 40,
+  "offsets": [
+   22336448
+  ],
+  "max_cjk": 13
+ },
+ {
+  "en": "The Emissive project map of this surface.",
+  "budget": 48,
+  "offsets": [
+   22335640
+  ],
+  "max_cjk": 15
+ },
+ {
+  "en": "The Metalness project map of this surface.",
+  "budget": 48,
+  "offsets": [
+   22336056
+  ],
+  "max_cjk": 15
+ },
+ {
+  "en": "The Roughness project map of this surface.",
+  "budget": 48,
+  "offsets": [
+   22336104
+  ],
+  "max_cjk": 15
+ },
+ {
+  "en": "The Scatter project map of this surface.",
+  "budget": 48,
+  "offsets": [
+   22335752
+  ],
+  "max_cjk": 15
+ },
+ {
+  "en": "The Specular project map of this surface.",
+  "budget": 48,
+  "offsets": [
+   22336008
+  ],
+  "max_cjk": 15
+ },
+ {
+  "en": "The Transparency project map of this surface.",
+  "budget": 48,
+  "offsets": [
+   22335880
+  ],
+  "max_cjk": 15
+ },
+ {
+  "en": "The Ambient Occlusion project map of this surface.",
+  "budget": 56,
+  "offsets": [
+   22335800
+  ],
+  "max_cjk": 18
+ },
+ {
+  "en": "The Anisotropic Direction project map of this surface.",
+  "budget": 56,
+  "offsets": [
+   22336696
+  ],
+  "max_cjk": 18
+ },
+ {
+  "en": "The Transmission Mask project map of this surface.",
+  "budget": 56,
+  "offsets": [
+   22336600
+  ],
+  "max_cjk": 18
+ }
+]

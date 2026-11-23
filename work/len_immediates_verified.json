@@ -1,0 +1,1335 @@
+[
+ {
+  "str_offset": 22290216,
+  "imm_offset": 7172602,
+  "old": 11,
+  "reg": "r8d",
+  "ref_offset": 7172606,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22133800,
+  "imm_offset": 3099697,
+  "old": 8,
+  "reg": "r8d",
+  "ref_offset": 3099701,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22438416,
+  "imm_offset": 10628839,
+  "old": 12,
+  "reg": "r8d",
+  "ref_offset": 10628843,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22598544,
+  "imm_offset": 12397999,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 12398003,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22130208,
+  "imm_offset": 3013149,
+  "old": 8,
+  "reg": "r8d",
+  "ref_offset": 3013153,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22134008,
+  "imm_offset": 3121013,
+  "old": 4,
+  "reg": "r8d",
+  "ref_offset": 3121017,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22134008,
+  "imm_offset": 3277649,
+  "old": 4,
+  "reg": "r8d",
+  "ref_offset": 3277653,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22171992,
+  "imm_offset": 4150421,
+  "old": 11,
+  "reg": "r8d",
+  "ref_offset": 4150425,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22689696,
+  "imm_offset": 14027601,
+  "old": 36,
+  "reg": "r8d",
+  "ref_offset": 14027605,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22689696,
+  "imm_offset": 14032634,
+  "old": 36,
+  "reg": "r8d",
+  "ref_offset": 14032638,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22689696,
+  "imm_offset": 14033263,
+  "old": 36,
+  "reg": "r8d",
+  "ref_offset": 14033267,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22634712,
+  "imm_offset": 12991069,
+  "old": 14,
+  "reg": "r8d",
+  "ref_offset": 12991073,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22309388,
+  "imm_offset": 7498352,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 7498356,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22302824,
+  "imm_offset": 7400991,
+  "old": 17,
+  "reg": "r8d",
+  "ref_offset": 7400995,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22302824,
+  "imm_offset": 7468130,
+  "old": 17,
+  "reg": "r8d",
+  "ref_offset": 7468134,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22317408,
+  "imm_offset": 7691201,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 7691205,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22317408,
+  "imm_offset": 7700554,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 7700558,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22272584,
+  "imm_offset": 6772246,
+  "old": 10,
+  "reg": "r8d",
+  "ref_offset": 6772250,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22689552,
+  "imm_offset": 14028566,
+  "old": 9,
+  "reg": "r8d",
+  "ref_offset": 14028570,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22057848,
+  "imm_offset": 878904,
+  "old": 4,
+  "reg": "r8d",
+  "ref_offset": 878908,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22284912,
+  "imm_offset": 7043542,
+  "old": 26,
+  "reg": "r8d",
+  "ref_offset": 7043546,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22284912,
+  "imm_offset": 7046058,
+  "old": 26,
+  "reg": "r8d",
+  "ref_offset": 7046062,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22131272,
+  "imm_offset": 3255331,
+  "old": 16,
+  "reg": "r8d",
+  "ref_offset": 3255338,
+  "kind": "via-register",
+  "source_reg": "ebx",
+  "problems": []
+ },
+ {
+  "str_offset": 22730644,
+  "imm_offset": 14701056,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 14701060,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22407204,
+  "imm_offset": 9811800,
+  "old": 4,
+  "reg": "r8d",
+  "ref_offset": 9811804,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22418568,
+  "imm_offset": 9946295,
+  "old": 19,
+  "reg": "r8d",
+  "ref_offset": 9946299,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22418568,
+  "imm_offset": 9946402,
+  "old": 19,
+  "reg": "r8d",
+  "ref_offset": 9946406,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22418568,
+  "imm_offset": 9950100,
+  "old": 19,
+  "reg": "r8d",
+  "ref_offset": 9950104,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22418568,
+  "imm_offset": 9950207,
+  "old": 19,
+  "reg": "r8d",
+  "ref_offset": 9950211,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22597608,
+  "imm_offset": 12382318,
+  "old": 11,
+  "reg": "r8d",
+  "ref_offset": 12382322,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22597608,
+  "imm_offset": 12387631,
+  "old": 11,
+  "reg": "r8d",
+  "ref_offset": 12387635,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22597608,
+  "imm_offset": 14186950,
+  "old": 11,
+  "reg": "r8d",
+  "ref_offset": 14186954,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22407452,
+  "imm_offset": 9817434,
+  "old": 4,
+  "reg": "r8d",
+  "ref_offset": 9817438,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22130248,
+  "imm_offset": 3013497,
+  "old": 8,
+  "reg": "r8d",
+  "ref_offset": 3013501,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22130248,
+  "imm_offset": 3226467,
+  "old": 8,
+  "reg": "r8d",
+  "ref_offset": 3226471,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22051460,
+  "imm_offset": 14053109,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 14053113,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22138496,
+  "imm_offset": 3201918,
+  "old": 8,
+  "reg": "r8d",
+  "ref_offset": 3201922,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22181464,
+  "imm_offset": 5164615,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 5164619,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22605336,
+  "imm_offset": 12491644,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 12491648,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22057904,
+  "imm_offset": 879030,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 879034,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22139752,
+  "imm_offset": 3216794,
+  "old": 9,
+  "reg": "r8d",
+  "ref_offset": 3216798,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22140200,
+  "imm_offset": 7498214,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 7498218,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22694884,
+  "imm_offset": 15392694,
+  "old": 4,
+  "reg": "r8d",
+  "ref_offset": 15392698,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22125744,
+  "imm_offset": 2895639,
+  "old": 8,
+  "reg": "r8d",
+  "ref_offset": 2895643,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22125744,
+  "imm_offset": 9263166,
+  "old": 8,
+  "reg": "r8d",
+  "ref_offset": 9263170,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22689092,
+  "imm_offset": 14030700,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 14030704,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22689272,
+  "imm_offset": 14032794,
+  "old": 10,
+  "reg": "r8d",
+  "ref_offset": 14032798,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22251472,
+  "imm_offset": 6388301,
+  "old": 3,
+  "reg": "r8d",
+  "ref_offset": 6388305,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22251472,
+  "imm_offset": 10789481,
+  "old": 3,
+  "reg": "r8d",
+  "ref_offset": 10789485,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22251472,
+  "imm_offset": 14053371,
+  "old": 3,
+  "reg": "r8d",
+  "ref_offset": 14053375,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22050832,
+  "imm_offset": 12990414,
+  "old": 4,
+  "reg": "r8d",
+  "ref_offset": 12990418,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22256692,
+  "imm_offset": 15383213,
+  "old": 4,
+  "reg": "r8d",
+  "ref_offset": 15383217,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22040192,
+  "imm_offset": 565988,
+  "old": 4,
+  "reg": "r8d",
+  "ref_offset": 565992,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22040192,
+  "imm_offset": 1987841,
+  "old": 4,
+  "reg": "r8d",
+  "ref_offset": 1987845,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22040184,
+  "imm_offset": 565767,
+  "old": 4,
+  "reg": "r8d",
+  "ref_offset": 565771,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22040184,
+  "imm_offset": 8621923,
+  "old": 4,
+  "reg": "r8d",
+  "ref_offset": 8621927,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22040184,
+  "imm_offset": 10731233,
+  "old": 4,
+  "reg": "r8d",
+  "ref_offset": 10731237,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22040184,
+  "imm_offset": 10999969,
+  "old": 4,
+  "reg": "r8d",
+  "ref_offset": 10999973,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22050796,
+  "imm_offset": 876244,
+  "old": 4,
+  "reg": "r8d",
+  "ref_offset": 876248,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22050796,
+  "imm_offset": 8623068,
+  "old": 4,
+  "reg": "r8d",
+  "ref_offset": 8623072,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22146460,
+  "imm_offset": 8195292,
+  "old": 4,
+  "reg": "r8d",
+  "ref_offset": 8195296,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22161196,
+  "imm_offset": 9262424,
+  "old": 4,
+  "reg": "r8d",
+  "ref_offset": 9262428,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22148464,
+  "imm_offset": 10657075,
+  "old": 4,
+  "reg": "r8d",
+  "ref_offset": 10657079,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22294700,
+  "imm_offset": 7255385,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 7255389,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22208160,
+  "imm_offset": 5313213,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 5313217,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22208160,
+  "imm_offset": 5313871,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 5313875,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22208160,
+  "imm_offset": 7157662,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 7157666,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22208160,
+  "imm_offset": 7225521,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 7225525,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22095460,
+  "imm_offset": 4262220,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 4262224,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22095460,
+  "imm_offset": 6860274,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 6860278,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22095460,
+  "imm_offset": 6958028,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 6958032,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22095460,
+  "imm_offset": 7427913,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 7427917,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22095460,
+  "imm_offset": 7962708,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 7962712,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22095460,
+  "imm_offset": 15296570,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 15296574,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22070632,
+  "imm_offset": 3653583,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 3653587,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22070632,
+  "imm_offset": 7176423,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 7176427,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22070632,
+  "imm_offset": 7200850,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 7200854,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22079220,
+  "imm_offset": 6859652,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 6859656,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22079220,
+  "imm_offset": 6956793,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 6956797,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22079220,
+  "imm_offset": 7427298,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 7427302,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22079220,
+  "imm_offset": 15296057,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 15296061,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22079220,
+  "imm_offset": 15341173,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 15341177,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22079220,
+  "imm_offset": 15345590,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 15345594,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22079220,
+  "imm_offset": 15360225,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 15360229,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22079220,
+  "imm_offset": 15380242,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 15380246,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22079220,
+  "imm_offset": 15382846,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 15382850,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22079220,
+  "imm_offset": 15409385,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 15409389,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22203420,
+  "imm_offset": 10317854,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 10317858,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22203420,
+  "imm_offset": 10318289,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 10318293,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22050824,
+  "imm_offset": 12990117,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 12990121,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22050640,
+  "imm_offset": 8623017,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 8623021,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22050640,
+  "imm_offset": 10952801,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 10952805,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22132232,
+  "imm_offset": 9814624,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 9814628,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22132232,
+  "imm_offset": 10648722,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 10648726,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22132232,
+  "imm_offset": 14697940,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 14697944,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22631248,
+  "imm_offset": 15719951,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 15719955,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22631248,
+  "imm_offset": 15722453,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 15722457,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22083516,
+  "imm_offset": 5785658,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 5785662,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22083516,
+  "imm_offset": 6017153,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 6017157,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22724352,
+  "imm_offset": 14633802,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 14633806,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22647360,
+  "imm_offset": 13237370,
+  "old": 5,
+  "reg": "r8d",
+  "ref_offset": 13237374,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22397068,
+  "imm_offset": 9271672,
+  "old": 6,
+  "reg": "r8d",
+  "ref_offset": 9271676,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22397068,
+  "imm_offset": 9281371,
+  "old": 6,
+  "reg": "r8d",
+  "ref_offset": 9281375,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22685316,
+  "imm_offset": 13996860,
+  "old": 6,
+  "reg": "r8d",
+  "ref_offset": 13996864,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22653380,
+  "imm_offset": 13332282,
+  "old": 6,
+  "reg": "r8d",
+  "ref_offset": 13332286,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22629632,
+  "imm_offset": 12809707,
+  "old": 6,
+  "reg": "r8d",
+  "ref_offset": 12809711,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22629632,
+  "imm_offset": 14666374,
+  "old": 6,
+  "reg": "r8d",
+  "ref_offset": 14666378,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22060012,
+  "imm_offset": 906617,
+  "old": 6,
+  "reg": "r8d",
+  "ref_offset": 906621,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22060012,
+  "imm_offset": 5158419,
+  "old": 6,
+  "reg": "r8d",
+  "ref_offset": 5158423,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22060012,
+  "imm_offset": 6641932,
+  "old": 6,
+  "reg": "r8d",
+  "ref_offset": 6641936,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22182632,
+  "imm_offset": 4411767,
+  "old": 6,
+  "reg": "r8d",
+  "ref_offset": 4411771,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22208368,
+  "imm_offset": 5315209,
+  "old": 8,
+  "reg": "r8d",
+  "ref_offset": 5315213,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22050656,
+  "imm_offset": 10687097,
+  "old": 8,
+  "reg": "r8d",
+  "ref_offset": 10687101,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22352944,
+  "imm_offset": 8195045,
+  "old": 8,
+  "reg": "r8d",
+  "ref_offset": 8195049,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22057232,
+  "imm_offset": 862795,
+  "old": 9,
+  "reg": "r8d",
+  "ref_offset": 862799,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22051640,
+  "imm_offset": 12191390,
+  "old": 9,
+  "reg": "r8d",
+  "ref_offset": 12191394,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22423984,
+  "imm_offset": 10122170,
+  "old": 9,
+  "reg": "r8d",
+  "ref_offset": 10122174,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22268624,
+  "imm_offset": 6710128,
+  "old": 10,
+  "reg": "r8d",
+  "ref_offset": 6710132,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22268624,
+  "imm_offset": 6710856,
+  "old": 10,
+  "reg": "r8d",
+  "ref_offset": 6710860,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22734456,
+  "imm_offset": 15401394,
+  "old": 10,
+  "reg": "r8d",
+  "ref_offset": 15401398,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22360632,
+  "imm_offset": 9533752,
+  "old": 10,
+  "reg": "r8d",
+  "ref_offset": 9533756,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22090336,
+  "imm_offset": 2145177,
+  "old": 10,
+  "reg": "r8d",
+  "ref_offset": 2145181,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22090336,
+  "imm_offset": 2145337,
+  "old": 10,
+  "reg": "r8d",
+  "ref_offset": 2145341,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22090336,
+  "imm_offset": 2196153,
+  "old": 10,
+  "reg": "r8d",
+  "ref_offset": 2196157,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22090336,
+  "imm_offset": 2196409,
+  "old": 10,
+  "reg": "r8d",
+  "ref_offset": 2196413,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22647512,
+  "imm_offset": 13238345,
+  "old": 11,
+  "reg": "r8d",
+  "ref_offset": 13238349,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22070736,
+  "imm_offset": 1619584,
+  "old": 11,
+  "reg": "r8d",
+  "ref_offset": 1619588,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22051624,
+  "imm_offset": 12191059,
+  "old": 11,
+  "reg": "r8d",
+  "ref_offset": 12191063,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22655224,
+  "imm_offset": 13389706,
+  "old": 11,
+  "reg": "r8d",
+  "ref_offset": 13389710,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22161680,
+  "imm_offset": 4042778,
+  "old": 11,
+  "reg": "r8d",
+  "ref_offset": 4042782,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22734400,
+  "imm_offset": 15350440,
+  "old": 11,
+  "reg": "r8d",
+  "ref_offset": 15350444,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22200904,
+  "imm_offset": 5164900,
+  "old": 11,
+  "reg": "r8d",
+  "ref_offset": 5164904,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22652856,
+  "imm_offset": 13333992,
+  "old": 13,
+  "reg": "r8d",
+  "ref_offset": 13333996,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22142056,
+  "imm_offset": 6446530,
+  "old": 13,
+  "reg": "r8d",
+  "ref_offset": 6446534,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22634440,
+  "imm_offset": 12990749,
+  "old": 14,
+  "reg": "r8d",
+  "ref_offset": 12990753,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22361120,
+  "imm_offset": 8335872,
+  "old": 14,
+  "reg": "r8d",
+  "ref_offset": 8335876,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22526688,
+  "imm_offset": 11024817,
+  "old": 14,
+  "reg": "r8d",
+  "ref_offset": 11024821,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22268512,
+  "imm_offset": 6686266,
+  "old": 14,
+  "reg": "r8d",
+  "ref_offset": 6686270,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22268512,
+  "imm_offset": 13310382,
+  "old": 14,
+  "reg": "r8d",
+  "ref_offset": 13310386,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22391312,
+  "imm_offset": 8970370,
+  "old": 14,
+  "reg": "r8d",
+  "ref_offset": 8970374,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22289320,
+  "imm_offset": 7131699,
+  "old": 16,
+  "reg": "r8d",
+  "ref_offset": 7131703,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22289320,
+  "imm_offset": 7131806,
+  "old": 16,
+  "reg": "r8d",
+  "ref_offset": 7131810,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22090312,
+  "imm_offset": 2147654,
+  "old": 16,
+  "reg": "r8d",
+  "ref_offset": 2147658,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22090312,
+  "imm_offset": 2147757,
+  "old": 16,
+  "reg": "r8d",
+  "ref_offset": 2147761,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22653936,
+  "imm_offset": 13339110,
+  "old": 17,
+  "reg": "r8d",
+  "ref_offset": 13339114,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22692080,
+  "imm_offset": 14088866,
+  "old": 17,
+  "reg": "r8d",
+  "ref_offset": 14088870,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22417168,
+  "imm_offset": 9932052,
+  "old": 19,
+  "reg": "r8d",
+  "ref_offset": 9932056,
+  "kind": "direct",
+  "problems": []
+ },
+ {
+  "str_offset": 22417168,
+  "imm_offset": 9932167,
+  "old": 19,
+  "reg": "r8d",
+  "ref_offset": 9932171,
+  "kind": "direct",
+  "problems": []
+ }
+]

@@ -1,0 +1,2157 @@
+vptool_Raster;Raster rendering - high performance, worst visual quality.
+vptool_Hybrid;Hybrid rendering - smooth interaction, good visual quality.
+vptool_RT;Ray Traced rendering - most accurate, best visual quality.
+vptool_Selection;Select
+vptool_Transform;Transform
+vptool_Translation;Translate
+vptool_Rotation;Rotate
+vptool_Scale;Scale
+vptool_Baker Offset;Paint Offset
+vptool_Baker Skew;Paint Skew
+vptool_Camera;Camera Limits
+vptool_PickColor;Color Picker
+vptool_Image Comparator;Image Comparison
+vptool_Paint;Brush
+vptool_Erase;Erase
+vptool_CloneStamp;Clone
+vptool_Smudge;Smudge
+vptool_Marquee Select;Rectangle Select
+vptool_Ellipse Select;Ellipse Select
+vptool_FloodFill;Flood Fill
+vptool_Gradient;Gradient
+vptool_Wand;Wand Select
+vptool_Lasso Select;Lasso Select
+vptool_Polygon Select;Polygon Select
+vptool_Face Select;Face Select
+vptool_UV Island Select;UV Island Select
+vptool_Mesh Select;Mesh Select
+vptool_ColorSampler;Color Sampler
+vptool_LightController;Light Controller
+vptool_Focus;Focus
+vptool_Center;Frame
+vptool_Decal;Decal
+vptool_Spline;Spline
+vptool_Text;Text Edit
+vptool_Virtual Spline;
+vptool_Plane Transform; Projection Plane Transform
+;
+vptool_Spline Select;Select and Edit Shapes
+vptool_Spline Point;Select and Edit Points
+vptool_Spline Pen;Pen
+vptool_Spline Curve;Curve
+vptool_Spline Line; Line
+vptool_Spline Rect;Rectangle
+vptool_Spline Oval;Ellipse
+vptool_Spline Poly;Polygon
+vptool_Spline Brush;Sketch
+vptool_Tile Strip;Tile Strip
+vptool_Spline_snapEnable;Enable vector point snapping
+vptool_Spline_snapGrid;Snap points to the grid (decal mode only)
+vptool_Spline_snapPoint;Snap points to other vector shape points
+vptool_Spline_snapLine;Snap to vector shape borders between points
+vptool_Spline_snapSym;Snap points to the plane or axis of symmetry
+;
+outline_newmodel;Import Model
+outline_newlight;New Light
+outline_newcamera;New Camera
+outline_newfog;New Fog
+outline_newbackdrop;New Backdrop
+outline_newshadowcatcher;New Shadow Catcher
+outline_newbaker;New Bake Project
+outline_newturntable;New Turntable
+outline_newpaintproject;New Texture Project
+outline_newpresent;Presentation
+outline_group;Group Selection
+outline_duplicate;Duplicate Selection
+outline_delete;Delete Selection
+outline_filter; Filter Scene Objects
+;
+object_locked_control;This interface is disabled because the selected object is locked.
+;
+render_exposure;Scene lighting brightness in f-stops.
+render_viewport_res;Sets pixel density for the viewport display. Lower values will run much faster. The "High DPI" option will render at native monitor resolution, which can be costly on high resolution displays.
+render_viewport_upscaling_mode;Image upscaling improves performance by rendering the viewport at a reduced resolution and using AI to upscale the image. The Auto mode will engage upscaling while interacting with the scene and disable it when the viewport is still.
+render_viewport_aa;Anti-aliasing provides a reduction of undersampling artifacts such as jagged edges, at a modest performance cost.
+render_stereo_mode;Sets the method by which images are rendered for each eye. Some modes may require special hardware.
+render_stereo_swap;Swaps the left and right eye images.
+render_stereo_eyesep;Specifies the separation between the eyes of the viewer, in scene units. Greater values will make the scene appear "smaller".
+render_scene_wireframe;Enables polygon edge display.
+render_scene_wireframestrength;Controls the intensity of the wireframe effect.
+render_scene_wireframecolor;Sets the color of the wireframe effect.
+render_scene_tiletext;Displays the tile name in the canvas.
+render_scene_tileborder;Displays the tile border in the canvas.
+render_scene_refractiveindex;Sets a divisor for the speed of light in the atmosphere. This setting only applies to materials which use the refractive index reflectivity model.
+render_scene_internalrefractions;Enables refractions inside of objects.
+render_lighting_localreflections;Enables an approximation of inter-object reflections, which can improve the quality of reflective surfaces. This effect only applies to raster renders.
+render_lighting_localreflectionbright;Adjusts the brightness of local reflections.
+render_lighting_localdiffuse;Enables an approximation of diffuse light scattering between objects. This effect only applies to raster renders.
+render_lighting_localdiffusebright;Adjusts the brightness of local diffuse light.
+render_lighting_localdiffusedist;Adjusts the falloff length of local diffuse light. This value is not in scene units but rather a ratio with camera distance.
+render_lighting_shadowRes;Controls the resolution of all shadow maps, for improved detail and precision. Higher settings have an adverse effect on performance.
+render_lighting_frontFaceShadows;Enables shadow casting from both the front and back of meshes, useful for removing gaps in shadow projection. May cause shadow fighting artifacts with lights that have a width of zero.
+render_lighting_shadowBias;Adds a small spatial offset between shadows and shadow casters. This can be useful for tweaking shadow artifacts in difficult cases.
+render_lighting_cascadingShadows;Enables cascading shadows for higher quality directional lights in large scenes.
+render_lighting_cascadeDistance;Adjusts how much texture detail is devoted to the near and far areas. Higher values mean more shadow detail for near objects, which is generally good for close-ups. Lower values mean a more even distribution of detail, which is generally good for wider shots.
+render_lighting_ambientocclusion;Enables an inter-object light occlusion approximation. This effect only applies to raster renders.
+render_lighting_aocompositeAmbient;The occlusion effect darkens diffuse light from the sky background.
+render_lighting_aocompositeDiffuse;The occlusion effect darkens diffuse light from all sources. This setting overrides the "Ambient" option.
+render_lighting_aocompositeSpecular;The occlusion effect darkens specular light. The occlusion color hue is not used for specular occlusion.
+render_lighting_aocolor;Sets the color of the ambient occlusion effect.
+render_lighting_aostrength;Sets the intensity of the ambient occlusion effect.
+render_lighting_aosize;Sets the spread of the ambient occlusion effect.
+render_lighting_ao_use_ray_dist;Enables explicit specification of ambient occlusion ray length. Intersection is only detected if the intersected point is less than the specified ray length if enabled.
+render_lighting_ao_ray_dist;Controls the ambient occlusion ray length.
+render_lighting_ao_ray_offset;Controls the ambient occlusion ray offset from surface.
+render_lighting_ao_enable_filter;Enables ambient occlusion in viewport.
+render_lighting_ao_sample;Controls the number of ambient occlusion rays used in sampling.
+render_fog_shadow_quality;Controls the resolution of fog shadow maps, for improved detail and precision. Higher settings have an adverse effect on performance.
+render_fog_illum_sky;Mixes between a volumetric medium that is lit by the sky background, and a simple ambient color.
+render_fog_illum_light;Controls the brightness of omni, spot, and directional light sources in the medium.
+render_rt_enable;Enables path traced global illumination, which simulates bounces of light between objects in a scene.
+render_rt_accumulate;Progressively improves viewport preview quality by accumulating frames over time.
+render_rt_denoise;Applies noise reduction in the viewport preview, once several frames have accumulated.
+render_rt_denoise_mode;Noise reduction mode in the viewport preview. GPU mode requires a supported NVIDIA graphics adapter.
+render_rt_denoise_quality;Noise reduction quality level in the viewport preview.
+render_rt_adaptive;Automatically adjusts number of accumulated samples per frame while trying to maintain target frame rate. When disabled only 1 sample is accumulated per frame.
+render_rt_reflection_bounces;Number of indirect light bounces to trace.
+render_rt_transmission_bounces;Number of transmission light bounces to trace. Increasing this value might help if transmissive objects appear too dark.
+render_rt_caustics;Quality of the caustic paths that produce bright highlights due to illumination bounced off nearby specular surfaces. Higher quality caustics may require a greater number of samples to converge.
+render_rt_advanced_sampling;Reduces noise in scenes with many lights. Has moderate impact on render time and viewport performance.
+render_rt_clamp;Maximum allowed sample direct radiance. Decreasing this value can reduce fireflies but when set too low it negatively impacts lighting quality.
+render_rt_indirect_clamp;Maximum allowed sample indirect radiance. Decreasing this value can reduce fireflies but when set too low it negatively impacts lighting quality.
+render_rt_diffuse_intensity;Intensity of diffuse indirect lighting.
+render_rt_reflection_intensity;Intensity of reflected indirect lighting.
+render_rt_fog_aniso;Determines the primary direction of scattering in fog, either forwards (positive) or backwards (negative). A value of zero is even, isotropic scattering.
+render_iu_algorithm;Applies image upscaling algorithm to speed up rendering times while maintaining image quality.
+render_iu_render_resolution;Displays the viewport render resolution.
+render_iu_render_resolution_width;Displays the width of the viewport render resolution.
+render_iu_render_resolution_height;Displays the height of the viewport render resolution.
+render_iu_algorithm_dlss;Choose between different NVIDIA's Deep Learning Super Sampling (DLSS) modes which impacts upscaling quality and performance.
+render_iu_algorithm_nis;Choose between different NVIDIA's Image Scaling (NIS) modes which impacts upscaling quality and performance and allows for different parameter controls.
+render_iu_algorithm_nis_scale;Sets the render resolution scale of the NIS algorithm. (Scale mode only)
+render_iu_algorithm_nis_sharpness;Sets the sharpness of the NIS algorithm.
+render_iu_algorithm_fsr;Choose between different AMD's FidelityFX Super Resolution 2.0 (FSR) modes which impacts upscaling quality and performance and allows for different parameter controls.
+render_iu_algorithm_fsr_sharpness;Sets the sharpness of the FSR algorithm.
+render_watermark;Sets whether the 'Rendered in Marmoset Toolbag' watermark is displayed.
+render_watermark_hide;Sets whether the 'Rendered in Marmoset Toolbag' watermark is hidden in the viewport. If "Use Watermark" is enabled the watermark will still be applied to the exported image.
+render_watermark_size;Controls how large the watermark appears.
+render_watermark_dark;Determines whether to use the light or dark watermark image. The dark watermark image provides better readability with bright scenes.
+render_watermark_twotone;Determines whether to use a monotone or colored watermark.
+render_watermark_xposition;Sets the horizontal position of the watermark.
+render_watermark_yposition;Sets the vertical position of the watermark.
+render_scaleref_show;Enables the display of Scale Reference Teddy.
+render_scaleref_color;Sets scale reference color.
+render_visibility_guides;Enables the display of guide icons for objects such as cameras and lights.
+render_lighting_hybrid_denoise_enabled;Enables Hybrid mode's denoiser.
+render_lighting_hybrid_denoise_direct_strength;Intensity of denoising direct illumination.
+render_lighting_hybrid_denoise_diffuse_strength;Intensity of denoising diffuse GI.
+render_lighting_hybrid_denoise_specular_strength;Intensity of denoising specular reflection.
+render_lighting_hybrid_shadowBias;Adds a small spatial offset between shadows and shadow casters. This can be useful for tweaking shadow artifacts in difficult cases.
+render_lighting_light_sampling_quality;Choose between low quality sampling with more noise but more performant rendering and high quality sampling with less noies but slower rendering.
+render_hybrid_diffuse_bounces;Number of diffuse GI bounces to trace.
+render_hybrid_specular_bounces;Number of specular reflection bounces to trace.
+render_hybrid_raytraced_diffuse_gi;Enables ray traced diffuse GI.
+render_hybrid_raytraced_reflection;Enables ray traced specular reflection.
+render_hybrid_raytraced_refraction;Enables ray traced refraction.
+render_hybrid_refraction_bounces;Number of specular refraction bounces to trace.
+render_hybrid_clamp;Maximum allowed radiance. Decreasing this value can reduce fireflies but when set too low it negatively impacts lighting quality.
+;
+render_componentview_normalmode;The target space (object, tangent, or view) to visualize normals.
+render_componentview_flipx;Inverts normals on the X axis, or red channel of the material texture.
+render_componentview_flipy;Inverts normals on the Y axis, or green channel of the material texture.
+render_componentview_flipz;Inverts normals on the Z axis, or blue channel of the material texture.
+;
+render_componentview_cullwireframe;Show backfaces when rendering wireframes.
+render_componentview_depthnormalization;The method by which depth values will be normalized.
+render_componentview_positionnormalization;The method by which position values will be normalized.
+render_compoentview_dither;Enables dithering for 8 bit outputs.
+;
+render_componentview_albedoenergy;Takes into account an object's reflectivity in albedo calculation, showing the raw albedo value fed to lighting calculations.
+;
+render_componentview_lighting_albedo;Use material albedo in this lighting pass. When this option is disabled lighting calculations use neutral (white) albedo.
+render_componentview_lighting_scatter;Include single bounce of scattering transmission in this lighting pass.
+render_componentview_lighting_refraction;Include refraction and thin surface transmission in this lighting pass.
+render_componentview_lighting_hide_refraction;Hide meshes using refraction or thin surface transmission from camera view in this lighting pass.
+;
+render_componentview_displacement_contrast;Contrast used when displaying displacement.
+;
+scene_cameraobject;Controls the position, rotation, and various post effects related to camera objects.
+scene_groupobject;Controls the position and rotation of group objects.
+scene_meshobject;Controls the position, rotation, and properties of imported meshes.
+scene_sceneobject;Controls global scene options like scene scale.
+scene_skyobject;Controls the sky lighting, including image-based lighting, child lights, and backdrop style.
+;
+scene_transform_camtarget;Marks this object as the current camera target.
+scene_transform_position;Controls object location.
+scene_transform_rotation;Controls object orientation.
+scene_transform_scale;Controls object size.
+;
+scene_camera_move_controls;Use these controls to move the camera forward, left, back, right, up, and down.
+scene_camera_movespeed;If "Auto" is unchecked, this controls how fast the camera moves through the scene when using the keyboard controls. For complex environments, it may be helpful to set this value manually.
+scene_camera_movespeed_auto;When checked, camera move speed is determined automatically based on scene size. For complex environments, it can be helpful to disable this, and set move speed manually.
+scene_camera_panspeed;Controls how fast the camera pans through the scene. For complex environments, it can be helpful to set this value manually.
+scene_camera_panspeed_auto;When checked, camera pan speed is determined automatically based on scene size. For complex environments, it can be helpful to disable this, and set pan speed manually.
+scene_camera_pan_controls;Use these controls to pan the camera.
+scene_camera_orbitstyle;When enabled, the camera will rotate around a point in the scene. When disabled, the camera will act as a free look or first-person shooter style camera.
+scene_camera_orbitdistance;Sets the distance from the camera to its rotation point. Press Ctrl+F to set orbit distance to the center of the currently selected object, and Shift+Ctrl+F to set it to the center of the scene. This setting does not apply when orbit style is disabled.
+scene_camera_followtarget;Continually points the camera to the current target object, if present.
+scene_camera_followlag;Specifies how closely the camera follows the target object.
+;
+scene_camera_limit_useinviewport;Use limit settings to constrain camera motion in the Toolbag viewport. Active limits always export to Marmoset Viewer regardless of this setting.
+scene_camera_limit_pan;Constrains camera panning either completely or to vertical motion only.
+scene_camera_limit_limitnear;Enforces a minimum orbit distance, specified by the "Orbit Near" value.
+scene_camera_limit_limitfar;Enforces a maximum orbit distance, specified by the "Orbit Far" value.
+scene_camera_limit_near;Specifies the minimum orbit distance.
+scene_camera_limit_far;Specifies the maximum orbit distance.
+scene_camera_limit_picknear;Sets the "Orbit Near" value to the current orbit distance.
+scene_camera_limit_pickfar;Sets the "Orbit Far" value to the current orbit distance.
+scene_camera_limit_limitpitch;Enforces a minimum and maximum pitch angle, or vertical orbit, specified by the "Min Pitch" and "Max Pitch" values. Pitch limits may also be adjusted directly in the viewport. Hold the Ctrl key to adjust both minimum and maximum limits simultaneously.
+scene_camera_limit_minpitch;The minimum pitch angle, or vertical orbit, in degrees.
+scene_camera_limit_maxpitch;The maximum pitch angle, or vertical orbit, in degrees.
+scene_camera_limit_limityaw;Enforces a minimum and maximum yaw angle, or horizontal orbit, specified by the "Min Yaw" and "Max Yaw" values. Yaw limits may also be adjusted directly in the viewport. Hold the Ctrl key to adjust both minimum and maximum limits simultaneously.
+scene_camera_limit_minyaw;The minimum yaw angle, or horizontal orbit, in degrees.
+scene_camera_limit_maxyaw;The maximum yaw angle, or horizontal orbit, in degrees.
+scene_camera_limit_yawoffset;Shifts the yaw values by a constant offset, in degrees. This is useful for easily re-orienting the yaw range.
+scene_camera_limit_centerview;Centers the current yaw and pitch ranges around the current camera orientation. This is useful for easily re-orienting both the pitch and yaw ranges to frame a chosen camera position.
+;
+scene_camera_lens_nearmult;Adjusts the automatic near clipping plane. Lower values here can be useful to fix false clipping that can occur with nearby objects in large scenes. Note that values near zero may cause rendering artifacts in distant or intersecting objects.
+scene_camera_lens_fov;Controls how much of the scene is visible, by setting the vertical field of view of the lens (in degrees). Lowering the value provides a narrower view while increasing the value provides a wider view.
+scene_camera_lens_fov_mm;Controls how much of the scene is visible, by setting the focal length of a 35mm format lens (in millimeters). This is especially useful for those familiar with photography. A low mm value equates to a wide view while a high mm number equates to a narrow view.
+scene_camera_lens_fov_animated;The selected model animation has control of this value - user edits are disabled while this animation is active.
+scene_camera_lens_fov_mm_animated;The selected model animation has control of this value - user edits are disabled while this animation is active.
+scene_camera_lens_scale;Controls how much of the scene is visible by setting the scale of the camera. Decreasing zooms into the scene, while increasing zooms out.
+scene_camera_safe_frame;Previews the region of the viewport that will be present in exported screenshots and videos.
+scene_camera_lens_dof;Enables the depth of field effect, which blurs areas in front or behind the focus point. This setting has an adverse effect on performance.
+scene_camera_lens_stickyfocus;Enables the sticky focus feature, which maintains the point of focus after the camera is re-positioned.
+scene_camera_lens_focaldist;Determines the location of the focal point in relation to the camera. This distance can also be set by middle-clicking on an object in the viewport.
+scene_camera_lens_focus;Engages the focus tool, which allows you to click a point on the screen to set the focus distance.
+scene_camera_lens_swirl;Controls distortion of the out of focus highlights near the edges of the frame.
+scene_camera_lens_aperture;Determines the aperture shape, which controls the appearance of the out of focus highlights and lens flares. New shapes can be created and loaded as well.
+scene_camera_lens_aperture_fstop;The ratio of focal length to aperture diameter. Lower numbers give more defocus.
+scene_camera_lens_aperture_load;Load a custom aperture shape that controls the out of focus highlights and lens flares.
+scene_camera_lens_ratio;Horizontal distortion ratio for simulating anamorphic lens bokeh.
+scene_camera_lens_aprotation;Sets the direction of the aperture shape for both out of focus highlights and lens flares.
+scene_camera_lens_flare_strength;Sets the intensity of the lens flare effect.
+scene_camera_lens_flare_coating;Simulates a thin surface layer on the lens system, changing the color and appearance of lens flares.
+scene_camera_lens_flare_size;Sets the size of the individual flares or "ghosts".
+scene_camera_lens_distortion;Controls the type and intensity of the geometric distortion effect. A value of 0 equates to no distortion, values lower than 0 equate to barrel or fisheye type distortion, and values higher than 0 equate to pincushion type distortion.
+scene_camera_lens_ca;Sets the intensity of the chromatic aberration effect, which simulates how different colored light waves converge at different points, resulting in color fringing towards the edges of the frame.
+scene_camera_lens_ca_r;Sets the fringe offset for the red channel.
+scene_camera_lens_ca_g;Sets the fringe offset for the green channel.
+scene_camera_lens_ca_b;Sets the fringe offset for the blue channel.
+scene_camera_lens_mb;Renders a motion blur effect for final render animations and stills.
+scene_camera_lens_mb_framewrap;Allows the last animation frame to wrap back to the first frame for motion blur. This option works best for looping animations.
+scene_camera_lens_mb_shutterspeed;Determines the exposure time, affecting the magnitude of the blur. Shutter speed on a camera is typically represented in fractions of a second, ie: 1/60, 1/120, 1/250, etc.
+scene_camera_lens_mb_samples;Controls the quality of the motion blur. More samples results in smoother blur but longer renders.
+scene_camera_post_load;Loads a post effect preset file.
+scene_camera_post_save;Saves a post effect preset file.
+scene_camera_post_presets;Use to switch between a variety of post effect presets. Save a preset file to /data/post/ and it will show up in the preset list the next time Toolbag is opened.
+scene_camera_post_tonemapping;Sets the method used to map high-dynamic-range values into low-dynamic range color space.
+scene_camera_post_curves;Opens the curve editor, to manipulate the contrast of the render on a per-channel basis.
+scene_camera_post_exposure;Sets the brightness of the render in f-stops.
+scene_camera_post_exposure_color;Sets the color and intensity of the exposure effect.
+scene_camera_post_highlights;Sets the brightness point for the brightest values. Increase to make the highlights brighter and decrease to recover clipped detail.
+scene_camera_post_shadows;Sets the brightness point for the darkest values. Increase to recover details in the shadows and decrease to crush the blacks.
+scene_camera_post_midtones;Sets the brightness point for the middle values.
+scene_camera_post_clarity;Sets the level of micro-contrast. Increase to enhance details and decrease to soften the render.
+scene_camera_post_contrast;Sets the disparity of value between light and dark.
+scene_camera_post_contrast_color;Sets the color and intensity of the contrast effect.
+scene_camera_post_contrastcenter;Sets the middle point of the contrast curve. As contrast is increased, values greater than this "center" value get brighter, while values less than "center" get darker.
+scene_camera_post_contrastcenter_color;Sets the color and intensity of the contrast center effect.
+scene_camera_post_saturation;Controls the vibrancy of color in the rendered image.
+scene_camera_post_saturation_color;Sets the color and intensity of the saturation effect.
+scene_camera_post_sharpen_strength;Sets the intensity of the sharpening effect, which increases the contrast of fine details to enhance acutance.
+scene_camera_post_sharpen_limit;Controls the maximum allowable amount of the sharpen effect. Lower values will prevent major contrast alterations to the image in some cases.
+scene_camera_post_bloom_brightness;Sets the intensity of the bloom effect, which blurs the rendered image and then adds it on top of the original image to simulate the glow from bright light sources (or Vaseline on a camera lens).
+scene_camera_post_bloom_size;Sets the radius of the blur component of the bloom effect.
+scene_camera_post_bloom_color;Sets the color and intensity of the bloom effect.
+scene_camera_post_vignette_strength;Sets the intensity of the vignette effect, which darkens the edges of the frame.
+scene_camera_post_vignette_color;Sets the color and intensity of the vignette effect.
+scene_camera_post_vignette_softness;Sets how harsh or smooth the falloff of the vignette effect appears.
+scene_camera_post_film_grain_mode;Sets the style of grain.
+scene_camera_post_film_grain_animated_preview;Toggles randomized preview of the grain effect.
+scene_camera_post_film_grain_grain_intensity;Sets the strength of the grain effect.
+scene_camera_post_film_grain_tiling_mode;Sets the texture or coarseness of the grain effect.
+scene_camera_post_film_grain_dirt_intensity;Sets the overall opacity of the scratches and stains.
+scene_camera_post_film_grain_dirt_density;Controls the amount scratches and stains visible in each frame.
+scene_camera_post_film_grain_dirt_size;Controls the size of scratches and stains.
+;
+scene_camera_curves_channel;Determines the active channel.
+scene_camera_curves_done;Confirms changes and closes the curve editor.
+scene_camera_curves_presets;Loads a variety of curve presets. Save a preset file to /data/post/curve/ and it will show up in the preset list the next time Toolbag is opened.
+scene_camera_curves_clear;Resets curve adjustments in all channels.
+;
+scene_document_sceneUnits;Units of measurement used for this scene.
+scene_document_scale;A custom scale factor that will apply to all measurements in this scene.
+scene_document_importUnits;New documents (such as meshes) will be treated upon import as though they were authored using this unit of measurement. This setting is ignored if "Use File Units" is enabled and the imported file has available unit data.
+scene_document_useFileUnits;Use unit information in imported files for proper unit conversion upon import. Disable this to override file units with the "Imported" unit setting.
+scene_document_physical_light_units;Use physical brightness units for lights in this scene.
+;
+scene_light_type;Sets the lighting method. Directional lights cast light from a singular direction at infinity, spot lights cast light from a singular direction as well but have a cone-shaped falloff, and omni lights cast light in all directions.
+scene_light_castshadows;Determines whether or not objects in the scene occlude light.
+scene_light_lightscaling;Scale light size using transform component.
+scene_light_castlensflare;Determines whether or not this light casts lens flare.
+scene_light_lensflarestrength;Sets the lens flare strength of the light.
+scene_light_contactrefinement;Uses an advanced ray-tracing technique to fill in shadows where objects intersect or overlap. This is used to complement shadow mapping and can help to fill shadow "gaps".
+scene_light_brightness;Sets the intensity of the light. Brightness also determines the effective distance over which light is cast. Brighter lights cast farther. This value is proportional to meters, on a logarithmic scale: increasing this value by one increases light output tenfold.
+scene_light_brightness_physical;Toggles using physical units for light brightness.
+scene_light_brightness_conserve;Conserve energy when using physical units for light brightness. When disabled non-directional lights are automatically pre-exposed.
+scene_light_decay;Limits light radius by applying additional distance based falloff.
+scene_light_decay_start;Distance at which light intensity starts to fade out, as a fraction of distance value.
+scene_light_decay_slider;Sets light intensity fade-out ramp: distance at which it starts to fade out, and at which it has faded out to zero.
+scene_light_decay_end;Distance at which light intensity has faded out to zero.
+scene_light_color;Sets the color and intensity of the light.
+scene_light_use_temperature;Enables the use of temperature to adjust light color.
+scene_light_temperature;Produces a color tint based on the black body radiation temperature, in degrees Kelvin. This result is multiplied with the light color.
+scene_light_temperature_presets;Select from a list of preset color temperatures, calibrated to common light sources.
+scene_light_shape_type;Determines the geometry of the light source.
+scene_light_shape_width;Sets how large the light source is, which in turn defines how blurry the shadows are.
+scene_light_shape_length_x;Sets how much the light is stretched along the X axis, useful for creating non-spherical lights such as fluorescent tube lighting.
+scene_light_shape_length_y;Sets how much the light is stretched along the Y axis, useful for creating non-spherical lights such as fluorescent tube lighting.
+scene_light_shape_twosided;Cast light from both sides of the rectangle.
+scene_light_normalize;Makes the light shape size only affect shadow softness and not the amount of emitted light.
+scene_light_visible;Sets whether or not the light shape shows up in the rendered image.
+scene_light_spot_angle;Sets the width of the spot light cone. This setting only applies when light type is set to "Spot".
+scene_light_spot_sharpness;Sets the softness of the spot light cone. This setting only applies when light type is set to "Spot".
+scene_light_spot_vignette;Determines whether the spotlight shape is square or circular in nature, higher values equate to rounder shapes. A value of 0 is useful for loading a gel image to create a custom cone shape. This setting only applies when the light type is set to "Spot".
+scene_light_profile_import;Imports a custom light profile from an IES file.
+scene_light_profile_export;Exports the current light profile to a cube map or a lat-long projection image file.
+scene_light_profile_save;Exports the current light profile to the library.
+scene_light_profile_browse;Opens the light profile library.
+scene_light_profile_clear;Remove this light profile.
+scene_light_profile_width;Applies scaling factor stretching or squishing the profile shape.
+scene_light_gel;Loads an image to mask the light shape.
+scene_light_geltiling;Sets how many times the gel image repeats.
+;
+scene_mesh_castshadows;Determines whether or not the mesh occludes light.
+scene_mesh_invisible;Meshes with this tag will appear missing from camera views, but will still cast shadows and emit light. This can be useful for lighting a scene with emissive meshes.
+scene_mesh_cullbackfaces;Determines whether or not the backsides of polygons are drawn. This should be disabled for meshes such as alpha planes which require both sides to be visible.
+scene_mesh_tangentspace;Selects a tangent space algorithm for this mesh. This selection should match the convention in which a normal map was baked.
+scene_mesh_tangentinterpolation;Determines where shading tangents are calculated: either at each vertex, or each rendered pixel. This setting should match the method used to bake normal maps applied to this mesh.
+scene_mesh_fix_mirrored;Attempts to fix any issues arising from mirrored tangent spaces. Issues may arise on meshes with mirrored UVs.
+;
+scene_mesh_subdiv_reduction;Adaptively removes redundant polygons in the subdivided result, resulting in a similar mesh with fewer polygons.
+scene_mesh_subdiv_wireframe;Selects the wireframe display for subdivided meshes.
+scene_mesh_subdiv_sharpen;This option will retain the shape of open edges in Catmull-Clark mode.
+scene_mesh_subdiv_uvs;Includes texture coordinates and/or vertex colors in the subdivided mesh, where available. Omitting these attributes can result in faster subdivision if they aren't needed.
+scene_mesh_subdiv_level;The number of repeated subdivision steps.
+scene_mesh_subdiv_geomode;Modes for mesh subdivision. Catmull-clark uses a recursive division approach which has a smoothing effect on the model. Regular mode simply divides polygons without altering the model's shape. PN Triangles provides controls for basic smoothing, and is particularly useful on triangulated meshes.
+scene_mesh_subdiv_enable;Enables mesh subdivision, creating a higher resolution version of the original mesh.
+;
+scene_sky_image;Loads a custom sky light background, which will also be used to light the scene. Use a 360 degree panoramic HDR image for best results.
+scene_sky_export;Exports the current sky to a .tbsky archive.
+scene_sky_export_proc;Exports the current procedural sky to an HDR image.
+scene_sky_export_proc_path;Path to an EXR image file, in which the exported results are written.
+scene_sky_export_proc_res;The resolution of the exported image.
+scene_sky_export_proc_sun;Determines whether the sun disc is included in the exported image.
+scene_sky_library_export;Exports the current sky to the library.
+scene_sky_presets;Opens the sky library for a handy selection of sky presets.
+scene_sky_brightness;Sets the exposure of the image-based lighting, child lights, and background image.
+scene_sky_brightness_physical;Toggles using physical brightness units for image-based lighting.
+scene_sky_brightness_preserve;Toggles preserving the lux brightness value when switching image skies.
+scene_sky_brightness_realistic;When enabled the sky brightness will approximate real-world daylight illuminace in lux.
+scene_sky_childlightbright;Sets the exposure of child lights in relation to the master sky brightness setting.
+scene_sky_sample;Toggles importance sampling of sky light image. Disabling this option can increase ray tracing performance at the expense of sky lighting quality.
+scene_sky_rotation;Sets the sky direction. Applies to sky lighting, child lights, background image and any objects parented to the sky object. Sky rotation can be set via Shift+LMB Drag in the viewport as well.
+scene_sky_lighteditor;Gives a preview of the current sky lighting image, and allows creation (left click) movement (left button drag) and deletion (right click) of child lights.
+scene_sky_selective_bright;Multiplies the exposure of specific values in the sky light image, which is useful for controlling contrast by making highlights brighter or darker.
+scene_sky_selective_thresh;Sets the exposure point for the selective brightness effect. For instance, a value of 2 means that areas that are brighter than 2 will be affected.
+scene_sky_selective_scale;Sets the intensity of the selective brightness effect. Values lower than 1 will darken the image content, while values higher than 1 will brighten it.
+scene_sky_selective_revert;Removes any selective brightness alterations.
+scene_sky_selective_apply;Applies the current settings for selective brightening.
+scene_sky_backdrop_mode;Sets the presentation mode for the background image. "Color" draws a constant color as the background, "Sky" draws the image into the background unmodified, and "Blurred" and "Ambient" sky both render convoluted versions of the image.
+scene_sky_backdrop_color;Sets the color of the background. This setting only applies when the backdrop mode is set to "Color".
+scene_sky_backdrop_bright;Sets the exposure of the background image in relation to the master sky light brightness setting. This setting does not apply when the backdrop mode is set to color.
+scene_sky_backdrop_blur;Controls how blurry the background image is. This setting only applies when the backdrop mode is set to "Blurred Sky".
+scene_sky_backdrop_rotation;Rotation angle of the custom background image, if one is present. This adds with the overall skybox rotation.
+scene_sky_backdrop_path;A custom background image, either an image file or a toolbag sky.
+scene_sky_backdrop_preview;View of the custom background image. You can drag and drop image files or library skies here.
+scene_sky_backdrop_clear;Clear the background image.
+scene_sky_backdrop_reload;Reload the background image.
+scene_sky_proc_location;Location settings for specifying the scene's point on the earth.
+scene_sky_proc_latitude;Degrees latitude on earth, from -90 south to 90 north.
+scene_sky_proc_longitude;Degrees longitude on earth, from -180 west to 180 east.
+scene_sky_proc_guessTZ;Automatically computes a rough estimate of the time zone setting when longitude is changed.
+scene_sky_proc_TZ;Time zone, specified as hours relative to Universal Coordinated Time (UTC).
+scene_sky_proc_time;The time of day, as HH:MM. Generally hours run from 0 to 23, though values above this range will work too. This time is specified in the current time zone.
+scene_sky_proc_month;The month of the year, from 1 to 12. This affects the seasonal position of the sun.
+scene_sky_proc_day;The day of the month. This affects the seasonal position of the sun.
+scene_sky_proc_sunbright;A multiplier on the brightness of the sun, relative to the sky. A value of 1 is most accurate, but lower values can sometimes be easier to work with.
+scene_sky_proc_sunscale;A multiplier on the apparent size of the sun, as seen from earth. A value of 1 is most accurate.
+scene_sky_proc_haze;Controls the amount of particulate matter in the atmosphere, which will affect the appearance of scattered light in the sky.
+scene_sky_proc_skycolor;An additional tint, only affecting the sun and sky.
+scene_sky_proc_groundcolor;A pair of colors specifies the appearance of the ground plane near the scene and toward the horizon, respectively.
+scene_sky_proc_whitebalance;Shifts the color temperature of the sun and sky.
+scene_sky_proc_tint;Shifts the color balance of the sun and sky, being complementary to white balance.
+scene_sky_proc_saturation;Adjusts the intensity of colors in the sun and sky.
+;
+scene_fog_type;Selects the method for computing how much particulate matter is present along a given span of distance. "Exponential" is generally the most physically accurate, but "Linear" provides direct, simple control over falloff distance.
+scene_fog_color;The color of the fog medium.
+scene_fog_density;Determines how dense if the fog medium.
+scene_fog_opacity;This is the maximum occlusion the medium can provide, regardless of distance.
+scene_fog_volumetric_volume_mode;The mode of the fog volume.
+scene_fog_volumetric_scatterColor;Determines the scattering color of light passing through the object.
+scene_fog_volumetric_height_min;The height of the bottom boundary of the fog.
+scene_fog_volumetric_height_range;Height range that the fog occupies.
+scene_fog_volumetric_height_max;The height of the top boundary of the fog.
+scene_fog_volumetric_falloff_min;Point at which the bottom falloff ends.
+scene_fog_volumetric_height_range_falloff;The range of fog falloff.
+scene_fog_volumetric_falloff_max;Point at which the top falloff start.
+;
+scene_hair_shadows;Controls whether the hair strands cast shadows.
+scene_hair_tess;Determines the degree of subdivision of hair strands; higher is more.
+scene_hair_width;The width of a hair strand, in millimeters.
+scene_hair_density;Controls the number of hair strands.
+scene_hair_scaleRoot;Scales the width of hair strands at the base (root).
+scene_hair_scaleTip;Scales the width of hair strands at the ends (tip).
+;
+scene_external_path;The path to the external model file. Toolbag will modify this path to be relative to the Toolbag scene file, when possible.
+scene_external_browse;Browse for a new external model file. This will clear and reload the contained scene objects from disk.
+scene_external_autoreload;Enables automatic reloading of this model file when Toolbag regains mouse focus. This can also be disabled at the application level through the preferences dialog.
+scene_external_autoreload;Enables realtime automatic reloading of this model file.
+scene_external_replacetransforms;Move all parts back to original position when reloading the model - disable to retain user edits to sub-parts.
+scene_external_reload;Forces a reload of the external model file.
+scene_external_meshlightcam;Choose whether to import meshes, lights, cameras, or materials from the model file. Some file formats only support mesh data and may not provide lights, cameras, or materials.
+;
+scene_animation_sceneturntable;Sets the speed of scene turntable preview (in degrees per second). A value of 360 equates to a full rotation per second. In scene rotation mode, all objects in the scene (except the camera and sky light) rotate around the origin of the scene. This setting affects animation preview but not exported images. Turntable export settings are located in the capture settings (Ctrl+P).
+scene_animation_cameraturntable;Sets the speed of scene turntable preview (in degrees per second). A value of 360 equates to a full rotation per second. In camera rotation mode, the active camera rotates around the origin of the scene. This setting affects animation preview but not exported images. Turntable export settings are located in the capture settings (Ctrl+P).
+scene_animation_skyturntable;Sets the speed of scene turntable preview (in degrees per second). A value of 360 equates to a full rotation per second. In sky rotation mode, the sky light object and any child objects (including lights or any object manually parented to the sky light) rotates around the origin of the scene. This setting affects animation preview but not exported images. Turntable export settings are located in the capture settings (Ctrl+P).
+scene_animation_center;Clears the animation rotation value.
+;
+scene_backdrop_image;An image to present in the background of the rendered scene. Backdrops apply only to cameras under which they have been parented.
+scene_backdrop_useAlpha;Determines whether to use the alpha channel of the provided image for transparency.
+scene_backdrop_mode;Designates a sizing mode for the backdrop image. "Stretch" will stretch the image to fit the full frame, "Fill" will uniformly size the image to fill the entire frame, "Fit" will uniformly size the image to be fully contained within the frame, and "Center" will simply place the image in the center of the frame.
+scene_backdrop_opacity;Selects an overall opacity for the backdrop image.
+;
+scene_shadow_catcher_alpha;Sets the opacity of the received shadows.
+scene_shadow_catcher_fadeout;Fades shadows out near the edges of the shadow catcher.
+scene_shadow_catcher_fademap;A texture to mask the fade effect over the surface of the shadow catcher.
+scene_shadow_catcher_fademap_channel;Selects which color channel from the Fade texture to use.
+scene_shadow_catcher_fade_radius;Radius of the edge fade effect.
+scene_shadow_catcher_fade_falloff;Falloff of the edge fade effect.
+scene_shadow_catcher_sky_shadow;Enables receiving shadow from the sky light (ray tracing only).
+scene_shadow_catcher_indirect_shadow;Enables receiving reflections and bounced lighting from nearby objects (ray tracing only).
+;
+scene_turntable_enable;Enables turntable rotation during animation playback.
+scene_turntable_rate;Rate at which the turntable and its sub-objects will rotate, in degrees per second.
+;
+material_subroutine_base;Select a subroutine for this part of the material shader.
+material_subroutine_blend;Select a blend mode for this part of the material layer.
+;
+material_layer_mode;Enables layered materials, configures where the layer masking data comes from (Mask/Height Map/Vertex Colors)
+;
+material_texture_mode;Determines how UV coordinates are stored (UV, UDIM) or generated (Triplanar).
+material_texture_uv_channel;Controls which UV channel will be used for texture sampling.
+material_texture_tile;Controls the scale by which UV texture coordinates are scaled. Higher values result in more tilling.
+material_texture_tileU;Controls the amount of horizontal texture tiling.
+material_texture_tileV;Controls the amount of vertical texture tiling.
+material_texture_offsetU;Specifies a horizontal texture offset.
+material_texture_offsetV;Specifies a vertical texture offset.
+material_texture_rotation;Specifies a texture rotation.
+material_texture_wrap;Sets the type of texture wrapping used for this material. Clamp stretches the texture outside the [0,1] UV bounds, Repeat tiles the texture outside of the UV bounds, and Mirror flips the texture outside the UV bounds.
+material_texture_aniso;Sets the degree of anisotropic filtering applied to this material. Higher values look better but may reduce performance.
+material_texture_filter;Enables texel filtering for this material. Results in sharp "pixelated" texel borders when disabled.
+material_texture_edge_fade;Sets how sharp or soft the transition between the different axes or projection planes is.
+;
+material_albedo;Albedo or diffuse color map input for standard materials.
+material_albedo_albedo;The texture that will be used to control the albedo or diffuse color.
+material_albedo_color;Sets the albedo or diffuse color.
+;
+material_albedoVertex;Albedo or diffuse map input with support for vertex colors.
+material_albedoVertex_vertexOn;Enables use of vertex color information to determine albedo/diffuse color.
+material_albedoVertex_sRgbOn;Determines whether vertex color information is sRGB corrected or used as linear space.
+material_albedoVertex_vertexAlphaOn;Enables use of the vertex alpha channel, which is used as an alpha mask for transparency when "Alpha from Albedo" is enabled in a Transparency shader.
+;
+material_diffusionMicrofiber_SheenMap;A texture that controls the brightness and color of the sheen effect.
+material_diffusionMicrofiber_Sheen;Adjusts the brightness of microfiber sheen, a view-dependent reflection effect.
+material_diffusionMicrofiber_SheenColor;The color of the sheen effect.
+material_diffusionMicrofiber_SheenTint;Modifies the extent to which sheen color combines with the final effect.
+material_diffusionMicrofiber_RoughnessMap;A texture which specifies roughness for the purpose of microfiber shading. Roughness will affect the shape and size of the sheen highlights.
+material_diffusionMicrofiber_RoughnessChannel;Selects the color channel used in the roughness map.
+material_diffusionMicrofiber_SheenRoughness;Adjusts the microfiber roughness to affect the shape and size of sheen highlights.
+material_diffusionMicrofiber_SheenRoughnessInvert;Inverts the roughness values, providing the opposite appearance.
+material_diffusionMicrofiber_UseMicrosurface;Enables the use of the material's primary roughness/gloss value for sheen rendering.
+;
+material_displacementHeight;Standard displacement mapping, which uses a grayscale heightmap to displace geometry inwards and outwards.
+material_displacementHeight_textureChannel;Determines which channel in the displacement map will be used.
+material_displacementHeight_displacement;The texture that will be used to control displacement intensity and direction.
+material_displacementHeight_scale;Sets the intensity of the displacement effect.
+material_displacementHeight_scaleCenter;Sets the gray point, zero point, or "no-displacement" point of the displacement map. Values in the displacement map below this threshold will displace inwards, while values greater than this will displace outward.
+material_displacementHeight_relScale;Sets whether the displacement map is applied relative to the bounding box scale. If disabled, absolute scale in scene units is used.
+material_displacementHeight_contrast;Adjusts the contrast of the height map.
+material_displacementHeight_contrast_center;Adjusts the values used for the contrast center of the height map.
+material_displacementHeight_offset;Offsets the map contents.
+material_displacementHeight_fuseEdges;Merge shared vertices along UV seams using the averaged position.
+material_displacementHeight_generateNormals;Generate fresh surface normals using the displaced vertices.
+;
+material_displacementVector;Vector displacement mapping can displace geometry inwards, outwards and in multiple directions via the use of a colored vector displacement map.
+material_displacementVector_displacement;The texture that will be used to control displacement intensity and direction.
+material_displacementVector_tangent;Sets whether the vector displacement map uses tangent or world space.
+material_displacementVector_flipX;Inverts the content in the X axis or red channel of the texture.
+material_displacementVector_flipY;Inverts the content in the Y axis or green channel of the texture.
+material_displacementVector_flipZ;Inverts the content in the Z axis or blue channel of the texture.
+material_displacementVector_scale;Sets the intensity of the displacement effect.
+material_displacementVector_scaleCenter;Sets the gray point, zero point, or "no-displacement" point of the displacement map. Values in the displacement map below this threshold will displace inwards, while values greater than this will displace outward.
+material_displacementVector_relativeScale;Sets whether the displacement map is applied relative to the bounding box scale. If disabled, absolute scale is used.
+material_displacementVector_fuseEdges;Merge shared vertices along UV seams using the averaged position.
+material_displacementVector_generateNormals;Generate fresh surface normals using the displaced vertices.
+;
+material_emissive_underCoat;When enabled emission is attenuated by the clearcoat layer so that it looks like it's coming from inside the object.
+material_emissiveHeat;The emissive heat model is an advanced method for creating glowing surfaces using the kelvin scale to define temperature, which in turn controls the color of the effect.
+material_emissiveHeat_heat;The texture that will be used to blend between "Temperature" and "Minimum Temperature".
+material_emissiveHeat_intensity;Sets the strength of the heat effect.
+material_emissiveHeat_temperature;Sets the temperature, in degrees kelvin, which determines the brightness and color of the light emitted.
+material_emissiveHeat_minTemperature;Determines the value that black is mapped to in the texture, which sets the minimum brightness of the light emission.
+;
+material_emissiveMap;The emissive model allows you to load a brightness or glow texture to define areas of your material that emit light.
+material_emissiveMap_emissive;The texture that will be used to control the emissive or glow effect.
+material_emissiveMap_color;Sets the emissive intensity and color.
+material_emissiveMap_intensity;Sets the intensity of the emissive or effect.
+material_emissiveMap_glowColor;Sets a constant color value for the emissive effect. This is useful if you do not have an emissive texture and want to assign an emissive value to the entire material.
+material_emissiveMap_uvSet;Determines which UV channel the emissive map makes use of.
+;
+material_fluorescent_color;Specifies the color of the fluorescence effect. Fluorescent materials emit light when absorbing nonvisible wavelengths, such as ultraviolet.
+material_fluorescent_strength;Determines the relative magnitude of the fluorescence effect. This value can be greater than 1.0 to emulate cases where incident non-visible light wavelengths are more intense than visible ones.
+material_fluorescent_emit_sky;Determines whether to treat sky light as a source of activating illumination.
+material_fluorescent_emit_direct;Determines whether to treat direct light as a source of activating illumination.
+;
+material_glint_density;Specifies how sparse or densely populated the glint flakes are.
+material_glint_intensity;Specifies the intensity of the glint effect. Values darker than white fade to Beckmann reflections.
+material_glint_map_channel;Determines the channel of the texture from which to read the glint map content.
+material_glint_map_texture;The texture used to control the intensity of the glint effect. Values darker than white fade to Beckmann reflections.
+material_glint_roughness;Sets the glint roughness value, 1 corresponds to rough reflections, while 0 corresponds to smooth reflections.
+material_glint_roughness_channel;Determines the channel of the texture from which to read the glint roughness map content.
+material_glint_roughness_invert;Inverts the output of the glint roughness. This is useful for loading roughness maps where white corresponds to rough surfaces while black corresponds to smooth surfaces.
+material_glint_roughness_map;The texture used to specify glint roughness. White corresponds to rough glints, while black corresponds to smooth glints.
+material_glint_scale;Specifies the size of the glint flakes.
+material_glint_use_microsurface;When enabled the glint roughness is synchronized with the roughness or gloss settings.
+;
+material_microsurface_gloss;Specifies the maximum gloss value.
+material_microsurface_glossMap;The texture used to control glossiness or roughness. White corresponds to smooth surfaces while black corresponds to rough surfaces.
+material_microsurface_glossMapChannel;Determines the channel of the texture from which to read gloss or roughness content.
+material_microsurface_glossvalue;Sets the glossiness value, 1 corresponds to smooth surfaces while 0 corresponds to rough surfaces.
+material_microsurface_glossInvert;Inverts the output of the gloss shader. This is useful for loading roughness maps where white corresponds to rough surfaces while black corresponds to smooth surfaces.
+;
+material_microsurface_roughness;Specifies the maximum roughness value.
+material_microsurface_roughnessMap;The texture used to specify surface roughness. White corresponds to a rough surface while black corresponds to smooth surfaces.
+material_microsurface_roughnessMapChannel;Determines the channel of the texture from which to read roughness content.
+material_microsurface_roughnessInvert;Inverts the output of the roughness shader. Useful for loading gloss maps in place of roughness maps.
+;
+material_microsurface_advancedMap;The texture used to specify microsurface detail. This map can be used as either smoothness or roughness.
+material_microsurface_advancedChannel;Determines the channel of the texture from which to read microsurface values.
+material_microsurface_advancedMode;Interpretation mode of the texture map. Roughness indicates that higher values are rougher, while smoothness indicates that higher values are smoother. Smoothness is also referred to as "gloss".
+material_microsurface_advancedMax;Specifies the maximum microsurface value. Values from the texture are scaled to be no greater than this value.
+material_microsurface_advancedMin;Specifies the minimum microsurface value. Values from the texture are shifted to be no less than this value.
+material_microsurface_advancedExp;Applies an exponential curve to values from the texture. This can be useful for color space adjustments and artistic modification. A curve value of 2.2 approximates the sRGB color space, and a curve value of 0.455 approximates an inverse sRGB transform. A value of 1.0 indicates no curve (default).
+material_microsurface_advancedHoriz;Sets the intensity of the horizon smoothing effect, which increases the apparent smoothness of the material at extreme angles.
+;
+material_microsurface_gloss;Specifies the maximum gloss value.
+material_microsurface_glossMap;The texture that will be used to control glossiness or roughness. White corresponds to smooth surfaces while black corresponds to rough surfaces.
+material_microsurface_glossMapChannel;Determines the channel of the texture from which to read the gloss or roughness content.
+material_microsurface_glossvalue;Sets the glossiness value, 1 corresponds to smooth surfaces while 0 corresponds to rough surfaces.
+material_microsurface_horizonSmooth;Sets the intensity of the horizon smoothing effect, which increases the apparent smoothness of the material at extreme angles.
+material_microsurface_invert;Inverts the content of the gloss map. Useful for loading roughness maps where white corresponds to rough surfaces while black corresponds to smooth surfaces.
+;
+material_occlusionMap;The occlusion model allows you to load ambient occlusion and cavity maps, ideal for any material that has crevices which would block light.
+material_occlusionMap_occlusionMap;The texture that will be used to control the ambient occlusion effect, which uses a grayscale map to occlude ambient diffuse sky light.
+material_occlusionMap_channelOcclusion;Determines which channel of the texture will be used for the ambient occlusion map.
+material_occlusionMap_occlusion;Sets the intensity of the ambient occlusion effect.
+material_occlusionMap_uvSet;Determines which UV channel the ambient occlusion map makes use of.
+material_occlusionMap_channelVertex;Determines which vertex color channel is used for ambient occlusion content.
+material_occlusionMap_cavityMap;The texture that will be used to control the cavity effect, which uses a grayscale map to occlude diffuse and specular light.
+material_occlusionMap_channelCavity;Determines which channel of the texture will be used for the cavity map content.
+material_occlusionMap_diffuseCavity;Determines how much influence the cavity map has on diffuse light.
+material_occlusionMap_specularCavity;Determines how much influence the cavity map has on specular reflections.
+material_occlusionMap_curvatureMap;The texture used to specify surface curvature. This value is generally used for material authoring more than rendering, and is supplied here mainly for use by the painting system.
+material_occlusionMap_channelCurvature;Determines which channel of the curvature map is used. This setting only applies in grayscale mode.
+material_occlusionMap_strengthCurvature;Adjusts the scale of the curvature values.
+material_occlusionMap_grayscaleCurvature;Selects whether to interpret the curvature map as a single channel grayscale image, in which values less than 0.5 specify convexity, and values over 0.5 specify concavity. The alternative is a two channel image in which red and green correspond to concavity and convexity.
+;
+material_transmission_mask;Sets the mask value that determines the strength of transmission. When a mask map is loaded this value should be set to 1.
+material_transmission_maskMap;The texture that will be used to set the mask value. Brighter pixels correspond to stronger transmission.
+material_transmission_maskChannel;Determines which channel of the texture will be used for the transmission mask.
+material_transmission_maskInvert;Inverts the mask value so that darker pixels correspond to stronger transmission.
+material_transmission_maskUseAlbedoAlpha;Uses the material's albedo alpha value to provide a transmission mask.
+material_transmission_strictNormals;Use geometric normal to decide if a ray points towards inside or outside of the mesh. Enabling this option might help with light leaks on low poly or poorly tessellated meshes. Applies only to ray tracing.
+;
+material_subsurface_scattermap;A texture which controls scatter depth and color, as a proportion of the Scatter Depth setting.
+material_subsurface_scatterdepth;Specifies the distance light will scatter in this material. This value is specified in millimeters; using accurate scene scale is advised.
+material_subsurface_scattercolor;Determines the scatter color.
+material_subsurface_fuzzmap;A texture used to mask and color the fuzz effect.
+material_subsurface_fuzz;Controls the strength of the "fuzz" effect, which approximates the appearance of fine hairs.
+material_subsurface_fuzzColor;Determines the color of the fuzz effect.
+material_subsurface_fuzzMaskWithGloss;Masks the fuzz appearance with the material gloss value.
+material_subsurface_useTranslucency;Enables the use of a translucency approximation. Disabling this setting is sometimes useful to avoid artifacts in raster renders. This setting does not affect ray traced images.
+material_subsurface_aniso;Determines the primary direction of scattering, either forwards or backwards. A value of zero is even, isotropic scattering.
+;
+material_refraction_tintColor;A color tint for light passing through the object.
+material_refraction_tintColorUseAlbedo;Uses the material's albedo to provide refraction tint.
+material_refraction_indexMap;The texture that will be used to set the index of refraction value.
+material_refraction_index;Sets the index of refraction. Higher values will distort light to a greater degree but won't affect surface reflectivity.
+material_refraction_indexUseReflectivity;Automatically derive index of refraction from Reflectivity. Uncheck this box to override with index value below.
+material_refraction_squash;Lower values limit the distortion effect in rasterized views, which is often useful for thin lenses. This setting does not affect ray traced renders.
+material_refraction_depth;Depth at which tint is realized due to absorption. Lower values mean more absorption, and thus darker and more opaque appearance. A value of zero disables absorption & scattering.
+material_refraction_depthMap;A texture which modulates tint and controls depth at which tint is realized due to absorption. Darker pixels result in more absorption, and thus more opaque appearance.
+material_refraction_scatter;Controls the amount of scattering of light passing through the object.
+material_refraction_scatterColor;Determines the scattering color of light passing through the object.
+material_refraction_scatterMap;A texture which modulates the scattering color of light passing through the object.
+material_refraction_roughnessBias;Modifies refraction roughness. Positive values make refraction more rough than reflection, while negative values make refraction less rough than reflection.
+material_refraction_anisotropy;Specifies the primary direction of scattering, either forwards or backwards. A value of zero is even, isotropic scattering.
+;
+material_thinsurface_transMap;A texture specifying the brightness and color of light passing through from the opposite side of the object.
+material_thinsurface_transColor;Tints the translucency effect.
+material_thinsurface_useAlbedo;Uses the material's albedo color for translucency.
+material_thinsurface_scatter;Determines the amount of light scattering inside the surface.
+;
+material_hair_radialRoughnessMap;A texture that controls the radial roughness of the hair.
+material_hair_radialRoughnessChannel;Determines which channel of the texture will be used for the radial roughness map content.
+material_hair_tint;Applies a color tint to the hair.
+material_hair_highlightShift;Shifts the highlights along the hair strand.
+material_hair_radialRoughness;Specify how much the glints are smoothed in the direction of the hair normal. Too low values will concentrate the glint; while setting it too high will spread the light across the width of the strand.
+material_hair_radialRoughnessInvert;Inverts the radial roughness values, providing the opposite appearance.
+material_hair_directionMap;A texture that controls the direction of the hair. (Hair Cards Only)
+material_hair_directionMapScaleBias;Remaps vector data from the range [0,1] to [-1,1]. Disable this setting with floating-point textures.
+material_hair_directionMapFlipX;Inverts normals on the X axis, or red channel of the material texture.
+material_hair_directionMapFlipY;Inverts normals on the Y axis, or green channel of the material texture.
+material_hair_directionMapFlipZ;Inverts normals on the Z axis, or blue channel of the material texture.
+;
+material_reflectionAniso;The anisotropic reflection model allows you to define the highlight direction for complex surfaces like hair, fur and brushed metal.
+material_reflectionAniso_scaleBias;Remaps vector data from the range [0,1] to [-1,1]. Disable this setting with floating-point textures.
+material_reflectionAniso_swapXYDir;Swaps the direction map content in the red and green channels.
+material_reflectionAniso_anisotropy;Sets the intensity of the anisotropic reflection effect, use to define the highlight shape for complex surfaces.
+material_reflectionAniso_direction;Sets direction in which the anisotropic reflections face. This value can be used for hair when all UVs point in the same general direction.
+;
+material_reflBlinnPhong;Blinn-Phong is a standard reflection model with a relatively harsh edge to the highlight shape.
+material_reflBlinnPhong_secGloss;Sets the gloss or roughness value relative to the base value.
+material_reflBlinnPhong_secIntensity;Sets the reflection intensity relative to the base value.
+material_reflBlinnPhong_secIntensityColor;Sets the color of the secondary reflection intensity.
+material_reflBlinnPhong_secFresnel;Sets the Fresnel intensity relative to the base value.
+material_reflBlinnPhong_secFresnelColor;Sets the color of the secondary Fresnel intensity.
+;
+material_reflGGX;GGX is a reflection model that has a relatively soft falloff to the highlight shape. GGX matches the highlight shape and curve of Unreal Engine 4 and a variety of other engines and shaders.
+;
+material_reflMirror;Mirror is a reflection model that does not support gloss or roughness maps. It is very efficient for materials that are perfectly smooth. It should only be used for mirror-like surfaces.
+material_reflMirror_horizonOcc;Sets the intensity of the horizon occlusion effect, which reduces light leaking from backwards facing vectors in the normal map.
+material_reflMirror_secIntensity;Sets the reflection intensity relative to the base value.
+material_reflMirror_secIntensityColor;Sets the color of the secondary reflection intensity.
+material_reflMirror_secFresnel;Sets the Fresnel intensity relative to the base value.
+material_reflMirror_secFresnelColor;Sets the color of the secondary Fresnel intensity.
+;
+material_reflNewtonsRings;Newton's Rings is a reflection model that simulates the interference pattern created by the reflection of light between two surfaces, which is useful for simulating certain complex surface materials like oils and oxides.
+material_reflNewtonsRings_thickness;The texture that controls the thickness of the outer surface layer. This affects the interference pattern, as higher thicknesses display more "rings".
+material_reflNewtonsRings_channel;Determines which channel of the texture will be used for the thickness map.
+material_reflNewtonsRings_strength;Sets the intensity of the interference effect.
+material_reflNewtonsRings_filmThickness;Controls the thickness of the outer surface layer. This affects the interference pattern, as higher thicknesses display more "rings".
+material_reflNewtonsRings_minThickness;Sets lower bound thickness that corresponds to the lowest value in the thickness map.
+;
+material_reflIOR;Allows you to control reflectivity with index of refraction values.
+material_reflIOR_IndexMap;The texture that will be used to set the index of refraction value.
+material_reflIOR_Index;Sets the index of refraction for this material, which indirectly affects the reflectivity of the surface. Higher values will be more reflective, and will also distort light to a greater degree when used in conjunction with refractive transmission.
+material_reflIOR_indexHue;Sets the "color" of the index of refraction value, which is required for certain metals. This effectively adjusts the index of refraction separately for red, green, and blue color channels.
+material_reflIOR_extinction;Sets the degree to which light darkens as it passes through a material. The higher the value, the more reflective the material becomes. This value is necessary for certain metals.
+material_reflIOR_extinctionHue;Sets the color and intensity of the extinction effect.
+;
+material_reflMetalAdv;The advanced metalness model is similar to the metalness model, but provides extra control over specular reflection intensity for insulators or non-metals.
+material_reflMetalAdv_specularMap;The texture input that will be used to set the reflectivity value for insulators or non-metals.
+material_reflMetalAdv_channel;Determines which channel of the texture will be used for the specular map content.
+material_reflMetalAdv_specular;Sets the reflectivity value for insulators or non-metals.
+material_reflMetalAdv_invertspec;Inverts the metalness value so that white defines insulators and black defines metals.
+material_reflMetalAdv_specadjust;Adds a curve to the specular input to match the Frostbite engine. When the slider is set to 0.16, a gray value of 128 equates to 4% reflectivity.
+;
+material_reflMetalness;The metalness model provides an input to define materials as conductors (metallic) or insulators (non-metals) and is popular with many game engines such as Unreal Engine 4. If the material has a metalness map, use this model.
+material_reflMetalness_metalnessMap;The texture that will be used to set the metalness value. Black defines non-metals or insulators, while white defines metals.
+material_reflMetalness_metalness;Sets the metalness value, which should generally be 0 for insulators or 1 for metals. When a metalness map is loaded, this value should be set to 1.
+material_reflMetalness_channel;Determines which channel of the texture will be used for the metalness map.
+material_reflMetalness_invert;Inverts the metalness value so that white defines insulators and black defines metals.
+;
+material_reflSpecular;The specular map model provides an input to set the explicit specular reflection intensity and color. If your material has a specular map, use this model.
+material_reflSpecular_specularMap;The texture that will be used to set the color and intensity of the specular reflections.
+material_reflSpecular_channel;Specifies color channel(s) to use in the specular map.
+material_reflSpecular_intensity;Sets the intensity of the specular reflections.
+material_reflSpecular_color;Sets the color and intensity of the specular reflections.
+material_reflSpecular_fresnelIntensity;Sets the intensity of the Fresnel effect, or how reflective surfaces are at grazing angles.
+material_reflSpecular_fresnelColor;Sets the color and intensity of the Fresnel effect.
+material_reflSpecular_conserveEnergy;Energy conservation darkens the albedo map to ensure that the sum of diffuse and specular light is not greater than the amount of light that hits the object.
+;
+material_subDivFlat;Flat subdivision tessellates the geometry without altering its shape.
+material_subDivFlat_tessellation;Sets the level of tessellation or geometry limit for sub-division.
+material_subDivFlat_noGpuSupport;This computer does not support this feature.
+;
+material_subDivPN;PN Triangles subdivision tessellates the geometry and attempts to smooth the silhouette.
+material_subDivPN_smoothing;Sets the intensity of the PN Triangles effect, which tessellates geometry while smoothing the surface.
+material_subDivPN_noGpuSupport;This computer does not support this feature.
+;
+material_surfDetailNormal;Standard normal mapping for per-pixel lighting, with an additional detail normal map slot.
+material_surfDetailNormal_detailNormalMap;A second normal map to provide additional detail.
+material_surfDetailNormal_uvSet;The UV set that will be used for the micro detail normal map.
+material_surfDetailNormal_scaleBiasDetail;Remaps vector data from the range [0,1] to [-1,1]. Disable this when using floating-point textures.
+material_surfDetailNormal_flipXDetail;Inverts the content in the X axis, or red channel, of the texture.
+material_surfDetailNormal_flipYDetail;Inverts the content in the Y axis, or green channel, of the texture.
+material_surfDetailNormal_flipZDetail;Inverts the content in the Z axis, or blue channel, of the texture.
+material_surfDetailNormal_detailTiling;Sets the spacing for tiling of the detail normal map.
+material_surfDetailNormal_detailOffset;Shifts the detail normal map. This may be useful for avoiding repeating artifacts.
+material_surfDetailNormal_detailWeightMap;The texture that will be used to set the intensity of the micro detail normal map.
+material_surfDetailNormal_detailChannel;Determines which channel of the texture will be used for the detail normal weight map.
+material_surfDetailNormal_detailWeight;Sets the intensity of the micro detail normal map.
+;
+material_surfNormal;Standard normal mapping for per-pixel lighting.
+material_surfNormal_normalMap;A texture map providing per-pixel surface normal vectors for additional lighting detail.
+material_surfNormal_scaleBias;Remaps vector data from the range [0,1] to [-1,1]. Disable this when using floating-point textures.
+material_surfNormal_flipX;Inverts the content in the X axis, or red channel, of the texture.
+material_surfNormal_flipY;Inverts the content in the Y axis, or green channel, of the texture.
+material_surfNormal_flipZ;Inverts the content in the Z axis, or blue channel, of the texture.
+material_surfNormal_objectSpace;Determines whether the input normal map was baked in tangent or object/world space. Lighting errors will be seen if object space is enabled when using a tangent space map, and vice versa.
+material_surfNormal_genZ;Generates the normal's Z coordinate from X and Y. This is generally useful for two-channel normal maps.
+;
+material_surfParallax;Standard normal mapping for per-pixel lighting, plus parallax map slot to fake depth/displacement mapping.
+material_surfParallax_heightMap;The texture that will be used to define the depth of the parallax effect.
+material_surfParallax_channel;Determines which channel of the texture will be used for the parallax height/depth map.
+material_surfParallax_depth;Sets the intensity of the parallax effect.
+material_surfParallax_depthCenter;Sets the gray point, zero point, or "no-displacement" point of the height/depth map. Values above this threshold will displace outward, while values below it will appear to displace inward.
+material_surfParallax_contrast;Adjusts the contrast of the height map.
+material_surfParallax_contrastCenter;Adjusts the values used for the contrast center of the height map.
+material_surfParallax_offset;Offsets the map contents.
+material_surfParallax_quality;Quality of the parallax effect.
+;
+material_surfBevel_width;Radius of the bevel effect in millimeters.
+material_surfBevel_angle;Limits the bevel effect to corners greater than this value in degrees.
+material_surfBevel_samples;Controls the quality of the bevel effect. Wider bevels benefit from more samples. This setting significantly affects rendering performance.
+material_surfBevel_hardEdges;When enabled the bevel effect is always applied to any hard edges.
+material_surfBevel_sameSurface;When enabled bevels are not applied at intersections with other meshes.
+material_surfBevel_mask;Allows for masking bevel width by interpolated vertex color channel.
+;
+material_transparency_useAlbedoAlpha;Determines whether or not the alpha channel of the albedo map is used for the transparency map.
+material_transparency_transparencyMap;This texture is used to define the opacity of the material. White corresponds to full opacity while black denotes full transparency.
+material_transparency_textureChannel;Determines which channel of the texture will be used in the transparency map.
+material_transparency_alpha;Sets the opacity for the material. White corresponds to full opacity while black denotes full transparency.
+material_transparency_dither;Determines whether to use cutout or dither when cutting out the refraction material.
+material_transparency_invertmask;Inverts the mask, useful when using a transparency map as a mask.
+;
+material_transparencyAdd;Additive transparency adds specular lighting on top of other objects in the scene. This is useful for transparent materials like glass or reflective shells.
+material_transparencyAdd_tint;Sets the color of the additive tint effect.
+material_transparencyAdd_includeDiffuse;Includes the diffuse contribution when using additive blending. This will typically result in a glowing or ghost-like appearance.
+;
+material_transparencyAlphaTest;Cutout or alpha test is a simple method for defining transparent materials, which works as an on-or-off function.
+material_transparencyAlphaTest_threshold;Pixels with alpha values below this threshold will be clipped and not rendered, resulting in a hard "cut-out" border.
+;
+material_transparencyDither;Dithering is an advanced order-independent method for creating semi-transparent surfaces. The dithered result will appear noisy in the viewport, however, quality improves when rendering out a supersampled image. Increase resolution to further improve quality (i.e. 3840x2160 instead of 1920x1080). This method works best for materials that are mostly opaque but have soft edges like hair.
+;
+material_custom_shaders;Select a custom shader. This list displays shader files present in Toolbag's custom shader directory (data/shader/mat/custom). User-authored and editable files in this directory can be used to alter shading behavior for Marmoset materials. See the included example files for more information.
+material_custom_edit;Edit the current shader file.
+material_custom_reload;Reload the current custom shader file (Ctrl+Shift+C).
+material_custom_clear;Clear the reference to the current shader file.
+;
+material_new;Create a new material.
+material_duplicate;Duplicate the selected material.
+material_presetdropdown;Create a material from a preset.
+material_apply;Apply the selected material to the selected scene object(s).
+material_delete;Delete the selected material or group.
+material_import;Import a material file from disk.
+material_export;Export a material file to disk.
+material_thumb_size;Material thumbnail size.
+material_group_new;Create a new material group.
+;
+material_field_transform_position_x;Sets the X axis 3D space position for the projection in relation to the material mesh(es).
+material_field_transform_position_y;Sets the Y axis 3D space position for the projection in relation to the material mesh(es).
+material_field_transform_position_z;Sets the Z axis 3D space position for the projection in relation to the material mesh(es).
+material_field_transform_scale_x;Sets the X axis 3D space size for the projection in relation to the material mesh(es).
+material_field_transform_scale_y;Sets the Y axis 3D space size for the projection in relation to the material mesh(es).
+material_field_transform_scale_z;Sets the Z axis 3D space size for the projection in relation to the material mesh(es).
+material_field_transform_rotation_x;Sets the X axis 3D space rotation for the projection in relation to the material mesh(es).
+material_field_transform_rotation_y;Sets the Y axis 3D space rotation for the projection in relation to the material mesh(es).
+material_field_transform_rotation_z;Sets the Z axis 3D space rotation for the projection in relation to the material mesh(es).
+material_field_transform_fine_tune;Adjust the projection inside the viewport.
+material_field_transform_done;Finish adjusting the projection inside the viewport.
+material_field_transform_reset;Reset the projection transform.
+;
+material_resource_compositor_channel_selection;Select the channel of the map to be used for blending layers.
+material_resource_compositor_brightness;Adjust brightness.
+material_resource_compositor_contrast;Adjust contrast.
+material_resource_mask_compositor_remove_mask;Remove mask.
+material_resource_mask_compositor_add_mask;Add mask.
+material_resource_mask_compositor_mask;Mask used for blending layers.
+material_resource_mask_compositor_mask_selection;Select the mask used for blending layers.
+material_resource_mask_compositor_uv_selection;Select the UV set used for blending layers.
+material_resource_height_compositor_height;Height map used for blending layers.
+material_resource_height_compositor_channel_selection;Channel of the height map used for blending layers.
+material_resource_layer_visibility;Toggle layer visibility.
+material_resource_layer_remove;Remove layer.
+material_resource_layer_add;Add layer.
+;
+module_expand;Expand this module.
+module_collapse;Collapse this module.
+module_dropdown;Select a different shader model for this slot.
+;
+texture_options;Adjust the extra parameters for this texture map.
+texture_preview;Preview this texture map.
+texture_previewviewport; Preview this texture map in the viewport.
+texture_edit;Edit with the content creation app associated with this file type.
+texture_reload;Reload this texture map.
+texture_clear;Remove this texture map.
+;
+texture_options_srgb;Sets whether this texture map should be loaded in sRGB/gamma space or linear space.
+texture_options_filtering;Sets whether this texture uses filtering. Disable for pixel art style textures where pixelation is desired.
+texture_options_mipmaps;Sets whether this texture uses mip-mapping, which swaps in lower-resolution versions of the texture when viewed from a distance. Disabling this usually decreases performance and image quality.
+texture_options_aniso;Sets the degree of anisotropic filtering applied to this texture. Higher values look better but may reduce performance.
+texture_options_wrapping;Sets the type of texture wrapping used for this texture. Clamp stretches the texture outside the [0,1] UV bounds, while repeat tiles the texture outside of the UV bounds, and mirror flips the texture outside the UV bounds.
+;
+texture_preview_mipbias;Adds an offset to the mipmap level. Useful for previewing the appearance of lower mipmap levels both in the viewport and the preview window.
+texture_preview_red;Toggle display of the red channel.
+texture_preview_green;Toggle display of the green channel.
+texture_preview_blue;Toggle display of the blue channel.
+texture_preview_alpha;Toggle display of the alpha channel. Images will appear blended against a checkered background.
+;
+preferences_app_updates;Determines whether or not you will be prompted to install new updates. If enabled, Toolbag will check for new versions every time it opens.
+preferences_app_updates_beta;Toolbag will check for and update to the latest beta builds when they are available. Enable this if you want to test out the latest features under development. Take care; beta builds may have bugs. Restart Toolbag for this setting to take effect.
+preferences_app_windowposition;If enabled, the Toolbag window will load with the same position and size as it was when last closed.
+preferences_app_promptunsaved;If enabled, you will be prompted to save any unsaved work when closing a scene.
+preferences_app_tooltips;Disabling this would remove these helpful little boxes. Pro-moves only.
+preferences_app_undoverify;Runs an extra integrity check on the scene when an action is undone or redone. Also displays diagnostic data in the performance window.
+preferences_app_openpref;Selects whether, on startup, Toolbag will open a blank scene, the last opened scene, or the template scene.
+preferences_app_newscenepref;Determines whether new scenes are empty or created from the template scene.
+preferences_app_skyboxdefaultdir;Specifies the default directory for the skybox browser to use when Toolbag launches.
+preferences_app_skyboxdefaultdirbrowse;Select a new default skybox browser directory.
+preferences_app_skyboxdefaultreset;Reset the default skybox browser directory to Toolbag's "sky" folder.
+preferences_app_tabletfriendly;Enables enhanced tablet compatibility. This setting can sometimes solve issues with tablet input, and disables some mouse features.
+preferences_app_tabletbackend;The default backend when using a digitizer, defaults to the latest available to your operating system.
+preferences_app_bakerscheduling;Selects the default baking mode for new bake projects.
+;
+preferences_content_browsemissing;Displays prompts to locate missing external files, such as textures and animations, during scene loads.
+preferences_content_browsemissingmeshes;Displays prompts to locate missing external meshes during scene loads.
+preferences_content_autoreloadtext;Changed textures will be automatically reloaded when Toolbag regains focus.
+preferences_content_tangentspace;Sets the tangent space that will be applied to meshes when imported. Choose the application that you most frequently use to bake normal maps.
+preferences_content_tangentorientation;Newly created bake and texture projects will default to this tangent space handedness.
+preferences_content_autoreloadmodels;Model files will be automatically reloaded when Toolbag regains focus. This only applies to external model references; models not imported as references will not reload.
+preferences_content_importmodelsasrefs;Model files will import as file references instead of simply grouped objects. This allows for quick in-place model reloading. Note that disabling this feature will prevent animated meshes from being imported.
+preferences_content_importmodelmaterials;Model files will import along with any available material definitions, including textures and other parameters where available.
+preferences_content_existingmaterials;Action that should be taken when materials import with a duplicate name to one currently in the scene.
+preferences_content_units;Determines which unit system to use for new scenes. This setting should match the unit setting in your 3D modeling application.
+preferences_output_defaultdir;Sets the default directory where rendered images are saved when creating a new scene.
+preferences_output_watermark;Determines whether or not the "Rendered in Marmoset Toolbag" watermark is enabled when creating a new scene.
+;
+preferences_gpu_tdr;Allows for the adjustment of the Windows GPU "timeout" setting. Increasing this value can improve stability with complex scenes in some cases. A value between 10 to 30 seconds is recommended.
+preferences_gpu_tdr_reset;Resets the Windows GPU timeout setting to the default of 2 seconds. This may negatively affect stability for complex scenes.
+preferences_gpu_rayengine;Ray tracing engine for rendering and baking. "Accelerated" requires a hardware ray tracing capable GPU and provides the best performance but has higher VRAM use. "Generic" works on all GPUs and uses less VRAM but is not as fast. "Auto" selects the optimal engine based on GPU and current VRAM budget.
+preferences_gpu_raybudget;The maximum amount of VRAM to use for ray tracing data as a percentage of total VRAM. Consider adjusting this value when working with very large scenes containing millions of triangles. A lower budget will likely reduce performance, while a higher budget might improve performance at the expense of higher VRAM use.
+preferences_library_auto_update;Automatically update assets when a new version is available.
+preferences_library_local_path;Path where first party library content is stored.
+preferences_library_user_path;Path where user third party library content is stored.
+;
+preferences_autosave;Automatically save a backup of your scene to the autosave folder at the specified time interval.
+preferences_autosave_relative;Creates autosave files in the same folder as your current scene. The Max Saves and Max Autosave Folder Size settings do not apply when this is option enabled.
+preferences_autosave_duration;Determines how often autosaving occurs.
+preferences_autosave_maxcount;Determines the maximum number of autosaves to keep for a given scene. Older autosaves will be deleted when this value is exceeded. Using a value of 0 will retain all files.
+preferences_autosave_path;Determines the folder that backups are saved in.
+preferences_autosave_maxsize;Maximum amount of space the autosave folder can use. Older autosaves will be deleted when total size of the folder exceeds this value.
+preferences_autosave_maxsize_units;Determines whether the Maximum Autosave Folder Size is set in GBs (gigabytes) or MBs (megabytes).
+preferences_autosave_clear;Delete all files in the autosave folder.
+preferences_autosave_open;Open the autosave folder location using the file explorer.
+preferences_autosave_foldersize;The size of the autosave folder.
+;
+capture_image_path;The location to which rendered images will be written. Specify either a directory or file name.
+capture_image_browse;Browse for a file location for saving images.
+capture_image_size;Sets the dimensions of the exported image, in pixels.
+capture_image_width;Sets the width of the exported image, in pixels.
+capture_image_height;Sets the height of the exported image, in pixels.
+capture_image_resolutionpresets;Select from a variety of resolution presets.
+capture_image_overwrite;Overwrites existing files with new renders. If this option is disabled, new renders will be given numbered file names.
+capture_image_sampling;Sets the number of render samples per pixel. Higher values improve image quality but take longer to render.
+capture_image_mipbias;Enables mipmap biasing in high resolution and supersampled screenshots. Generally this will improve the appearance of textures and shading in these images, but can sometimes produce results that differ significantly from the viewport.
+capture_image_format;Selects the file type of the exported image.
+capture_image_transparency;Saves a transparency mask into the alpha channel of the exported image (where supported).
+capture_image_denoise;Performs noise reduction in the final image or video frame. This setting only takes effect with ray traced renders.
+capture_image_denoise_mode;Noise reduction mode. GPU mode requires a supported NVIDIA graphics adapter.
+capture_image_denoise_quality;Noise reduction quality level.
+;
+capture_video_path;The location to which rendered animations will be written. Specify either a directory or file name.
+capture_video_browse;Browse for a file location for saving animations.
+capture_video_size;Sets the dimensions of the exported animations, in pixels.
+capture_video_width;Sets the width of the exported animation, in pixels.
+capture_video_height;Sets the height of the exported animation, in pixels.
+capture_video_overwrite;Overwrites existing files with new renders. If this option is disabled, new renders will be given numbered file names.
+capture_video_format;Selects an output format for the animation. Sequence formats will write a series of still images instead of a single video file.
+capture_video_quality;Video image quality (applies only to compressed video). Higher values will produce larger files that look better.
+capture_video_transparency;Saves a transparency mask into the alpha channel of the exported image sequence. This is not supported with video files.
+capture_video_autoopen;Automatically opens the resulting video file once the export is complete.
+;
+exporter_path;File path to which your scene will be exported.
+exporter_path_browse;Browse for an export location.
+exporter_models;Export models in the scene.
+exporter_cameras;Export cameras in the scene.
+exporter_lights;Export lights in the scene. Note: Toolbag uses its own units for lights, so brightness will look different in other applications.
+exporter_materials;Export materials in the scene, converted to their closest equivalent.
+exporter_skies;Export skies in the scene. Note: Toolbag uses its own units for sky brightness, so skies will look different if converted to their closest equivalent.
+exporter_others;Export other objects in the scene such as Baker Objects, Texture Project Objects, etc.
+exporter_embedassets;Embed textures in the export file. Depending on the format being exported this may not be possible.
+exporter_normals;Export normals from geometry in the scene.
+exporter_tangents;Export tangents from geometry in the scene.
+exporter_uvs;Export all UV maps from geometry in the scene.
+exporter_vertexcolors;Export vertex colors from geometry in the scene.
+exporter_animations;Export animations from the scene. Depending on the format being exported this may look different.
+exporter_subdivisions;Export geometry with subdivisions applied.
+exporter_displacement;Export geometry with displacement applied.
+exporter_triangulate;Triangulate exported geometry.
+exporter_weldvertices;Weld vertices for exported geometry.
+;
+exporter_usd_filereferences;Determines whether referenced files such as textures will be bundled with this file, or retain their original paths. 
+exporter_usd_texturecopy;Determines whether to overwrite, skip, or create a unique texture name in the case where the same file name exists at the export path.
+exporter_usd_selectedonly;Export only the objects that are currently selected.
+;
+viewerExport_package_title;Give your scene a title! This will display in the viewer next to your work.
+viewerExport_package_author;Your name or handle. This text will display in the viewer next to the title.
+viewerExport_package_link;Title and author text will link to this URL, if one is set.
+viewerExport_package_texQuality;Specifies the quality of the scene's textures, which can have a large effect on package size. In addition to applying different levels of compression, this setting will also limit texture sizes to 1024, 2048, and 4096, respectively.
+viewerExport_package_losslessNormals;Uses artifact-free compression for normal map textures. This will result in larger scene files, and should therefore only be used for scenes where normal accuracy is a high priority.
+viewerExport_package_exportAnimations;Export an animated scene. Animations from the active timeline range will be included.
+viewerExport_package_modelShowcase;Export the set of listed animations from the primary model. Scene playback for other items, such as lights, will repeat for each animation in the set. This setting only applies to animated scenes.
+viewerExport_package_autoPlayAnims;Start playback immediately.
+viewerExport_package_showPlaybackControls;Allow access to playback controls for the exported scene.
+viewerExport_package_hiResThumbnail;Includes a high resolution preview image. This will be displayed before scenes are loaded in the browser instead of the blurred preview. Note that this may increase file size significantly.
+viewerExport_html_write;When enabled, a simple HTML file will be written that displays your scene. This file is generally useful if you intend to embed or display your scene on your own personal page.
+viewerExport_html_usePreset;Provides a simple stylized HTML layout surrounding the viewer scene. This should probably not be used if you intend to embed the resulting HTML file without any formatting, or in an iframe.
+viewerExport_html_autoPlay;Will automatically load and display the scene upon page load.
+viewerExport_html_width;Specifies the width of the viewer frame. This setting is ignored if the 'Full Frame' option is checked.
+viewerExport_html_height;Specifies the height of the viewer frame. This setting is ignored if the 'Full Frame' option is checked.
+viewerExport_html_fullFrame;Causes the viewer to fill the available frame or browser window. This setting is useful for embedding a viewer within an iframe, or making a full-page presentation.
+viewerExport_artstation;Uploads the current scene package to ArtStation.com.
+viewerExport_preview;Opens an in-browser preview of the current scene.
+viewerExport_cancel;Cancels the export.
+viewerExport_export;Exports the Marmoset Viewer scene package to disk.
+;
+gltfExport_path;File path to which your glTF scene will be exported.
+gltfExport_path_browse;Browse for an export location.
+gltfExport_texQuality;Sets the quality of included textures, by adjusting compression levels and images sizes. Lower quality settings will often result in smaller file sizes.
+gltfExport_useVertColor;Includes vertex colors where possible. glTF renders vertex colors as a multiplier on a material's base color.
+gltfExport_metalnessThreshold;The threshold for treating pixels as metals. This setting applies only to specular materials, which need to be converted to metalness maps for the glTF format. Specular values higher than this value will be converted to metal, and lower values will be treated as dielectrics. The use of metalness materials is strongly encouraged for best results with glTF.
+gltfExport_cancel;Cancels the export.
+gltfExport_export;Exports the glTF scene package to disk.
+;
+render_output_path;Sets the directory where rendered images are saved.
+;
+viewport_currentCamera;Selects a camera for viewport and screenshot rendering.
+viewport_currentCameraSettings;Edit the currently active camera.
+viewport_currentRenderSettings;Edit the current render settings.
+viewport_visMode;Select mode for visualizing material, bake, or texture project attributes in this viewport.
+viewport_speedyMode;Speedy viewport mode. This disables various render features for a faster, more responsive viewport. (Ctrl+Shift+J)
+viewport_selection_behavior;Determines the behavior of selection outlines, where they can either be disabled, fade in, or be on perpetually.
+viewport_settings_independentcenter;Determines if a viewport's position is independent, or if its position should be shared across multiple viewports.
+viewport_settings_independentscale;Determines if a viewport's scale is independent, or if its scale should be shared across multiple viewports.
+viewport_settings;Configure viewport settings.
+;
+baker_bake;Bakes all active outputs and writes them to disk.
+baker_export_psd;Exports all active bake outputs to a single, layered PSD file.
+baker_cancel;Cancels any ongoing bakes.
+baker_mode;Selects a geometry mode for baking. "High to Low" bakes high poly geometry to the low poly surface with ray intersections controlled by a cage offset and skew. "Low to Low" bakes low poly material info on the same mesh. "UV Matching" maps detail from the high poly mesh to the low poly mesh with matching UV coordinates.
+baker_scheduling;Adjusts the scheduling of baking work. Offline bakes process with a popup window and block user interaction. Interactive bakes allow the scene to be edited and viewed during baking. Scene edits that affect bake results will cause the bake to cancel and restart.
+baker_newgroup;Creates a new bake group. Bake groups are useful for isolating groups of geometry from one another to prevent unwanted intersections.
+baker_showhidehigh;Toggles visibility of high-poly baker objects.
+baker_showhidelow;Toggles visibility of low-poly baker objects.
+baker_applypreviewmaterials;Previews bake outputs on low-poly geometry. Creates a preview material containing the normal map, AO, and material outputs, and applies it to low-poly meshes contained in the baker.
+baker_applylowtolowmat;Selects which material is applied to the low poly meshes, for use with "Low to Low" baking. Source materials contain user-specified settings, and result materials are used to view baker outputs.
+baker_lowlowsinglemat;Unified material preview, produces a single result material for all bake meshes when enabled.
+baker_refreshlowtolowmat;Refreshes material assignments, repairing or updating as needed.
+baker_cancelpreview;Removes any previews of baked maps displayed in the viewport.
+baker_externalmeshes;Loads a model (or models), and attempts automatic assignment to high and low polygon baker groups.
+baker_reloadexternals;Reloads any external mesh files, and assigns them as needed to high and low polygon baker groups.
+baker_removeexternals;Removes any external mesh files from the baker.
+baker_autoreloadexternals;Automatically checks external mesh files for changes and reloads them as needed.
+baker_use_hidden_mesh;Meshes hidden in the outliner will be used for baking.
+baker_ignore_transform;Mesh transforms, such as rotation and position, will be ignored for the purposes of baking.
+baker_smooth_cage;Smooths low-poly mesh normals for the purposes of baking projection. This is generally helpful to avoid discontinuities along UV seams.
+baker_ignore_backfaces;Ignores the backsides of triangles on the high-poly mesh when baking. This is often useful for correctly baking crevices or floating geometry.
+baker_fix_mirrored;Attempts to fix any issues arising from mirrored tangent spaces in low poly meshes.
+baker_dither;Dithers the bake result, to help prevent banding artifacts. This setting only takes effect for 8 bits/channel outputs.
+baker_previewmapviewport;Previews the baked map on the low-poly mesh in the viewport.
+baker_previewmap;Previews the baked map in the texture window.
+baker_editmap;Edits the baked map.
+baker_settingsmap;Edit the settings of this map.
+baker_castthroughmaterials;Allows the baker to cast through materials that are transparent. Useful for superimposing different meshes on top of each other.
+baker_tangentspace;Selects a tangent space convention for all meshes. This is equivalent to changing the same setting on each low-poly mesh in the bake project manually.
+baker_tangentinterp;Determines whether mesh tangent space is computed at each vertex or each pixel. This is equivalent to changing the same setting on each low-poly mesh in the bake project manually.
+baker_tangentorientation;Configures the baker to output tangent space normal maps in either right or left-handed (y-flipped) coordinate space. Right-handed tangents are often referred to as Maya or OpenGL style, while left-handed are referred to as 3DS Max or Direct3D style.
+baker_tilemode;Determines the UV layout workflow. Single Texture Set should be used with simple UV layouts. Multiple Texture set should be used when there is a UV layout dedicated to each material applied to the low poly. UDIM should be used with assets that require multiple tile sets per material.
+baker_tileappend;Determines whether the tile name will be added before or after the map name when creating the file on disk.
+baker_tileseparator;Determines the separator used between the tile name and the map name when creating the file on disk.
+baker_tilevisibility;Enable or disable this tile.
+baker_textureprojectlink;Determines whether this bake project is linked to a texture project. Linking will automatically update the texture project when changes are made to the bake project.
+;
+baker_suffix;The suffix used when outputting the map file.
+baker_overrideSoften;Overrides the global soften setting, allowing a unique soften value for this map.
+baker_softenStrength;Applies a softening filter to the baked map. This value will override the global soften setting.
+baker_texturesets_enable;Enable texture sets, a way of baking multiple maps based on unique materials applied to low polygon mesh(es).
+;
+baker_output_path;Output path for bake results. This path will be used in both multi-file and multi-layer PSD outputs.
+baker_output_width;Width for all image outputs.
+baker_output_height;Height for all image outputs.
+baker_output_samples;Samples per pixel. Higher numbers may yield better quality for some outputs, but will greatly increase baking times.
+baker_output_pformat;Bit precision per color channel. Higher precision results in larger files, often with fewer banding artifacts.
+baker_output_padding;Pads the resulting outputs to fill empty areas of the UV layout. This is generally useful to prevent filtering or mipmapping artifacts along UV borders.
+baker_output_filter;Applies a softening filter to the baked surface. This can be useful for smoothing borders around floaters or other hard edges.
+;
+baker_surface_normalmap;Bake a tangent-space normal map. The normal orientations will match the tangent space selected for each low poly mesh.
+baker_surface_normalobjmap;Bake an object-space normal map.
+baker_surface_bentnormalmap;Bake a tangent-space bent normal map where the normals will be oriented in the direction of least occlusion.
+baker_surface_bentnormalobjmap;Bake an object-space bent normal map where the normals will be oriented in the direction of least occlusion.
+baker_surface_heightmap;Bake a height map.
+baker_surface_positionmap;Bake a position gradient map.
+baker_surface_vertexcolormap;Bake a vertex color map.
+baker_surface_curvaturemap;Bake a curvature map.
+baker_surface_convexitymap;Bake a convex curvature map.
+baker_surface_concavitymap;Bake a concave curvature map.
+baker_surface_thicknessmap;Bakes a thickness map for use in subsurface scattering materials.
+baker_lighting_aomap;Bake an ambient occlusion map.
+baker_lighting_aomap2;Bake a second ambient occlusion map, with separate settings.
+baker_lighting_diffusemap;Bakes a diffuse lighting map with all visible lights in the scene.
+baker_lighting_specmap;Bakes a specular lighting map with all visible lights in the scene.
+baker_lighting_completemap;Bakes a complete map of all lighting, shadows, and material effects.
+baker_lighting_indirectmap;Bakes a map of diffuse and specular indirect lighting bounces.
+baker_idsandmasks_materialidmap;Bake a material ID map. Each color in this map corresponds to a different material assigned to the high poly mesh.
+baker_idsandmasks_objectidmap;Bake a Object ID map. Each color in this map corresponds to a different object assigned to the high poly mesh.
+baker_idsandmasks_groupidmap;Bake a Group ID map. Each color in this map corresponds to a different bake group assigned to the high poly mesh.
+baker_idsandmasks_uvislandmap;Bake a UV Island map. Each color in this map corresponds to a different UV island.
+baker_idsandmasks_alphamaskmap;Bake an alpha mask based on the geometry of the high poly mesh.
+baker_idsandmasks_wireframemap;Bake a wireframe mesh overlay from the low poly mesh.
+baker_material_albedomap;Bake a composite albedo map for albedo/gloss/specular PBR from the materials assigned to the high poly mesh. If "Multi-Layer PSD" output is enabled, each material will be written to a separate layer.
+baker_material_specularmap;Bake a composite specular map from the materials assigned to the high poly mesh. If "Multi-Layer PSD" output is enabled, each material will be written to a separate layer.
+baker_material_glossmap;Bake a composite gloss map from the materials assigned to the high poly mesh. If "Multi-Layer PSD" output is enabled, each material will be written to a separate layer.
+baker_material_albedometalmap;Bake a composite albedo map for albedo/metalness/roughness PBR from materials assigned to the high poly mesh. If "Multi-Layer PSD" output is enabled, each material will be written to a separate layer.
+baker_material_metalnessmap;Bake a composite metalness map from materials assigned to the high poly mesh. If "Multi-Layer PSD" output is enabled, each material will be written to a separate layer.
+baker_material_roughnessmap;Bake a composite roughness map from materials assigned to the high poly mesh. If "Multi-Layer PSD" output is enabled, each material will be written to a separate layer.
+baker_material_emissivemap;Bake a composite emissive map from materials assigned to the high poly mesh.
+baker_material_alphamap;Bake a composite alpha map from materials assigned to the high poly mesh.
+;
+baker_normals_flipX;Reverse the X (red) axis on tangent space normal maps.
+baker_normals_flipY;Reverse the Y (green) axis on tangent space normal maps.
+baker_normals_flipZ;Reverse the Z (blue) axis on tangent space normal maps.
+baker_normals_useTransforms;This option includes transforms applied to the low poly mesh in the object space normal map. This setting has no effect when "Ignore Transforms" is enabled in the bake project.
+;
+baker_height_innerDist;Inner height map distance from the low poly mesh, in world units. This value maps to black in the height map.
+baker_height_outerDist;Outer height map distance from the low poly mesh, in world units. This value maps to white in the height map.
+;
+baker_position_normalization;The method by which you normalize position data.
+;
+baker_curve_strength;Sets the scale of the curvature output. Smoother meshes may require a higher strength value to make features clearly visible.
+baker_curve_width;Determines the width of the curvature features.
+baker_curve_sharpness;Sets the size of curvature highlights. Higher sharpness values give tighter, more distinct feature silhouettes but may obscure some details.
+;
+baker_uvisland_svg;Outputs UV island vector data as an additional SVG file.
+;
+baker_mat_metalnessthreshold;When baking specular materials into metalness, specular values higher than this threshold will be treated as metal.
+;
+baker_light_exposure;Adjusts the brightness of the baked lighting.
+baker_light_bounces;Limits the number of ray traced diffuse and specular light reflections. Higher values improve image quality but take longer to render.
+baker_light_samples;Sets the number of render samples per pixel. Higher values improve image quality but take longer to render.
+baker_light_ignoregroups;Ignores the separation of geometry into bake groups, allowing reflections and shadows to interact between them. Enabling this option can also make light bakes significantly faster.
+baker_light_denoise;Adjusts the strength of the denoising effect. A value of zero skips denoising altogether.
+baker_light_usematerials;When enabled, uses material properties for the first bounce of light. Secondary bounces will always use material properties. Disabling this option can be useful for baking light maps.
+baker_light_indirectmode;Selects the type of indirect light to be included in the bake.
+;
+baker_cone_raycount;Sample rays for each pixel of the map. Higher ray counts will result in higher quality, but will increase bake times.
+baker_ao_floor;Provides occlusion beneath the model, simulating a floor plane.
+baker_ao_floorstrength;Adjusts the strength of the floor occlusion effect, which simulates a plane beneath the model.
+baker_ao_ignoreGroups;Ignores grouping of high poly source meshes for baking, permitting all groups to cast rays onto one another. Useful for casting features across different groups of objects.
+baker_ao_twoSided;Uses both sides of polygons for occlusion tests. This may cause areas of mesh intersection to become fully occluded if "Ignore Groups" is also enabled.
+baker_ao_dither;Dithering adds subtle noise to 8-bit outputs to prevent banding.
+baker_ao_cosineweight;Adjusts the relative influence of occlusion samples at different angles. A value of -1 corresponds to shaded diffuse AO, zero gives evenly weighted sampling, and higher values provide more occlusion in cavities.
+baker_ao_distance;The maximum distance a sample ray can travel. A setting of 0 results in unlimited distance.
+;
+baker_thickness_scale;Adjusts the scale of the thickness value range, as a proportion of the model bounds.
+baker_thickness_gamma;Applies a gamma curve to the final color values. Use this if you prefer a higher-contrast appearance.
+;
+baker_vcolor_gamma;Applies a gamma curve to the vertex color values. Use this setting if the vertex colors on your mesh are not linear values.
+baker_vcolor_alpha;Includes vertex alpha values in the final result.
+;
+baker_wireframe_thickness;Set the thickness of the wireframe being rendered.
+baker_wireframe_color;Set the color of the wireframe being rendered.
+baker_wireframe_vertex;Sets the relative vertex radius of the wireframe being rendered, 1.0 means it's the same radius as line thickness.
+;
+baker_dst_autobake;Selects a method by which maps are automatically re-baked while offset or skew parameters are edited. "Quick" mode will attempt to re-bake only small subsets of the mesh that have changed, and will use slightly lower quality for speed. Quick mode is not able to preview AO or Material bake outputs.
+baker_dst_showoffset;Displays the cage mesh offset in the viewport.
+baker_dst_showskew;Display the cage mesh skew directions in the viewport.
+baker_dst_minoffset;Minimum cage offset. This specifies the minimum distance the cage will trace from the low-poly mesh. This value corresponds to black in the offset map.
+baker_dst_maxoffset;Maximum cage offset. This specifies the maximum distance the cage will trace from the low-poly mesh. This value corresponds to white in the offset map.
+baker_dst_maxraydist;Maximum ray length. This value limits the length of rays traced inward from the cage surface. This is useful for limiting bake intersections beyond a specified distance. A value of zero indicates no limit.
+baker_dst_paintoffset;Opens a painting tool to edit the offset map for the low-poly cage. This map adjusts the offset of the cage, allowing for a better fit around the high-poly model. You can also select this tool from the toolbar.
+baker_dst_paintskew;Opens a painting tool to edit the skew map for the low-poly cage. A skew map adjusts the directions along which baking rays are traced. This map blends between vertex normal and face normal directions, granting some ability to correct skewed artifacts in the bake result. You can also select this tool from the toolbar.
+baker_dst_estimateoffset;Overwrites the current cage offset map with a best-guess estimate for height.
+baker_dst_offsetalpha;Set the visibility of the offset cage that the baker uses.
+baker_dst_excludewhenignoringgroups;Exclude this mesh from the Ignore Groups option for passes such as AO, Thickness, Lighting.
+baker_dst_addcustomcage;Use a custom cage when baking. You may want to do this for better fine grain control over the location of cage points.
+baker_dst_rmvcustomcage;Remove the custom cage for this mesh.
+painter_brushcolor;Brush Color
+painter_brushsize;Brush Size
+painter_brushflow;Brush Flow
+painter_brushvalue;Brush Value
+painter_brushsharpness;Brush Sharpness
+painter_clear;Clear the canvas to its default color.
+painter_viewportbrush;Selects a mode for painting directly in the viewport. "UV" mode will paint into the texture space of the selected triangle, while "3D" mode will apply the brush to all surrounding geometry.
+;
+gradientprojector_linear;Linear
+gradientprojector_radial;Radial
+gradientprojector_reflected;Reflected
+gradientprojector_diamond;Diamond
+gradientprojector_knurled;Knurled
+;
+dirtgenerator_grungemap;Dirt/grunge texture map applied to affected areas.
+;
+timeline_editor_play;Plays the animation.
+timeline_editor_pause;Pauses the animation.
+timeline_editor_firstframe;Goes to the first frame.
+timeline_editor_previousframe;Goes to the previous frame.
+timeline_editor_nextframe;Goes to the next frame.
+timeline_editor_previouskeyedframe;Goes to the previous keyframe.
+timeline_editor_nextkeyedframe;Goes to the next keyframe.
+timeline_editor_lastframe;Goes to the last frame.
+timeline_editor_loop;Toggles looping of animation playback.
+timeline_editor_autokey;Toggles automatic recording of keyframes. Keyframes will be recorded for the current frame when a change is detected for most parameters of your selected object.
+timeline_editor_totalframes;Determines the total frame count of the animation.
+timeline_editor_fps;Determines the frame rate, or frames per second, of the animation.
+timeline_editor_length;Determines the length of the animation in seconds.
+timeline_editor_speed;Sets the playback speed for preview purposes. Preview speed is not applied to exported video content.
+timeline_editor_applyspeed;Scales the animation to match the preview speed. Use this if you want to permanently speed up or slow down your animation.
+timeline_editor_rangeselect;Determines the selection range, which isolates frames for easy editing and playback. Use the left and right handles to set the first and last frames, and drag the central handle to move the range.
+timeline_editor_linkzoom;Determines whether to show all frames in the timeline or only the frames within the selection range.
+timeline_editor_trim;Trims the animation to the selected frame range.
+timeline_editor_homeframe;Returns to the previous/home frame when playback stops.
+timeline_editor_motionblurpreview;Toggles motion blur preview (Viewport camera also needs to have motion blur option enabled).
+;
+animated_property_editor_step;Sets the falloff for the selected control point to stepped, which is useful for instantaneous changes in motion.
+animated_property_editor_linear;Sets the falloff for the selected control point to linear, which is useful for constant motion like a camera rotating at a fixed rate.
+animated_property_editor_spline;Sets the falloff for the selected control point to smooth, which is useful for setting up smooth changes in motion or velocity.
+animated_property_editor_spline_break;Splits the falloff for the selected control point into separate before-and-after tangents, which can be independently edited.
+animated_property_editor_add_keyframe;Add a new keyframe, or control point for the selected channels at the current frame.
+animated_property_editor_delete_keyframe;Deletes the selected control point(s).
+animated_property_editor_delete_all_keyframes;Deletes ALL keyframed data for the selected object(s).
+animated_property_editor_show_overlapped;Toggles the display of multiple channels between stacked and overlaid drawing styles.
+animated_property_editor_show_values;Toggles the display of numeric values.
+animated_property_editor_autofit;Toggles the auto-fit function. When on, auto-fit will scale the visible range to fill out the vertical space in the keyframe editor.
+animated_property_resetzoompan;Resets the zoom state.
+select_current_animation;Sets the current animation for the object.
+object_playback_speed;Sets the playback speed for the object.
+object_loop_animation;Smoothly interpolate start and end frames.
+custom_animation_name;The name of the custom animation (this will appear in the dropdown list).
+custom_animation_start_frame;The start frame of the custom animation, using the original model FPS.
+custom_animation_end_frame;The end frame of the custom animation, using the original model FPS.
+custom_animation_length;The total playback duration in scene time.
+delete_custom_animation;Delete the custom animation entry.
+add_new_custom_animation;Add a custom animation entry.
+import_animation_data;Import matching animation data from another file (models must be similar).
+turntable_sync_loop_speed;Automatically adjust the spin rate for a continuous loop (based on timeline length).
+;
+license_login;This is your marmoset login for Toolbag, and must be a valid email address. If you do not yet have an account, enter your email address here and you will receive a confirmation email to create one.
+license_allusers;Use this option to provide your login credentials automatically to all users on this machine. If this option remains unchecked, then other users will have to enter their own logins.
+;
+layers_window_add_paint_layer;Add a new paint layer.
+layers_window_add_spline_layer;Add a new vector layer.
+layers_window_add_fill_layer;Add a new fill layer.
+layers_window_add_decal_layer;Add a new decal layer.
+layers_window_add_adjustment_layer;Add a new adjustment layer.
+layers_window_add_processor_layer;Add a new input processor layer.
+layers_window_add_procedural_layer;Add a new procedural layer.
+layers_window_add_scatter_layer;Add a new scatter layer.
+layers_window_duplicate;Duplicate the selected item.
+layers_window_add_group;Add a layer group.
+layers_window_add_carve_group;Add a layer carve group.
+layers_window_trash;Delete the selected item(s).
+layers_window_add_mask;Add mask to selected layer.
+layers_window_new_sync_point;Add a new sync point layer. Sync points synchronize input curvature, height, and ambient occlusion maps with layers below.
+layers_window_refresh_sync_points;Regenerate any out-of-date sync point maps.
+layers_window_sync_point_settings;Open the sync point settings window.
+;
+console_clear;Clears the activity log.
+console_onlyerrors;Displays only errors in the activity log.
+;
+history_restore_state;Restore "redo" states that were discarded by accidentally modifying your scene after pressing "undo". Modifying the scene a second time will cause them to be permanently deleted.
+;
+textureproject_tile_mode;Determines whether the project uses a single UV set, multiple sets, or the UDIM layout. For multiple sets, a unique material should be applied to the polygon region for each set. For UDIMs, each set should occupy the 0-1, 1-2, 2-3, etc space.
+textureproject_size;Width and Height of the texture project output.
+textureproject_resize;Adjust the pixel size of the texture project. Paint layers will be resized to the new resolution.
+textureproject_viewport_resolution;Determine the resolution of the texture project displayed in the viewport. Using less than 1:1 can significantly improve interactive performance. Paint data and exported images will be saved at full resolution.
+textureproject_preview_resolution;Determine the resolution when interacting with tools and layer settings. The resolution will automatically increase to the viewport resolution value when interaction pauses. Using less than 1:1 can significantly improve performance.
+textureproject_viewport_quality;Choose between fast and full render quality. Fast quality will be more responsive when interacting with large texture projects but there will be a delay when changing layers or making certain other changes, and there may be a reduction in quality. Export will always be full quality.
+textureproject_use_uv_padding;Enables extension of pixel values beyond the UV borders, which reduces artifacts near UV seams.
+textureproject_uv_padding;Sets the size of the UV padding effect in pixels.
+textureproject_link_material;Link the currently selected material in the material editor to this texture project.
+textureproject_new_linked_material;Create a new material and link it to this texture project.
+textureproject_unlink_material;Remove this linked material from the texture project.
+textureproject_input_map_texture_box;Click to load or replace a texture map for this texture project
+textureproject_clear_input_map;Remove this input map from the texture project, any layer types that require this input may no longer render correctly.
+textureproject_add_new_input_map;Add an additional input map.
+textureproject_project_map_tool_icon;Project map settings.
+textureproject_x_remove_project_map;Remove this project map.
+textureproject_add_new_project_map;Add an additional project map.
+textureproject_export_all;Save all textures to disk.
+textureproject_directory;The location on disk where the images will be saved.
+textureproject_suffix;Set the word(s) that will be appended to the end of the file.
+textureproject_export;Save only this image to disk.
+textureproject_x_remove_output_map;Remove this output map.
+textureproject_output_add_new_output_map;Add an additional output map.
+textureproject_output_type;Selects which style texture output is used. Types with + in the name allow packing of different Project Maps in the various channels.
+textureproject_output_format;Selects the file type for the exported image.
+textureproject_output_channels;Selects which Project Map to pack into this slot.
+textureproject_output_bitdepth;Sets the bit-depth of this output map.
+textureproject_export_scalar;Sets the size multiplier for texture export.
+textureproject_tile_edit_resolution;Set the resolution of the tile.
+textureproject_tile_link_resolution;Link the width and height of the tile to global resolution.
+;
+textureproject_metalnesssettings_threshold;Sets how sensitive the conversion from specular reflectivity to metalness is. This only applies if your project references source materials that use the specular workflow.
+textureproject_metalnesssettings_tolerance;Sets the range at which reflectivity values are converted to insulators and metals respectively. This only applies if your project references source materials that use the specular workflow.
+textureproject_bumpmapsettings_bump_as_detail_normals;Determines whether the bump map is combined with the normal map for additional height map detail.
+textureproject_bumpmapsettings_bump_weight;Sets the strength of the bump mapping effect.
+textureproject_bumpmapsettings_displacement_as_parallax;Determines whether the displacement map is sent to the displacement or parallax input in the material system.
+textureproject_bumpmapsettings_thickness_as_scatter;Determines whether the thickness input map is used as the base content for the scatter project map.
+textureproject_reflectionworkflow;Determines how albedo and reflectivity maps define material properties for metals and insulators. This setting specifies the albedo style, which material specular maps are linked to, and determines how reference materials authored in the opposite workflow will be converted.
+textureproject_tangentorientation;Configures the project to use and output tangent space normal maps in either right- (Y+) or left-handed (Y-) coordinate space. Right-handed tangents are often refereed to as Maya or OpenGL style, while left-handed are refereed to as 3DS Max or Direct3D style.
+;
+rendersceneobject_render_image;Generate and save the final image to disk.
+rendersceneobject_open_image_location;Open the folder where the image is saved.
+rendersceneobject_render_video;Generate and save the final video to disk.
+rendersceneobject_open_video_location;Open the folder where the video is saved.
+rendersceneobject_remove_camera;Remove this render camera.
+rendersceneobject_render_camera_check;Enable or disable this camera when rendering screenshots/videos.
+rendersceneobject_add_camera;Create a new camera in the scene and add it to this list.
+rendersceneobject_render_passes;Adjust the extra parameters for this render pass.
+rendersceneobject_render_passes_check;Enable or disable this render pass when rendering screenshots/videos.
+rendersceneobject_render_passes_add;Add an additional render pass.
+rendersceneobject_pencil;Open the last render saved to disk.
+rendersceneobject_magnify;Preview  the last render saved to disk.
+rendersceneobject_remove;Remove this render pass.
+export_output_path;Browse for the export directory.
+;
+viewport_split_viewport;Split this viewport horizontally or vertically.
+viewport_popout;Pop this viewport out into a floating window.
+viewport_maximize;Maximize this viewport.
+viewport_isactive;When green, indicates this viewport is active.
+;
+materialsurfaceeditor_sample_color;Sample a given color or material data on the screen.
+materialsurfaceeditor_relink;Reset the reference material to its original state.
+materialsurfaceeditor_reload;Reload the reference material from disk.
+materialsurfaceeditor_remove;Remove the reference material.
+materialsurfaceeditor_edit;Create a copy of this material in the material editor.
+materialsurfaceeditor_import;Import a material from disk.
+materialsurfaceeditor_material_mode;Material mode receives texture content from the reference material.
+materialsurfaceeditor_texture_mode;Texture mode allows you to load a custom texture map.
+materialsurfaceeditor_texture;Load or replace this texture map.
+materialsurfaceeditor_reset_color;Reset this map's color to its original state.
+materialsurfaceeditor_invert_color;Inverts the values of this map.
+materialsurfaceeditor_color;Edit the color of this map type.
+materialsurfaceeditor_grayscale;Sets the value for this map type.
+materialsurfaceeditor_contrast;Adjust the contrast for this map type.
+materialsurfaceeditor_tangentorientation;Interprets this normal map as either right- (Y+) or left-handed (Y-) coordinate space.
+;
+layerproject_add_texture_project;Create a new texture project.
+;
+layerwindow_layer_visibility;Toggle this layer's visibility.
+layerwindow_expand_layer;Expand or collapse this layer's children.
+layerwindow_layer_opacity;Set the opacity for the selected layer.
+layerwindow_layer_opacity_link;Toggle opacity linking, which synchronizes the opacity setting for all map types. Turn off to adjust the opacity of only the selected map type.
+layerwindow_layer_blend;Set the blend mode for the selected layer.
+;
+layersettings_tiles;Select which multi-texture/UDIM tiles this layer modifies.
+layersettings_activeMaps;Select which project maps this layer modifies.
+dimensions_width;Set the texture width.
+dimensions_height;Set the texture height.
+dimensions_lock;Lock or unlock the texture's aspect ratio.
+;
+painttool_wandselect_tolerance;Set the sensitivity of the wand tool.
+painttool_wandselect_contiguous;Determines whether the selection area is limited to connected meshes.
+painttool_wandselect_space;Sets whether the wand tool uses the 3D viewport or 2D canvas area to create the selection
+painttool_wandselect_select_from;Determines whether the texture values are sampled from all layers or the current layer when creating the wand selection
+;
+painttool_select_viewport_shadowing;Determines whether objects will occlude the resulting selection.
+painttool_select_anti_aliased;Determines whether the edges of the selection will be filtered to reduce jaggedness.
+painttool_select_feather;Sets how soft or blurry the edges of the selection will be.
+painttool_select_mask;Fades out non-selected areas.
+;
+painttool_select_face_chunk;If checked, a single click will select an entire mesh instead of an isolated chunk. Double-click always selects an entire mesh.
+;
+brusheditor_pen_pressure_jitter_options;Enable dynamics like pressure sensitivity, tilt, or fade over stroke for this setting.
+brusheditor_pen_pressure_options;Enable dynamics like pressure sensitivity, tilt, or fade over stroke for this setting.
+brusheditor_texture_frames;Sets how many frames the brush sprite sheet has, which will be used to randomize the brush stroke. For custom images, add _Nx to the file name, where N is the number of frames, to automatically assign this value when loading your texture.
+brusheditor_brush_texture;Load or replace the brush tip texture.
+brusheditor_directional;Determines whether the brush tip texture follows the direction of the brush stroke.
+brusheditor_adaptive_flow;Determines whether flow is regulated by spacing, which can provide more consistent opacity buildup when enabled.
+brusheditor_mask_value;Sets the mask value, with 0 or black defining transparent areas and 1 or white defining opaque areas.
+brusheditor_jitter;Set how much random variation is applied to this value.
+brusheditor_alignment;Sets how the brush is projected relative to the surface of the mesh.
+brusheditor_size_space;Sets the unit system that determines how large the brush is in relation to the mesh.
+brusheditor_contiguous_mesh_only;Sets whether the brush-stroke will be restricted to the mesh object the brush first comes in contact with.
+brusheditor_distortion_compensation;Determines whether the brush texture will be stretched to wrap around the mesh geometry.
+brusheditor_occlusion;Determines whether meshes will prevent the brush-stroke from painting on through and other meshes.
+brusheditor_Hardness;Sets how hard or soft the brush edges are.
+brusheditor_Tightness;Sets how tight the brush shape is.
+brusheditor_Angle;Sets the rotation of the brush.
+brusheditor_Scatter;Sets the random positional offset of the brush.
+brusheditor_Opacity;Sets how transparent or opaque the brush is.
+brusheditor_Spacing;Sets the distance between each brush splot.
+brusheditor_Flow;Sets the buildup speed of the brush opacity.
+brusheditor_Size;Sets how large the brush is.
+brusheditor_Squish;Sets how narrow the brush is.
+brusheditor_Warp; Sets the degree of procedural brush shape distortion.
+brusheditor_Contrast;Adjusts contrast of the brush tip texture.
+brusheditor_smoothing;Sets the input smoothing distance. Larger values will result in smoother brush strokes with a longer delay.
+brushcloneeditor_resetposition;Reset the initial source position at the end of the stroke.
+brush_library_export;Save the current brush to the asset library.
+brush_export; Save the current brush to disk.
+brush_import; Import a brush (.tbtool file) from disk.
+;
+brush_symmetry_enable;Enable symmetry of paint strokes along a given axis.
+gradient_symmetry_enable;Enable symmetry of gradients along a given axis.
+vector_symmetry_enable;Enable symmetry of vector shapes along a given axis.
+decal_symmetry_enable;Enable symmetry of vector shapes along a given axis.
+brush_symmetry_axis;Choose the axis or plane of symmetry.
+brush_symmetry_mode;Choose between mirror mode, which flips the brush stroke to the other side, or radial mode, which instances the stroke in a circular array.
+gradient_symmetry_mode;Choose between mirror mode, which flips the gradient to the other side, or radial mode, which instances the gradient in a circular array.
+vector_symmetry_mode;Choose between mirror mode, which flips each shape to the other side, or radial mode, which instances the shape in a circular array.
+decal_symmetry_mode;Choose between mirror mode, which flips each shape to the other side, or radial mode, which instances the shape in a circular array.
+brush_symmetry_count;Sets the number of instances for radial symmetry.
+brush_symmetry_pivot;Position of the axis of symmetry.
+brush_symmetry_rotation;Rotation of the axis of symmetry.
+brush_symmetry_align;Quickly align the axis of symmetry with an object or geometry feature.
+brush_symmetry_fine_tune;Adjust the axis of symmetry inside the viewport.
+brush_symmetry_reset;Reset the position and direction of the axis of symmetry.
+brush_symmetry_align_type;Choose the alignment mode. Object snaps the axis to the center of a mesh. Geometry allows you to select a face, edge, or vertex.
+;
+brush_stencil_invert;Invert the stencil coverage area.
+brush_stencil_fade;Fade the edges of the stencil.
+brush_stencil_display;Opacity of the viewport stencil overlay.
+brush_stencil_wrap;When checked, the stencil will repeat to fill the viewport.
+brush_stencil_hide;When checked, the stencil overlay will disappear while painting.
+brush_stencil_blur;Adjust the amount of blur applied to the stencil.
+brush_stencil_transform_tiling;Adjust the tiling frequency of the stencil.
+brush_stencil_transform_offset;Adjust the position of the stencil inside the viewport.
+brush_stencil_transform_rotation;Rotate the stencil.
+brush_stencil_transform_reset;Reset the stencil to its default position.
+brush_stencil_brightness;Adjust the brightness/opacity of the stencil.
+brush_stencil_contrast;Adjust the stencil's contrast.
+
+
+
+painteffect_blur_radius;Sets the size or intensity of the blur effect.
+painteffect_blur_pixel_size;Sets the size or intensity of the blur effect.
+painteffect_blur_seamless;Blur across UV seams.
+;
+painteffect_colormask_input_map;Select the input map type which will be used to generate the selection. An appropriate input map will need to be loaded in the texture project for this to function.
+painteffect_colormask_threshold;Sets the color matching sensitivity.
+painteffect_colormask_new_color_selection;Choose the color to sample from.
+painteffect_colormask_delete_entry;Remove this color selection entry.
+painteffect_colormask_colorpicker;Edit the color for this entry.
+painteffect_colormask_add_entry;Add an additional color selection entry.
+;
+painteffect_cellular_intensity;Sets the strength of the cellular procedural.
+painteffect_cellular_invert;Inverts the cellular procedural.
+painteffect_cellular_scale;Sets the detail size of the cellular procedural.
+painteffect_cellular_jitter;Sets the randomness for the cellular procedural.
+painteffect_cellular_smoothing;Sets how angular or soft the cellular procedural is.
+painteffect_cellular_phase;Sets the smoothing curve offset, gradually inverting the result as phase reaches 1.
+painteffect_cellular_warp_amount;Sets how distorted the cellular procedural is.
+painteffect_cellular_warp_detail;Sets the detail scale of the warp effect.
+painteffect_cellular_reset_defaults;Resets the original settings for this effect.
+;
+painteffect_checkered_color_A;Sets the color for the primary checker squares.
+painteffect_checkered_color_B;Sets the color for the secondary checker squares.
+painteffect_checkered_intensity;Sets the contrast for the checkered procedural.
+painteffect_checkered_invert;Inverts the checkered procedural.
+painteffect_checkered_tile_count;Sets the number of tiles.
+painteffect_checkered_warp_amount;Sets how distorted the checkered procedural is.
+painteffect_checkered_warp_detail;Sets the detail scale of the warp effect.
+painteffect_checkered_reset_defaults;Resets the original settings for this layer.
+;
+painteffect_clouds_intensity;Sets the strength of the clouds procedural.
+painteffect_clouds_invert;Inverts the clouds procedural.
+painteffect_clouds_scale;Sets the detail size of the clouds procedural.
+painteffect_clouds_granularity;Sets how grainy the clouds procedural is.
+painteffect_clouds_warp_amount;Sets how distorted the clouds procedural is.
+painteffect_clouds_warp_detail;Sets the detail scale of the warp effect.
+painteffect_clouds_reset_defaults;Resets the original settings for this layer.
+;
+painteffect_curvature_intensity;Sets the strength of the curvature processor.
+painteffect_curvature_invert;Inverts the curvature processor.
+painteffect_curvature_contrast;Sets the contrast of the curvature processor.
+painteffect_curvature_contrast_center;Sets the middle point of the contrast effect.
+painteffect_curvature_sharpen;Sets how sharp or blurry the details are.
+painteffect_curvature_edge_intensity;Sets the strength of the edges or convex regions.
+painteffect_curvature_edge_thickness;Sets the width of the convex regions.
+painteffect_curvature_cavity_intensity;Sets the strength of the cavities or concave regions.
+painteffect_curvature_cavity_thickness;Sets the width of the concave regions.
+painteffect_curvature_reset_defaults;Resets the original settings for this layer.
+;
+painteffect_curves_reset;Resets the selected channel.
+painteffect_curves_reset_all;Resets all channels.
+;
+painteffect_direction_direction_axis;Sets which axis to process.
+painteffect_direction_intensity;Sets the strength of the direction processor.
+painteffect_direction_invert;Inverts the direction processor.
+painteffect_direction_contrast;Sets the contrast of the direction processor.
+painteffect_direction_contrast_center;Sets the middle point of the contrast effect.
+painteffect_direction_sharpen;Sets how sharp or blurry the details are.
+painteffect_direction_reset_defaults;Resets the original settings for this layer.
+;
+painteffect_dirt_intensity;Sets the strength of the dirt processor.
+painteffect_dirt_invert;Inverts the dirt processor.
+painteffect_dirt_contrast;Sets the global contrast of the dirt processor.
+painteffect_dirt_sharpness;Sets how sharp or blurry the details are.
+painteffect_dirt_grungemap_texture;Click to load or replace a texture map for the grunge effect.
+painteffect_dirt_grungemap_triplanar;Enable tri-planar mode for seamless texture projection.
+painteffect_dirt_grungemap_blendmode;Sets how the grunge map is blended in relation to the other components of the dirt processor.
+painteffect_dirt_grunge_intensity;Sets the strength for the grunge texture.
+painteffect_dirt_grunge_invert;Inverts the grunge texture.
+painteffect_dirt_grunge_contrast;Sets the contrast of the grunge texture.
+painteffect_dirt_grunge_scale;Sets the tiling for the grunge texture.
+painteffect_dirt_grunge_rotation;Sets the rotation for the grunge texture.
+painteffect_dirt_direction_intensity;Sets the strength of the direction effect, which isolates regions facing up and down.
+painteffect_dirt_direction_invert;Inverts the direction effect.
+painteffect_dirt_direction_contrast;Sets the contrast of the direction effect.
+painteffect_dirt_crevice_intensity;Sets the strength of the crevices or concave areas, which is useful for defining where dirt or grime should appear on the micro scale.
+painteffect_dirt_crevice_contrast;Sets the contrast of the crevice effect.
+painteffect_dirt_occlusion_intensity;Sets the strength of the occluded areas, which is useful for defining where dirt or grime should appear on the macro scale.
+painteffect_dirt_occlusion_contrast;Sets the contrast of the occluded areas.
+painteffect_dirt_reset_defaults;Resets the original settings for this layer.
+;
+painteffect_gradientmap_normalize_handles;Evenly spaces all gradient points.
+painteffect_gradientmap_reset_default_gradient;Resets the original layer settings.
+painteffect_gradientmap_delete_color_handle;Deletes the selected color from the gradient.
+painteffect_gradientmap_delete_alpha_handle;Deletes the selected grayscale value from the alpha gradient.
+painteffect_gradientprojector_intensity;Sets the strength of the gradient procedural.
+painteffect_gradientprojector_invert;Inverts the gradient procedural.
+painteffect_gradientprojector_scale; Sets the tiling for the gradient.
+;
+painteffect_height_intensity;Sets the strength of the height processor.
+painteffect_height_invert;Inverts the height processor.
+painteffect_height_contrast;Sets the contrast of the height processor.
+painteffect_height_contrast_center;Sets the middle point of the contrast effect.
+painteffect_height_sharpen;Sets how sharp or blurry the details are.
+painteffect_height_reset_defaults;Resets the original settings for this layer.
+;
+painteffect_hsvfilter_hue;Shifts the hue around the color wheel.
+painteffect_hsvfilter_saturation;Sets how vivid or saturated the colors are.
+painteffect_hsvfilter_value;Sets the brightness.
+painteffect_hsvfilter_contrast;Sets the contrast.
+painteffect_hsvfilter_reset_defaults;Resets the original settings for this channel.
+painteffect_hsvfilter_reset_defaults_all;Resets the original settings for all channels in this layer.
+;
+painteffect_recolor_mode;Choose the recolorization mode.
+painteffect_recolor_color_count;Determines the amount of target colors
+painteffect_recolor_auto_detect;Detect how many target colors are necessary.
+painteffect_recolor_reset_all;Reset all of the target colors to their original values.
+painteffect_recolor_reset_defaults_all;Reset the original settings for this layer.
+painteffect_recolor_visibility;Toggles the visibility of recolorization for the current target color.
+painteffect_recolor_color_picker;Sets the color target.
+painteffect_recolor_custom_picker;Sets the custom color, which determines the area that will be recolored.
+painteffect_recolor_reset_color;Reset this color to its original state.
+painteffect_recolor_invert;Invert the value of the target color.
+painteffect_recolor_contrast;Sets the contrast.
+painteffect_recolor_tolerance;Sets the strength of the recolorization effect.
+painteffect_recolor_add_custom;Add a custom color.
+painteffect_recolor_delete_custom;Remove this custom color.
+painteffect_recolor_up_down_custom;Move this color up or down.
+painteffect_recolor_update_colors;The source colors are not up-to-date, you must update them.
+painteffect_recolor_uptodate_colors;The source colors are up-to-date.
+painteffect_recolor_main_colors;Source color (automatically generated).
+painteffect_recolor_main_colors_update;You must update your source colors.
+;
+painteffect_levels_color_black;Adjusts brightness value of the black region.
+painteffect_levels_color_gamma;Adjusts the gamma curve.
+painteffect_levels_color_white;Adjusts the brightness value of the white region.
+painteffect_levels_output_black;Remaps or clamps the black region to a specified value.
+painteffect_levels_output_white;Remaps or clamps the white region to a specified value..
+painteffect_levels_channel;Sets the active color channel shown in the editor.
+painteffect_levels_reset;Resets the original settings for this channel.
+painteffect_levels_reset_all;Resets the original settings for all channels.
+;
+painteffect_occlusion_intensity;Sets the strength of the occlusion processor.
+painteffect_occlusion_invert;Inverts the occlusion processor.
+painteffect_occlusion_contrast;Sets the contrast for the occlusion processor.
+painteffect_occlusion_contrast_center;Sets the middle point of the contrast effect.
+painteffect_occlusion_sharpen;Sets how sharp or blurry the details are.
+painteffect_occlusion_reset_defaults;Resets the original settings for this layer.
+;
+painteffect_perlin_intensity;Sets the strength of the Perlin noise procedural.
+painteffect_perlin_invert;Inverts the Perlin procedural
+painteffect_perlin_scale;Sets the detail size of the Perlin procedural.
+painteffect_perlin_macro_contrast;Sets the intensity of the large details.
+painteffect_perlin_micro_contrast;Sets the intensity of the fine details.
+painteffect_perlin_macro_warp_amount;Sets the amount of distortion for the large details.
+painteffect_perlin_macro_warp_detail;Sets the detail level for the large distortions.
+painteffect_perlin_micro_warp_amount;Sets the amount of distortion for the fine details.
+painteffect_perlin_micro_warp_detail;Sets the detail level for the fine distortions.
+painteffect_perlin_sampling;Determines whether to create a soft (smooth) or pixelated (hard) effect.
+painteffect_perlin_noisepasses;Sets how many times the effect will be generated and overlaid. More passes will mean finer details but lower performance.
+painteffect_perlin_reset_defaults;Resets the original settings for this layer.
+;
+painteffect_scratch_intensity;Sets the strength of the scratch processor.
+painteffect_scratch_invert;Inverts scratch dirt processor.
+painteffect_scratch_contrast;Sets the global contrast of the scratch processor.
+painteffect_scratch_sharpness;Sets how sharp or blurry the details are.
+painteffect_scratch_occlusion_intensity;Sets the strength of the occluded areas, which is useful for defining where dirt or grime should appear on the macro scale.
+painteffect_scratch_occlusion_contrast;Sets the contrast of the occluded areas.
+painteffect_scratch_grunge_map;Click to load or replace a texture map for the grunge effect.
+painteffect_scratch_grunge_tri_planar;Enable tri-planar mode for seamless texture projection.
+painteffect_scratch_grunge_blend_mode;Sets how the grunge map is blended in relation to the other components of the scratch processor.
+painteffect_scratch_grunge_intensity;Sets the strength for the grunge texture.
+painteffect_scratch_grunge_invert;Inverts the grunge texture.
+painteffect_scratch_grunge_contrast;Sets the contrast of the grunge texture.
+painteffect_scratch_grunge_scale;Sets the tiling for the grunge texture.
+painteffect_scratch_grunge_rotation;Sets the rotation for the grunge texture.
+painteffect_scratch_scratch_map;Click to load or replace a texture map for the scratch effect.
+painteffect_scratch_scratch_tri_planar;Enable tri-planar mode for seamless texture projection.
+painteffect_scratch_scratch_blendmode;Sets how the scratch map is blended in relation to the other components of the scratch processor.
+painteffect_scratch_scratch_intensity;Sets the strength for the scratch texture.
+painteffect_scratch_scratch_invert;Inverts the scratch texture.
+painteffect_scratch_scratch_contrast;Sets the contrast of the scratch texture.
+painteffect_scratch_scratch_scale;Sets the tiling for the scratch texture.
+painteffect_scratch_scratch_rotation;Sets the rotation for the scratch texture.
+painteffect_scratch_edge_intensity;Sets the strength of the edges or convex regions.
+painteffect_scratch_edge_thickness;Sets the width of the convex regions.
+painteffect_scratch_edge_contrast;Sets the contrast of the convex regions.
+painteffect_scratch_reset_defaults;Resets the original settings for this layer.
+;
+painteffect_sync_curvature_contrast;Adjusts the visual contrast of the generated curvature map.
+painteffect_sync_curvature_scale;Adjusts the size of the curvature filter. Larger scales produce broader, softer gradients.
+painteffect_sync_height_contrast;Adjusts the visual contrast of the generated height map.
+painteffect_sync_height_scale;Adjusts the search size for neighboring detail, potentially resulting in more accurate height generation with larger scales. Larger scale values will take more time to compute.
+painteffect_sync_ao_quality;Higher quality ambient occlusion will exhibit less banding and noise, but takes more time to compute.
+painteffect_sync_ao_contrast;Adjusts the visual contrast of the generated ambient occlusion map.
+painteffect_sync_ao_scale;Adjusts the effective height of normal map detail used to compute occlusion. Higher scales provide more pronounced occlusion.
+painteffect_sync_reset_defaults;Resets sync point settings to their default values.
+;
+painteffect_thickness_intensity;Sets the strength of the thickness processor.
+painteffect_thickness_invert;Inverts the thickness processor.
+painteffect_thickness_contrast;Sets the contrast of the thickness processor
+painteffect_thickness_contrast_center;Sets the middle point of the contrast effect.
+painteffect_thickness_sharpen;Sets how sharp or blurry the details are.
+painteffect_thickness_reset_defaults;Resets the original settings for this layer.
+;
+painteffect_tiles_tile_color;Sets the color for the primary tile region.
+painteffect_tiles_grout_color;Sets the color of the areas between tiles.
+painteffect_tiles_shadow_color;Sets the color of the shadowed area immediately beyond the tiles.
+painteffect_tiles_intensity;Sets the strength of the tiles procedural.
+painteffect_tiles_invert;Inverts the tiles procedural.
+painteffect_tiles_tile_count;Sets the number of tiles in relation to the canvas.
+painteffect_tiles_tile_width;Sets how wide each tile will be.
+painteffect_tiles_tile_height;Sets how tall each tile will be.
+painteffect_tiles_tile_offset;Sets how far every consecutive row will be moved.
+painteffect_tiles_tile_depth;Sets how deep the primary areas in relation to the grout and shadow regions.
+painteffect_tiles_random_depth;Sets how much each tile will be randomly pushed in or out.
+painteffect_tiles_bevel_width;Sets the size of the beveled area along the edges of each tile.
+painteffect_tiles_bevel_depth;Sets how deep the beveled area is in 3D space.
+painteffect_tiles_bevel_roundness;Sets how smooth or round the beveled areas is.
+painteffect_tiles_corner_roundness;Sets how beveled or rounded the corners of each tile is.
+painteffect_tiles_random_rotation;Sets how much each tile will be randomly rotated in 3D space.
+painteffect_tiles_rot_max_x;Sets the maximum amount of rotation variation for each tile in the X axis (tilt up/down).
+painteffect_tiles_rot_max_y;Sets the maximum amount of rotation variation for each tile in the Y axis (tilt left/right).
+painteffect_tiles_rot_max_z;Sets the maximum amount of rotation variation for each tile in the Z axis (spin left/right).
+painteffect_tiles_grout_width;Sets the size of the area between tiles, which controls the size of the tiles as well.
+painteffect_tiles_grout_scale_x;Sets a secondary, relative width value for the space between tiles.
+painteffect_tiles_grout_scale_y;Sets a secondary, relative height value for the space between tiles.
+painteffect_tiles_groutdepth;Sets how deep the area between the tiles is in 3D space.
+painteffect_tiles_shadow_depth;Sets how deep the area immediately outside the tile regions is in 3D space.
+painteffect_tiles_shadow_width;Sets the size of the area immediately outside the tile regions.
+painteffect_tiles_reset_defaults;Resets the original settings for this layer.
+;
+painteffect_turbulence_intensity;Sets the strength of the turbulence procedural.
+painteffect_turbulence_invert;Inverts the turbulence procedural
+painteffect_turbulence_scale;Sets the detail size of the turbulence procedural.
+painteffect_turbulence_frequency;Sets how rippled the primary waves are.
+painteffect_turbulence_amplitude;Sets the detail level of the primary ripples.
+painteffect_turbulence_macro_contrast;Sets the contrast for the large details.
+painteffect_turbulence_micro_contrast;Sets the contrast for the fine details.
+painteffect_turbulence_macro_warp_amount;Sets how much the large details are distorted.
+painteffect_turbulence_macro_warp_detail;Sets how much variation is generated for the large distortions.
+painteffect_turbulence_micro_warp_amount;Sets how much the large details are distorted.
+painteffect_turbulence_micro_warp_detail;Sets how much variation is generated for the fine distortions.
+painteffect_turbulence_noise_passes;Sets how many times the effect will be generated and overlaid. More passes will mean finer details but lower performance.
+painteffect_turbulence_reset_defaults;Resets the original settings for this layer.
+;
+painteffect_vector_mode;Select render/fill mode of vector shapes.
+painteffect_vector_space;Determines the coordinate space vector shapes are drawn and projected from.
+painteffect_vector_shapes;List of all vector shapes in this layer.
+painteffect_vector_profile;Define a displacement contour (profile) to extrude along vector shape edges.
+painteffect_vector_profile_presets;List of profile presets.
+painteffect_vector_profile_edit;Open profile editor to create a custom displacement contour.
+painteffect_vector_profile_remove;Remove selected profile from the presets list.
+painteffect_vector_profile_save;Save current profile as a preset.
+;
+painteffect_vector_profile_amount;Sets the height scale of the profile in bump and displacement maps.
+painteffect_vector_profile_length;Controls tiling of shape-projected materials and alpha masks along the shape edges.
+painteffect_vector_profile_width;Sets the width of the profile along shape edges.
+painteffect_vector_profile_randomWidth;Adds random variation to the profile width.
+painteffect_vector_profile_randomWidthFrequency;Sets the frequency of random variation in the profile width.
+painteffect_vector_profile_warp;Adds random side-to-side wiggle to shape edges.
+painteffect_vector_profile_warpFrequency;Sets the frequency of side-to-side wiggle on shape edges.
+painteffect_vector_profile_taper;Controls narrowing of contour width at the start and end of shape edges.
+painteffect_vector_profile_rounding;Controls rounded caps on the start and end of shape edges.
+;
+painteffect_voronoi_intensity;Sets the strength of the voronoi procedural.
+painteffect_voronoi_invert;Inverts the voronoi procedural.
+painteffect_voronoi_scale;Sets the detail size of the voronoi procedural.
+painteffect_voronoi_jitter;Sets how much random angular distortion the fractures have.
+painteffect_voronoi_smoothing;Sets the softness of the fractured effect.
+painteffect_voronoi_phase;Sets the smoothing curve offset, gradually inverting the result as phase reaches 1.
+painteffect_voronoi_warp_amount;Sets how distorted the voronoi procedural is.
+painteffect_voronoi_warp_detail;Sets the detail scale of the warp effect.
+painteffect_voronoi_reset_defaults;Resets the original settings for this layer.
+;
+painteffect_projection_method;Sets the method for mapping the material properties onto the mesh.
+painteffect_projection_triplanar_fade;Sets how sharp or soft the transition between the different axes or projection planes is.
+painteffect_projection_normal_map_influence;Sets how much the normal map affects the transitions between axes or projection planes.
+painteffect_projection_uv_tiling_u;Sets the scale of the material contents on the horizontal axis.
+painteffect_projection_uv_tiling_v;Sets the scale of the material contents on the vertical axis.
+painteffect_projection_uv_link_tiling;Sets whether the aspect ratio will be retained when adjusting the tiling settings.
+painteffect_projection_uv_offset_u;Sets how far the material properties are moved on the horizontal axis.
+painteffect_projection_uv_offset_v;Sets how far the material properties are moved on the vertical axis.
+painteffect_projection_uv_rotation;Sets the angle of the material properties.
+painteffect_projection_clamp_planar;Sets whether the projection area will be restricted or if areas outside of the projection will repeat.
+painteffect_projection_position_x;Sets the X axis 3D space position for the projection in relation to the texture project's mesh(es).
+painteffect_projection_position_y;Sets the Y axis 3D space position for the projection in relation to the texture project's mesh(es).
+painteffect_projection_position_z;Sets the Z axis 3D space position for the projection in relation to the texture project's mesh(es).
+painteffect_projection_scale_x;Sets the X axis 3D space size for the projection in relation to the texture project's mesh(es).
+painteffect_projection_scale_y;Sets the Y axis 3D space size for the projection in relation to the texture project's mesh(es).
+painteffect_projection_scale_z;Sets the Z axis 3D space size for the projection in relation to the texture project's mesh(es).
+painteffect_projection_rotation_x;Sets the X axis 3D space rotation for the projection in relation to the texture project's mesh(es).
+painteffect_projection_rotation_y;Sets the Y axis 3D space rotation for the projection in relation to the texture project's mesh(es).
+painteffect_projection_rotation_z;Sets the Z axis 3D space rotation for the projection in relation to the texture project's mesh(es).
+painteffect_projection_spritesheet;If checked, material texture maps will be treated as a spritesheet with the same frame count as the brush tip.
+painteffect_projection_tilestrip_frames;Number of variations (columns) in the tile sheet.
+painteffect_projection_tilestrip_features;Number of placeable features (rows minus three) in the tile sheet.
+painteffect_projection_tilestrip_loop_ends;Use end tiles at the start/end point of a closed loop.
+painteffect_projection_tilestrip_randomize; Randomly place feature tiles in empty spaces.
+painteffect_projection_uv_size_u;Sets the size of the projected plane on the horizontal axis as a ratio of the texture project's mesh(es).
+painteffect_projection_uv_size_v;Sets the size of the projected plane on the vertical axis as a ratio of the texture project's mesh(es).
+painteffect_projection_decal_depth;Sets the maximum distance beneath the surface at which the projection will be drawn. Smoothly fades from falloff value.
+painteffect_projection_decal_falloff;Sets the distance beneath the surface at which the projection will start fading.
+painteffect_projection_decal_offset;Sets the maximum distance above the surface at which the projection will be drawn. No falloff is applied.
+painteffect_projection_decal_culling;Sets the maximum angle away from the surface normal at which the projection will stop being drawn. No falloff is applied.
+;
+spline_overlap;Slower but higher quality vector rendering mode that allows multiple shapes to blend onto the same pixel.
+spline_import_svg;Import an SVG vector art file to this vector layer.
+spline_text_profile_position;Set the position of the profile relative to the border of each letter:  Outside (default), centered, or inside.
+spline_per_shape_materials;Set whether material properties are set individualy for each shape.
+spline_per_shape_fonts;Set whether font properties are set individualy for each shape.
+;
+font_underline;Underline
+font_strikethru;Strikethough
+font_vertical_layout;Vertical text layout
+font_line_order;Chooses between left-to-right or right-to-left text.
+TEXT_ALIGN_left;Left Align
+TEXT_ALIGN_center;Center Align
+TEXT_ALIGN_right;Right Align
+TEXT_VERT_ALIGN_top;Top Align
+TEXT_VERT_ALIGN_center;Center Align (vertical)
+TEXT_VERT_ALIGN_bottom;Bottom Align
+;
+vptooldirection_rotation_x;Sets the rotation along the X axis for the custom direction effect.
+vptooldirection_rotation_y;Sets the rotation along the Y axis for the custom direction effect.
+vptooldirection_rotation_z;Sets the rotation along the Z axis for the custom direction effect.
+;
+painteffect_material_properties_shadow;Recolor the shadow element of the output gradient for this map type.
+painteffect_material_properties_highlight;Recolor the highlight element of the output gradient for this map type.
+painteffect_material_properties_invert;Invert the output gradient for this map type.
+;
+painteffect_materialproperties_mask_invert;Inverts the x value.
+painteffect_materialproperties_normal_invert;Inverts the normal value.
+painteffect_materialproperties_albedo_invert;Inverts the albedo value.
+painteffect_materialproperties_specular_invert;Inverts the specular value..
+painteffect_materialproperties_gloss_invert;Inverts the gloss value..
+painteffect_materialproperties_roughness_invert;Inverts the roughness value.
+painteffect_materialproperties_metalness_invert;Inverts the metalness value.
+painteffect_materialproperties_occlusion_invert;Inverts the ambient occlusion value.
+painteffect_materialproperties_cavity_invert;Inverts the cavity value.
+painteffect_materialproperties_transparency_invert;Inverts the transparency value.
+painteffect_materialproperties_displacement_invert;Inverts the displacement or heightmap value.
+painteffect_materialproperties_albedometal_invert;Inverts the albedo (metalness) value.
+painteffect_materialproperties_bump_invert;Inverts the bump value.
+painteffect_materialproperties_emissive_invert;Inverts the emissive value.
+painteffect_materialproperties_scatter_invert;Inverts the subsurface scattering value.
+painteffect_materialproperties_sss_mask_invert;Inverts the subsurface scattering mask value.
+painteffect_materialproperties_aniso_dir_invert;Inverts the aniisotropic direction value.
+painteffect_materialproperties_fuzz_invert;Inverts the fuzz value.
+painteffect_materialproperties_refraction_mask_invert;Inverts the refraction mask value.
+;
+painteffect_seed_value;Sets the initial seed which can be adjusted to create a unique variation of the effect.
+;
+painttool_backface_culling;Sets the maximum angle the tool will paint on relative to the center point of the brush.
+painttool_backface_falloff;Sets how gradually the culling function fades to the maximum value.
+painttool_use_normal_map_for_culling;Sets whether the normal map influences the culling function. When on, the surface details in the normal map will be used for culling.
+;
+painttool_floodfill_tolerance;Sets the maximum amount of value difference the tool will fill in relative to value at the sample point.
+painttool_floodfill_solid;Determines whether the fill tool will create a shape with opaque edges or if the edges will fade relative to the value tolerance.
+painttool_floodfill_anti_aliased;Determines where the edges will be filtered to soften and reduce jaggedness.
+painttool_floodfill_apply_to;Determines which mesh elements the tool will fill.
+painttool_select_from;Determines which elements in the texture project the tool will sample from.
+smudgetool_over_type;Determines how the smudge tool can work across various boundaries.
+;
+painttool_gradientpainter_intensity;Sets the strength of the gradient.
+painttool_gradientpainter_invert;Inverts the gradient.
+painttool_gradientpainter_scale;Sets the tiling for the gradient.
+;
+painttool_decal_falloff_planes;Displays guide planes when manipulating decal depth or falloff via the GUI.
+;
+gradientslider_edit_color_handle;Edit the color value for the selected handle.
+gradientslider_edit_alpha_handle;Edit the alpha value for the selected handle.
+gradientslider_color_position;Edit the horizontal position of the selected color handle.
+gradientslider_alpha_position;Edit the horizontal position of the selected alpha handle.
+;
+colorpicker_togglescreensampler;Toggle fullscreen sampling mode. This allows sampling from any part of the screen, including external applications and secondary monitors.
+colorpicker_fromlist;Determines which elements of the selected Texture Project will be sampled; Layers, Groups, or the final composite.
+colorpicker_maplist;Selects which texture map type to sample the value from.
+;
+library_assetForbidden;This asset cannot be downloaded with a trial license.
+objecttransform_position_x;The X coordinate in 3D space.
+objecttransform_position_y;The Y coordinate in 3D space.
+objecttransform_position_z;The Z coordinate in 3D space.
+objecttransform_scale_x;The scale along the X axis.
+objecttransform_scale_y;The scale along the Y axis.
+objecttransform_scale_z;The scale along the Z axis.
+objecttransform_rotation_x;Rotation around the X axis.
+objecttransform_rotation_y;Rotation around the Y axis.
+objecttransform_rotation_z;Rotation around the Z axis.
+;
+objectpivot_position_x;The X coordinate in 3D space.
+objectpivot_position_y;The Y coordinate in 3D space.
+objectpivot_position_z;The Z coordinate in 3D space.
+objectpivot_scale_x;The scale along the X axis.
+objectpivot_scale_y;The scale along the Y axis.
+objectpivot_scale_z;The scale along the Z axis.
+objectpivot_rotation_x;Rotation around the X axis.
+objectpivot_rotation_y;Rotation around the Y axis.
+objectpivot_rotation_z;Rotation around the Z axis.
+objecttransform_rotation_snapping;Only allow rotation to change by fixed steps in degrees when interacting with the tool in the viewport.
+objecttransform_translation_snapping;Only allow translation to change by fixed steps in world units when interacting with the tool in the viewport.
+objecttransform_center_pivot;Center the pivot to the object bounds.
+objecttransform_world_space;Use world space axes instead of local, object axes when interacting with the tool in the viewport.
+objecttransform_edit_pivot_mode;Edit the pivot transform.
+objecttransform_edit_object_mode;Edit the object transform.
+;
+library_root_folder;Go to the root folder.
+library_back_history;Go back to the previous folder.
+library_forward_history;Go forward to the next folder.
+library_parent_folder;Go to the parent folder.
+library_folder_new;Creates a new user folder inside the currently selected folder.
+library_folder_delete;Deletes the currently selected user folder.
+library_download_selected;Download the selected asset(s).
+library_open_selected;Open the selected asset(s). If asset(s) do not exist locally, they will be downloaded first.
+library_delete_selected;Delete the selected asset(s).
+library_filter_first;Show first party Marmoset content.
+library_filter_user;Show custom user-created content.
+library_filter_local;Show assets that are stored locally.
+library_filter_download;Show assets that are available to download.
+library_filter_update;Show assets with available updates to download.
+library_filter_scene;Show materials, textures, and skies currently used in the scene.
+library_filter_color;Show assets tagged with this color.
+library_filter_selection;Assign a color to this asset.
+library_properties_download; Download the asset.
+library_properties_save; Save changes to the asset.
+library_properties_load; Open the asset.
+;
+vptoollightcontroller_matchHighlight;Places the Light's specular highlight at the sample point. When disabled, the Light is placed perpendicular to the vertex normal of the sample point.
+vptoollightcontroller_repositionLight;Determines whether the light will be moved to maintain a constant distance to the sample point. This setting only applies to Spot/Omni lights.
+vptoollightcontroller_useNormalMap;Enabling this uses the normal map for sampling light direction, otherwise vertex normals are used.
+;
+locator_download_all;Download all files which are available from Marmoset's Library server.
+locator_search_folder;Select the location on disk to search for lost files.
+locator_continue;Continue loading the scene. Note: skipped file references will be permanently lost when saving the file.
+locator_cancel;Abort loading the scene.
+locator_library_asset;Download this file from the Library server.
+locator_local_asset;Browse to locate this file on disk.
+;
+profile_editor_sharpen_vertex;Sharpens the selected point.
+profile_editor_smooth_vertex;Smooths the selected point.
+profile_editor_delete_vertex;Deletes the selected point.
+profile_editor_mirror_tangent_angle;Mirrors the handles for the selected point.
+profile_editor_mirror_tangent_length;Links the length of the handles for the selected point.
+profile_editor_limit_vertically;Prevents moving points to overlapping positions.
+profile_editor_mirror_curve; Toggles horizontal mirroring for the whole profile curve.
+profile_editor_snap_to_grid; When enabled, bezier vertices and tangent handles will snap to a visible grid. Resize the Profile Editor window for a more refined grid.
+;
+sync_point_sync_map_box; Preview of a computed sync map.
+;
+carve_group_invisible_base;Allows to build mask effects that blend on top of the layers below.
+;
+status_bar_console;Opens the console window.
+status_bar_clearerror;Clears the currently displayed error.
+status_bar_bake;Bakes all projects in the scene. This button can also pause and resume bakes that are in progress.
+status_bar_cancel;Cancels any bakes in progress.
+;
+windowstack_undock;Undock this window.
+;
+keybind_view_confirm;Confirm new key bind.
+keybind_view_cancel;Cancel new key bind.
+keybind_view_ignore;Ignore conflicted key bind.
+keybind_view_reset_default;Restore default key bind.
+keybind_view_clear;Clear key bind.
+;
+keybind_name_file_new_scene;New Scene
+keybind_name_file_open_scene;Open Scene
+keybind_name_file_save_scene;Save Scene
+keybind_name_file_save_scene_as;Save Scene As
+keybind_name_file_save_backup;Save Backup
+keybind_name_file_revert;Revert
+keybind_name_file_import;Import
+keybind_name_file_export;Export
+keybind_name_file_export_selected;Export Selected
+keybind_name_file_open_scene_folder;Open Scene Folder
+keybind_name_file_save_scene_to_library;Save Scene to Library
+keybind_name_file_save_selected_objects_to_library;Save Selected to Library
+keybind_name_file_quit;Quit
+keybind_name_edit_undo;Undo
+keybind_name_edit_redo;Redo
+keybind_name_edit_undo_camera;Undo Camera
+keybind_name_edit_redo_camera;Redo Camera
+keybind_name_edit_templates_set_template_scene;Set Template Scene
+keybind_name_edit_templates_clear_template_scene;Clear Template Scene
+keybind_name_edit_templates_set_template_material;Set Template Material
+keybind_name_edit_templates_clear_template_material;Clear Template Material
+keybind_name_edit_preferences;Preferences
+keybind_name_edit_hotkeys;Hotkeys
+keybind_name_edit_plugins_run_last_plugin;Run Again
+keybind_name_view_toggle_visibility;Toggle Visibility
+keybind_name_view_show_all;Show All
+keybind_name_view_deselect;Deselect
+keybind_name_view_frame_selection;Frame Selection
+keybind_name_view_frame_scene;Frame Scene
+keybind_name_view_prev_vp_mode;Previous Viewport Mode
+keybind_name_view_next_vp_mode;Next Viewport Mode
+keybind_name_view_default_vp_mode;Default Viewport Mode
+keybind_name_view_maximize_vp;Maximize Viewport
+keybind_name_view_show_guides;Show/Hide Guides
+keybind_name_view_selection_behavior_none;None
+keybind_name_view_selection_behavior_highlights;Highlights
+keybind_name_view_selection_behavior_outline;Outline
+keybind_name_view_full_screen;Enter/Exit Full Screen
+keybind_name_scene_add_camera;Camera
+keybind_name_scene_add_turntable;Turntable
+keybind_name_scene_add_directional_light;Directional Light
+keybind_name_scene_add_spot_light;Spot Light
+keybind_name_scene_add_omni_light;Omni Light
+keybind_name_scene_add_sky;Sky
+keybind_name_scene_add_fog;Fog
+keybind_name_scene_add_backdrop;Backdrop
+keybind_name_scene_add_shadow_catcher;Shadow Catcher
+keybind_name_scene_add_bake_project;Bake Project
+keybind_name_scene_add_texture_project;Texture Project
+keybind_name_scene_lock_selection;Lock Selection
+keybind_name_texture_add_layer_mask;Add Layer Mask
+keybind_name_texture_delete_layer_mask;Delete Layer Mask
+keybind_name_texture_add_paint_layer;Add Paint Layer
+keybind_name_texture_add_fill_layer;Add Fill Layer
+keybind_name_texture_add_decal_layer;Add Decal Layer
+keybind_name_texture_add_adjustments_blur;Blur
+keybind_name_texture_add_adjustments_curves;Curves
+keybind_name_texture_add_adjustments_gradient_map;Gradient Map
+keybind_name_texture_add_adjustments_hue_saturation;Hue/Saturation
+keybind_name_texture_add_adjustments_invert;Invert
+keybind_name_texture_add_adjustments_levels;Levels
+keybind_name_texture_add_adjustments_sharpen;Sharpen
+keybind_name_texture_add_adjustments_recolor;Recolor
+keybind_name_texture_add_processors_color_selection;Color Selection
+keybind_name_texture_add_processors_curvature;Curvature
+keybind_name_texture_add_processors_direction;Direction
+keybind_name_texture_add_processors_dirt;Dirt
+keybind_name_texture_add_processors_occlusion;Occlusion
+keybind_name_texture_add_processors_scratch;Scratch
+keybind_name_texture_add_processors_thickness;Thickness
+keybind_name_texture_add_processors_height;Height
+keybind_name_texture_add_procedurals_cellular;Cellular
+keybind_name_texture_add_procedurals_checkered;Checkered
+keybind_name_texture_add_procedurals_clouds;Clouds
+keybind_name_texture_add_procedurals_gradient;Gradient
+keybind_name_texture_add_procedurals_perlin;Perlin
+keybind_name_texture_add_procedurals_tiles;Tiles
+keybind_name_texture_add_procedurals_turbulence;Turbulence
+keybind_name_texture_add_procedurals_voronoi;Voronoi
+keybind_name_texture_add_procedurals_scatter;Scatter
+keybind_name_texture_prev_map;Previous Map
+keybind_name_texture_next_map;Next Map
+keybind_name_texture_ungroup;Ungroup
+keybind_name_texture_merge_selected_layers;Merge Selection
+keybind_name_texture_rasterize_layer;Layer
+keybind_name_texture_rasterize_layer_with_children;Layer with Children
+keybind_name_texture_rasterize_mask;Mask
+keybind_name_texture_select_all;All
+keybind_name_texture_select_none;None
+keybind_name_texture_select_invert;Invert
+keybind_name_brush_editor_dec_brush_size;Decrease Brush Size
+keybind_name_brush_editor_inc_brush_size;Increase Brush Size
+keybind_name_brush_editor_dec_brush_hardness;Decrease Brush Hardness
+keybind_name_brush_editor_inc_brush_hardness;Increase Brush Hardness
+keybind_name_brush_editor_dec_brush_cull_angle;Decrease Brush Culling Angle
+keybind_name_brush_editor_inc_brush_cull_angle;Increase Brush Culling Angle
+keybind_name_brush_editor_center_on_brush;Center on Brush
+keybind_name_material_create_new;New Material
+keybind_name_material_import;Import
+keybind_name_material_export;Export
+keybind_name_material_clear_unused;Clear Unused
+keybind_name_material_apply_to_selection;Apply to Selection
+keybind_name_render_viewport;Render Viewport
+keybind_name_render_vp_to_clipboard;Render Viewport to Clipboard
+keybind_name_render_all_imgs;Render All Images
+keybind_name_render_all_vids;Render All Videos
+keybind_name_render_bake_all;Bake All
+keybind_name_render_open_when_done;Open When Done
+keybind_name_render_mode_enable_hybrid;Enable Hybrid
+keybind_name_render_mode_enable_raytracing;Enable Raytracing
+keybind_name_render_options;Render Options
+keybind_name_window_scene;Scene
+keybind_name_window_materials;Materials
+keybind_name_window_history;History
+keybind_name_window_library;Library
+keybind_name_window_tool_settings;Tool Settings
+keybind_name_window_layers;Layers
+keybind_name_window_layer_settings;Layer Settings
+keybind_name_window_timeline;Timeline
+keybind_name_window_keyframes;Keyframes
+keybind_name_window_workspace_bar;Workspace Bar
+keybind_name_window_status_bar;Status Bar
+keybind_name_window_color_picker;Color Picker
+keybind_name_window_reset_workspace;Reset Workspace
+keybind_name_window_add_workspace;Add Workspace
+keybind_name_window_delete_workspace;Delete Workspace
+keybind_name_window_reset_default_workspace;Reset Default Workspace
+keybind_name_window_prev_workspace;Previous workspace
+keybind_name_window_next_workspace;Next workspace
+keybind_name_toolbar_tool_0;Select Tool
+keybind_name_toolbar_tool_1;Rectangle/Ellipse Tool
+keybind_name_toolbar_tool_2;Lasso/Polygon Tool
+keybind_name_toolbar_tool_3;Face/UV Island/Mesh Tool
+keybind_name_toolbar_tool_4;Skew Tool
+keybind_name_toolbar_tool_5;Magic Wand Tool
+keybind_name_toolbar_tool_6;Brush Tool
+keybind_name_toolbar_tool_7;Clone Stamp Tool
+keybind_name_toolbar_tool_8;Flood Fill Tool
+keybind_name_toolbar_tool_9;Gradient Tool
+keybind_name_toolbar_tool_10;Translate Tool
+keybind_name_toolbar_tool_11;Rotate Tool
+keybind_name_toolbar_tool_12;Scale Tool
+keybind_name_toolbar_tool_13;Transform Tool/Text Tool
+keybind_name_toolbar_tool_14;Decal Tool
+keybind_name_toolbar_tool_15;Tile Strip Tool
+keybind_name_vpt_baker_paint_inverse;Paint Inverse
+keybind_name_vpt_focus_aperture;Aperture
+keybind_name_vpt_transform_world_space;World Space
+keybind_name_vpt_transform_pivot;Edit Pivot
+keybind_name_vpt_lc_brightness;Brightness
+keybind_name_vpt_lc_spot_angle;Spot Angle
+keybind_name_vpt_lc_distance;Distance
+keybind_name_vpt_vector_smooth_pt;Smooth Point
+keybind_name_vpt_vector_sharpen_pt;Sharpen Point
+keybind_name_vpt_vector_toggle_snap;Toggle Point Snapping
+keybind_name_animation_toggle_play;Play/Pause
+keybind_name_animation_prev_frame;Previous Frame
+keybind_name_animation_next_frame;Next Frame
+keybind_name_animation_tl_zoom_in_0;Zoom In
+keybind_name_animation_tl_zoom_in_1;Zoom In
+keybind_name_animation_tl_zoom_out_0;Zoom Out
+keybind_name_animation_tl_zoom_out_1;Zoom Out
+keybind_name_animation_tl_shift_left;Shift Left
+keybind_name_animation_tl_shift_right;Shift Right
+keybind_name_animation_set_frame_to_prev_kf;Set Frame to Previous Keyframe
+keybind_name_animation_set_frame_to_next_kf;Set Frame to Next Keyframe
+keybind_name_animation_nudge_kf_up;Nudge Keyframe Up
+keybind_name_animation_nudge_kf_down;Nudge Keyframe Down
+keybind_name_baker_toggle_high_vis;Toggle High Visibility
+keybind_name_baker_toggle_low_vis;Toggle Low Visibility
+keybind_name_baker_show_offset;Show Offset
+keybind_name_baker_show_skew;Show Skew
+keybind_name_painting_add_carve_group;Add Carve Group
+keybind_name_painting_delete_layer;Delete Layer
+keybind_name_painting_symmetry_toggle;Toggle Symmetry
+keybind_name_painting_symmetry_switch_axis;Switch Axis
+keybind_name_decal_show_falloff_planes;Show Decal Falloff Planes
+keybind_name_help_about;About
+keybind_name_help_change_account;Change Account
+keybind_name_help_tutorials;Tutorials
+keybind_name_help_docs;Documentation
+keybind_name_help_python_api_ref;Python API Reference
+keybind_name_help_send_feedback;Send Feedback
+keybind_name_help_dev_reload_shaders;Reload Shaders
+keybind_name_help_dev_performance;Toggle Performance Window
+keybind_name_help_dev_console;Toggle Console
+;
+keybind_desc_file_new_scene;Create a new scene file
+keybind_desc_file_open_scene;Open a scene file
+keybind_desc_file_save_scene;Save the current scene file
+keybind_desc_file_save_scene_as;Save the current scene file as a new file
+keybind_desc_file_save_backup;Save a backup of the current scene file
+keybind_desc_file_revert;Revert the current scene file to the last saved state
+keybind_desc_file_import;Import a file
+keybind_desc_file_export;Export a file
+keybind_desc_file_export_selected;Export selected objects
+keybind_desc_file_open_scene_folder;Open the folder containing the current scene file
+keybind_desc_file_save_scene_to_library;Save the current scene file to the Library
+keybind_desc_file_save_selected_objects_to_library;Save selected objects to the Library
+keybind_desc_file_quit;Quit Toolbag
+keybind_desc_edit_undo;Undo the last action
+keybind_desc_edit_redo;Redo the last action
+keybind_desc_edit_undo_camera;Undo the last camera action
+keybind_desc_edit_redo_camera;Redo the last camera action
+keybind_desc_edit_templates_set_template_scene;Set template scene
+keybind_desc_edit_templates_clear_template_scene;Clear template scene
+keybind_desc_edit_templates_set_template_material;Set template material
+keybind_desc_edit_templates_clear_template_material;Clear template material
+keybind_desc_edit_preferences;Open the preferences window
+keybind_desc_edit_hotkeys;Open the hotkeys window
+keybind_desc_edit_plugins_run_last_plugin;Run last plugin
+keybind_desc_view_toggle_visibility;Toggle visibility of the selected object
+keybind_desc_view_show_all;Show all objects
+keybind_desc_view_deselect;Deselect current selections
+keybind_desc_view_frame_selection;Frame the current viewport to the selected object
+keybind_desc_view_frame_scene;Frame the current viewport to the entire scene
+keybind_desc_view_prev_vp_mode;Switch to the previous viewport mode
+keybind_desc_view_next_vp_mode;Switch to the next viewport mode
+keybind_desc_view_default_vp_mode;Switch to the default viewport mode
+keybind_desc_view_maximize_vp;Maximize the current viewport
+keybind_desc_view_show_guides;Show or hide current viewport guides
+keybind_desc_view_selection_behavior_none;None
+keybind_desc_view_selection_behavior_highlights;Highlights
+keybind_desc_view_selection_behavior_outline;Outline
+keybind_desc_view_full_screen;Toggle full screen mode
+keybind_desc_scene_add_camera;Add a new camera to the scene
+keybind_desc_scene_add_turntable;Add a new turntable to the scene
+keybind_desc_scene_add_directional_light;Add a new directional light to the scene
+keybind_desc_scene_add_spot_light;Add a new spot light to the scene
+keybind_desc_scene_add_omni_light;Add a new omni light to the scene
+keybind_desc_scene_add_sky;Add a new sky to the scene
+keybind_desc_scene_add_fog;Add a new fog to the scene
+keybind_desc_scene_add_backdrop;Add a new backdrop to the scene
+keybind_desc_scene_add_shadow_catcher;Add a new shadow catcher to the scene
+keybind_desc_scene_add_bake_project;Add a new bake project to the scene
+keybind_desc_scene_add_texture_project;Add a new texture project to the scene
+keybind_desc_scene_lock_selection;Lock selected objects
+keybind_desc_texture_add_layer_mask;Add layer mask
+keybind_desc_texture_delete_layer_mask;Delete layer mask
+keybind_desc_texture_add_paint_layer;Add paint layer
+keybind_desc_texture_add_fill_layer;Add fill layer
+keybind_desc_texture_add_decal_layer;Add decal layer
+keybind_desc_texture_add_adjustments_blur;Add blur
+keybind_desc_texture_add_adjustments_curves;Add curves
+keybind_desc_texture_add_adjustments_gradient_map;Add gradient map
+keybind_desc_texture_add_adjustments_hue_saturation;Add hue/saturation
+keybind_desc_texture_add_adjustments_invert;Add invert
+keybind_desc_texture_add_adjustments_levels;Add levels
+keybind_desc_texture_add_adjustments_sharpen;Add sharpen
+keybind_desc_texture_add_adjustments_recolor;Add recolor
+keybind_desc_texture_add_processors_color_selection;Add color selection
+keybind_desc_texture_add_processors_curvature;Add curvature
+keybind_desc_texture_add_processors_direction;Add direction
+keybind_desc_texture_add_processors_dirt;Add dirt
+keybind_desc_texture_add_processors_occlusion;Add occlusion
+keybind_desc_texture_add_processors_scratch;Add scratch
+keybind_desc_texture_add_processors_thickness;Add thickness
+keybind_desc_texture_add_processors_height;Add height
+keybind_desc_texture_add_procedurals_cellular;Add cellular
+keybind_desc_texture_add_procedurals_checkered;Add checkered
+keybind_desc_texture_add_procedurals_clouds;Add clouds
+keybind_desc_texture_add_procedurals_gradient;Add gradient
+keybind_desc_texture_add_procedurals_perlin;Add perlin
+keybind_desc_texture_add_procedurals_tiles;Add tiles
+keybind_desc_texture_add_procedurals_turbulence;Add turbulence
+keybind_desc_texture_add_procedurals_voronoi;Add voronoi
+keybind_desc_texture_add_procedurals_scatter;Add scatter
+keybind_desc_texture_prev_map;Switch to the previous map
+keybind_desc_texture_next_map;Switch to the next map
+keybind_desc_texture_ungroup;Ungroup current selection
+keybind_desc_texture_merge_selected_layers;Merge selected layers
+keybind_desc_texture_rasterize_layer;Rasterize layer
+keybind_desc_texture_rasterize_layer_with_children;Rasterize layer with children
+keybind_desc_texture_rasterize_mask;Rasterize mask
+keybind_desc_texture_select_all;Select all
+keybind_desc_texture_select_none;Select none
+keybind_desc_texture_select_invert;Invert selection
+keybind_desc_brush_editor_dec_brush_size;Decrease the brush size in the brush editor
+keybind_desc_brush_editor_inc_brush_size;Increase the brush size in the brush editor
+keybind_desc_brush_editor_dec_brush_hardness;Decrease the brush hardness in the brush editor
+keybind_desc_brush_editor_inc_brush_hardness;Increase the brush hardness in the brush editor
+keybind_desc_brush_editor_dec_brush_cull_angle;Decrease the brush cull angle in the brush editor
+keybind_desc_brush_editor_inc_brush_cull_angle;Increase the brush cull angle in the brush editor
+keybind_desc_brush_editor_center_on_brush;Center the brush in the brush editor
+keybind_desc_material_create_new;Create a new material
+keybind_desc_material_import;Import material
+keybind_desc_material_export;Export material
+keybind_desc_material_clear_unused;Clear unused materials
+keybind_desc_material_apply_to_selection;Apply the current material to the selected objects
+keybind_desc_render_viewport;Render current viewport to file
+keybind_desc_render_vp_to_clipboard;Render current viewport to clipboard
+keybind_desc_render_all_imgs;Render all images
+keybind_desc_render_all_vids;Render all videos
+keybind_desc_render_bake_all;Bake all
+keybind_desc_render_open_when_done;Toggle open when done
+keybind_desc_render_mode_enable_hybrid;Enable hybrid render mode
+keybind_desc_render_mode_enable_raytracing;Enable raytracing render mode
+keybind_desc_render_options;Open render options
+keybind_desc_window_scene;Toggle Scene window
+keybind_desc_window_materials;Toggle Materials window
+keybind_desc_window_history;Toggle History window
+keybind_desc_window_library;Open Library window
+keybind_desc_window_tool_settings;Toggle Tool Settings window
+keybind_desc_window_layers;Toggle Layers window
+keybind_desc_window_layer_settings;Toggle Layer Settings window
+keybind_desc_window_timeline;Toggle Timeline window
+keybind_desc_window_keyframes;Toggle Keyframes window
+keybind_desc_window_workspace_bar;Toggle Workspace Bar
+keybind_desc_window_status_bar;Toggle Status Bar
+keybind_desc_window_color_picker;Open Color Picker window
+keybind_desc_window_reset_workspace;Reset workspace
+keybind_desc_window_add_workspace;Add new workspace based on active workspace
+keybind_desc_window_delete_workspace;Delete active workspace
+keybind_desc_window_reset_default_workspace;Reset default workspace
+keybind_desc_window_prev_workspace;Cycle to previous workspace
+keybind_desc_window_next_workspace;Cycle to next workspace
+keybind_desc_toolbar_tool_0;Select Tool
+keybind_desc_toolbar_tool_1;Cycle between Rectangle/Ellipse Tool
+keybind_desc_toolbar_tool_2;Cycle between Lasso/Polygon Tool
+keybind_desc_toolbar_tool_3;Cycle between Face/UV Island/Mesh Tool
+keybind_desc_toolbar_tool_4;Skew Tool
+keybind_desc_toolbar_tool_5;Magic Wand Tool
+keybind_desc_toolbar_tool_6;Brush Tool
+keybind_desc_toolbar_tool_7;Clone Stamp Tool
+keybind_desc_toolbar_tool_8;Flood Fill Tool
+keybind_desc_toolbar_tool_9;Gradient Tool
+keybind_desc_toolbar_tool_10;Translate Tool
+keybind_desc_toolbar_tool_11;Rotate Tool
+keybind_desc_toolbar_tool_12;Scale Tool
+keybind_desc_toolbar_tool_13;Transform Tool/Text Tool
+keybind_desc_toolbar_tool_14;Decal Tool
+keybind_desc_toolbar_tool_15;Tile Strip Tool
+keybind_desc_vpt_baker_paint_inverse;Paint inverse
+keybind_desc_vpt_focus_aperture;Update the aperture of the camera
+keybind_desc_vpt_transform_world_space;Toggle local/world space
+keybind_desc_vpt_transform_pivot;Edit transform pivot
+keybind_desc_vpt_lc_brightness;Update the brightness of the light
+keybind_desc_vpt_lc_spot_angle;Update the spot angle of the light
+keybind_desc_vpt_lc_distance;Update the distance of the light
+keybind_desc_vpt_vector_smooth_pt;Smooth the selected point
+keybind_desc_vpt_vector_sharpen_pt;Sharpen the selected point
+keybind_desc_vpt_vector_toggle_snap;Toggle all point snapping
+keybind_desc_animation_toggle_play;Play/Pause the animation
+keybind_desc_animation_prev_frame;Go to the previous frame
+keybind_desc_animation_next_frame;Go to the next frame
+keybind_desc_animation_tl_zoom_in_0;Zoom in
+keybind_desc_animation_tl_zoom_in_1;Zoom in (alternative)
+keybind_desc_animation_tl_zoom_out_0;Zoom out
+keybind_desc_animation_tl_zoom_out_1;Zoom out (alternative)
+keybind_desc_animation_tl_shift_left;Shift timeline selection left
+keybind_desc_animation_tl_shift_right;Shift timeline selection right
+keybind_desc_animation_set_frame_to_prev_kf;Set frame to previous keyframe
+keybind_desc_animation_set_frame_to_next_kf;Set frame to next keyframe
+keybind_desc_animation_nudge_kf_up;Nudge keyframe selection up
+keybind_desc_animation_nudge_kf_down;Nudge keyframe selection down
+keybind_desc_baker_toggle_high_vis;Toggle the visibility of high poly objects
+keybind_desc_baker_toggle_low_vis;Toggle the visibility of low poly objects
+keybind_desc_baker_show_offset;Show offset
+keybind_desc_baker_show_skew;Show skew
+keybind_desc_painting_add_carve_group;Add carve group
+keybind_desc_painting_delete_layer;Delete selected layer
+keybind_desc_painting_symmetry_toggle;Toggle symmetry
+keybind_desc_painting_symmetry_switch_axis;Switch axis
+keybind_desc_decal_show_falloff_planes;Show decal falloff planes
+keybind_desc_help_about;About
+keybind_desc_help_change_account;Change account
+keybind_desc_help_tutorials;Go to the tutorials page
+keybind_desc_help_docs;Go to the documentation page
+keybind_desc_help_python_api_ref;Go to the Python API Reference page
+keybind_desc_help_send_feedback;Send feedback
+keybind_desc_help_dev_reload_shaders;Reload shaders
+keybind_desc_help_dev_performance;Toggle Performance window
+keybind_desc_help_dev_console;Toggle Console window
+;

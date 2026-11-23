@@ -1,0 +1,4736 @@
+[
+ {
+  "offset": 22033568,
+  "en": "Out of memory - no adaptive surface quads",
+  "old": 41,
+  "mode": "free"
+ },
+ {
+  "offset": 22038008,
+  "en": "box",
+  "old": 3,
+  "mode": "free"
+ },
+ {
+  "offset": 22040040,
+  "en": "Groom",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22040184,
+  "en": "Mesh",
+  "old": 4,
+  "mode": "widen",
+  "imm_offsets": [
+   565767,
+   8621923,
+   10731233,
+   10999969
+  ]
+ },
+ {
+  "offset": 22040192,
+  "en": "Hair",
+  "old": 4,
+  "mode": "widen",
+  "imm_offsets": [
+   565988,
+   1987841
+  ]
+ },
+ {
+  "offset": 22040800,
+  "en": "Incorrect match of header datatype: ",
+  "old": 36,
+  "mode": "free"
+ },
+ {
+  "offset": 22041320,
+  "en": "AO temp buffer",
+  "old": 14,
+  "mode": "free"
+ },
+ {
+  "offset": 22042080,
+  "en": "Set Falloff Type",
+  "old": 16,
+  "mode": "free"
+ },
+ {
+  "offset": 22043448,
+  "en": "Delete All Keyframes",
+  "old": 20,
+  "mode": "free"
+ },
+ {
+  "offset": 22043488,
+  "en": "Delete all keyframes?",
+  "old": 21,
+  "mode": "free"
+ },
+ {
+  "offset": 22043680,
+  "en": "timeline",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22046272,
+  "en": "Gloss",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22050640,
+  "en": "Light",
+  "old": 5,
+  "mode": "widen",
+  "imm_offsets": [
+   8623017,
+   10952801
+  ]
+ },
+ {
+  "offset": 22050656,
+  "en": "Backdrop",
+  "old": 8,
+  "mode": "widen",
+  "imm_offsets": [
+   10687097
+  ]
+ },
+ {
+  "offset": 22050796,
+  "en": "Node",
+  "old": 4,
+  "mode": "widen",
+  "imm_offsets": [
+   876244,
+   8623068
+  ]
+ },
+ {
+  "offset": 22050824,
+  "en": "Green",
+  "old": 5,
+  "mode": "widen",
+  "imm_offsets": [
+   12990117
+  ]
+ },
+ {
+  "offset": 22050832,
+  "en": "Blue",
+  "old": 4,
+  "mode": "widen",
+  "imm_offsets": [
+   12990414
+  ]
+ },
+ {
+  "offset": 22051460,
+  "en": "Scene",
+  "old": 5,
+  "mode": "widen",
+  "imm_offsets": [
+   14053109
+  ]
+ },
+ {
+  "offset": 22051624,
+  "en": "Enable Spin",
+  "old": 11,
+  "mode": "widen",
+  "imm_offsets": [
+   12191059
+  ]
+ },
+ {
+  "offset": 22051640,
+  "en": "Spin Rate",
+  "old": 9,
+  "mode": "widen",
+  "imm_offsets": [
+   12191390
+  ]
+ },
+ {
+  "offset": 22057232,
+  "en": "Custom #1",
+  "old": 9,
+  "mode": "widen",
+  "imm_offsets": [
+   862795
+  ]
+ },
+ {
+  "offset": 22057660,
+  "en": "Loop",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22057816,
+  "en": "Base Pose",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22057848,
+  "en": "Name",
+  "old": 4,
+  "mode": "widen",
+  "imm_offsets": [
+   878904
+  ]
+ },
+ {
+  "offset": 22057904,
+  "en": "Start",
+  "old": 5,
+  "mode": "widen",
+  "imm_offsets": [
+   879030
+  ]
+ },
+ {
+  "offset": 22060012,
+  "en": "Type: ",
+  "old": 6,
+  "mode": "widen",
+  "imm_offsets": [
+   906617,
+   5158419,
+   6641932
+  ]
+ },
+ {
+  "offset": 22060176,
+  "en": "Load in Scene",
+  "old": 13,
+  "mode": "free"
+ },
+ {
+  "offset": 22060192,
+  "en": "Tags:",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22063156,
+  "en": "Albedo",
+  "old": 6,
+  "mode": "free"
+ },
+ {
+  "offset": 22063360,
+  "en": "Albedo (Metal)",
+  "old": 14,
+  "mode": "free"
+ },
+ {
+  "offset": 22063408,
+  "en": "rough",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22063680,
+  "en": "Emissive",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22065712,
+  "en": "Clone Stamp Editor",
+  "old": 18,
+  "mode": "free"
+ },
+ {
+  "offset": 22065800,
+  "en": "All Layers",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22070264,
+  "en": "Decal",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22070632,
+  "en": "Brush",
+  "old": 5,
+  "mode": "widen",
+  "imm_offsets": [
+   3653583,
+   7176423,
+   7200850
+  ]
+ },
+ {
+  "offset": 22070736,
+  "en": "Decal Alpha",
+  "old": 11,
+  "mode": "widen",
+  "imm_offsets": [
+   1619584
+  ]
+ },
+ {
+  "offset": 22072320,
+  "en": "Count",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22072340,
+  "en": "Grid",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22072416,
+  "en": "Random Seed",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22075216,
+  "en": "Style",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22075428,
+  "en": " File",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22076880,
+  "en": "Height Map",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22078924,
+  "en": "Width",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22079180,
+  "en": "Depth",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22079220,
+  "en": "Color",
+  "old": 5,
+  "mode": "widen",
+  "imm_offsets": [
+   6859652,
+   6956793,
+   7427298,
+   15296057,
+   15341173,
+   15345590,
+   15360225,
+   15380242,
+   15382846,
+   15409385
+  ]
+ },
+ {
+  "offset": 22079248,
+  "en": "Reset",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22081352,
+  "en": "Cube Map",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22081384,
+  "en": "Light Profile Export Settings",
+  "old": 29,
+  "mode": "free"
+ },
+ {
+  "offset": 22083508,
+  "en": "Value",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22083516,
+  "en": "Shape",
+  "old": 5,
+  "mode": "widen",
+  "imm_offsets": [
+   5785658,
+   6017153
+  ]
+ },
+ {
+  "offset": 22085680,
+  "en": "Hair Object",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22085952,
+  "en": "Copy",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22087444,
+  "en": "Mask",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22087648,
+  "en": "Add Mask",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22090148,
+  "en": "Trace",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22090168,
+  "en": "Prepass Hair",
+  "old": 12,
+  "mode": "free"
+ },
+ {
+  "offset": 22090312,
+  "en": "Sync Point Added",
+  "old": 16,
+  "mode": "widen",
+  "imm_offsets": [
+   2147654,
+   2147757
+  ]
+ },
+ {
+  "offset": 22090336,
+  "en": "Text Layer",
+  "old": 10,
+  "mode": "widen",
+  "imm_offsets": [
+   2145177,
+   2145337,
+   2196153,
+   2196409
+  ]
+ },
+ {
+  "offset": 22090752,
+  "en": "Decal Text",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22091056,
+  "en": "Color Mask (White)",
+  "old": 18,
+  "mode": "free"
+ },
+ {
+  "offset": 22091080,
+  "en": "Paint Mask (Black)",
+  "old": 18,
+  "mode": "free"
+ },
+ {
+  "offset": 22091104,
+  "en": "Paint Mask (White)",
+  "old": 18,
+  "mode": "free"
+ },
+ {
+  "offset": 22091176,
+  "en": "Fill Mask (Black)",
+  "old": 17,
+  "mode": "free"
+ },
+ {
+  "offset": 22091200,
+  "en": "Fill Mask (White)",
+  "old": 17,
+  "mode": "free"
+ },
+ {
+  "offset": 22091224,
+  "en": "Color Mask (Black)",
+  "old": 18,
+  "mode": "free"
+ },
+ {
+  "offset": 22091772,
+  "en": "count",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22091840,
+  "en": "Paste Layer",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22091896,
+  "en": "Add Layer",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22091928,
+  "en": "Add Fill Layer",
+  "old": 14,
+  "mode": "free"
+ },
+ {
+  "offset": 22094912,
+  "en": "NVIDIA NGX initialized",
+  "old": 22,
+  "mode": "free"
+ },
+ {
+  "offset": 22095460,
+  "en": "Alpha",
+  "old": 5,
+  "mode": "widen",
+  "imm_offsets": [
+   4262220,
+   6860274,
+   6958028,
+   7427913,
+   7962708,
+   15296570
+  ]
+ },
+ {
+  "offset": 22095508,
+  "en": "Gray",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22097304,
+  "en": "Pack SVGF GBuffer",
+  "old": 17,
+  "mode": "free"
+ },
+ {
+  "offset": 22098000,
+  "en": "Scene TLAS",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22098900,
+  "en": "Clear",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22100008,
+  "en": "Shadow cube depth",
+  "old": 17,
+  "mode": "free"
+ },
+ {
+  "offset": 22100088,
+  "en": "Shadow map depth",
+  "old": 16,
+  "mode": "free"
+ },
+ {
+  "offset": 22100112,
+  "en": "Shadow cube texture",
+  "old": 19,
+  "mode": "free"
+ },
+ {
+  "offset": 22100736,
+  "en": "Smudge Editor",
+  "old": 13,
+  "mode": "free"
+ },
+ {
+  "offset": 22100864,
+  "en": "Smudge Over: ",
+  "old": 13,
+  "mode": "free"
+ },
+ {
+  "offset": 22100880,
+  "en": "All Meshes",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22101088,
+  "en": "SmudgeTool",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22104824,
+  "en": "Invalid fill (too long).",
+  "old": 24,
+  "mode": "free"
+ },
+ {
+  "offset": 22124184,
+  "en": "Use Alpha",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22124224,
+  "en": "Mode",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22124256,
+  "en": "Image",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22124328,
+  "en": "Fill",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22125744,
+  "en": "Untitled",
+  "old": 8,
+  "mode": "widen",
+  "imm_offsets": [
+   2895639,
+   9263166
+  ]
+ },
+ {
+  "offset": 22126512,
+  "en": "Bevel Width (mm)",
+  "old": 16,
+  "mode": "free"
+ },
+ {
+  "offset": 22127216,
+  "en": "Floor",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22127816,
+  "en": "Flip Z",
+  "old": 6,
+  "mode": "free"
+ },
+ {
+  "offset": 22127868,
+  "en": "Flip X",
+  "old": 6,
+  "mode": "free"
+ },
+ {
+  "offset": 22127896,
+  "en": "Flip Y",
+  "old": 6,
+  "mode": "free"
+ },
+ {
+  "offset": 22130208,
+  "en": "Bounces:",
+  "old": 8,
+  "mode": "widen",
+  "imm_offsets": [
+   3013149
+  ]
+ },
+ {
+  "offset": 22130248,
+  "en": "Samples:",
+  "old": 8,
+  "mode": "widen",
+  "imm_offsets": [
+   3013497,
+   3226467
+  ]
+ },
+ {
+  "offset": 22130376,
+  "en": "Full",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22131272,
+  "en": "Normals (Object)",
+  "old": 16,
+  "mode": "widen",
+  "imm_offsets": [
+   3255331
+  ]
+ },
+ {
+  "offset": 22131592,
+  "en": "pos",
+  "old": 3,
+  "mode": "free"
+ },
+ {
+  "offset": 22131600,
+  "en": "Disabled",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22132232,
+  "en": "Scale",
+  "old": 5,
+  "mode": "widen",
+  "imm_offsets": [
+   9814624,
+   10648722,
+   14697940
+  ]
+ },
+ {
+  "offset": 22132304,
+  "en": "Gamma",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22133056,
+  "en": "Gamma Curve",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22133484,
+  "en": "wire",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22133800,
+  "en": " maps...",
+  "old": 8,
+  "mode": "widen",
+  "imm_offsets": [
+   3099697
+  ]
+ },
+ {
+  "offset": 22133812,
+  "en": "Baker",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22133840,
+  "en": "Baker Skew",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22133920,
+  "en": "Show Offset",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22134008,
+  "en": "Cage",
+  "old": 4,
+  "mode": "widen",
+  "imm_offsets": [
+   3121013,
+   3277649
+  ]
+ },
+ {
+  "offset": 22134064,
+  "en": "Min Offset",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22134104,
+  "en": "Max Offset",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22134208,
+  "en": "Show Skew",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22134320,
+  "en": "Max Ray Distance",
+  "old": 16,
+  "mode": "free"
+ },
+ {
+  "offset": 22134496,
+  "en": "Remove Custom Cage",
+  "old": 18,
+  "mode": "free"
+ },
+ {
+  "offset": 22137840,
+  "en": "Alpha Mask",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22137904,
+  "en": "Show Low",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22137920,
+  "en": "Hide High",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22137960,
+  "en": "Hide Low",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22138008,
+  "en": "Show High",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22138144,
+  "en": "Bake",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22138152,
+  "en": "Smooth Cage",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22138304,
+  "en": "Bake Mode",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22138352,
+  "en": "Quick Loader",
+  "old": 12,
+  "mode": "free"
+ },
+ {
+  "offset": 22138368,
+  "en": "Geometry",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22138400,
+  "en": "Add Bake Group",
+  "old": 14,
+  "mode": "free"
+ },
+ {
+  "offset": 22138416,
+  "en": "Low to Low",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22138432,
+  "en": "High to Low",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22138480,
+  "en": "High Meshes",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22138496,
+  "en": "Select: ",
+  "old": 8,
+  "mode": "widen",
+  "imm_offsets": [
+   3201918
+  ]
+ },
+ {
+  "offset": 22138512,
+  "en": "Low Meshes",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22138744,
+  "en": "Use Hidden Meshes",
+  "old": 17,
+  "mode": "free"
+ },
+ {
+  "offset": 22138860,
+  "en": "Load",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22139080,
+  "en": "Auto-Reload",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22139408,
+  "en": "Baker created paint project",
+  "old": 27,
+  "mode": "free"
+ },
+ {
+  "offset": 22139504,
+  "en": "(New Project)",
+  "old": 13,
+  "mode": "free"
+ },
+ {
+  "offset": 22139736,
+  "en": "Tile Mode",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22139752,
+  "en": "Tile Name",
+  "old": 9,
+  "mode": "widen",
+  "imm_offsets": [
+   3216794
+  ]
+ },
+ {
+  "offset": 22139880,
+  "en": "After Map",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22140200,
+  "en": "Tiles",
+  "old": 5,
+  "mode": "widen",
+  "imm_offsets": [
+   7498214
+  ]
+ },
+ {
+  "offset": 22140232,
+  "en": "Maps",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22141088,
+  "en": "Baker output path doesn't exist. Choose new output path?",
+  "old": 56,
+  "mode": "free"
+ },
+ {
+  "offset": 22141792,
+  "en": "Normal Map",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22141808,
+  "en": "Adv. Metalness",
+  "old": 14,
+  "mode": "free"
+ },
+ {
+  "offset": 22141992,
+  "en": "Emissive Map",
+  "old": 12,
+  "mode": "free"
+ },
+ {
+  "offset": 22142024,
+  "en": "Heat Map",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22142040,
+  "en": "Emission",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22142056,
+  "en": "Roughness Map",
+  "old": 13,
+  "mode": "widen",
+  "imm_offsets": [
+   6446530
+  ]
+ },
+ {
+  "offset": 22142072,
+  "en": "Metalness Map",
+  "old": 13,
+  "mode": "free"
+ },
+ {
+  "offset": 22142088,
+  "en": "Albedo Map",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22142104,
+  "en": "Gloss Map",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22142184,
+  "en": "Alpha Map",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22142260,
+  "en": "All",
+  "old": 3,
+  "mode": "free"
+ },
+ {
+  "offset": 22142360,
+  "en": "Set Baker Defaults",
+  "old": 18,
+  "mode": "free"
+ },
+ {
+  "offset": 22146460,
+  "en": "Path",
+  "old": 4,
+  "mode": "widen",
+  "imm_offsets": [
+   8195292
+  ]
+ },
+ {
+  "offset": 22147304,
+  "en": "Profile Editor",
+  "old": 14,
+  "mode": "free"
+ },
+ {
+  "offset": 22148440,
+  "en": "Flow",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22148464,
+  "en": "Size",
+  "old": 4,
+  "mode": "widen",
+  "imm_offsets": [
+   10657075
+  ]
+ },
+ {
+  "offset": 22148628,
+  "en": "Warp",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22150600,
+  "en": "Brush Editor",
+  "old": 12,
+  "mode": "free"
+ },
+ {
+  "offset": 22150924,
+  "en": "Fade",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22150972,
+  "en": "Tilt",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22151000,
+  "en": "ProjMaps",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22151280,
+  "en": "Save Preset to Library...",
+  "old": 25,
+  "mode": "free"
+ },
+ {
+  "offset": 22151312,
+  "en": "Copy Brush",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22151328,
+  "en": "Paste Brush",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22151512,
+  "en": "Tube",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22151792,
+  "en": "Size Space",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22151944,
+  "en": "Adjust Brush Size",
+  "old": 17,
+  "mode": "free"
+ },
+ {
+  "offset": 22152024,
+  "en": "Modify Brush Flow",
+  "old": 17,
+  "mode": "free"
+ },
+ {
+  "offset": 22152080,
+  "en": "Modify Brush Size",
+  "old": 17,
+  "mode": "free"
+ },
+ {
+  "offset": 22152104,
+  "en": "Modify Brush Opacity",
+  "old": 20,
+  "mode": "free"
+ },
+ {
+  "offset": 22152144,
+  "en": "Set Brush Opacity",
+  "old": 17,
+  "mode": "free"
+ },
+ {
+  "offset": 22152240,
+  "en": "Load Brush",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22152320,
+  "en": "Lazy Mouse",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22152600,
+  "en": "Tip Contrast",
+  "old": 12,
+  "mode": "free"
+ },
+ {
+  "offset": 22154848,
+  "en": "Specular (Direct)",
+  "old": 17,
+  "mode": "free"
+ },
+ {
+  "offset": 22154968,
+  "en": "Diffuse (Direct)",
+  "old": 16,
+  "mode": "free"
+ },
+ {
+  "offset": 22154992,
+  "en": "Lighting (Direct)",
+  "old": 17,
+  "mode": "free"
+ },
+ {
+  "offset": 22155168,
+  "en": "Save",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22155296,
+  "en": "Map",
+  "old": 3,
+  "mode": "free"
+ },
+ {
+  "offset": 22155328,
+  "en": "From",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22155468,
+  "en": "Match",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22157512,
+  "en": "Renderables",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22158752,
+  "en": "GPU Error",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22160432,
+  "en": "Border Hull Data",
+  "old": 16,
+  "mode": "free"
+ },
+ {
+  "offset": 22160904,
+  "en": "Shape Data",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22161196,
+  "en": "Root",
+  "old": 4,
+  "mode": "widen",
+  "imm_offsets": [
+   9262424
+  ]
+ },
+ {
+  "offset": 22161680,
+  "en": "Lorem Ipsum",
+  "old": 11,
+  "mode": "widen",
+  "imm_offsets": [
+   4042778
+  ]
+ },
+ {
+  "offset": 22171692,
+  "en": "Histo",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22171944,
+  "en": "Auto-Detect",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22171992,
+  "en": "Color Count",
+  "old": 11,
+  "mode": "widen",
+  "imm_offsets": [
+   4150421
+  ]
+ },
+ {
+  "offset": 22172064,
+  "en": "Reset All",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22172112,
+  "en": "Add Custom Color",
+  "old": 16,
+  "mode": "free"
+ },
+ {
+  "offset": 22172448,
+  "en": "Contrast",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22172736,
+  "en": "Custom Colors",
+  "old": 13,
+  "mode": "free"
+ },
+ {
+  "offset": 22173704,
+  "en": "Text",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22174676,
+  "en": "Solid",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22174712,
+  "en": "Vector Mode",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22174920,
+  "en": "Spline-Font",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22174960,
+  "en": "Font Style Per Shape",
+  "old": 20,
+  "mode": "free"
+ },
+ {
+  "offset": 22175248,
+  "en": "Font",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22175304,
+  "en": "Secondary Opacity",
+  "old": 17,
+  "mode": "free"
+ },
+ {
+  "offset": 22175360,
+  "en": "Spline-Grid",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22180376,
+  "en": "Sync Maps",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22181440,
+  "en": "Other",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22181464,
+  "en": "Skies",
+  "old": 5,
+  "mode": "widen",
+  "imm_offsets": [
+   5164615
+  ]
+ },
+ {
+  "offset": 22181840,
+  "en": "Skip",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22181936,
+  "en": "Keep Paths",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22182152,
+  "en": "Hi-Res Thumbnail",
+  "old": 16,
+  "mode": "free"
+ },
+ {
+  "offset": 22182352,
+  "en": "Write HTML",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22182480,
+  "en": "Auto-Play",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22182632,
+  "en": "Width:",
+  "old": 6,
+  "mode": "widen",
+  "imm_offsets": [
+   4411767
+  ]
+ },
+ {
+  "offset": 22184688,
+  "en": "FBH counters",
+  "old": 12,
+  "mode": "free"
+ },
+ {
+  "offset": 22184704,
+  "en": "FBH sss probe rays",
+  "old": 18,
+  "mode": "free"
+ },
+ {
+  "offset": 22184728,
+  "en": "FBH miss ray",
+  "old": 12,
+  "mode": "free"
+ },
+ {
+  "offset": 22184768,
+  "en": "FBH shadow ray index",
+  "old": 20,
+  "mode": "free"
+ },
+ {
+  "offset": 22188768,
+  "en": "GBuffer Pad Counter",
+  "old": 19,
+  "mode": "free"
+ },
+ {
+  "offset": 22189176,
+  "en": "GBuffer Data",
+  "old": 12,
+  "mode": "free"
+ },
+ {
+  "offset": 22189360,
+  "en": "Gen. Limiter Mask",
+  "old": 17,
+  "mode": "free"
+ },
+ {
+  "offset": 22189656,
+  "en": "DOF (Alpha)",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22193376,
+  "en": "Fill Avg Color",
+  "old": 14,
+  "mode": "free"
+ },
+ {
+  "offset": 22193528,
+  "en": "Render Thumb",
+  "old": 12,
+  "mode": "free"
+ },
+ {
+  "offset": 22194528,
+  "en": "Layer Sampler",
+  "old": 13,
+  "mode": "free"
+ },
+ {
+  "offset": 22196388,
+  "en": "Cubic",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22196676,
+  "en": "Info",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22196896,
+  "en": "Imported",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22196908,
+  "en": "Auto",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22200856,
+  "en": "Apply to all",
+  "old": 12,
+  "mode": "free"
+ },
+ {
+  "offset": 22200872,
+  "en": "Import All",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22200904,
+  "en": "Smart Masks",
+  "old": 11,
+  "mode": "widen",
+  "imm_offsets": [
+   5164900
+  ]
+ },
+ {
+  "offset": 22201016,
+  "en": "Import as Skybox",
+  "old": 16,
+  "mode": "free"
+ },
+ {
+  "offset": 22202988,
+  "en": "Bump",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22202996,
+  "en": "Fuzz",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22203004,
+  "en": "Sheen",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22203376,
+  "en": "Anisotropic Dir.",
+  "old": 16,
+  "mode": "free"
+ },
+ {
+  "offset": 22203420,
+  "en": "Glint",
+  "old": 5,
+  "mode": "widen",
+  "imm_offsets": [
+   10317854,
+   10318289
+  ]
+ },
+ {
+  "offset": 22205864,
+  "en": "Lens Flare",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22206540,
+  "en": "Luma",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22206548,
+  "en": "Remap",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22206824,
+  "en": "Multiply",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22206856,
+  "en": "Dodge",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22206864,
+  "en": "Color burn",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22206880,
+  "en": "Linear burn",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22208160,
+  "en": " Data",
+  "old": 5,
+  "mode": "widen",
+  "imm_offsets": [
+   5313213,
+   5313871,
+   7157662,
+   7225521
+  ]
+ },
+ {
+  "offset": 22208368,
+  "en": " (mixed)",
+  "old": 8,
+  "mode": "widen",
+  "imm_offsets": [
+   5315209
+  ]
+ },
+ {
+  "offset": 22209536,
+  "en": "Use Albedo Alpha",
+  "old": 16,
+  "mode": "free"
+ },
+ {
+  "offset": 22210240,
+  "en": "Scatter Map",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22210296,
+  "en": "Fuzz Map",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22212048,
+  "en": "Metalness Mask",
+  "old": 14,
+  "mode": "free"
+ },
+ {
+  "offset": 22212088,
+  "en": "Mask 1",
+  "old": 6,
+  "mode": "free"
+ },
+ {
+  "offset": 22212328,
+  "en": "Color Map",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22212344,
+  "en": "Detail Mask",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22212432,
+  "en": "Rim Light Tint",
+  "old": 14,
+  "mode": "free"
+ },
+ {
+  "offset": 22212600,
+  "en": "Diffuse Warp",
+  "old": 12,
+  "mode": "free"
+ },
+ {
+  "offset": 22212680,
+  "en": "Rimlight Mask",
+  "old": 13,
+  "mode": "free"
+ },
+ {
+  "offset": 22212696,
+  "en": "Tint Mask",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22212736,
+  "en": "Mask 2",
+  "old": 6,
+  "mode": "free"
+ },
+ {
+  "offset": 22213392,
+  "en": "Scale & Bias",
+  "old": 12,
+  "mode": "free"
+ },
+ {
+  "offset": 22221224,
+  "en": "Unknown unit.",
+  "old": 13,
+  "mode": "free"
+ },
+ {
+  "offset": 22221944,
+  "en": "Unknown tablet mode.",
+  "old": 20,
+  "mode": "free"
+ },
+ {
+  "offset": 22228516,
+  "en": "On",
+  "old": 2,
+  "mode": "free"
+ },
+ {
+  "offset": 22229164,
+  "en": "Hide ",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22229172,
+  "en": "Show ",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22229240,
+  "en": "Paste Shape",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22229256,
+  "en": "Pasted SVG Data",
+  "old": 15,
+  "mode": "free"
+ },
+ {
+  "offset": 22231448,
+  "en": "Copy Shape",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22231464,
+  "en": "Copy Shapes",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22233624,
+  "en": "Miss Shader",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22233680,
+  "en": "Prepass Hybrid",
+  "old": 14,
+  "mode": "free"
+ },
+ {
+  "offset": 22233712,
+  "en": "Shadow ray",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22234984,
+  "en": "Scene UI",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22235000,
+  "en": "Depth Pass",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22235720,
+  "en": "Diffuse Bounce",
+  "old": 14,
+  "mode": "free"
+ },
+ {
+  "offset": 22235880,
+  "en": "Primary Hit (Raster)",
+  "old": 20,
+  "mode": "free"
+ },
+ {
+  "offset": 22235904,
+  "en": "Ray Trace",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22236184,
+  "en": "Prepass RT",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22240200,
+  "en": "Prepass RTAO",
+  "old": 12,
+  "mode": "free"
+ },
+ {
+  "offset": 22241080,
+  "en": "Graph RT",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22241184,
+  "en": "Cycle Detected",
+  "old": 14,
+  "mode": "free"
+ },
+ {
+  "offset": 22242292,
+  "en": "Blur",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22242596,
+  "en": "Wrap",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22243980,
+  "en": "brush",
+  "old": 5,
+  "mode": "pinned"
+ },
+ {
+  "offset": 22244016,
+  "en": "Flip U",
+  "old": 6,
+  "mode": "free"
+ },
+ {
+  "offset": 22244024,
+  "en": "Attach to:",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22244172,
+  "en": "decal",
+  "old": 5,
+  "mode": "pinned"
+ },
+ {
+  "offset": 22244344,
+  "en": "Align",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22244460,
+  "en": "Done",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22246800,
+  "en": "Pass ",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22247128,
+  "en": "Cube",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22247784,
+  "en": "Glint Map",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22248096,
+  "en": "Glint Scale",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22251144,
+  "en": "Invalid USD file, unable to open.",
+  "old": 33,
+  "mode": "free"
+ },
+ {
+  "offset": 22251472,
+  "en": "Sky",
+  "old": 3,
+  "mode": "widen",
+  "imm_offsets": [
+   6388301,
+   10789481,
+   14053371
+  ]
+ },
+ {
+  "offset": 22251480,
+  "en": "Open Scene",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22252724,
+  "en": "Queued",
+  "old": 6,
+  "mode": "free"
+ },
+ {
+  "offset": 22254728,
+  "en": "Sheen Map",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22254800,
+  "en": "Depth Map",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22254832,
+  "en": "Anisotropic",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22254848,
+  "en": "Mask Map",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22255136,
+  "en": "Unlit",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22255144,
+  "en": "Anisotropy",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22255792,
+  "en": "Sky Shadow",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22256692,
+  "en": "Glow",
+  "old": 4,
+  "mode": "widen",
+  "imm_offsets": [
+   15383213
+  ]
+ },
+ {
+  "offset": 22267112,
+  "en": "Fill Editor",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22268352,
+  "en": "Splot Rate:  99999",
+  "old": 18,
+  "mode": "free"
+ },
+ {
+  "offset": 22268512,
+  "en": "Unnamed Action",
+  "old": 14,
+  "mode": "widen",
+  "imm_offsets": [
+   6686266,
+   13310382
+  ]
+ },
+ {
+  "offset": 22268624,
+  "en": "(Inactive)",
+  "old": 10,
+  "mode": "widen",
+  "imm_offsets": [
+   6710128,
+   6710856
+  ]
+ },
+ {
+  "offset": 22269880,
+  "en": "Preview Link Mat",
+  "old": 16,
+  "mode": "free"
+ },
+ {
+  "offset": 22272584,
+  "en": "Mask Color",
+  "old": 10,
+  "mode": "widen",
+  "imm_offsets": [
+   6772246
+  ]
+ },
+ {
+  "offset": 22273904,
+  "en": "Normalize Handles",
+  "old": 17,
+  "mode": "free"
+ },
+ {
+  "offset": 22274240,
+  "en": "Gradient Alpha",
+  "old": 14,
+  "mode": "free"
+ },
+ {
+  "offset": 22276648,
+  "en": "seed",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22276856,
+  "en": "micro warp detail",
+  "old": 17,
+  "mode": "free"
+ },
+ {
+  "offset": 22276904,
+  "en": "macro warp detail",
+  "old": 17,
+  "mode": "free"
+ },
+ {
+  "offset": 22277136,
+  "en": "Macro Warp Detail",
+  "old": 17,
+  "mode": "free"
+ },
+ {
+  "offset": 22277584,
+  "en": "Micro Warp Detail",
+  "old": 17,
+  "mode": "free"
+ },
+ {
+  "offset": 22278456,
+  "en": "warp detail",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22278484,
+  "en": "phase",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22278680,
+  "en": "Warp Detail",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22278928,
+  "en": "Phase",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22282864,
+  "en": "Open Folder",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22282952,
+  "en": "New Folder ",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22283616,
+  "en": "Clear User Assets",
+  "old": 17,
+  "mode": "free"
+ },
+ {
+  "offset": 22284800,
+  "en": "Refresh User Data",
+  "old": 17,
+  "mode": "free"
+ },
+ {
+  "offset": 22284912,
+  "en": "No Results. Clear Filters?",
+  "old": 26,
+  "mode": "widen",
+  "imm_offsets": [
+   7043542,
+   7046058
+  ]
+ },
+ {
+  "offset": 22289320,
+  "en": "Added Color Mask",
+  "old": 16,
+  "mode": "widen",
+  "imm_offsets": [
+   7131699,
+   7131806
+  ]
+ },
+ {
+  "offset": 22289576,
+  "en": "Copy Surface Data",
+  "old": 17,
+  "mode": "free"
+ },
+ {
+  "offset": 22290216,
+  "en": " (File Ref)",
+  "old": 11,
+  "mode": "widen",
+  "imm_offsets": [
+   7172602
+  ]
+ },
+ {
+  "offset": 22292776,
+  "en": "MSE Drawer",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22292840,
+  "en": " Map",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22294700,
+  "en": " Copy",
+  "old": 5,
+  "mode": "widen",
+  "imm_offsets": [
+   7255385
+  ]
+ },
+ {
+  "offset": 22299896,
+  "en": "Cellular",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22300856,
+  "en": "tile count",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22301016,
+  "en": "Tile Count",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22301940,
+  "en": "Dirt",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22302096,
+  "en": "Grunge Map",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22302824,
+  "en": "Grunge Blend Mode",
+  "old": 17,
+  "mode": "widen",
+  "imm_offsets": [
+   7400991,
+   7468130
+  ]
+ },
+ {
+  "offset": 22302960,
+  "en": "sharp",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22305464,
+  "en": "Hue",
+  "old": 3,
+  "mode": "free"
+ },
+ {
+  "offset": 22306712,
+  "en": "Tmp Buffer",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22307344,
+  "en": "Scratch Map",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22308844,
+  "en": "Grout ",
+  "old": 6,
+  "mode": "free"
+ },
+ {
+  "offset": 22308852,
+  "en": "Tile ",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22308936,
+  "en": "bevel depth",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22309040,
+  "en": "Tile Width",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22309152,
+  "en": "Tile Offset",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22309200,
+  "en": "Tile Height",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22309388,
+  "en": "Grout",
+  "old": 5,
+  "mode": "widen",
+  "imm_offsets": [
+   7498352
+  ]
+ },
+ {
+  "offset": 22309680,
+  "en": "Tile Depth",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22309736,
+  "en": "Bevel Depth",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22309784,
+  "en": "Bevel Width",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22309904,
+  "en": "depth",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22309960,
+  "en": "Grout Width",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22310008,
+  "en": "Fixed",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22310048,
+  "en": "Grout Depth",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22311432,
+  "en": "Blur Radius",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22313048,
+  "en": "Live Histogram",
+  "old": 14,
+  "mode": "free"
+ },
+ {
+  "offset": 22316188,
+  "en": "grain",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22316488,
+  "en": "Clouds Math Cache",
+  "old": 17,
+  "mode": "free"
+ },
+ {
+  "offset": 22317352,
+  "en": "black",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22317360,
+  "en": "gamma",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22317368,
+  "en": "white",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22317408,
+  "en": "level",
+  "old": 5,
+  "mode": "widen",
+  "imm_offsets": [
+   7691201,
+   7700554
+  ]
+ },
+ {
+  "offset": 22317576,
+  "en": "Input Range",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22319784,
+  "en": "Paint",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22319792,
+  "en": "Erase",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22320964,
+  "en": "Blob",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22321000,
+  "en": "unit count",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22321032,
+  "en": "Temp Buffer 1",
+  "old": 13,
+  "mode": "free"
+ },
+ {
+  "offset": 22321048,
+  "en": "Temp Buffer 0",
+  "old": 13,
+  "mode": "free"
+ },
+ {
+  "offset": 22321496,
+  "en": "Noise Math Cache",
+  "old": 16,
+  "mode": "free"
+ },
+ {
+  "offset": 22323184,
+  "en": "up",
+  "old": 2,
+  "mode": "free"
+ },
+ {
+  "offset": 22323188,
+  "en": "down",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22325980,
+  "en": "Edit",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22334256,
+  "en": "Lost reference to this Level Data.",
+  "old": 34,
+  "mode": "free"
+ },
+ {
+  "offset": 22341472,
+  "en": "RGB 16-bit (Linear)",
+  "old": 19,
+  "mode": "free"
+ },
+ {
+  "offset": 22341576,
+  "en": "RGB 8-bit (Linear)",
+  "old": 18,
+  "mode": "free"
+ },
+ {
+  "offset": 22342752,
+  "en": "Channel added via Python",
+  "old": 24,
+  "mode": "free"
+ },
+ {
+  "offset": 22350472,
+  "en": "Scene Object for Texture Projects.",
+  "old": 34,
+  "mode": "free"
+ },
+ {
+  "offset": 22352880,
+  "en": "Found",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22352944,
+  "en": "Filename",
+  "old": 8,
+  "mode": "widen",
+  "imm_offsets": [
+   8195045
+  ]
+ },
+ {
+  "offset": 22352956,
+  "en": "Found ",
+  "old": 6,
+  "mode": "free"
+ },
+ {
+  "offset": 22353004,
+  "en": "Lost",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22353288,
+  "en": "Search in Folder",
+  "old": 16,
+  "mode": "free"
+ },
+ {
+  "offset": 22359560,
+  "en": "Hide Layer",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22359576,
+  "en": "Show Layer",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22360616,
+  "en": "Rasterize Mask",
+  "old": 14,
+  "mode": "free"
+ },
+ {
+  "offset": 22360632,
+  "en": "Layer-Mask",
+  "old": 10,
+  "mode": "widen",
+  "imm_offsets": [
+   9533752
+  ]
+ },
+ {
+  "offset": 22360704,
+  "en": "Copy Layers",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22360736,
+  "en": "Copy Layer",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22360976,
+  "en": "Delete Mask",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22361056,
+  "en": "Export Smart Mask...",
+  "old": 20,
+  "mode": "free"
+ },
+ {
+  "offset": 22361104,
+  "en": "Save Preset",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22361120,
+  "en": "Saved Settings",
+  "old": 14,
+  "mode": "widen",
+  "imm_offsets": [
+   8335872
+  ]
+ },
+ {
+  "offset": 22362168,
+  "en": "Depth (cm)",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22363544,
+  "en": "Autosave Done",
+  "old": 13,
+  "mode": "free"
+ },
+ {
+  "offset": 22363560,
+  "en": "Autosaving...",
+  "old": 13,
+  "mode": "free"
+ },
+ {
+  "offset": 22363600,
+  "en": "(Paused)",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22363636,
+  "en": "Pause",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22375464,
+  "en": "My Scene",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22376008,
+  "en": "Error adding custom animated property \"Focal Length\"",
+  "old": 52,
+  "mode": "free"
+ },
+ {
+  "offset": 22376744,
+  "en": "FBX binary (*.fbx)",
+  "old": 18,
+  "mode": "free"
+ },
+ {
+  "offset": 22381620,
+  "en": "Tile V",
+  "old": 6,
+  "mode": "free"
+ },
+ {
+  "offset": 22381720,
+  "en": "Tile U",
+  "old": 6,
+  "mode": "free"
+ },
+ {
+  "offset": 22383992,
+  "en": "ON",
+  "old": 2,
+  "mode": "free"
+ },
+ {
+  "offset": 22391312,
+  "en": "Untitled Layer",
+  "old": 14,
+  "mode": "widen",
+  "imm_offsets": [
+   8970370
+  ]
+ },
+ {
+  "offset": 22391872,
+  "en": "Layer Mask Disabled",
+  "old": 19,
+  "mode": "free"
+ },
+ {
+  "offset": 22391932,
+  "en": "Cyan",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22392112,
+  "en": "Color Dodge",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22392128,
+  "en": "Color Burn",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22392216,
+  "en": "Linear Burn",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22392272,
+  "en": "Effect Editor Scroll Area",
+  "old": 25,
+  "mode": "free"
+ },
+ {
+  "offset": 22394832,
+  "en": "No active layer project.",
+  "old": 24,
+  "mode": "free"
+ },
+ {
+  "offset": 22395104,
+  "en": "Splot Data",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22395120,
+  "en": "Range Data",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22395608,
+  "en": "Flow Buffer ",
+  "old": 12,
+  "mode": "free"
+ },
+ {
+  "offset": 22396916,
+  "en": "(Fill)",
+  "old": 6,
+  "mode": "free"
+ },
+ {
+  "offset": 22397068,
+  "en": " Layer",
+  "old": 6,
+  "mode": "widen",
+  "imm_offsets": [
+   9271672,
+   9281371
+  ]
+ },
+ {
+  "offset": 22397256,
+  "en": " Mask Effect",
+  "old": 12,
+  "mode": "free"
+ },
+ {
+  "offset": 22399232,
+  "en": "Recomposite",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22399720,
+  "en": "Input Maps",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22401396,
+  "en": "Deps",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22401872,
+  "en": "Layer-Deps",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22402408,
+  "en": "Smart Mask",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22404640,
+  "en": "Main",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22407204,
+  "en": "Pos.",
+  "old": 4,
+  "mode": "widen",
+  "imm_offsets": [
+   9811800
+  ]
+ },
+ {
+  "offset": 22407452,
+  "en": "Rot.",
+  "old": 4,
+  "mode": "widen",
+  "imm_offsets": [
+   9817434
+  ]
+ },
+ {
+  "offset": 22416888,
+  "en": "Bump Weight",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22416960,
+  "en": "Bump as Detail Normals",
+  "old": 22,
+  "mode": "free"
+ },
+ {
+  "offset": 22417168,
+  "en": "Linked mesh changed",
+  "old": 19,
+  "mode": "widen",
+  "imm_offsets": [
+   9932052,
+   9932167
+  ]
+ },
+ {
+  "offset": 22417736,
+  "en": "Tile Mode:",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22418284,
+  "en": "Masks",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22418504,
+  "en": "Resize...",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22418568,
+  "en": "Resolution changed.",
+  "old": 19,
+  "mode": "widen",
+  "imm_offsets": [
+   9946295,
+   9946402,
+   9950100,
+   9950207
+  ]
+ },
+ {
+  "offset": 22419096,
+  "en": "Input Maps (",
+  "old": 12,
+  "mode": "free"
+ },
+ {
+  "offset": 22419128,
+  "en": "Clear Input Map: ",
+  "old": 17,
+  "mode": "free"
+ },
+ {
+  "offset": 22419368,
+  "en": "Export Size:",
+  "old": 12,
+  "mode": "free"
+ },
+ {
+  "offset": 22419384,
+  "en": "Separator:",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22419400,
+  "en": "Append Tile:",
+  "old": 12,
+  "mode": "free"
+ },
+ {
+  "offset": 22419756,
+  "en": "Type:",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22419880,
+  "en": "Output Maps",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22420100,
+  "en": "It",
+  "old": 2,
+  "mode": "free"
+ },
+ {
+  "offset": 22420104,
+  "en": "They",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22420952,
+  "en": "Alpha ",
+  "old": 6,
+  "mode": "free"
+ },
+ {
+  "offset": 22420960,
+  "en": "Blue ",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22420968,
+  "en": "Green ",
+  "old": 6,
+  "mode": "free"
+ },
+ {
+  "offset": 22420976,
+  "en": "Red ",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22421088,
+  "en": "Reset View",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22423320,
+  "en": "Help",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22423360,
+  "en": "Clear Reference (Exit Diff Mode)",
+  "old": 32,
+  "mode": "free"
+ },
+ {
+  "offset": 22423456,
+  "en": "Diff",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22423544,
+  "en": "Unsigned Byte",
+  "old": 13,
+  "mode": "free"
+ },
+ {
+  "offset": 22423600,
+  "en": "Show Sparse Grid",
+  "old": 16,
+  "mode": "free"
+ },
+ {
+  "offset": 22423984,
+  "en": "Values:  ",
+  "old": 9,
+  "mode": "widen",
+  "imm_offsets": [
+   10122170
+  ]
+ },
+ {
+  "offset": 22429472,
+  "en": "User",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22429744,
+  "en": "Run Again",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22432712,
+  "en": "Detail Normal Map",
+  "old": 17,
+  "mode": "free"
+ },
+ {
+  "offset": 22436376,
+  "en": "Expand All",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22438304,
+  "en": "User: ",
+  "old": 6,
+  "mode": "free"
+ },
+ {
+  "offset": 22438416,
+  "en": " MB (shared)",
+  "old": 12,
+  "mode": "widen",
+  "imm_offsets": [
+   10628839
+  ]
+ },
+ {
+  "offset": 22438440,
+  "en": "Monitor ",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22438488,
+  "en": "Shader Compiler: ",
+  "old": 17,
+  "mode": "free"
+ },
+ {
+  "offset": 22439200,
+  "en": "Loop Ends",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22439400,
+  "en": "Clamp",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22439632,
+  "en": "UVOffset",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22440160,
+  "en": "Edge Fade",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22460432,
+  "en": "Raytraced",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22460548,
+  "en": "View",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22467280,
+  "en": "Lost reference to render object.",
+  "old": 32,
+  "mode": "free"
+ },
+ {
+  "offset": 22472136,
+  "en": "Skybox Scene Object",
+  "old": 19,
+  "mode": "free"
+ },
+ {
+  "offset": 22491308,
+  "en": "File ",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22495492,
+  "en": "Alert",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22510704,
+  "en": "New Object",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22521024,
+  "en": "The Triangles must be given as a list of int groups of 3 ( e.g. [0,1,2, 1,3,2] )",
+  "old": 80,
+  "mode": "free"
+ },
+ {
+  "offset": 22521120,
+  "en": "The Vertices must be given as a list of float groups of 3 ( e.g. [x,y,z, x,y,z] )",
+  "old": 81,
+  "mode": "free"
+ },
+ {
+  "offset": 22522496,
+  "en": "Isolines",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22522512,
+  "en": "Polygons",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22523800,
+  "en": "Mesh Object",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22526688,
+  "en": "Shadow Catcher",
+  "old": 14,
+  "mode": "widen",
+  "imm_offsets": [
+   11024817
+  ]
+ },
+ {
+  "offset": 22531928,
+  "en": "Every UIWindow name must be unique.",
+  "old": 35,
+  "mode": "free"
+ },
+ {
+  "offset": 22534752,
+  "en": "Processing layer",
+  "old": 16,
+  "mode": "free"
+ },
+ {
+  "offset": 22535616,
+  "en": "Generating Data...",
+  "old": 18,
+  "mode": "free"
+ },
+ {
+  "offset": 22535768,
+  "en": "Quantum Render(Path A)",
+  "old": 22,
+  "mode": "free"
+ },
+ {
+  "offset": 22535792,
+  "en": "Quantum Render(Path B)",
+  "old": 22,
+  "mode": "free"
+ },
+ {
+  "offset": 22542544,
+  "en": "Fade Radius",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22552352,
+  "en": "New Camera",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22552412,
+  "en": "Back",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22552420,
+  "en": "Front",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22552600,
+  "en": "Tile Text",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22552640,
+  "en": "Tile Border",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22558712,
+  "en": "Spot",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22558720,
+  "en": "Add Light",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22558744,
+  "en": "Omni",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22558752,
+  "en": "Add Backdrop",
+  "old": 12,
+  "mode": "free"
+ },
+ {
+  "offset": 22558776,
+  "en": "Add Bake Project",
+  "old": 16,
+  "mode": "free"
+ },
+ {
+  "offset": 22558800,
+  "en": "Add Shadow Catcher",
+  "old": 18,
+  "mode": "free"
+ },
+ {
+  "offset": 22559104,
+  "en": "Add Camera",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22559304,
+  "en": "Area Select",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22560128,
+  "en": "Polygon Select",
+  "old": 14,
+  "mode": "free"
+ },
+ {
+  "offset": 22567172,
+  "en": "Focus",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22568088,
+  "en": "Use Normal Map",
+  "old": 14,
+  "mode": "free"
+ },
+ {
+  "offset": 22568944,
+  "en": "Deselect",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22569432,
+  "en": "Apply To: ",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22572536,
+  "en": "Mesh Select",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22576728,
+  "en": "Wand",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22576992,
+  "en": "Space:",
+  "old": 6,
+  "mode": "free"
+ },
+ {
+  "offset": 22594472,
+  "en": "Rendering Video...",
+  "old": 18,
+  "mode": "free"
+ },
+ {
+  "offset": 22594544,
+  "en": "Ray Tracing",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22595320,
+  "en": "Ray Offset",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22595636,
+  "en": "Fine",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22595712,
+  "en": "Adaptive",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22595888,
+  "en": "Specular Bounces",
+  "old": 16,
+  "mode": "free"
+ },
+ {
+  "offset": 22596280,
+  "en": "Ray Traced",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22596680,
+  "en": "Local Diffuse",
+  "old": 13,
+  "mode": "free"
+ },
+ {
+  "offset": 22597608,
+  "en": "Resolution:",
+  "old": 11,
+  "mode": "widen",
+  "imm_offsets": [
+   12382318,
+   12387631,
+   14186950
+  ]
+ },
+ {
+  "offset": 22597872,
+  "en": "View Space",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22598448,
+  "en": "Video",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22598544,
+  "en": " Pass",
+  "old": 5,
+  "mode": "widen",
+  "imm_offsets": [
+   12397999
+  ]
+ },
+ {
+  "offset": 22598648,
+  "en": "Two-Tone",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22599728,
+  "en": "Video output path doesn't exist. Choose new output path?",
+  "old": 56,
+  "mode": "free"
+ },
+ {
+  "offset": 22599832,
+  "en": "Image output path doesn't exist. Choose new output path?",
+  "old": 56,
+  "mode": "free"
+ },
+ {
+  "offset": 22605184,
+  "en": "Trim Timeline",
+  "old": 13,
+  "mode": "free"
+ },
+ {
+  "offset": 22605200,
+  "en": "Timeline",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22605272,
+  "en": "Bake Speed",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22605336,
+  "en": "Speed",
+  "old": 5,
+  "mode": "widen",
+  "imm_offsets": [
+   12491644
+  ]
+ },
+ {
+  "offset": 22605424,
+  "en": "Set End Frame",
+  "old": 13,
+  "mode": "free"
+ },
+ {
+  "offset": 22622880,
+  "en": "Bloom Size",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22623024,
+  "en": "Reset Clarity",
+  "old": 13,
+  "mode": "free"
+ },
+ {
+  "offset": 22623040,
+  "en": "Reset Contrast",
+  "old": 14,
+  "mode": "free"
+ },
+ {
+  "offset": 22623056,
+  "en": "Reset Midtones",
+  "old": 14,
+  "mode": "free"
+ },
+ {
+  "offset": 22623104,
+  "en": "Reset Limit",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22623180,
+  "en": "Misc",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22623188,
+  "en": "Flare",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22623196,
+  "en": "Grain",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22623304,
+  "en": "Dirt Size",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22623400,
+  "en": "Bias",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22623408,
+  "en": "Pan Speed",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22623544,
+  "en": "Orbit Style",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22623584,
+  "en": "Follow Lag",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22623760,
+  "en": "Reset Softness",
+  "old": 14,
+  "mode": "free"
+ },
+ {
+  "offset": 22623776,
+  "en": "Reset Mode",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22623816,
+  "en": "Reset Size",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22623832,
+  "en": "Reset Tiling Mode",
+  "old": 17,
+  "mode": "free"
+ },
+ {
+  "offset": 22624088,
+  "en": "Move Speed:",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22624136,
+  "en": "Min Pitch",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22624184,
+  "en": "Max Pitch",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22624288,
+  "en": "Yaw Offset",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22624376,
+  "en": "Lens",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22624448,
+  "en": "Limit Near",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22624552,
+  "en": "Orbit Far",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22624568,
+  "en": "Limit Far",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22624688,
+  "en": "Orbit Near",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22624704,
+  "en": "Limit Orbit Pitch",
+  "old": 17,
+  "mode": "free"
+ },
+ {
+  "offset": 22625384,
+  "en": "Frame Opacity",
+  "old": 13,
+  "mode": "free"
+ },
+ {
+  "offset": 22625904,
+  "en": "Motion Blur",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22626048,
+  "en": "Midtones",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22626368,
+  "en": "Limit",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22627184,
+  "en": "orbit",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22627268,
+  "en": "Bloom",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22627432,
+  "en": "Softness",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22627540,
+  "en": "Film",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22628752,
+  "en": "Curve Editor",
+  "old": 12,
+  "mode": "free"
+ },
+ {
+  "offset": 22629560,
+  "en": "Scale & Units",
+  "old": 13,
+  "mode": "free"
+ },
+ {
+  "offset": 22629632,
+  "en": "Scale:",
+  "old": 6,
+  "mode": "widen",
+  "imm_offsets": [
+   12809707,
+   14666374
+  ]
+ },
+ {
+  "offset": 22631248,
+  "en": "Setup",
+  "old": 5,
+  "mode": "widen",
+  "imm_offsets": [
+   15719951,
+   15722453
+  ]
+ },
+ {
+  "offset": 22631400,
+  "en": "Scene Read Error",
+  "old": 16,
+  "mode": "free"
+ },
+ {
+  "offset": 22631488,
+  "en": "Finalizing...",
+  "old": 13,
+  "mode": "free"
+ },
+ {
+  "offset": 22634440,
+  "en": "Fog Height Min",
+  "old": 14,
+  "mode": "widen",
+  "imm_offsets": [
+   12990749
+  ]
+ },
+ {
+  "offset": 22634712,
+  "en": "Fog Height Max",
+  "old": 14,
+  "mode": "widen",
+  "imm_offsets": [
+   12991069
+  ]
+ },
+ {
+  "offset": 22634752,
+  "en": "Max Opacity",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22634880,
+  "en": "Volume Mode",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22634964,
+  "en": "Range",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22639288,
+  "en": "Invalid tile size y : ",
+  "old": 22,
+  "mode": "free"
+ },
+ {
+  "offset": 22644304,
+  "en": "Diffuse Color",
+  "old": 13,
+  "mode": "free"
+ },
+ {
+  "offset": 22646872,
+  "en": "UV Paint",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22646920,
+  "en": "Clear...",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22647008,
+  "en": "3D Paint",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22647360,
+  "en": "Size:",
+  "old": 5,
+  "mode": "widen",
+  "imm_offsets": [
+   13237370
+  ]
+ },
+ {
+  "offset": 22647512,
+  "en": "Brush Color",
+  "old": 11,
+  "mode": "widen",
+  "imm_offsets": [
+   13238345
+  ]
+ },
+ {
+  "offset": 22649792,
+  "en": "State mismatch with history restore",
+  "old": 35,
+  "mode": "free"
+ },
+ {
+  "offset": 22650696,
+  "en": "Invalid type.",
+  "old": 13,
+  "mode": "free"
+ },
+ {
+  "offset": 22652856,
+  "en": "Buy a License",
+  "old": 13,
+  "mode": "widen",
+  "imm_offsets": [
+   13333992
+  ]
+ },
+ {
+  "offset": 22652920,
+  "en": "Creating Account...",
+  "old": 19,
+  "mode": "free"
+ },
+ {
+  "offset": 22653380,
+  "en": "Email:",
+  "old": 6,
+  "mode": "widen",
+  "imm_offsets": [
+   13332282
+  ]
+ },
+ {
+  "offset": 22653392,
+  "en": "Gain access with your Toolbag 5 license.",
+  "old": 40,
+  "mode": "free"
+ },
+ {
+  "offset": 22653504,
+  "en": "Authorize everyone on this computer",
+  "old": 35,
+  "mode": "free"
+ },
+ {
+  "offset": 22653752,
+  "en": "Shop Now",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22653936,
+  "en": "Manage My Account",
+  "old": 17,
+  "mode": "widen",
+  "imm_offsets": [
+   13339110
+  ]
+ },
+ {
+  "offset": 22655164,
+  "en": "Type",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22655224,
+  "en": "Light Color",
+  "old": 11,
+  "mode": "widen",
+  "imm_offsets": [
+   13389706
+  ]
+ },
+ {
+  "offset": 22655520,
+  "en": "Spot Angle",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22655616,
+  "en": "Direct Sun",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22655664,
+  "en": "Area / Shape",
+  "old": 12,
+  "mode": "free"
+ },
+ {
+  "offset": 22656138,
+  "en": "Kelvin",
+  "old": 6,
+  "mode": "free"
+ },
+ {
+  "offset": 22656224,
+  "en": "Toggle Lens Flare",
+  "old": 17,
+  "mode": "free"
+ },
+ {
+  "offset": 22656424,
+  "en": "Gel Tiling",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22656604,
+  "en": "decay",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22656872,
+  "en": "File:",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22656912,
+  "en": "Library...",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22657100,
+  "en": "flare",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22662624,
+  "en": "Save Scene",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22662656,
+  "en": "Open Recent",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22662688,
+  "en": "Save Backup",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22662728,
+  "en": "Save Scene As...",
+  "old": 16,
+  "mode": "free"
+ },
+ {
+  "offset": 22662856,
+  "en": "Open Scene Folder...",
+  "old": 20,
+  "mode": "free"
+ },
+ {
+  "offset": 22662956,
+  "en": "File",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22663184,
+  "en": "Open Scene...",
+  "old": 13,
+  "mode": "free"
+ },
+ {
+  "offset": 22663216,
+  "en": "New Scene",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22663512,
+  "en": "Hotkeys...",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22663576,
+  "en": "Show All",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22663728,
+  "en": "Save Scene to Library...",
+  "old": 24,
+  "mode": "free"
+ },
+ {
+  "offset": 22663772,
+  "en": "Undo",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22663796,
+  "en": "Quit",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22663832,
+  "en": "Undo Camera",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22663868,
+  "en": "Redo",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22663960,
+  "en": "Redo Camera",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22664152,
+  "en": "Add Object",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22664384,
+  "en": "Frame Scene",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22664736,
+  "en": "Show Guides",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22664880,
+  "en": "Layer",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22665376,
+  "en": "Delete Layer Mask",
+  "old": 17,
+  "mode": "free"
+ },
+ {
+  "offset": 22665400,
+  "en": "Next Map",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22665480,
+  "en": "Render Mode",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22665496,
+  "en": "Open When Done",
+  "old": 14,
+  "mode": "free"
+ },
+ {
+  "offset": 22665536,
+  "en": "Bake All",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22665904,
+  "en": "Clear Unused",
+  "old": 12,
+  "mode": "free"
+ },
+ {
+  "offset": 22666040,
+  "en": "All Videos",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22666072,
+  "en": "All Images",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22666088,
+  "en": "Reload GUI",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22666184,
+  "en": "Reload Shaders",
+  "old": 14,
+  "mode": "free"
+ },
+ {
+  "offset": 22666288,
+  "en": "Console...",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22666328,
+  "en": "View Log",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22666516,
+  "en": "About",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22666736,
+  "en": "Lock Object",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22667168,
+  "en": "Add Workspace",
+  "old": 13,
+  "mode": "free"
+ },
+ {
+  "offset": 22667408,
+  "en": "Open",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22671220,
+  "en": "Apply",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22681064,
+  "en": "Lock ",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22681280,
+  "en": "Export to Library",
+  "old": 17,
+  "mode": "free"
+ },
+ {
+  "offset": 22681400,
+  "en": "Save Object(s) to Library",
+  "old": 25,
+  "mode": "free"
+ },
+ {
+  "offset": 22685316,
+  "en": "Draw: ",
+  "old": 6,
+  "mode": "widen",
+  "imm_offsets": [
+   13996860
+  ]
+ },
+ {
+  "offset": 22685324,
+  "en": "Tare:",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22685416,
+  "en": "Draw",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22685424,
+  "en": "VP Quality",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22686496,
+  "en": "Empty",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22686504,
+  "en": "Last Opened",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22687832,
+  "en": "New Scenes",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22687944,
+  "en": "Display Tooltips",
+  "old": 16,
+  "mode": "free"
+ },
+ {
+  "offset": 22688560,
+  "en": "Always Ask",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22688608,
+  "en": "Default Baker",
+  "old": 13,
+  "mode": "free"
+ },
+ {
+  "offset": 22688656,
+  "en": "Tablet Backend",
+  "old": 14,
+  "mode": "free"
+ },
+ {
+  "offset": 22688808,
+  "en": "Always Send",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22688824,
+  "en": "Never Send",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22689092,
+  "en": "Usage",
+  "old": 5,
+  "mode": "widen",
+  "imm_offsets": [
+   14030700
+  ]
+ },
+ {
+  "offset": 22689272,
+  "en": "User Files",
+  "old": 10,
+  "mode": "widen",
+  "imm_offsets": [
+   14032794
+  ]
+ },
+ {
+  "offset": 22689320,
+  "en": "Autosave",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22689552,
+  "en": "Max Saves",
+  "old": 9,
+  "mode": "widen",
+  "imm_offsets": [
+   14028566
+  ]
+ },
+ {
+  "offset": 22689696,
+  "en": "Error: Cannot save to reserved path.",
+  "old": 36,
+  "mode": "widen",
+  "imm_offsets": [
+   14027601,
+   14032634,
+   14033263
+  ]
+ },
+ {
+  "offset": 22689944,
+  "en": "Ray Tracing VRAM Budget (%)",
+  "old": 27,
+  "mode": "free"
+ },
+ {
+  "offset": 22692080,
+  "en": "Set Camera Target",
+  "old": 17,
+  "mode": "widen",
+  "imm_offsets": [
+   14088866
+  ]
+ },
+ {
+  "offset": 22694272,
+  "en": "[Drop Custom Image Here]",
+  "old": 24,
+  "mode": "free"
+ },
+ {
+  "offset": 22694376,
+  "en": "Light Editor",
+  "old": 12,
+  "mode": "free"
+ },
+ {
+  "offset": 22694800,
+  "en": "Sun Scale",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22694840,
+  "en": "Procedural Sky",
+  "old": 14,
+  "mode": "free"
+ },
+ {
+  "offset": 22694884,
+  "en": "Tint",
+  "old": 4,
+  "mode": "widen",
+  "imm_offsets": [
+   15392694
+  ]
+ },
+ {
+  "offset": 22694912,
+  "en": "Blur Size",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22694936,
+  "en": "Haze",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22695088,
+  "en": "Sky Color:",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22695400,
+  "en": "Image...",
+  "old": 8,
+  "mode": "free"
+ },
+ {
+  "offset": 22695756,
+  "en": "Month",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22695936,
+  "en": "Backdrop Blur",
+  "old": 13,
+  "mode": "free"
+ },
+ {
+  "offset": 22696336,
+  "en": "Blurred Sky",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22696352,
+  "en": "Ambient Sky",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22696792,
+  "en": "EXR Sky Export",
+  "old": 14,
+  "mode": "free"
+ },
+ {
+  "offset": 22696952,
+  "en": "Include Sun",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22702876,
+  "en": "Taper",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22703200,
+  "en": "Save Preset...",
+  "old": 14,
+  "mode": "free"
+ },
+ {
+  "offset": 22703520,
+  "en": "Front Taper",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22703536,
+  "en": "Back Taper",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22710032,
+  "en": "Use Mipmaps",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22710096,
+  "en": "Show File",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22714864,
+  "en": "Text Offset",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22715292,
+  "en": "Line",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22715348,
+  "en": "Mold",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22715456,
+  "en": "Lines",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22721176,
+  "en": "Allow Scale",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22721232,
+  "en": "Move",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22721264,
+  "en": "Allow Move",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22723376,
+  "en": "Shape Curve",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22724272,
+  "en": "Spline Poly",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22724352,
+  "en": "Sides",
+  "old": 5,
+  "mode": "widen",
+  "imm_offsets": [
+   14633802
+  ]
+ },
+ {
+  "offset": 22724360,
+  "en": "Star",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22724480,
+  "en": "Poly Tool",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22724496,
+  "en": "Spline Rect",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22724512,
+  "en": "Spline Oval",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22727720,
+  "en": "World Space",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22727976,
+  "en": "Edit Pivot",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22730644,
+  "en": "Pivot",
+  "old": 5,
+  "mode": "widen",
+  "imm_offsets": [
+   14701056
+  ]
+ },
+ {
+  "offset": 22733360,
+  "en": "Feet (ft)",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22734400,
+  "en": "Sheen Color",
+  "old": 11,
+  "mode": "widen",
+  "imm_offsets": [
+   15350440
+  ]
+ },
+ {
+  "offset": 22734416,
+  "en": "Sheen Tint",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22734456,
+  "en": "Fuzz Color",
+  "old": 10,
+  "mode": "widen",
+  "imm_offsets": [
+   15401394
+  ]
+ },
+ {
+  "offset": 22734472,
+  "en": "Mask Fuzz with Gloss",
+  "old": 20,
+  "mode": "free"
+ },
+ {
+  "offset": 22735408,
+  "en": "Vertex Alpha",
+  "old": 12,
+  "mode": "free"
+ },
+ {
+  "offset": 22735704,
+  "en": "Fresnel Color",
+  "old": 13,
+  "mode": "free"
+ },
+ {
+  "offset": 22736024,
+  "en": "Use Albedo",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22739864,
+  "en": "VP Render",
+  "old": 9,
+  "mode": "free"
+ },
+ {
+  "offset": 22739880,
+  "en": "VP Present",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22740120,
+  "en": "On (Nvidia DLSS)",
+  "old": 16,
+  "mode": "free"
+ },
+ {
+  "offset": 22740144,
+  "en": "Auto (Nvidia DLSS)",
+  "old": 18,
+  "mode": "free"
+ },
+ {
+  "offset": 22742936,
+  "en": "Copy Color",
+  "old": 10,
+  "mode": "free"
+ },
+ {
+  "offset": 22742976,
+  "en": "Paste Color",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22745676,
+  "en": "Bold",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22745684,
+  "en": "Heavy",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22746880,
+  "en": "Scanning Fonts...",
+  "old": 17,
+  "mode": "free"
+ },
+ {
+  "offset": 22748208,
+  "en": "3D texture shader",
+  "old": 17,
+  "mode": "free"
+ },
+ {
+  "offset": 22748256,
+  "en": "Standard fill shader",
+  "old": 20,
+  "mode": "free"
+ },
+ {
+  "offset": 22748304,
+  "en": "Gray fill shader",
+  "old": 16,
+  "mode": "free"
+ },
+ {
+  "offset": 22754176,
+  "en": "Bevel Angle",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22754360,
+  "en": "Detail Weight Map",
+  "old": 17,
+  "mode": "free"
+ },
+ {
+  "offset": 22755360,
+  "en": "Vertex Color Mask",
+  "old": 17,
+  "mode": "free"
+ },
+ {
+  "offset": 22756440,
+  "en": "Diffuse Cavity",
+  "old": 14,
+  "mode": "free"
+ },
+ {
+  "offset": 22757808,
+  "en": "Radial Roughness Map",
+  "old": 20,
+  "mode": "free"
+ },
+ {
+  "offset": 22758036,
+  "en": "Index",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22761264,
+  "en": "Roughness Bias",
+  "old": 14,
+  "mode": "free"
+ },
+ {
+  "offset": 22764952,
+  "en": "Advanced Micro",
+  "old": 14,
+  "mode": "free"
+ },
+ {
+  "offset": 22764968,
+  "en": "Bevel",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22765100,
+  "en": "Heat",
+  "old": 4,
+  "mode": "free"
+ },
+ {
+  "offset": 22765128,
+  "en": "Merge",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22780704,
+  "en": "Post Render",
+  "old": 11,
+  "mode": "free"
+ },
+ {
+  "offset": 22783480,
+  "en": "Paste",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22784732,
+  "en": "Done.",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22789148,
+  "en": "Fonts",
+  "old": 5,
+  "mode": "free"
+ },
+ {
+  "offset": 22792216,
+  "en": "Pick Debug Coord",
+  "old": 16,
+  "mode": "free"
+ }
+]

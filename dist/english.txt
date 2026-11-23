@@ -1,0 +1,2157 @@
+vptool_Raster;光栅渲染 —— 性能高，视觉质量最差。
+vptool_Hybrid;混合渲染 - 交互流畅，视觉质量良好。
+vptool_RT;光线追踪渲染 —— 最准确，视觉质量最佳。
+vptool_Selection;选择
+vptool_Transform;变换
+vptool_Translation;移动
+vptool_Rotation;旋转
+vptool_Scale;缩放
+vptool_Baker Offset;绘制偏移
+vptool_Baker Skew;绘制斜切
+vptool_Camera;相机限制
+vptool_PickColor;颜色选择器
+vptool_Image Comparator;图像对比
+vptool_Paint;笔刷
+vptool_Erase;擦除
+vptool_CloneStamp;克隆
+vptool_Smudge;涂抹
+vptool_Marquee Select;矩形选择
+vptool_Ellipse Select;椭圆选择
+vptool_FloodFill;洪水填充
+vptool_Gradient;渐变
+vptool_Wand;魔棒选择
+vptool_Lasso Select;套索选择
+vptool_Polygon Select;多边形选择
+vptool_Face Select;面选择
+vptool_UV Island Select;UV 岛选择
+vptool_Mesh Select;网格选择
+vptool_ColorSampler;颜色取样器
+vptool_LightController;灯光控制器
+vptool_Focus;对焦
+vptool_Center;帧
+vptool_Decal;贴花
+vptool_Spline;样条线
+vptool_Text;文本编辑
+vptool_Virtual Spline;
+vptool_Plane Transform; 投射平面变换
+;
+vptool_Spline Select;选择和编辑形状
+vptool_Spline Point;选择和编辑点
+vptool_Spline Pen;钢笔
+vptool_Spline Curve;曲线
+vptool_Spline Line; 线
+vptool_Spline Rect;矩形
+vptool_Spline Oval;椭圆
+vptool_Spline Poly;多边形
+vptool_Spline Brush;素描
+vptool_Tile Strip;平铺条
+vptool_Spline_snapEnable;启用矢量点吸附
+vptool_Spline_snapGrid;将点吸附到网格（仅限贴花模式）
+vptool_Spline_snapPoint;将点吸附到其他矢量形状的点
+vptool_Spline_snapLine;吸附到点之间的矢量形状边界
+vptool_Spline_snapSym;将点吸附到平面或对称轴
+;
+outline_newmodel;导入模型
+outline_newlight;新建灯光
+outline_newcamera;新建相机
+outline_newfog;新建雾
+outline_newbackdrop;新建背景板
+outline_newshadowcatcher;新建阴影捕捉器
+outline_newbaker;新建烘焙项目
+outline_newturntable;新建转台
+outline_newpaintproject;新建纹理项目
+outline_newpresent;演示
+outline_group;编组所选
+outline_duplicate;复制选区
+outline_delete;删除选择
+outline_filter; 过滤场景对象
+;
+object_locked_control;此界面已禁用，因为所选对象已锁定。
+;
+render_exposure;场景光照亮度，以 f 档为单位。
+render_viewport_res;设置视口显示的像素密度。较低的值运行速度更快。「高 DPI」选项将以显示器原生分辨率渲染，在高分辨率显示器上开销较大。
+render_viewport_upscaling_mode;图像放大通过以较低分辨率渲染视口并使用 AI 放大图像来提升性能。自动模式会在与场景交互时启用放大，而在视口静止时禁用它。
+render_viewport_aa;抗锯齿可减少锯齿边缘等采样不足产生的伪影，代价是适度的性能开销。
+render_stereo_mode;设置每只眼睛的图像渲染方式。某些模式可能需要专用硬件。
+render_stereo_swap;交换左右眼图像。
+render_stereo_eyesep;指定查看器双眼的间距（场景单位）。数值越大，场景看起来越“小”。
+render_scene_wireframe;启用多边形边显示。
+render_scene_wireframestrength;控制线框效果的强度。
+render_scene_wireframecolor;设置线框效果的颜色。
+render_scene_tiletext;在画布中显示平铺名称。
+render_scene_tileborder;在画布中显示平铺边界。
+render_scene_refractiveindex;设置大气中光速的除数。此设置仅适用于使用折射率反射率模型的材质。
+render_scene_internalrefractions;启用对象内部的折射。
+render_lighting_localreflections;启用对象间反射的近似效果，可提升反射表面的质量。此效果仅适用于光栅渲染。
+render_lighting_localreflectionbright;调整局部反射的亮度。
+render_lighting_localdiffuse;启用对象间漫反射光散射的近似效果。此效果仅适用于光栅渲染。
+render_lighting_localdiffusebright;调整局部漫反射光照的亮度。
+render_lighting_localdiffusedist;调整局部漫反射光照的衰减长度。此值不是场景单位，而是与相机距离的比率。
+render_lighting_shadowRes;控制所有阴影贴图的分辨率，以提升细节与精度。更高的设置会对性能产生不利影响。
+render_lighting_frontFaceShadows;启用从网格正面和背面投射阴影，有助于消除阴影投射中的空隙。对于宽度为零的灯光，可能导致阴影冲突伪影。
+render_lighting_shadowBias;在阴影与投射阴影的对象之间添加少量空间偏移。这在处理棘手的阴影伪影时很有用。
+render_lighting_cascadingShadows;为大型场景中的平行光启用级联阴影，以获得更高质量。
+render_lighting_cascadeDistance;调整近处和远处区域分配的纹理细节量。较高的值意味着近处对象有更多阴影细节，通常适合特写。较低的值意味着细节分布更均匀，通常适合较宽的镜头。
+render_lighting_ambientocclusion;启用对象间光线遮蔽的近似效果。此效果仅适用于光栅渲染。
+render_lighting_aocompositeAmbient;遮蔽效果会使来自天空背景的漫反射光变暗。
+render_lighting_aocompositeDiffuse;遮蔽效果会使所有来源的漫反射光变暗。此设置会覆盖“环境”选项。
+render_lighting_aocompositeSpecular;遮蔽效果会使高光变暗。遮蔽颜色的色相不用于高光遮蔽。
+render_lighting_aocolor;设置环境光遮蔽效果的颜色。
+render_lighting_aostrength;设置环境光遮蔽效果的强度。
+render_lighting_aosize;设置环境光遮蔽效果的扩散范围。
+render_lighting_ao_use_ray_dist;允许明确指定环境光遮蔽的射线长度。启用后，仅当相交点小于指定射线长度时才会检测到相交。
+render_lighting_ao_ray_dist;控制环境光遮蔽的射线长度。
+render_lighting_ao_ray_offset;控制环境光遮蔽射线相对表面的偏移。
+render_lighting_ao_enable_filter;在视口中启用环境光遮蔽。
+render_lighting_ao_sample;控制采样中使用的环境光遮蔽射线数量。
+render_fog_shadow_quality;控制雾阴影贴图的分辨率，以提升细节与精度。更高的设置会对性能产生不利影响。
+render_fog_illum_sky;在受天空背景照亮的体积介质与简单的环境色之间进行混合。
+render_fog_illum_light;控制介质中点光源、聚光灯和平行光的亮度。
+render_rt_enable;启用路径追踪全局光照，模拟场景中对象间的光线反弹。
+render_rt_accumulate;通过随时间累积帧逐步提升视口预览质量。
+render_rt_denoise;在累积若干帧后，于视口预览中应用降噪。
+render_rt_denoise_mode;视口预览中的降噪模式。GPU 模式需要受支持的 NVIDIA 显卡。
+render_rt_denoise_quality;视口预览中的降噪质量级别。
+render_rt_adaptive;自动调整每帧累积的采样数，同时尽量维持目标帧率。禁用时每帧仅累积 1 个采样。
+render_rt_reflection_bounces;追踪的间接光照反弹次数。
+render_rt_transmission_bounces;追踪的透射光反弹次数。如果透射对象显得过暗，增大此数值可能会有所帮助。
+render_rt_caustics;焦散路径的质量，这些路径因光线经附近高光表面反弹而产生明亮高光。更高质量的焦散可能需要更多采样才能收敛。
+render_rt_advanced_sampling;减少包含大量灯光的场景中的噪点。对渲染时间和视口性能有中等影响。
+render_rt_clamp;允许的最大直接采样辐射亮度。降低此数值可减少萤火虫噪点，但设置过低会影响光照质量。
+render_rt_indirect_clamp;允许的最大间接采样辐射亮度。降低此数值可减少萤火虫噪点，但设置过低会影响光照质量。
+render_rt_diffuse_intensity;漫反射间接光照强度。
+render_rt_reflection_intensity;反射间接光照强度。
+render_rt_fog_aniso;确定雾中散射的主要方向，即向前（正值）或向后（负值）。数值为零表示均匀的各向同性散射。
+render_iu_algorithm;应用图像超分算法以缩短渲染时间，同时保持图像质量。
+render_iu_render_resolution;显示视口渲染分辨率。
+render_iu_render_resolution_width;显示视口渲染分辨率的宽度。
+render_iu_render_resolution_height;显示视口渲染分辨率的高度。
+render_iu_algorithm_dlss;在不同的 NVIDIA Deep Learning Super Sampling（DLSS）模式之间选择，这会影响放大质量和性能。
+render_iu_algorithm_nis;在不同的 NVIDIA Image Scaling（NIS）模式之间选择，这会影响放大质量和性能，并允许使用不同的参数控制。
+render_iu_algorithm_nis_scale;设置 NIS 算法的渲染分辨率缩放比例。（仅限缩放模式）
+render_iu_algorithm_nis_sharpness;设置 NIS 算法的锐度。
+render_iu_algorithm_fsr;在不同的 AMD FidelityFX Super Resolution 2.0（FSR）模式之间选择，这会影响放大质量和性能，并允许使用不同的参数控制。
+render_iu_algorithm_fsr_sharpness;设置 FSR 算法的锐度。
+render_watermark;设置是否显示“Rendered in Marmoset Toolbag”水印。
+render_watermark_hide;设置是否在视口中隐藏“Rendered in Marmoset Toolbag”水印。若启用“Use Watermark”，水印仍会应用到导出的图像。
+render_watermark_size;控制水印的显示大小。
+render_watermark_dark;确定使用浅色还是深色水印图像。深色水印图像在明亮场景中更易辨识。
+render_watermark_twotone;确定使用单色还是彩色水印。
+render_watermark_xposition;设置水印的水平位置。
+render_watermark_yposition;设置水印的垂直位置。
+render_scaleref_show;启用比例参考泰迪熊的显示。
+render_scaleref_color;设置缩放参考颜色。
+render_visibility_guides;启用相机和灯光等对象的引导图标显示。
+render_lighting_hybrid_denoise_enabled;启用混合模式的降噪器。
+render_lighting_hybrid_denoise_direct_strength;直接光照降噪强度。
+render_lighting_hybrid_denoise_diffuse_strength;漫反射 GI 降噪强度。
+render_lighting_hybrid_denoise_specular_strength;高光反射降噪强度。
+render_lighting_hybrid_shadowBias;在阴影与投射阴影的对象之间添加少量空间偏移。这在处理棘手的阴影伪影时很有用。
+render_lighting_light_sampling_quality;在噪波较多但渲染性能更好的低质量采样与噪波较少但渲染较慢的高质量采样之间选择。
+render_hybrid_diffuse_bounces;追踪的漫反射 GI 反弹次数。
+render_hybrid_specular_bounces;追踪的高光反射反弹次数。
+render_hybrid_raytraced_diffuse_gi;启用光线追踪漫反射全局光照。
+render_hybrid_raytraced_reflection;启用光线追踪高光反射。
+render_hybrid_raytraced_refraction;启用光线追踪折射。
+render_hybrid_refraction_bounces;追踪的高光折射反弹次数。
+render_hybrid_clamp;允许的最大辐射亮度。降低此数值可减少萤火虫噪点，但设置过低会影响光照质量。
+;
+render_componentview_normalmode;用于可视化法线的目标空间（对象、切线或视图）。
+render_componentview_flipx;反转法线的 X 轴，即材质纹理的红色通道。
+render_componentview_flipy;反转法线的 Y 轴，即材质纹理的绿色通道。
+render_componentview_flipz;反转法线的 Z 轴，即材质纹理的蓝色通道。
+;
+render_componentview_cullwireframe;渲染线框时显示背面。
+render_componentview_depthnormalization;深度值的归一化方式。
+render_componentview_positionnormalization;位置值的归一化方式。
+render_compoentview_dither;为 8 位输出启用抖动。
+;
+render_componentview_albedoenergy;在反照率计算中考虑对象的反射率，显示传入光照计算的原始反照率值。
+;
+render_componentview_lighting_albedo;在此光照通道中使用材质反照率。禁用此选项时，光照计算使用中性（白色）反照率。
+render_componentview_lighting_scatter;在此光照通道中包含单次散射透射反弹。
+render_componentview_lighting_refraction;在此光照通道中包含折射和薄表面透射。
+render_componentview_lighting_hide_refraction;在此光照通道中，从相机视图中隐藏使用折射或薄表面透射的网格。
+;
+render_componentview_displacement_contrast;显示置换时使用的对比度。
+;
+scene_cameraobject;控制相机对象的位置、旋转以及各种相关后期效果。
+scene_groupobject;控制组对象的位置与旋转。
+scene_meshobject;控制导入网格的位置、旋转与属性。
+scene_sceneobject;控制场景缩放等全局场景选项。
+scene_skyobject;控制天空光照，包括基于图像的光照、子灯光和背景板样式。
+;
+scene_transform_camtarget;将此对象标记为当前相机目标。
+scene_transform_position;控制对象位置。
+scene_transform_rotation;控制对象朝向。
+scene_transform_scale;控制对象大小。
+;
+scene_camera_move_controls;使用这些控件可向前、向左、向后、向右、向上和向下移动相机。
+scene_camera_movespeed;如果未勾选“自动”，此选项控制使用键盘控制时相机在场景中的移动速度。对于复杂环境，手动设置此数值可能会有所帮助。
+scene_camera_movespeed_auto;勾选后，相机移动速度将根据场景大小自动确定。对于复杂环境，禁用此选项并手动设置移动速度可能会有帮助。
+scene_camera_panspeed;控制相机在场景中平移的速度。对于复杂环境，手动设置此值会很有帮助。
+scene_camera_panspeed_auto;勾选后，相机平移速度将根据场景大小自动确定。对于复杂环境，禁用此选项并手动设置平移速度可能会有帮助。
+scene_camera_pan_controls;使用这些控件平移相机。
+scene_camera_orbitstyle;启用后，相机将围绕场景中的某个点旋转。禁用后，相机将表现为自由视角或第一人称射击风格相机。
+scene_camera_orbitdistance;设置相机到其旋转点的距离。按 Ctrl+F 将环绕距离设为当前所选对象的中心，按 Shift+Ctrl+F 将其设为场景中心。环绕样式禁用时，此设置不适用。
+scene_camera_followtarget;持续将相机指向当前目标对象（如果存在）。
+scene_camera_followlag;指定相机跟随目标对象的紧密程度。
+;
+scene_camera_limit_useinviewport;使用限制设置来约束 Toolbag 视口中的相机运动。无论此设置如何，活动限制始终会导出到 Marmoset Viewer。
+scene_camera_limit_pan;将相机平移限制为完全禁止或仅限垂直运动。
+scene_camera_limit_limitnear;强制执行最小环绕距离，由“环绕近”值指定。
+scene_camera_limit_limitfar;强制执行最大环绕距离，由“环绕远”值指定。
+scene_camera_limit_near;指定最小环绕距离。
+scene_camera_limit_far;指定最大环绕距离。
+scene_camera_limit_picknear;将「环绕近」值设为当前环绕距离。
+scene_camera_limit_pickfar;将「环绕远」值设为当前环绕距离。
+scene_camera_limit_limitpitch;强制执行最小和最大俯仰角（垂直环绕），由“最小俯仰”和“最大俯仰”值指定。也可直接在视口中调整俯仰限制。按住 Ctrl 键可同时调整最小和最大限制。
+scene_camera_limit_minpitch;最小俯仰角（垂直环绕），单位为度。
+scene_camera_limit_maxpitch;最大俯仰角（垂直环绕），单位为度。
+scene_camera_limit_limityaw;强制执行最小和最大偏航角（水平环绕），由“最小偏航”和“最大偏航”值指定。也可直接在视口中调整偏航限制。按住 Ctrl 键可同时调整最小和最大限制。
+scene_camera_limit_minyaw;最小偏航角（水平环绕），单位为度。
+scene_camera_limit_maxyaw;最大偏航角（水平环绕），单位为度。
+scene_camera_limit_yawoffset;以固定偏移量（度）移动偏航值。这有助于轻松重新调整偏航范围的方向。
+scene_camera_limit_centerview;以当前相机朝向为中心居中当前的偏航与俯仰范围。这有助于轻松重新调整俯仰和偏航范围，以框住选定的相机位置。
+;
+scene_camera_lens_nearmult;调整自动近裁剪平面。较低的值有助于修复大型场景中邻近对象可能出现的误裁剪。请注意，接近零的值可能导致远处或相交对象出现渲染伪影。
+scene_camera_lens_fov;通过设置镜头的垂直视场角（单位为度）来控制场景的可见范围。降低该值可获得更窄的视野，提高该值可获得更宽的视野。
+scene_camera_lens_fov_mm;通过设置 35mm 格式镜头的焦距（单位为毫米）来控制场景的可见范围。这对熟悉摄影的用户尤其有用。较低的毫米值对应广角视野，较高的毫米值对应窄角视野。
+scene_camera_lens_fov_animated;所选模型动画控制此值——此动画激活期间，用户编辑被禁用。
+scene_camera_lens_fov_mm_animated;所选模型动画控制此值——此动画激活期间，用户编辑被禁用。
+scene_camera_lens_scale;通过设置相机的缩放来控制场景的可见范围。减小会拉近场景，增大则拉远。
+scene_camera_safe_frame;预览导出的截图和视频中将包含的视口区域。
+scene_camera_lens_dof;启用景深效果，使焦点前方或后方的区域模糊。此设置会对性能产生负面影响。
+scene_camera_lens_stickyfocus;启用粘性对焦功能，在相机重新定位后保持对焦点。
+scene_camera_lens_focaldist;确定焦点相对于相机的位置。也可通过在视口中中键点击对象来设置此距离。
+scene_camera_lens_focus;启用对焦工具，可点击屏幕上的某一点来设置对焦距离。
+scene_camera_lens_swirl;控制画面边缘附近失焦高光的畸变。
+scene_camera_lens_aperture;确定光圈形状，它控制失焦高光和镜头光晕的外观。也可以创建并加载新的形状。
+scene_camera_lens_aperture_fstop;焦距与光圈直径之比。数值越小，散焦越强。
+scene_camera_lens_aperture_load;加载自定义光圈形状，用于控制失焦高光和镜头光晕。
+scene_camera_lens_ratio;用于模拟变形镜头散景的水平变形比例。
+scene_camera_lens_aprotation;设置散景高光和镜头光晕的光圈形状方向。
+scene_camera_lens_flare_strength;设置镜头光晕效果的强度。
+scene_camera_lens_flare_coating;模拟镜头系统上的薄表面涂层，改变镜头光晕的颜色与外观。
+scene_camera_lens_flare_size;设置单个光晕或“鬼影”的尺寸。
+scene_camera_lens_distortion;控制几何畸变效果的类型与强度。数值 0 表示无畸变，小于 0 表示桶形或鱼眼畸变，大于 0 表示枕形畸变。
+scene_camera_lens_ca;设置色差效果的强度，该效果模拟不同颜色的光波在汇聚点上的差异，从而在画面边缘产生色边。
+scene_camera_lens_ca_r;设置红通道的色边偏移。
+scene_camera_lens_ca_g;设置绿通道的色边偏移。
+scene_camera_lens_ca_b;设置蓝通道的色边偏移。
+scene_camera_lens_mb;为最终渲染动画和静帧渲染运动模糊效果。
+scene_camera_lens_mb_framewrap;允许最后一个动画帧为运动模糊而回绕到第一帧。此选项最适合循环动画。
+scene_camera_lens_mb_shutterspeed;确定曝光时间，影响模糊的幅度。相机的快门速度通常以几分之一秒表示，例如 1/60、1/120、1/250 等。
+scene_camera_lens_mb_samples;控制运动模糊的质量。更多采样可获得更平滑的模糊，但渲染时间更长。
+scene_camera_post_load;加载后期效果预设文件。
+scene_camera_post_save;保存后期效果预设文件。
+scene_camera_post_presets;用于在多种后期效果预设之间切换。将预设文件保存到 /data/post/，下次打开 Toolbag 时它就会出现在预设列表中。
+scene_camera_post_tonemapping;设置将高动态范围数值映射到低动态范围色彩空间的方法。
+scene_camera_post_curves;打开曲线编辑器，可逐通道调整渲染的对比度。
+scene_camera_post_exposure;以 f 档为单位设置渲染亮度。
+scene_camera_post_exposure_color;设置曝光效果的颜色和强度。
+scene_camera_post_highlights;设置最亮值的亮度点。提高可让高光更亮，降低可恢复被裁切的细节。
+scene_camera_post_shadows;设置最暗值的亮度点。提高可恢复阴影中的细节，降低可压暗黑场。
+scene_camera_post_midtones;设置中间值的亮度点。
+scene_camera_post_clarity;设置微对比度的级别。提高可增强细节，降低可柔化渲染结果。
+scene_camera_post_contrast;设置明暗之间的数值差异。
+scene_camera_post_contrast_color;设置对比度效果的颜色和强度。
+scene_camera_post_contrastcenter;设置对比度曲线的中点。随着对比度提高，大于该“中心”值的数值会变亮，小于“中心”值的数值会变暗。
+scene_camera_post_contrastcenter_color;设置对比度中心效果的颜色和强度。
+scene_camera_post_saturation;控制渲染图像中色彩的鲜艳程度。
+scene_camera_post_saturation_color;设置饱和度效果的颜色和强度。
+scene_camera_post_sharpen_strength;设置锐化效果的强度，该效果通过增强精细细节的对比度来提升清晰度。
+scene_camera_post_sharpen_limit;控制锐化效果的最大允许量。较低的数值在某些情况下可防止图像对比度发生较大变化。
+scene_camera_post_bloom_brightness;设置泛光效果的强度，该效果会模糊渲染图像，再叠加到原图上，以模拟明亮光源的辉光（或相机镜头上的凡士林）。
+scene_camera_post_bloom_size;设置泛光效果中模糊部分的半径。
+scene_camera_post_bloom_color;设置泛光效果的颜色和强度。
+scene_camera_post_vignette_strength;设置暗角效果的强度，该效果会压暗画面边缘。
+scene_camera_post_vignette_color;设置暗角效果的颜色和强度。
+scene_camera_post_vignette_softness;设置暗角效果衰减的强烈或平滑程度。
+scene_camera_post_film_grain_mode;设置颗粒的样式。
+scene_camera_post_film_grain_animated_preview;切换颗粒效果的随机预览。
+scene_camera_post_film_grain_grain_intensity;设置颗粒效果的强度。
+scene_camera_post_film_grain_tiling_mode;设置颗粒效果的纹理或粗糙度。
+scene_camera_post_film_grain_dirt_intensity;设置划痕与污渍的整体不透明度。
+scene_camera_post_film_grain_dirt_density;控制每帧中可见的划痕与污渍数量。
+scene_camera_post_film_grain_dirt_size;控制划痕与污渍的大小。
+;
+scene_camera_curves_channel;确定活动通道。
+scene_camera_curves_done;确认更改并关闭曲线编辑器。
+scene_camera_curves_presets;加载各种曲线预设。将预设文件保存到 /data/post/curve/，下次打开 Toolbag 时它将显示在预设列表中。
+scene_camera_curves_clear;重置所有通道中的曲线调整。
+;
+scene_document_sceneUnits;此场景使用的测量单位。
+scene_document_scale;应用于此场景中所有测量的自定义缩放系数。
+scene_document_importUnits;新文档（如网格）在导入时将被视为使用此测量单位创建。如果启用了“使用文件单位”且导入文件具有可用的单位数据，则忽略此设置。
+scene_document_useFileUnits;使用导入文件中的单位信息，以便在导入时进行正确的单位转换。禁用此选项可使用“导入”单位设置覆盖文件单位。
+scene_document_physical_light_units;为此场景中的灯光使用物理亮度单位。
+;
+scene_light_type;设置光照方式。平行光从无限远处的单一方向投射光线；聚光灯同样从单一方向投射，但具有锥形衰减；点光源则向所有方向投射光线。
+scene_light_castshadows;确定场景中的对象是否遮挡光线。
+scene_light_lightscaling;使用变换组件缩放灯光大小。
+scene_light_castlensflare;确定此灯光是否产生镜头光晕。
+scene_light_lensflarestrength;设置灯光的镜头光晕强度。
+scene_light_contactrefinement;使用高级光线追踪技术在对象相交或重叠处填充阴影。它用于补充阴影贴图，有助于填补阴影“空隙”。
+scene_light_brightness;设置灯光的强度。亮度同时决定灯光投射的有效距离，灯光越亮，投射距离越远。该数值以米为单位按对数比例缩放：数值每增加 1，灯光输出增强十倍。
+scene_light_brightness_physical;切换是否为灯光亮度使用物理单位。
+scene_light_brightness_conserve;在使用物理单位表示灯光亮度时保持能量守恒。禁用后，非平行光会自动预先曝光。
+scene_light_decay;通过应用额外的基于距离的衰减来限制灯光半径。
+scene_light_decay_start;灯光强度开始衰减的距离，以距离值的比例表示。
+scene_light_decay_slider;设置灯光强度淡出曲线：开始淡出的距离，以及淡出至零的距离。
+scene_light_decay_end;灯光强度衰减至零的距离。
+scene_light_color;设置灯光的颜色和强度。
+scene_light_use_temperature;启用色温来调整灯光颜色。
+scene_light_temperature;根据黑体辐射温度（单位为开尔文）生成色调。该结果将与灯光颜色相乘。
+scene_light_temperature_presets;从预设色温列表中选择，这些色温已针对常见光源进行校准。
+scene_light_shape_type;确定光源的几何形状。
+scene_light_shape_width;设置光源大小，进而决定阴影的模糊程度。
+scene_light_shape_length_x;设置灯光沿 X 轴的拉伸程度，适用于创建荧光灯管等非球形光源。
+scene_light_shape_length_y;设置灯光沿 Y 轴的拉伸程度，适用于创建荧光灯管等非球形光源。
+scene_light_shape_twosided;从矩形两侧投射光线。
+scene_light_normalize;使灯光形状大小仅影响阴影柔和度，而不影响发射的光量。
+scene_light_visible;设置灯光形状是否显示在渲染图像中。
+scene_light_spot_angle;设置聚光灯锥体的宽度。仅当灯光类型设为“Spot”时适用。
+scene_light_spot_sharpness;设置聚光灯锥体的柔和度。仅当灯光类型设为“Spot”时适用。
+scene_light_spot_vignette;确定聚光灯形状是方形还是圆形，数值越高形状越圆。值为 0 时适合加载色片图像以创建自定义锥形。此设置仅在灯光类型设为“聚光灯”时适用。
+scene_light_profile_import;从 IES 文件导入自定义灯光配置文件。
+scene_light_profile_export;将当前灯光配置文件导出为立方体贴图或经纬投影图像文件。
+scene_light_profile_save;将当前灯光配置文件导出到资源库。
+scene_light_profile_browse;打开灯光轮廓库。
+scene_light_profile_clear;移除此灯光轮廓。
+scene_light_profile_width;应用缩放系数以拉伸或压缩轮廓形状。
+scene_light_gel;加载图像以遮罩灯光形状。
+scene_light_geltiling;设置凝胶图像的重复次数。
+;
+scene_mesh_castshadows;确定网格是否遮挡光线。
+scene_mesh_invisible;带有此标签的网格将在相机视图中不可见，但仍会投射阴影和发光。这对于使用自发光网格照亮场景很有用。
+scene_mesh_cullbackfaces;确定是否绘制多边形的背面。对于需要双面可见的网格（如透明平面），应禁用此选项。
+scene_mesh_tangentspace;选择此网格的切线空间算法。该选择应与烘焙法线贴图时所用的约定一致。
+scene_mesh_tangentinterpolation;确定着色切线的计算位置：在每个顶点处或在每个渲染像素处。此设置应与烘焙应用于此网格的法线贴图时使用的方法一致。
+scene_mesh_fix_mirrored;尝试修复镜像切线空间引起的任何问题。使用镜像 UV 的网格可能出现此类问题。
+;
+scene_mesh_subdiv_reduction;自适应移除细分结果中的多余多边形，从而以更少的多边形获得相似的网格。
+scene_mesh_subdiv_wireframe;选择细分网格的线框显示方式。
+scene_mesh_subdiv_sharpen;此选项会在 Catmull-Clark 模式下保留开放边的形状。
+scene_mesh_subdiv_uvs;在细分网格中包含可用的纹理坐标和/或顶点颜色。如果不需要这些属性，省略它们可以加快细分速度。
+scene_mesh_subdiv_level;重复细分的次数。
+scene_mesh_subdiv_geomode;网格细分模式。Catmull-Clark 使用递归分割方式，对模型有平滑效果。常规模式仅分割多边形而不改变模型形状。PN 三角形提供基础平滑控制，对三角化网格特别有用。
+scene_mesh_subdiv_enable;启用网格细分，生成原始网格的更高分辨率版本。
+;
+scene_sky_image;加载自定义天光背景，该背景也将用于照亮场景。为获得最佳效果，请使用 360 度全景 HDR 图像。
+scene_sky_export;将当前天空导出为 .tbsky 归档文件。
+scene_sky_export_proc;将当前程序化天空导出为 HDR 图像。
+scene_sky_export_proc_path;EXR 图像文件的路径，导出的结果将写入其中。
+scene_sky_export_proc_res;导出图像的分辨率。
+scene_sky_export_proc_sun;确定导出的图像中是否包含太阳圆盘。
+scene_sky_library_export;将当前天空导出到资源库。
+scene_sky_presets;打开天空库，方便地选择天空预设。
+scene_sky_brightness;设置基于图像的光照、子灯光和背景图像的曝光。
+scene_sky_brightness_physical;切换是否为基于图像的照明使用物理亮度单位。
+scene_sky_brightness_preserve;切换在切换图像天空时是否保留 lux 亮度值。
+scene_sky_brightness_realistic;启用后，天空亮度将近似真实世界的日光照度（lux）。
+scene_sky_childlightbright;设置子灯光相对于主天空亮度设置的曝光。
+scene_sky_sample;切换天光图像的重要性采样。禁用此选项可提升光线追踪性能，但会牺牲天光照明质量。
+scene_sky_rotation;设置天空方向。适用于天光照明、子灯光、背景图像以及任何父级为天空对象的对象。也可在视口中按住 Shift+LMB 拖动来设置天空旋转。
+scene_sky_lighteditor;预览当前天空光照图像，并允许创建（左键单击）、移动（按住左键拖动）和删除（右键单击）子灯光。
+scene_sky_selective_bright;乘以天光图像中特定数值的曝光，适用于通过使高光更亮或更暗来控制对比度。
+scene_sky_selective_thresh;设置选择性亮度效果的曝光点。例如，值为 2 表示比 2 更亮的区域会受到影响。
+scene_sky_selective_scale;设置选择性亮度效果的强度。小于 1 的数值会压暗图像内容，大于 1 的数值则会提亮图像。
+scene_sky_selective_revert;移除所有选择性亮度调整。
+scene_sky_selective_apply;应用当前设置进行选择性提亮。
+scene_sky_backdrop_mode;设置背景图像的呈现模式。“Color”以纯色作为背景，“Sky”将图像原样绘制为背景，而“Blurred”与“Ambient”天空均会渲染图像的卷积版本。
+scene_sky_backdrop_color;设置背景的颜色。仅当背景板模式设为「颜色」时，此设置才适用。
+scene_sky_backdrop_bright;设置背景图像相对于主天光亮度设置的曝光。当背景板模式设为颜色时，此设置不适用。
+scene_sky_backdrop_blur;控制背景图像的模糊程度。此设置仅在背景板模式设为“模糊天空”时适用。
+scene_sky_backdrop_rotation;自定义背景图像的旋转角度（如果存在）。此角度会与整体天空盒旋转相加。
+scene_sky_backdrop_path;自定义背景图像，可以是图像文件或 Toolbag 天空。
+scene_sky_backdrop_preview;自定义背景图像的视图。你可以将图像文件或资源库天空拖放到此处。
+scene_sky_backdrop_clear;清除背景图像。
+scene_sky_backdrop_reload;重新加载背景图像。
+scene_sky_proc_location;用于指定场景在地球上位置的位置设置。
+scene_sky_proc_latitude;地球纬度（度），从南纬 -90 到北纬 90。
+scene_sky_proc_longitude;地球经度（度），从西经 -180 到东经 180。
+scene_sky_proc_guessTZ;经度更改时自动粗略估算时区设置。
+scene_sky_proc_TZ;时区，以相对于协调世界时（UTC）的小时数表示。
+scene_sky_proc_time;一天中的时间，格式为 HH:MM。通常小时范围为 0 到 23，不过超出此范围的值也可用。此时间按当前时区指定。
+scene_sky_proc_month;一年中的月份，从 1 到 12。这会影响太阳的季节性位置。
+scene_sky_proc_day;月份中的日期。这会影响太阳的季节性位置。
+scene_sky_proc_sunbright;太阳相对天空的亮度倍率。值为 1 时最准确，但较低的值有时更易于调整。
+scene_sky_proc_sunscale;太阳从地球上看起来的表观大小倍率。值为 1 时最准确。
+scene_sky_proc_haze;控制大气中颗粒物的数量，这会影响天空散射光的外观。
+scene_sky_proc_skycolor;额外的色调，仅影响太阳和天空。
+scene_sky_proc_groundcolor;一对颜色分别指定地面在场景附近和朝向地平线处的外观。
+scene_sky_proc_whitebalance;调整太阳与天空的色温。
+scene_sky_proc_tint;调整太阳与天空的色彩平衡，与白平衡互补。
+scene_sky_proc_saturation;调整太阳和天空颜色的强度。
+;
+scene_fog_type;选择计算给定距离范围内颗粒物浓度的方法。「指数」通常最符合物理规律，而「线性」可对衰减距离进行直接、简单的控制。
+scene_fog_color;雾介质的颜色。
+scene_fog_density;确定雾介质的密度。
+scene_fog_opacity;这是介质可提供的最大遮蔽量，与距离无关。
+scene_fog_volumetric_volume_mode;体积雾的模式。
+scene_fog_volumetric_scatterColor;确定穿过对象的光线的散射颜色。
+scene_fog_volumetric_height_min;雾底部边界的高度。
+scene_fog_volumetric_height_range;雾所占据的高度范围。
+scene_fog_volumetric_height_max;雾顶部边界的高度。
+scene_fog_volumetric_falloff_min;底部衰减结束的位置。
+scene_fog_volumetric_height_range_falloff;雾衰减的范围。
+scene_fog_volumetric_falloff_max;顶部衰减开始的位置。
+;
+scene_hair_shadows;控制毛发丝是否投射阴影。
+scene_hair_tess;确定毛发丝的细分程度；数值越高细分越多。
+scene_hair_width;一根发丝的宽度，单位为毫米。
+scene_hair_density;控制毛发丝的数量。
+scene_hair_scaleRoot;缩放发丝基部（根部）的宽度。
+scene_hair_scaleTip;缩放发丝末端（梢部）的宽度。
+;
+scene_external_path;外部模型文件的路径。Toolbag 会尽可能将此路径改为相对于 Toolbag 场景文件的路径。
+scene_external_browse;浏览新的外部模型文件。这将清除并从磁盘重新加载其中包含的场景对象。
+scene_external_autoreload;当 Toolbag 重新获得鼠标焦点时，自动重新加载此模型文件。也可通过首选项对话框在应用级别禁用此功能。
+scene_external_autoreload;启用此模型文件的实时自动重新加载。
+scene_external_replacetransforms;重新加载模型时将所有部件移回原始位置 - 禁用则保留用户对子部件的编辑。
+scene_external_reload;强制重新加载外部模型文件。
+scene_external_meshlightcam;选择是否从模型文件导入网格、灯光、相机或材质。某些文件格式仅支持网格数据，可能不提供灯光、相机或材质。
+;
+scene_animation_sceneturntable;设置场景转台预览的速度（度/秒）。数值 360 相当于每秒旋转一整圈。在场景旋转模式下，场景中的所有对象（相机与天光除外）会围绕场景原点旋转。此设置影响动画预览，但不影响导出的图像。转台导出设置位于捕获设置中（Ctrl+P）。
+scene_animation_cameraturntable;设置场景转台预览的速度（度/秒）。数值 360 相当于每秒旋转一整圈。在相机旋转模式下，当前激活的相机会围绕场景原点旋转。此设置影响动画预览，但不影响导出的图像。转台导出设置位于捕获设置中（Ctrl+P）。
+scene_animation_skyturntable;设置场景转台预览的速度（度/秒）。数值 360 相当于每秒旋转一整圈。在天空旋转模式下，天光对象及其所有子对象（包括灯光或任何手动设为天光子级的对象）会围绕场景原点旋转。此设置影响动画预览，但不影响导出的图像。转台导出设置位于捕获设置中（Ctrl+P）。
+scene_animation_center;清除动画旋转值。
+;
+scene_backdrop_image;用于在渲染场景背景中显示的图像。背景板仅对其父级相机生效。
+scene_backdrop_useAlpha;确定是否使用所提供图像的 Alpha 通道实现透明。
+scene_backdrop_mode;指定背景板图像的尺寸模式。“拉伸”会将图像拉伸以适配整个画面，“填充”会等比缩放图像以填满整个画面，“适应”会等比缩放图像以完全包含在画面内，“居中”则仅将图像置于画面中央。
+scene_backdrop_opacity;选择背景板图像的整体不透明度。
+;
+scene_shadow_catcher_alpha;设置接收阴影的不透明度。
+scene_shadow_catcher_fadeout;在阴影捕捉器边缘附近淡出阴影。
+scene_shadow_catcher_fademap;用于在阴影捕捉器表面遮罩淡出效果的纹理。
+scene_shadow_catcher_fademap_channel;选择要使用的淡化纹理颜色通道。
+scene_shadow_catcher_fade_radius;边缘淡出效果的半径。
+scene_shadow_catcher_fade_falloff;边缘淡出效果的衰减。
+scene_shadow_catcher_sky_shadow;启用接收来自天光的阴影（仅限光线追踪）。
+scene_shadow_catcher_indirect_shadow;启用接收附近对象的反射和反弹光照（仅限光线追踪）。
+;
+scene_turntable_enable;在动画播放期间启用转台旋转。
+scene_turntable_rate;转台及其子对象的旋转速率，以度/秒为单位。
+;
+material_subroutine_base;为此材质着色器部分选择子程序。
+material_subroutine_blend;为此材质图层部分选择混合模式。
+;
+material_layer_mode;启用分层材质，并配置图层蒙版数据的来源（蒙版/高度贴图/顶点颜色）。
+;
+material_texture_mode;确定 UV 坐标的存储方式（UV、UDIM）或生成方式（三平面）。
+material_texture_uv_channel;控制用于纹理采样的 UV 通道。
+material_texture_tile;控制 UV 纹理坐标的缩放比例。更高的数值会产生更多平铺。
+material_texture_tileU;控制水平方向的纹理平铺数量。
+material_texture_tileV;控制垂直方向的纹理平铺数量。
+material_texture_offsetU;指定纹理的水平偏移。
+material_texture_offsetV;指定纹理的垂直偏移。
+material_texture_rotation;指定纹理旋转。
+material_texture_wrap;设置此材质使用的纹理环绕方式。Clamp 会在 [0,1] UV 范围之外拉伸纹理，Repeat 会在 UV 范围之外平铺纹理，Mirror 会在 UV 范围之外镜像翻转纹理。
+material_texture_aniso;设置应用于此材质的各向异性过滤级别。数值越高效果越好，但可能降低性能。
+material_texture_filter;为此材质启用纹素过滤。禁用后会产生锐利的“像素化”纹素边界。
+material_texture_edge_fade;设置不同轴或投影平面之间过渡的锐利或柔和程度。
+;
+material_albedo;标准材质的反照率或漫反射颜色贴图输入。
+material_albedo_albedo;用于控制反照率或漫反射颜色的纹理。
+material_albedo_color;设置反照率或漫反射颜色。
+;
+material_albedoVertex;支持顶点颜色的反照率或漫反射贴图输入。
+material_albedoVertex_vertexOn;启用顶点颜色信息来确定反照率/漫反射颜色。
+material_albedoVertex_sRgbOn;确定顶点颜色信息是进行 sRGB 校正还是作为线性空间使用。
+material_albedoVertex_vertexAlphaOn;启用顶点 Alpha 通道；当透明着色器中启用“来自反照率的 Alpha”时，该通道用作透明度的 Alpha 蒙版。
+;
+material_diffusionMicrofiber_SheenMap;控制光泽效果亮度和颜色的纹理。
+material_diffusionMicrofiber_Sheen;调整微纤维光泽的亮度，这是一种依赖视角的反射效果。
+material_diffusionMicrofiber_SheenColor;光泽效果的颜色。
+material_diffusionMicrofiber_SheenTint;修改光泽颜色与最终效果的结合程度。
+material_diffusionMicrofiber_RoughnessMap;用于微纤维着色时指定粗糙度的纹理。粗糙度会影响光泽高光的形状和大小。
+material_diffusionMicrofiber_RoughnessChannel;选择粗糙度贴图使用的颜色通道。
+material_diffusionMicrofiber_SheenRoughness;调整微纤维粗糙度，以影响光泽高光的形状和大小。
+material_diffusionMicrofiber_SheenRoughnessInvert;反转粗糙度数值，呈现相反的外观。
+material_diffusionMicrofiber_UseMicrosurface;启用材质的原始粗糙度/光泽度值进行光泽渲染。
+;
+material_displacementHeight;标准置换贴图，使用灰度高度图使几何体向内与向外置换。
+material_displacementHeight_textureChannel;确定使用置换贴图中的哪个通道。
+material_displacementHeight_displacement;用于控制置换强度和方向的纹理。
+material_displacementHeight_scale;设置置换效果的强度。
+material_displacementHeight_scaleCenter;设置置换贴图的灰点、零点或「无置换」点。置换贴图中低于此阈值的值将向内置换，高于此阈值的值将向外置换。
+material_displacementHeight_relScale;设置置换贴图是否相对于包围盒缩放应用。若禁用，则使用场景单位下的绝对缩放。
+material_displacementHeight_contrast;调整高度贴图的对比度。
+material_displacementHeight_contrast_center;调整用于高度贴图对比度中心的数值。
+material_displacementHeight_offset;偏移贴图内容。
+material_displacementHeight_fuseEdges;使用平均位置沿 UV 接缝合并共享顶点。
+material_displacementHeight_generateNormals;使用置换后的顶点生成新的表面法线。
+;
+material_displacementVector;矢量置换贴图可通过彩色矢量置换贴图使几何体向内、向外及多个方向置换。
+material_displacementVector_displacement;用于控制置换强度和方向的纹理。
+material_displacementVector_tangent;设置矢量置换贴图使用切线空间还是世界空间。
+material_displacementVector_flipX;反转纹理 X 轴或红色通道的内容。
+material_displacementVector_flipY;反转纹理 Y 轴或绿色通道的内容。
+material_displacementVector_flipZ;反转纹理 Z 轴或蓝色通道的内容。
+material_displacementVector_scale;设置置换效果的强度。
+material_displacementVector_scaleCenter;设置置换贴图的灰点、零点或「无置换」点。置换贴图中低于此阈值的值将向内置换，高于此阈值的值将向外置换。
+material_displacementVector_relativeScale;设置置换贴图是否相对于包围盒缩放应用。若禁用，则使用绝对缩放。
+material_displacementVector_fuseEdges;使用平均位置沿 UV 接缝合并共享顶点。
+material_displacementVector_generateNormals;使用置换后的顶点生成新的表面法线。
+;
+material_emissive_underCoat;启用后，自发光会被清漆层衰减，使其看起来像是从对象内部发出。
+material_emissiveHeat;自发光热模型是一种高级方法，通过开尔文标度定义温度来创建发光表面，温度进而控制效果的颜色。
+material_emissiveHeat_heat;用于在“温度”和“最低温度”之间混合的纹理。
+material_emissiveHeat_intensity;设置热力效果的强度。
+material_emissiveHeat_temperature;设置色温（开尔文），决定所发出光线的亮度与颜色。
+material_emissiveHeat_minTemperature;确定纹理中黑色所映射的数值，它设定了自发光的最低亮度。
+;
+material_emissiveMap;自发光模型允许你加载亮度或辉光纹理，以定义材质中发光的区域。
+material_emissiveMap_emissive;用于控制自发光或辉光效果的纹理。
+material_emissiveMap_color;设置自发光强度和颜色。
+material_emissiveMap_intensity;设置自发光或效果的强度。
+material_emissiveMap_glowColor;为自发光效果设置恒定颜色值。如果没有自发光纹理，又希望为整个材质指定自发光值，此设置很有用。
+material_emissiveMap_uvSet;确定自发光贴图使用哪个 UV 通道。
+;
+material_fluorescent_color;指定荧光效果的颜色。荧光材质在吸收紫外线等不可见波长时会发光。
+material_fluorescent_strength;确定荧光效果的相对强度。此值可大于 1.0，以模拟入射的不可见光波长比可见光更强烈的情况。
+material_fluorescent_emit_sky;确定是否将天光视为激活照明的来源。
+material_fluorescent_emit_direct;确定是否将直接光视为激活照明的来源。
+;
+material_glint_density;指定闪光碎片的稀疏或密集程度。
+material_glint_intensity;指定闪光效果的强度。比白色更暗的数值会淡化为 Beckmann 反射。
+material_glint_map_channel;确定从纹理的哪个通道读取闪光贴图内容。
+material_glint_map_texture;用于控制闪光效果强度的纹理。比白色更暗的数值会渐变为 Beckmann 反射。
+material_glint_roughness;设置闪光粗糙度值，1 对应粗糙反射，0 对应光滑反射。
+material_glint_roughness_channel;确定从纹理的哪个通道读取闪光粗糙度贴图内容。
+material_glint_roughness_invert;反转闪光粗糙度的输出。适用于加载粗糙度贴图，其中白色对应粗糙表面，黑色对应光滑表面。
+material_glint_roughness_map;用于指定闪光粗糙度的纹理。白色对应粗糙闪光，黑色对应光滑闪光。
+material_glint_scale;指定闪光碎片的尺寸。
+material_glint_use_microsurface;启用后，闪光粗糙度与粗糙度或光泽度设置同步。
+;
+material_microsurface_gloss;指定最大光泽度。
+material_microsurface_glossMap;用于控制光泽度或粗糙度的纹理。白色对应光滑表面，黑色对应粗糙表面。
+material_microsurface_glossMapChannel;确定从纹理的哪个通道读取光泽度或粗糙度内容。
+material_microsurface_glossvalue;设置光泽度值，1 对应光滑表面，0 对应粗糙表面。
+material_microsurface_glossInvert;反转光泽度着色器的输出。适用于加载粗糙度贴图，其中白色对应粗糙表面，黑色对应光滑表面。
+;
+material_microsurface_roughness;指定最大粗糙度。
+material_microsurface_roughnessMap;用于指定表面粗糙度的纹理。白色对应粗糙表面，黑色对应光滑表面。
+material_microsurface_roughnessMapChannel;确定从纹理的哪个通道读取粗糙度内容。
+material_microsurface_roughnessInvert;反转粗糙度着色器的输出。适用于用光泽度贴图替代粗糙度贴图。
+;
+material_microsurface_advancedMap;用于指定微表面细节的纹理。此贴图可用作光滑度或粗糙度。
+material_microsurface_advancedChannel;确定从纹理的哪个通道读取微表面数值。
+material_microsurface_advancedMode;纹理贴图的解读模式。“粗糙度”表示数值越高越粗糙，而“平滑度”表示数值越高越平滑。平滑度也称为“光泽度”。
+material_microsurface_advancedMax;指定最大微表面值。来自纹理的数值会被缩放至不超过此值。
+material_microsurface_advancedMin;指定最小微表面值。来自纹理的数值会被偏移至不低于此值。
+material_microsurface_advancedExp;对纹理中的值应用指数曲线。这对于色彩空间调整和艺术化修改很有用。曲线值 2.2 近似 sRGB 色彩空间，曲线值 0.455 近似 sRGB 逆变换。值 1.0 表示不应用曲线（默认）。
+material_microsurface_advancedHoriz;设置地平线平滑效果的强度，该效果可提升材质在极端角度下的视觉平滑度。
+;
+material_microsurface_gloss;指定最大光泽度。
+material_microsurface_glossMap;用于控制光泽度或粗糙度的纹理。白色对应光滑表面，黑色对应粗糙表面。
+material_microsurface_glossMapChannel;确定从纹理的哪个通道读取光泽度或粗糙度内容。
+material_microsurface_glossvalue;设置光泽度值，1 对应光滑表面，0 对应粗糙表面。
+material_microsurface_horizonSmooth;设置地平线平滑效果的强度，该效果可提升材质在极端角度下的视觉平滑度。
+material_microsurface_invert;反转光泽度贴图的内容。适用于加载粗糙度贴图，其中白色对应粗糙表面，黑色对应光滑表面。
+;
+material_occlusionMap;遮蔽模型允许你加载环境光遮蔽和凹陷贴图，非常适合任何具有会遮挡光线缝隙的材质。
+material_occlusionMap_occlusionMap;用于控制环境光遮蔽效果的纹理，该效果使用灰度贴图遮蔽环境漫反射天光。
+material_occlusionMap_channelOcclusion;确定使用纹理的哪个通道作为环境光遮蔽贴图。
+material_occlusionMap_occlusion;设置环境光遮蔽效果的强度。
+material_occlusionMap_uvSet;确定环境光遮蔽贴图使用哪个 UV 通道。
+material_occlusionMap_channelVertex;确定使用哪个顶点颜色通道作为环境光遮蔽内容。
+material_occlusionMap_cavityMap;用于控制凹陷效果的纹理，该效果使用灰度贴图遮蔽漫反射和高光。
+material_occlusionMap_channelCavity;确定使用纹理的哪个通道作为凹陷贴图内容。
+material_occlusionMap_diffuseCavity;确定凹陷贴图对漫反射光照的影响程度。
+material_occlusionMap_specularCavity;确定凹陷贴图对高光反射的影响程度。
+material_occlusionMap_curvatureMap;用于指定表面曲率的纹理。此值通常用于材质制作而非渲染，在此提供主要是供绘制系统使用。
+material_occlusionMap_channelCurvature;确定使用曲率贴图的哪个通道。此设置仅在灰度模式下适用。
+material_occlusionMap_strengthCurvature;调整曲率值的缩放。
+material_occlusionMap_grayscaleCurvature;选择是否将曲率贴图解释为单通道灰度图像，其中小于 0.5 的值表示凸起，大于 0.5 的值表示凹陷。另一种是双通道图像，其中红、绿通道分别对应凹陷和凸起。
+;
+material_transmission_mask;设置决定透射强度的蒙版值。加载蒙版贴图后，此数值应设为 1。
+material_transmission_maskMap;用于设置蒙版值的纹理。较亮的像素对应更强的透射。
+material_transmission_maskChannel;确定使用纹理的哪个通道作为透射蒙版。
+material_transmission_maskInvert;反转蒙版数值，使较暗的像素对应更强的透射。
+material_transmission_maskUseAlbedoAlpha;使用材质反照率的 Alpha 值提供透射蒙版。
+material_transmission_strictNormals;使用几何法线判断光线指向网格内部还是外部。启用此选项可能有助于解决低模或细分不佳网格上的漏光问题。仅适用于光线追踪。
+;
+material_subsurface_scattermap;控制散射深度和颜色的纹理，以散射深度设置的值为比例。
+material_subsurface_scatterdepth;指定光线在此材质中的散射距离。该数值以毫米为单位，建议使用准确的场景比例。
+material_subsurface_scattercolor;确定散射颜色。
+material_subsurface_fuzzmap;用于遮罩绒毛效果并为其着色的纹理。
+material_subsurface_fuzz;控制“绒毛”效果的强度，该效果近似表现细毛的外观。
+material_subsurface_fuzzColor;确定绒毛效果的颜色。
+material_subsurface_fuzzMaskWithGloss;使用材质光泽度数值遮罩绒毛外观。
+material_subsurface_useTranslucency;启用半透明近似。有时禁用此设置有助于避免光栅渲染中的伪影。此设置不影响光线追踪图像。
+material_subsurface_aniso;确定散射的主要方向，即向前或向后。数值为零表示均匀的各向同性散射。
+;
+material_refraction_tintColor;透射过对象的光线的色调。
+material_refraction_tintColorUseAlbedo;使用材质反照率提供折射色调。
+material_refraction_indexMap;用于设置折射率数值的纹理。
+material_refraction_index;设置折射率。数值越高，对光线的扭曲程度越大，但不会影响表面反射率。
+material_refraction_indexUseReflectivity;自动从反射率推导折射率。取消勾选此框可使用下方的折射率值覆盖。
+material_refraction_squash;较低数值会限制光栅视图中的畸变效果，这通常适用于薄透镜。此设置不影响光线追踪渲染。
+material_refraction_depth;色调因吸收而显现的深度。数值越低表示吸收越多，外观因而更暗、更不透明。数值为零将禁用吸收与散射。
+material_refraction_depthMap;调节色调并控制因吸收而呈现该色调的深度的纹理。像素越暗，吸收越多，外观越不透明。
+material_refraction_scatter;控制穿过对象的光线散射量。
+material_refraction_scatterColor;确定穿过对象的光线的散射颜色。
+material_refraction_scatterMap;调节透射过对象的光线散射颜色的纹理。
+material_refraction_roughnessBias;修改折射粗糙度。正值使折射比反射更粗糙，负值使折射比反射更光滑。
+material_refraction_anisotropy;指定散射的主方向，向前或向后。数值 0 表示均匀的各向同性散射。
+;
+material_thinsurface_transMap;指定从对象另一侧透射过来的光线亮度和颜色的纹理。
+material_thinsurface_transColor;为半透明效果着色。
+material_thinsurface_useAlbedo;使用材质反照率的颜色作为半透明颜色。
+material_thinsurface_scatter;确定表面内部的光线散射量。
+;
+material_hair_radialRoughnessMap;控制毛发径向粗糙度的纹理。
+material_hair_radialRoughnessChannel;确定使用纹理的哪个通道作为径向粗糙度贴图内容。
+material_hair_tint;为毛发应用色调。
+material_hair_highlightShift;沿发丝移动高光。
+material_hair_radialRoughness;指定闪光沿毛发法线方向的平滑程度。数值过低会使闪光聚集，数值过高则会使光线散布到发丝的整个宽度上。
+material_hair_radialRoughnessInvert;反转径向粗糙度数值，呈现相反的外观。
+material_hair_directionMap;控制毛发方向的纹理。（仅限毛发面片）
+material_hair_directionMapScaleBias;将矢量数据从 [0,1] 范围重映射到 [-1,1]。使用浮点纹理时请禁用此设置。
+material_hair_directionMapFlipX;反转法线的 X 轴，即材质纹理的红色通道。
+material_hair_directionMapFlipY;反转法线的 Y 轴，即材质纹理的绿色通道。
+material_hair_directionMapFlipZ;反转法线的 Z 轴，即材质纹理的蓝色通道。
+;
+material_reflectionAniso;各向异性反射模型允许你为头发、绒毛和拉丝金属等复杂表面定义高光方向。
+material_reflectionAniso_scaleBias;将矢量数据从 [0,1] 范围重映射到 [-1,1]。使用浮点纹理时请禁用此设置。
+material_reflectionAniso_swapXYDir;交换方向贴图中红色与绿色通道的内容。
+material_reflectionAniso_anisotropy;设置各向异性反射效果的强度，可用于定义复杂表面的高光形状。
+material_reflectionAniso_direction;设置各向异性反射的朝向。当所有 UV 大致指向同一方向时，此值可用于头发。
+;
+material_reflBlinnPhong;Blinn-Phong 是一种标准反射模型，其高光形状边缘相对锐利。
+material_reflBlinnPhong_secGloss;设置相对于基础值的光泽度或粗糙度值。
+material_reflBlinnPhong_secIntensity;设置相对于基础值的反射强度。
+material_reflBlinnPhong_secIntensityColor;设置次级反射强度的颜色。
+material_reflBlinnPhong_secFresnel;设置相对于基础值的菲涅尔强度。
+material_reflBlinnPhong_secFresnelColor;设置次级菲涅尔强度的颜色。
+;
+material_reflGGX;GGX 是一种反射模型，其高光形状的衰减相对柔和。GGX 与 Unreal Engine 4 及多种其他引擎和着色器的高光形状和曲线相匹配。
+;
+material_reflMirror;镜像是一种不支持光泽度或粗糙度贴图的反射模型。它对于完全光滑的材质非常高效，应仅用于类似镜面的表面。
+material_reflMirror_horizonOcc;设置地平线遮蔽效果的强度，该效果可减少法线贴图中背面朝向矢量产生的漏光。
+material_reflMirror_secIntensity;设置相对于基础值的反射强度。
+material_reflMirror_secIntensityColor;设置次级反射强度的颜色。
+material_reflMirror_secFresnel;设置相对于基础值的菲涅尔强度。
+material_reflMirror_secFresnelColor;设置次级菲涅尔强度的颜色。
+;
+material_reflNewtonsRings;牛顿环是一种反射模型，用于模拟光在两个表面之间反射所产生的干涉图案，适用于模拟油膜和氧化物等复杂的表面材质。
+material_reflNewtonsRings_thickness;控制外层表面厚度的纹理。这会影响干涉图案，厚度越高显示的“环”越多。
+material_reflNewtonsRings_channel;确定使用纹理的哪个通道作为厚度贴图。
+material_reflNewtonsRings_strength;设置干涉效果的强度。
+material_reflNewtonsRings_filmThickness;控制外表面层的厚度。这会影响干涉图案，厚度越高显示的“环纹”越多。
+material_reflNewtonsRings_minThickness;设置与厚度贴图中最低值对应的厚度下限。
+;
+material_reflIOR;允许使用折射率值控制反射率。
+material_reflIOR_IndexMap;用于设置折射率数值的纹理。
+material_reflIOR_Index;设置此材质的折射率，它会间接影响表面的反射率。数值越高，反射性越强；与折射透射配合使用时，对光线的扭曲程度也越大。
+material_reflIOR_indexHue;设置折射率数值的「颜色」，某些金属需要此设置。这会分别调整红、绿、蓝颜色通道的折射率。
+material_reflIOR_extinction;设置光线穿过材质时的变暗程度。数值越高，材质反射性越强。某些金属需要此值。
+material_reflIOR_extinctionHue;设置消光效果的颜色和强度。
+;
+material_reflMetalAdv;高级金属度模型与金属度模型类似，但可为绝缘体或非金属提供额外的镜面反射强度控制。
+material_reflMetalAdv_specularMap;用于设置绝缘体或非金属反射率值的纹理输入。
+material_reflMetalAdv_channel;确定使用纹理的哪个通道作为高光贴图内容。
+material_reflMetalAdv_specular;设置绝缘体或非金属的反射率数值。
+material_reflMetalAdv_invertspec;反转金属度数值，使白色表示绝缘体，黑色表示金属。
+material_reflMetalAdv_specadjust;为高光输入添加曲线以匹配 Frostbite 引擎。当滑块设为 0.16 时，灰度值 128 相当于 4% 反射率。
+;
+material_reflMetalness;金属度模型提供输入，用于将材质定义为导体（金属）或绝缘体（非金属），在 Unreal Engine 4 等许多游戏引擎中很常用。如果材质有金属度贴图，请使用此模型。
+material_reflMetalness_metalnessMap;用于设置金属度值的纹理。黑色定义为非金属或绝缘体，白色定义为金属。
+material_reflMetalness_metalness;设置金属度数值，通常绝缘体为 0，金属为 1。加载金属度贴图后，此数值应设为 1。
+material_reflMetalness_channel;确定使用纹理的哪个通道作为金属度贴图。
+material_reflMetalness_invert;反转金属度数值，使白色表示绝缘体，黑色表示金属。
+;
+material_reflSpecular;高光贴图模型提供输入，用于设置明确的高光反射强度和颜色。如果你的材质有高光贴图，请使用此模型。
+material_reflSpecular_specularMap;用于设置高光反射颜色和强度的纹理。
+material_reflSpecular_channel;指定高光贴图中使用的颜色通道。
+material_reflSpecular_intensity;设置高光反射的强度。
+material_reflSpecular_color;设置高光反射的颜色和强度。
+material_reflSpecular_fresnelIntensity;设置菲涅尔效果的强度，即表面在掠射角下的反射程度。
+material_reflSpecular_fresnelColor;设置菲涅尔效果的颜色和强度。
+material_reflSpecular_conserveEnergy;能量守恒会压暗反照率贴图，以确保漫反射与高光的光量之和不超过照射到对象上的光量。
+;
+material_subDivFlat;平面细分会对几何体进行细分，但不改变其形状。
+material_subDivFlat_tessellation;设置细分时的细分级别或几何体上限。
+material_subDivFlat_noGpuSupport;此计算机不支持此功能。
+;
+material_subDivPN;PN 三角形细分会对几何体进行细分，并尝试平滑轮廓。
+material_subDivPN_smoothing;设置 PN Triangles 效果的强度，该效果在细分几何体的同时平滑表面。
+material_subDivPN_noGpuSupport;此计算机不支持此功能。
+;
+material_surfDetailNormal;用于逐像素光照的标准法线贴图，并附带额外的细节法线贴图槽位。
+material_surfDetailNormal_detailNormalMap;用于提供额外细节的第二张法线贴图。
+material_surfDetailNormal_uvSet;用于微细节法线贴图的 UV 集。
+material_surfDetailNormal_scaleBiasDetail;将矢量数据从 [0,1] 范围重映射到 [-1,1]。使用浮点纹理时请禁用此项。
+material_surfDetailNormal_flipXDetail;反转纹理 X 轴（即红色通道）的内容。
+material_surfDetailNormal_flipYDetail;反转纹理 Y 轴（即绿色通道）的内容。
+material_surfDetailNormal_flipZDetail;反转纹理 Z 轴（即蓝色通道）的内容。
+material_surfDetailNormal_detailTiling;设置细节法线贴图的平铺间距。
+material_surfDetailNormal_detailOffset;偏移细节法线贴图。这有助于避免重复性伪影。
+material_surfDetailNormal_detailWeightMap;用于设置微细节法线贴图强度的纹理。
+material_surfDetailNormal_detailChannel;确定使用纹理的哪个通道作为细节法线权重贴图。
+material_surfDetailNormal_detailWeight;设置微观细节法线贴图的强度。
+;
+material_surfNormal;用于逐像素光照的标准法线贴图。
+material_surfNormal_normalMap;提供逐像素表面法线向量的纹理贴图，用于增强光照细节。
+material_surfNormal_scaleBias;将矢量数据从 [0,1] 范围重映射到 [-1,1]。使用浮点纹理时请禁用此项。
+material_surfNormal_flipX;反转纹理 X 轴（即红色通道）的内容。
+material_surfNormal_flipY;反转纹理 Y 轴（即绿色通道）的内容。
+material_surfNormal_flipZ;反转纹理 Z 轴（即蓝色通道）的内容。
+material_surfNormal_objectSpace;确定输入法线贴图是在切线空间还是对象/世界空间中烘焙的。若使用切线空间贴图时启用对象空间（反之亦然），将出现光照错误。
+material_surfNormal_genZ;由 X 和 Y 生成法线的 Z 坐标。这通常对双通道法线贴图很有用。
+;
+material_surfParallax;用于逐像素光照的标准法线贴图，另加视差贴图槽位以模拟深度/置换贴图。
+material_surfParallax_heightMap;用于定义视差效果深度的纹理。
+material_surfParallax_channel;确定使用纹理的哪个通道作为视差高度/深度贴图。
+material_surfParallax_depth;设置视差效果的强度。
+material_surfParallax_depthCenter;设置高度/深度贴图的灰点、零点或「无置换」点。高于此阈值的值将向外置换，低于此阈值的值则表现为向内置换。
+material_surfParallax_contrast;调整高度贴图的对比度。
+material_surfParallax_contrastCenter;调整用于高度贴图对比度中心的数值。
+material_surfParallax_offset;偏移贴图内容。
+material_surfParallax_quality;视差效果的质量。
+;
+material_surfBevel_width;倒角效果的半径，以毫米为单位。
+material_surfBevel_angle;将倒角效果限制在大于此角度值（度）的拐角处。
+material_surfBevel_samples;控制倒角效果的质量。较宽的倒角受益于更多采样。此设置会显著影响渲染性能。
+material_surfBevel_hardEdges;启用后，倒角效果始终应用于所有硬边。
+material_surfBevel_sameSurface;启用后，与其他网格相交处不应用倒角。
+material_surfBevel_mask;允许通过插值的顶点颜色通道遮罩倒角宽度。
+;
+material_transparency_useAlbedoAlpha;确定反照率贴图的 alpha 通道是否用于透明贴图。
+material_transparency_transparencyMap;此纹理用于定义材质的不透明度。白色对应完全不透明，黑色表示完全透明。
+material_transparency_textureChannel;确定在透明贴图中使用纹理的哪个通道。
+material_transparency_alpha;设置材质的不透明度。白色表示完全不透明，黑色表示完全透明。
+material_transparency_dither;确定在裁切折射材质时使用镂空还是抖动。
+material_transparency_invertmask;反转蒙版，适用于将透明贴图用作蒙版的情况。
+;
+material_transparencyAdd;叠加透明会在场景中其他对象之上添加高光光照。这对于玻璃或反射外壳等透明材质很有用。
+material_transparencyAdd_tint;设置加色色调效果的颜色。
+material_transparencyAdd_includeDiffuse;使用加法混合时包含漫反射贡献。这通常会产生发光或幽灵般的外观。
+;
+material_transparencyAlphaTest;镂空或透明度测试是定义透明材质的一种简单方法，其作用相当于开或关的功能。
+material_transparencyAlphaTest_threshold;透明度值低于此阈值的像素将被裁剪且不渲染，从而产生硬边“镂空”边界。
+;
+material_transparencyDither;抖动是一种高级的、与顺序无关的创建半透明表面的方法。抖动结果在视口中会显得有噪点，但渲染超采样图像时质量会提升。提高分辨率可进一步改善质量（例如使用 3840x2160 而非 1920x1080）。此方法最适合大部分不透明但边缘柔和的材质，如毛发。
+;
+material_custom_shaders;选择自定义着色器。此列表显示 Toolbag 自定义着色器目录（data/shader/mat/custom）中的着色器文件。该目录中用户编写且可编辑的文件可用于更改 Marmoset 材质的着色行为。有关更多信息，请参阅附带的示例文件。
+material_custom_edit;编辑当前着色器文件。
+material_custom_reload;重新加载当前自定义着色器文件（Ctrl+Shift+C）。
+material_custom_clear;清除对当前着色器文件的引用。
+;
+material_new;创建新材质。
+material_duplicate;复制所选材质。
+material_presetdropdown;从预设创建材质。
+material_apply;将所选材质应用到选中的场景对象。
+material_delete;删除选定的材质或组。
+material_import;从磁盘导入材质文件。
+material_export;将材质文件导出到磁盘。
+material_thumb_size;材质缩略图大小。
+material_group_new;创建新的材质组。
+;
+material_field_transform_position_x;设置投影相对于材质网格的 X 轴 3D 空间位置。
+material_field_transform_position_y;设置投影相对于材质网格的 Y 轴 3D 空间位置。
+material_field_transform_position_z;设置投影相对于材质网格的 Z 轴 3D 空间位置。
+material_field_transform_scale_x;设置投影相对于材质网格的 X 轴 3D 空间大小。
+material_field_transform_scale_y;设置投影相对于材质网格的 Y 轴 3D 空间大小。
+material_field_transform_scale_z;设置投影相对于材质网格的 Z 轴 3D 空间大小。
+material_field_transform_rotation_x;设置投影相对于材质网格的 X 轴 3D 空间旋转。
+material_field_transform_rotation_y;设置投影相对于材质网格的 Y 轴 3D 空间旋转。
+material_field_transform_rotation_z;设置投影相对于材质网格的 Z 轴 3D 空间旋转。
+material_field_transform_fine_tune;在视口内调整投影。
+material_field_transform_done;完成视口内的投影调整。
+material_field_transform_reset;重置投影变换。
+;
+material_resource_compositor_channel_selection;选择用于混合图层的贴图通道。
+material_resource_compositor_brightness;调整亮度。
+material_resource_compositor_contrast;调整对比度。
+material_resource_mask_compositor_remove_mask;移除蒙版。
+material_resource_mask_compositor_add_mask;添加蒙版。
+material_resource_mask_compositor_mask;用于混合图层的蒙版。
+material_resource_mask_compositor_mask_selection;选择用于混合图层的蒙版。
+material_resource_mask_compositor_uv_selection;选择用于混合图层的 UV 集。
+material_resource_height_compositor_height;用于混合图层的高度贴图。
+material_resource_height_compositor_channel_selection;用于混合图层的高度贴图通道。
+material_resource_layer_visibility;切换图层可见性。
+material_resource_layer_remove;移除图层。
+material_resource_layer_add;添加图层。
+;
+module_expand;展开此模块。
+module_collapse;折叠此模块。
+module_dropdown;为此插槽选择不同的着色器模型。
+;
+texture_options;调整此纹理贴图的额外参数。
+texture_preview;预览此纹理贴图。
+texture_previewviewport; 在视口中预览此纹理贴图。
+texture_edit;使用与此文件类型关联的内容创建应用进行编辑。
+texture_reload;重新加载此纹理贴图。
+texture_clear;移除此纹理贴图。
+;
+texture_options_srgb;设置此纹理贴图应以 sRGB/伽马空间还是线性空间加载。
+texture_options_filtering;设置此纹理是否使用过滤。对于需要像素化效果的像素风纹理，请禁用。
+texture_options_mipmaps;设置此纹理是否使用 Mipmap，即在远距离观看时切换为低分辨率纹理版本。禁用此项通常会降低性能与图像质量。
+texture_options_aniso;设置应用于此纹理的各向异性过滤级别。数值越高效果越好，但可能降低性能。
+texture_options_wrapping;设置此纹理使用的纹理环绕方式。Clamp 会在 [0,1] UV 范围之外拉伸纹理，Repeat 会在 UV 范围之外平铺纹理，Mirror 会在 UV 范围之外镜像翻转纹理。
+;
+texture_preview_mipbias;为 mipmap 级别添加偏移。便于在视口和预览窗口中预览较低 mipmap 级别的外观。
+texture_preview_red;切换红色通道的显示。
+texture_preview_green;切换绿色通道的显示。
+texture_preview_blue;切换蓝色通道的显示。
+texture_preview_alpha;切换 Alpha 通道的显示。图像将以棋盘格背景混合显示。
+;
+preferences_app_updates;确定是否提示安装新更新。启用后，Toolbag 每次启动时都会检查新版本。
+preferences_app_updates_beta;Toolbag 会在有可用版本时检查并更新到最新测试版。如果你想测试正在开发的最新功能，请启用此选项。请注意，测试版可能存在错误。重启 Toolbag 后此设置才会生效。
+preferences_app_windowposition;启用后，Toolbag 窗口将以上次关闭时的位置和大小加载。
+preferences_app_promptunsaved;启用后，关闭场景时会提示保存未保存的工作。
+preferences_app_tooltips;禁用后将移除这些实用的小方框。仅限高手操作。
+preferences_app_undoverify;在撤销或重做操作时对场景执行额外的完整性检查。还会在性能窗口中显示诊断数据。
+preferences_app_openpref;选择启动时 Toolbag 打开空白场景、上次打开的场景还是模板场景。
+preferences_app_newscenepref;确定新场景是空场景还是从模板场景创建。
+preferences_app_skyboxdefaultdir;指定 Toolbag 启动时天空盒浏览器使用的默认目录。
+preferences_app_skyboxdefaultdirbrowse;选择新的默认天空盒浏览目录。
+preferences_app_skyboxdefaultreset;将默认天空盒浏览目录重置为 Toolbag 的“sky”文件夹。
+preferences_app_tabletfriendly;启用增强的数位板兼容性。此设置有时可解决数位板输入问题，但会禁用部分鼠标功能。
+preferences_app_tabletbackend;使用数位板时的默认后端，默认为操作系统支持的最新版本。
+preferences_app_bakerscheduling;选择新烘焙项目的默认烘焙模式。
+;
+preferences_content_browsemissing;加载场景时，提示定位缺失的外部文件（如纹理和动画）。
+preferences_content_browsemissingmeshes;加载场景时，提示定位缺失的外部网格。
+preferences_content_autoreloadtext;当 Toolbag 重新获得焦点时，已更改的纹理会自动重新加载。
+preferences_content_tangentspace;设置导入网格时应用的切线空间。请选择你烘焙法线贴图时最常用的应用程序。
+preferences_content_tangentorientation;新建的烘焙项目和纹理项目将默认使用此切线空间手性。
+preferences_content_autoreloadmodels;当 Toolbag 重新获得焦点时，模型文件将自动重新加载。这仅适用于外部模型引用；未作为引用导入的模型不会重新加载。
+preferences_content_importmodelsasrefs;模型文件将作为文件引用导入，而不是简单地作为编组对象导入。这允许快速就地重新加载模型。请注意，禁用此功能将导致无法导入动画网格。
+preferences_content_importmodelmaterials;模型文件将随可用的材质定义一起导入，包括纹理和其他可用参数。
+preferences_content_existingmaterials;当导入的材质与场景中现有材质重名时应采取的操作。
+preferences_content_units;确定新场景使用哪种单位系统。此设置应与 3D 建模软件中的单位设置一致。
+preferences_output_defaultdir;设置新建场景时渲染图像的默认保存目录。
+preferences_output_watermark;确定创建新场景时是否启用“Rendered in Marmoset Toolbag”水印。
+;
+preferences_gpu_tdr;允许调整 Windows GPU 的“超时”设置。在某些情况下，提高此值可改善复杂场景的稳定性。建议使用 10 到 30 秒之间的值。
+preferences_gpu_tdr_reset;将 Windows GPU 超时设置重置为默认的 2 秒。这可能会对复杂场景的稳定性产生负面影响。
+preferences_gpu_rayengine;用于渲染和烘焙的光线追踪引擎。“加速”需要支持硬件光线追踪的 GPU，性能最佳，但显存占用更高。“通用”适用于所有 GPU，显存占用更低，但速度较慢。“自动”会根据 GPU 和当前显存预算选择最优引擎。
+preferences_gpu_raybudget;用于光线追踪数据的显存最大占用量，以总显存的百分比表示。处理包含数百万三角面的超大场景时，可考虑调整此值。较低的预算可能会降低性能，而较高的预算可能会以更高的显存占用为代价提升性能。
+preferences_library_auto_update;有新版本可用时自动更新资产。
+preferences_library_local_path;存储第一方资源库内容的路径。
+preferences_library_user_path;存储用户第三方资源库内容的路径。
+;
+preferences_autosave;按指定的时间间隔自动将场景备份保存到自动保存文件夹。
+preferences_autosave_relative;在当前场景所在的文件夹中创建自动保存文件。启用此选项时，“最大保存数”和“最大自动保存文件夹大小”设置将不适用。
+preferences_autosave_duration;确定自动保存的频率。
+preferences_autosave_maxcount;确定给定场景保留的最大自动保存数量。超过此值时，较旧的自动保存将被删除。使用数值 0 将保留所有文件。
+preferences_autosave_path;确定备份的保存文件夹。
+preferences_autosave_maxsize;自动保存文件夹可使用的最大空间。当文件夹总大小超过此数值时，较旧的自动保存将被删除。
+preferences_autosave_maxsize_units;确定自动保存文件夹大小上限以 GB（吉字节）还是 MB（兆字节）为单位。
+preferences_autosave_clear;删除自动保存文件夹中的所有文件。
+preferences_autosave_open;使用文件资源管理器打开自动保存文件夹位置。
+preferences_autosave_foldersize;自动保存文件夹的大小。
+;
+capture_image_path;渲染图像的写入位置。可指定目录或文件名。
+capture_image_browse;浏览用于保存图像的文件位置。
+capture_image_size;以像素为单位设置导出图像的尺寸。
+capture_image_width;设置导出图像的宽度（像素）。
+capture_image_height;以像素为单位设置导出图像的高度。
+capture_image_resolutionpresets;从多种分辨率预设中选择。
+capture_image_overwrite;用新的渲染结果覆盖现有文件。如果禁用此选项，新的渲染结果将使用带编号的文件名。
+capture_image_sampling;设置每像素的渲染采样数。数值越高，图像质量越好，但渲染时间越长。
+capture_image_mipbias;在高分辨率和超采样截图中启用 mipmap 偏移。通常这会改善这些图像中纹理和着色的外观，但有时会产生与视口明显不同的结果。
+capture_image_format;选择导出图像的文件类型。
+capture_image_transparency;将透明蒙版保存到导出图像的 Alpha 通道中（在支持的情况下）。
+capture_image_denoise;对最终图像或视频帧执行降噪。此设置仅对光线追踪渲染生效。
+capture_image_denoise_mode;降噪模式。GPU 模式需要受支持的 NVIDIA 显卡。
+capture_image_denoise_quality;降噪质量级别。
+;
+capture_video_path;渲染动画的写入位置。可指定目录或文件名。
+capture_video_browse;浏览用于保存动画的文件位置。
+capture_video_size;以像素为单位设置导出动画的尺寸。
+capture_video_width;设置导出动画的宽度（像素）。
+capture_video_height;以像素为单位设置导出动画的高度。
+capture_video_overwrite;用新的渲染结果覆盖现有文件。如果禁用此选项，新的渲染结果将使用带编号的文件名。
+capture_video_format;选择动画的输出格式。序列格式将写入一系列静帧图像，而非单个视频文件。
+capture_video_quality;视频图像质量（仅适用于压缩视频）。数值越高，生成的文件越大，但画质更好。
+capture_video_transparency;将透明蒙版保存到导出图像序列的 Alpha 通道中。视频文件不支持此功能。
+capture_video_autoopen;导出完成后自动打开生成的视频文件。
+;
+exporter_path;场景的导出文件路径。
+exporter_path_browse;浏览导出位置。
+exporter_models;导出场景中的模型。
+exporter_cameras;导出场景中的相机。
+exporter_lights;导出场景中的灯光。注意：Toolbag 使用自己的灯光单位，因此在其他应用中亮度会有所不同。
+exporter_materials;导出场景中的材质，并转换为最接近的等效项。
+exporter_skies;导出场景中的天空。注意：Toolbag 使用自己的天空亮度单位，因此转换为最接近的等效项后天空会有所不同。
+exporter_others;导出场景中的其他对象，如烘焙器对象、纹理项目对象等。
+exporter_embedassets;将纹理嵌入导出文件。根据导出格式的不同，此操作可能无法实现。
+exporter_normals;导出场景中几何体的法线。
+exporter_tangents;导出场景中几何体的切线。
+exporter_uvs;导出场景中几何体的所有 UV 贴图。
+exporter_vertexcolors;导出场景中几何体的顶点颜色。
+exporter_animations;导出场景中的动画。根据导出格式的不同，效果可能有所差异。
+exporter_subdivisions;导出已应用细分的几何体。
+exporter_displacement;导出已应用置换的几何体。
+exporter_triangulate;三角化导出的几何体。
+exporter_weldvertices;焊接导出几何体的顶点。
+;
+exporter_usd_filereferences;确定纹理等引用文件是打包到此文件中，还是保留其原始路径。 
+exporter_usd_texturecopy;确定当导出路径下存在同名文件时，是覆盖、跳过还是创建唯一的纹理名称。
+exporter_usd_selectedonly;仅导出当前所选的对象。
+;
+viewerExport_package_title;为场景添加标题！标题将显示在查看器中您的作品旁边。
+viewerExport_package_author;你的姓名或昵称。此文本将显示在查看器中标题的旁边。
+viewerExport_package_link;如果设置了 URL，标题和作者文本将链接到此 URL。
+viewerExport_package_texQuality;指定场景纹理的质量，这会对包体大小产生较大影响。除应用不同级别的压缩外，此设置还会分别将纹理尺寸限制为 1024、2048 与 4096。
+viewerExport_package_losslessNormals;对法线贴图纹理使用无伪影压缩。这会导致场景文件更大，因此仅应用于法线精度至关重要的场景。
+viewerExport_package_exportAnimations;导出动画场景。将包含活动时间轴范围内的动画。
+viewerExport_package_modelShowcase;从主模型导出所列动画集。其他项目（如灯光）的场景播放将针对该集中的每个动画重复。此设置仅适用于动画场景。
+viewerExport_package_autoPlayAnims;立即开始播放。
+viewerExport_package_showPlaybackControls;允许访问导出场景的播放控件。
+viewerExport_package_hiResThumbnail;包含高分辨率预览图像。在浏览器中加载场景之前将显示此图像，而不是模糊的预览。请注意，这可能会显著增加文件大小。
+viewerExport_html_write;启用后，将写入一个显示场景的简单 HTML 文件。如果你打算在自己的个人页面上嵌入或展示场景，此文件通常很有用。
+viewerExport_html_usePreset;为查看器场景提供一个简单的风格化 HTML 布局。如果打算以无格式方式或在 iframe 中嵌入生成的 HTML 文件，则可能不应使用此选项。
+viewerExport_html_autoPlay;页面加载时将自动加载并显示场景。
+viewerExport_html_width;指定查看器画面的宽度。若勾选“Full Frame”选项，此设置将被忽略。
+viewerExport_html_height;指定查看器画面的高度。若勾选“Full Frame”选项，此设置将被忽略。
+viewerExport_html_fullFrame;使查看器填满可用框架或浏览器窗口。此设置适用于将查看器嵌入 iframe 或制作整页展示。
+viewerExport_artstation;将当前场景包上传到 ArtStation.com。
+viewerExport_preview;在浏览器中打开当前场景的预览。
+viewerExport_cancel;取消导出。
+viewerExport_export;将 Marmoset Viewer 场景包导出到磁盘。
+;
+gltfExport_path;glTF 场景的导出文件路径。
+gltfExport_path_browse;浏览导出位置。
+gltfExport_texQuality;设置所包含纹理的质量，通过调整压缩级别与图像尺寸实现。较低的质量设置通常会产生更小的文件体积。
+gltfExport_useVertColor;尽可能包含顶点颜色。glTF 将顶点颜色作为材质基础颜色的乘数进行渲染。
+gltfExport_metalnessThreshold;将像素视为金属的阈值。此设置仅适用于高光材质，需转换为金属度贴图以用于 glTF 格式。高于此值的高光值将转换为金属，低于此值的将视为电介质。强烈建议使用金属度材质以获得 glTF 的最佳效果。
+gltfExport_cancel;取消导出。
+gltfExport_export;将 glTF 场景包导出到磁盘。
+;
+render_output_path;设置渲染图像的保存目录。
+;
+viewport_currentCamera;选择用于视口和截图渲染的相机。
+viewport_currentCameraSettings;编辑当前活动相机。
+viewport_currentRenderSettings;编辑当前渲染设置。
+viewport_visMode;选择在此视口中可视化材质、烘焙或纹理项目属性的模式。
+viewport_speedyMode;快速视口模式。此模式会禁用多种渲染功能，以获得更快、更流畅的视口。（Ctrl+Shift+J）
+viewport_selection_behavior;确定选择轮廓的行为，可将其禁用、淡入或始终开启。
+viewport_settings_independentcenter;确定视口的位置是独立的，还是在多个视口之间共享。
+viewport_settings_independentscale;确定视口的缩放是独立的，还是在多个视口之间共享。
+viewport_settings;配置视口设置。
+;
+baker_bake;烘焙所有激活的输出并写入磁盘。
+baker_export_psd;将所有活动烘焙输出导出为单个分层 PSD 文件。
+baker_cancel;取消任何正在进行的烘焙。
+baker_mode;选择烘焙的几何体模式。「高模到低模」通过笼偏移和倾斜控制光线相交，将高模几何体烘焙到低模表面。「低模到低模」在同一网格上烘焙低模材质信息。「UV 匹配」将高模网格的细节按匹配的 UV 坐标映射到低模网格。
+baker_scheduling;调整烘焙工作的调度方式。离线烘焙通过弹出窗口处理并阻止用户交互。交互式烘焙允许在烘焙期间编辑和查看场景。影响烘焙结果的场景编辑会导致烘焙取消并重新开始。
+baker_newgroup;创建新的烘焙组。烘焙组可用于将几何体组彼此隔离，以避免不需要的相交。
+baker_showhidehigh;切换高模烘焙对象的可见性。
+baker_showhidelow;切换低模烘焙对象的可见性。
+baker_applypreviewmaterials;在低模几何体上预览烘焙输出。创建一个包含法线贴图、AO 和材质输出的预览材质，并将其应用到烘焙器中的低模网格。
+baker_applylowtolowmat;选择应用于低模网格的材质，用于「低模到低模」烘焙。源材质包含用户指定的设置，结果材质用于查看烘焙器输出。
+baker_lowlowsinglemat;统一材质预览，启用后为所有烘焙网格生成单一结果材质。
+baker_refreshlowtolowmat;刷新材质分配，按需修复或更新。
+baker_cancelpreview;移除视口中显示的所有烘焙贴图预览。
+baker_externalmeshes;加载一个或多个模型，并尝试自动分配到高模和低模烘焙组。
+baker_reloadexternals;重新加载所有外部网格文件，并按需将其分配给高模和低模烘焙组。
+baker_removeexternals;从烘焙器中移除所有外部网格文件。
+baker_autoreloadexternals;自动检查外部网格文件的更改，并按需重新加载。
+baker_use_hidden_mesh;在大纲视图中隐藏的网格将用于烘焙。
+baker_ignore_transform;烘焙时将忽略网格变换（如旋转和位置）。
+baker_smooth_cage;为烘焙投影平滑低模网格的法线。这通常有助于避免 UV 接缝处的不连续。
+baker_ignore_backfaces;烘焙时忽略高模网格三角形的背面。这通常有助于正确烘焙缝隙或悬浮几何体。
+baker_fix_mirrored;尝试修复低模网格中镜像切线空间引起的任何问题。
+baker_dither;对烘焙结果进行抖动，以帮助防止色带伪影。此设置仅对 8 位/通道的输出生效。
+baker_previewmapviewport;在视口的低模网格上预览烘焙贴图。
+baker_previewmap;在纹理窗口中预览烘焙贴图。
+baker_editmap;编辑烘焙的贴图。
+baker_settingsmap;编辑此贴图的设置。
+baker_castthroughmaterials;允许烘焙器穿透透明材质进行投射。适用于将不同网格相互叠加。
+baker_tangentspace;选择所有网格的切线空间约定。这等同于在烘焙项目中手动更改每个低模网格的相同设置。
+baker_tangentinterp;确定网格切线空间是在每个顶点还是在每个像素计算。这等同于在烘焙项目中手动更改每个低模网格上的相同设置。
+baker_tangentorientation;配置烘焙器以右手或左手（Y 翻转）坐标系输出切线空间法线贴图。右手切线通常称为 Maya 或 OpenGL 风格，左手切线则称为 3DS Max 或 Direct3D 风格。
+baker_tilemode;确定 UV 布局工作流。单一纹理集适用于简单的 UV 布局。当低模上应用的每个材质都有专属 UV 布局时，应使用多纹理集。当资产需要每个材质使用多个平铺集时，应使用 UDIM。
+baker_tileappend;确定在磁盘上创建文件时，平铺名称添加在贴图名称之前还是之后。
+baker_tileseparator;确定在磁盘上创建文件时，平铺名称与贴图名称之间使用的分隔符。
+baker_tilevisibility;启用或禁用此平铺。
+baker_textureprojectlink;确定此烘焙项目是否链接到纹理项目。链接后，对烘焙项目的更改将自动更新纹理项目。
+;
+baker_suffix;输出贴图文件时使用的后缀。
+baker_overrideSoften;覆盖全局柔化设置，允许为此贴图使用单独的柔化值。
+baker_softenStrength;对烘焙贴图应用柔化滤镜。此值将覆盖全局柔化设置。
+baker_texturesets_enable;启用纹理集，这是一种基于应用于低多边形网格的独立材质来烘焙多个贴图的方式。
+;
+baker_output_path;烘焙结果的输出路径。该路径将用于多文件和多图层 PSD 输出。
+baker_output_width;所有图像输出的宽度。
+baker_output_height;所有图像输出的高度。
+baker_output_samples;每像素采样数。更高的数值可能会提升某些输出的质量，但会大幅增加烘焙时间。
+baker_output_pformat;每个颜色通道的位精度。精度越高，文件越大，通常色带伪影越少。
+baker_output_padding;对输出结果进行扩边，以填充 UV 布局中的空白区域。这通常有助于防止 UV 边界处的过滤或 mipmap 伪影。
+baker_output_filter;对烘焙表面应用柔化滤镜。这有助于平滑浮片周围或其他硬边缘的边界。
+;
+baker_surface_normalmap;烘焙切线空间法线贴图。法线朝向将与为每个低模选择的切线空间一致。
+baker_surface_normalobjmap;烘焙对象空间法线贴图。
+baker_surface_bentnormalmap;烘焙切线空间弯曲法线贴图，法线将朝向遮蔽最少的方向。
+baker_surface_bentnormalobjmap;烘焙对象空间弯曲法线贴图，法线将朝向遮蔽最少的方向。
+baker_surface_heightmap;烘焙高度贴图。
+baker_surface_positionmap;烘焙位置渐变贴图。
+baker_surface_vertexcolormap;烘焙顶点颜色贴图。
+baker_surface_curvaturemap;烘焙曲率贴图。
+baker_surface_convexitymap;烘焙凸曲率贴图。
+baker_surface_concavitymap;烘焙凹曲率贴图。
+baker_surface_thicknessmap;烘焙用于次表面散射材质的厚度贴图。
+baker_lighting_aomap;烘焙环境光遮蔽贴图。
+baker_lighting_aomap2;烘焙第二张环境光遮蔽贴图，使用单独的设置。
+baker_lighting_diffusemap;烘焙包含场景中所有可见灯光的漫反射光照贴图。
+baker_lighting_specmap;烘焙包含场景中所有可见灯光的高光光照贴图。
+baker_lighting_completemap;烘焙包含所有光照、阴影和材质效果的完整贴图。
+baker_lighting_indirectmap;烘焙漫反射和高光间接光照反弹的贴图。
+baker_idsandmasks_materialidmap;烘焙材质 ID 贴图。此贴图中的每种颜色对应分配给高模的不同材质。
+baker_idsandmasks_objectidmap;烘焙对象 ID 贴图。此贴图中的每种颜色对应分配给高模的不同对象。
+baker_idsandmasks_groupidmap;烘焙组 ID 贴图。此贴图中的每种颜色对应分配给高模的不同烘焙组。
+baker_idsandmasks_uvislandmap;烘焙 UV 岛贴图。此贴图中的每种颜色对应不同的 UV 岛。
+baker_idsandmasks_alphamaskmap;基于高模几何体烘焙透明度蒙版。
+baker_idsandmasks_wireframemap;从低模烘焙线框网格叠加层。
+baker_material_albedomap;从分配给高模的材质烘焙用于反照率/光泽度/高光 PBR 的合成反照率贴图。如果启用了“多图层 PSD”输出，每个材质将写入单独的图层。
+baker_material_specularmap;从分配给高模的材质烘焙合成高光贴图。如果启用了“多图层 PSD”输出，每个材质将写入单独的图层。
+baker_material_glossmap;从分配给高模的材质烘焙合成光泽度贴图。如果启用了“多图层 PSD”输出，每个材质将写入单独的图层。
+baker_material_albedometalmap;从分配给高模的材质烘焙用于反照率/金属度/粗糙度 PBR 的合成反照率贴图。如果启用了“多图层 PSD”输出，每个材质将写入单独的图层。
+baker_material_metalnessmap;从分配给高模的材质烘焙合成金属度贴图。如果启用了“多图层 PSD”输出，每个材质将写入单独的图层。
+baker_material_roughnessmap;从分配给高模的材质烘焙合成粗糙度贴图。如果启用了“多图层 PSD”输出，每个材质将写入单独的图层。
+baker_material_emissivemap;从分配给高模的材质烘焙合成自发光贴图。
+baker_material_alphamap;从分配给高模的材质烘焙合成透明度贴图。
+;
+baker_normals_flipX;反转切线空间法线贴图的 X（红）轴。
+baker_normals_flipY;反转切线空间法线贴图的 Y（绿）轴。
+baker_normals_flipZ;反转切线空间法线贴图的 Z（蓝）轴。
+baker_normals_useTransforms;此选项会在对象空间法线贴图中包含应用于低模的变换。当烘焙项目中启用“忽略变换”时，此设置无效。
+;
+baker_height_innerDist;内部高度贴图距低模网格的距离，以世界单位表示。此数值对应高度贴图中的黑色。
+baker_height_outerDist;高度贴图外边缘与低模网格的距离，以世界单位计。该数值对应高度贴图中的白色。
+;
+baker_position_normalization;归一化位置数据的方式。
+;
+baker_curve_strength;设置曲率输出的缩放。较平滑的网格可能需要更高的强度值才能使特征清晰可见。
+baker_curve_width;确定曲率特征的宽度。
+baker_curve_sharpness;设置曲率高光的尺寸。锐度越高，特征轮廓越紧凑、越清晰，但可能遮蔽部分细节。
+;
+baker_uvisland_svg;将 UV 岛矢量数据输出为额外的 SVG 文件。
+;
+baker_mat_metalnessthreshold;将高光材质烘焙为金属度时，高于此阈值的高光值将被视为金属。
+;
+baker_light_exposure;调整烘焙光照的亮度。
+baker_light_bounces;限制光线追踪的漫反射和高光反射次数。数值越高图像质量越好，但渲染时间更长。
+baker_light_samples;设置每像素的渲染采样数。数值越高，图像质量越好，但渲染时间越长。
+baker_light_ignoregroups;忽略几何体划分为烘焙组的分隔，允许反射和阴影在各组之间相互作用。启用此选项还可显著加快灯光烘焙速度。
+baker_light_denoise;调整降噪效果的强度。值为零时完全跳过降噪。
+baker_light_usematerials;启用后，首次光线反弹使用材质属性。二次反弹始终使用材质属性。禁用此选项对烘焙光照贴图很有用。
+baker_light_indirectmode;选择烘焙中包含的间接光类型。
+;
+baker_cone_raycount;为贴图的每个像素采样射线。更高的射线数量可获得更高质量，但会增加烘焙时间。
+baker_ao_floor;在模型下方提供遮蔽效果，模拟地面。
+baker_ao_floorstrength;调整地面遮蔽效果的强度，该效果会模拟模型下方的一个平面。
+baker_ao_ignoreGroups;烘焙时忽略高模源网格的分组，允许所有组相互投射射线。适用于跨不同对象组投射细节。
+baker_ao_twoSided;遮蔽测试使用多边形的两侧。如果同时启用“忽略组”，这可能导致网格相交区域完全被遮蔽。
+baker_ao_dither;抖动会为 8 位输出添加细微噪波，以防止色带。
+baker_ao_cosineweight;调整不同角度下遮蔽采样的相对影响。-1 对应着色漫反射 AO，0 表示均匀权重采样，较高的值会在凹陷处产生更多遮蔽。
+baker_ao_distance;采样光线可传播的最大距离。设置为 0 表示距离不限。
+;
+baker_thickness_scale;调整厚度值范围的缩放，以模型边界为比例。
+baker_thickness_gamma;对最终颜色值应用伽马曲线。如果你偏好更高对比度的外观，请使用此项。
+;
+baker_vcolor_gamma;对顶点颜色值应用伽马曲线。如果网格上的顶点颜色不是线性值，请使用此设置。
+baker_vcolor_alpha;在最终结果中包含顶点透明度数值。
+;
+baker_wireframe_thickness;设置渲染线框的粗细。
+baker_wireframe_color;设置渲染线框的颜色。
+baker_wireframe_vertex;设置所渲染线框的相对顶点半径，1.0 表示与线宽相同的半径。
+;
+baker_dst_autobake;选择在编辑偏移或倾斜参数时自动重新烘焙贴图的方式。「快速」模式会尝试仅重新烘焙网格中已更改的小部分区域，并以略低的质量换取速度。快速模式无法预览 AO 或材质烘焙输出。
+baker_dst_showoffset;在视口中显示笼网格偏移。
+baker_dst_showskew;在视口中显示笼网格的倾斜方向。
+baker_dst_minoffset;最小笼偏移。指定笼从低模网格向外追踪的最小距离。此数值对应偏移贴图中的黑色。
+baker_dst_maxoffset;最大笼偏移。指定笼从低模网格向外追踪的最大距离。此数值对应偏移贴图中的白色。
+baker_dst_maxraydist;最大射线长度。此数值限制从笼表面向内追踪的射线长度。适用于限制超出指定距离的烘焙相交。数值为零表示不限制。
+baker_dst_paintoffset;打开绘制工具以编辑低模笼的偏移贴图。该贴图调整笼的偏移，使其更好地贴合高模模型。也可以从工具栏中选择此工具。
+baker_dst_paintskew;打开绘制工具以编辑低模笼的斜切贴图。斜切贴图调整烘焙射线的追踪方向。该贴图在顶点法线与面法线方向之间混合，可在一定程度上校正烘焙结果中的斜切伪影。也可以从工具栏中选择此工具。
+baker_dst_estimateoffset;用高度的最佳估算值覆盖当前笼偏移贴图。
+baker_dst_offsetalpha;设置烘焙器所用偏移笼的可见性。
+baker_dst_excludewhenignoringgroups;在 AO、厚度、光照等通道中，将此网格排除在“忽略组”选项之外。
+baker_dst_addcustomcage;烘焙时使用自定义笼。你可能需要这样做，以便更精细地控制笼点的位置。
+baker_dst_rmvcustomcage;移除此网格的自定义笼。
+painter_brushcolor;笔刷颜色
+painter_brushsize;笔刷大小
+painter_brushflow;笔刷流量
+painter_brushvalue;笔刷数值
+painter_brushsharpness;笔刷锐度
+painter_clear;将画布清除为默认颜色。
+painter_viewportbrush;选择直接在视口中绘制的模式。「UV」模式会绘制到所选三角形的纹理空间，而「3D」模式会将笔刷应用到周围所有几何体。
+;
+gradientprojector_linear;线性
+gradientprojector_radial;径向
+gradientprojector_reflected;反射
+gradientprojector_diamond;菱形
+gradientprojector_knurled;滚花
+;
+dirtgenerator_grungemap;应用于受影响区域的污垢/污渍纹理贴图。
+;
+timeline_editor_play;播放动画。
+timeline_editor_pause;暂停动画。
+timeline_editor_firstframe;转到第一帧。
+timeline_editor_previousframe;转到上一帧。
+timeline_editor_nextframe;转到下一帧。
+timeline_editor_previouskeyedframe;转到上一个关键帧。
+timeline_editor_nextkeyedframe;转到下一个关键帧。
+timeline_editor_lastframe;转到最后一帧。
+timeline_editor_loop;切换动画播放的循环。
+timeline_editor_autokey;切换关键帧的自动记录。当检测到所选对象的大多数参数发生变化时，将为当前帧记录关键帧。
+timeline_editor_totalframes;确定动画的总帧数。
+timeline_editor_fps;确定动画的帧率，即每秒帧数。
+timeline_editor_length;确定动画的时长（以秒为单位）。
+timeline_editor_speed;设置用于预览的播放速度。预览速度不会应用于导出的视频内容。
+timeline_editor_applyspeed;缩放动画以匹配预览速度。如果希望永久加快或减慢动画，请使用此项。
+timeline_editor_rangeselect;确定选择范围，它可隔离帧以便于编辑和播放。使用左右手柄设置首帧和末帧，拖动手柄可移动范围。
+timeline_editor_linkzoom;确定在时间轴中显示所有帧，还是仅显示选择范围内的帧。
+timeline_editor_trim;将动画裁剪到所选帧范围。
+timeline_editor_homeframe;播放停止时返回上一帧/起始帧。
+timeline_editor_motionblurpreview;切换运动模糊预览（视口相机也需启用运动模糊选项）。
+;
+animated_property_editor_step;将所选控制点的衰减设为阶梯式，适用于运动的瞬时变化。
+animated_property_editor_linear;将所选控制点的衰减设为线性，适用于相机匀速旋转等恒定运动。
+animated_property_editor_spline;将所选控制点的衰减设为平滑，适用于设置平滑的运动或速度变化。
+animated_property_editor_spline_break;将所选控制点的衰减拆分为独立的进入与离开切线，可分别单独编辑。
+animated_property_editor_add_keyframe;在当前帧为所选通道添加新的关键帧或控制点。
+animated_property_editor_delete_keyframe;删除选定的控制点。
+animated_property_editor_delete_all_keyframes;删除选定对象的全部关键帧数据。
+animated_property_editor_show_overlapped;切换多通道在堆叠与叠加绘制样式之间的显示方式。
+animated_property_editor_show_values;切换数值的显示。
+animated_property_editor_autofit;切换自动适配功能。开启时，自动适配会缩放可见范围以填满关键帧编辑器的垂直空间。
+animated_property_resetzoompan;重置缩放状态。
+select_current_animation;设置对象的当前动画。
+object_playback_speed;设置对象的播放速度。
+object_loop_animation;在起始帧与结束帧之间平滑插值。
+custom_animation_name;自定义动画的名称（将显示在下拉列表中）。
+custom_animation_start_frame;自定义动画的起始帧，使用原始模型的 FPS。
+custom_animation_end_frame;自定义动画的结束帧，使用原始模型的 FPS。
+custom_animation_length;场景时间中的总播放时长。
+delete_custom_animation;删除自定义动画条目。
+add_new_custom_animation;添加自定义动画条目。
+import_animation_data;从另一个文件导入匹配的动画数据（模型必须相似）。
+turntable_sync_loop_speed;自动调整旋转速率以实现连续循环（基于时间轴长度）。
+;
+license_login;这是你的 Marmoset Toolbag 登录账号，必须是有效的电子邮件地址。如果你还没有账号，请在此输入电子邮件地址，你将收到一封用于创建账号的确认邮件。
+license_allusers;使用此选项可自动向此计算机上的所有用户提供你的登录凭据。如果此选项未勾选，其他用户将需要输入自己的登录信息。
+;
+layers_window_add_paint_layer;添加新的绘制层。
+layers_window_add_spline_layer;添加新的矢量图层。
+layers_window_add_fill_layer;添加新的填充层。
+layers_window_add_decal_layer;添加新的贴花层。
+layers_window_add_adjustment_layer;添加新的调整层。
+layers_window_add_processor_layer;添加新的输入处理器图层。
+layers_window_add_procedural_layer;添加新的程序化图层。
+layers_window_add_scatter_layer;添加新的散射层。
+layers_window_duplicate;复制所选项目。
+layers_window_add_group;添加图层组。
+layers_window_add_carve_group;添加图层雕刻组。
+layers_window_trash;删除选定的项目。
+layers_window_add_mask;为所选图层添加蒙版。
+layers_window_new_sync_point;添加新的同步点图层。同步点会将输入的曲率、高度和环境光遮蔽贴图与下方图层同步。
+layers_window_refresh_sync_points;重新生成所有过期的同步点贴图。
+layers_window_sync_point_settings;打开同步点设置窗口。
+;
+console_clear;清除活动日志。
+console_onlyerrors;在活动日志中仅显示错误。
+;
+history_restore_state;恢复因按下“撤销”后意外修改场景而丢弃的“重做”状态。再次修改场景将导致这些状态被永久删除。
+;
+textureproject_tile_mode;确定项目使用单个 UV 集、多个 UV 集还是 UDIM 布局。对于多个 UV 集，应为每个集的多边形区域应用独立材质。对于 UDIM，每个集应占据 0-1、1-2、2-3 等空间。
+textureproject_size;纹理项目输出的宽度和高度。
+textureproject_resize;调整纹理项目的像素尺寸。绘制层将调整为新的分辨率。
+textureproject_viewport_resolution;确定视口中显示的纹理项目的分辨率。使用低于 1:1 的分辨率可显著提升交互性能。绘制数据和导出的图像仍将以完整分辨率保存。
+textureproject_preview_resolution;确定与工具和图层设置交互时的分辨率。交互暂停时，分辨率会自动提升至视口分辨率值。使用低于 1:1 的分辨率可显著提升性能。
+textureproject_viewport_quality;在快速和完整渲染质量之间选择。快速质量在操作大型纹理项目时响应更迅速，但在切换图层或进行某些其他更改时会有延迟，并且质量可能降低。导出始终使用完整质量。
+textureproject_use_uv_padding;启用像素值超出 UV 边界的延伸，可减少 UV 接缝附近的伪影。
+textureproject_uv_padding;设置 UV 扩边效果的尺寸（像素）。
+textureproject_link_material;将材质编辑器中当前选中的材质链接到此纹理项目。
+textureproject_new_linked_material;创建新材质并将其链接到此纹理项目。
+textureproject_unlink_material;从纹理项目中移除此链接材质。
+textureproject_input_map_texture_box;点击为此纹理项目加载或替换纹理贴图
+textureproject_clear_input_map;从纹理项目中移除此输入贴图，需要该输入的任何图层类型可能无法再正确渲染。
+textureproject_add_new_input_map;添加额外的输入贴图。
+textureproject_project_map_tool_icon;项目贴图设置。
+textureproject_x_remove_project_map;移除此项目贴图。
+textureproject_add_new_project_map;添加额外的项目贴图。
+textureproject_export_all;将所有纹理保存到磁盘。
+textureproject_directory;图像保存到磁盘的位置。
+textureproject_suffix;设置将追加到文件名末尾的词。
+textureproject_export;仅将此图像保存到磁盘。
+textureproject_x_remove_output_map;移除此输出贴图。
+textureproject_output_add_new_output_map;添加额外的输出贴图。
+textureproject_output_type;选择使用的样式纹理输出。名称中带 + 的类型允许在各通道中打包不同的项目贴图。
+textureproject_output_format;选择导出图像的文件类型。
+textureproject_output_channels;选择要打包到此槽位的项目贴图。
+textureproject_output_bitdepth;设置此输出贴图的位深度。
+textureproject_export_scalar;设置纹理导出的尺寸倍数。
+textureproject_tile_edit_resolution;设置平铺的分辨率。
+textureproject_tile_link_resolution;将平铺的宽度和高度链接到全局分辨率。
+;
+textureproject_metalnesssettings_threshold;设置从高光反射率转换为金属度的灵敏度。仅当项目引用的源材质使用高光工作流时，此设置才适用。
+textureproject_metalnesssettings_tolerance;设置反射率数值分别转换为绝缘体与金属的范围。仅当项目引用的源材质使用高光工作流时适用。
+textureproject_bumpmapsettings_bump_as_detail_normals;确定凹凸贴图是否与法线贴图结合，以提供额外的高度贴图细节。
+textureproject_bumpmapsettings_bump_weight;设置凹凸贴图效果的强度。
+textureproject_bumpmapsettings_displacement_as_parallax;确定置换贴图是发送到材质系统中的置换输入还是视差输入。
+textureproject_bumpmapsettings_thickness_as_scatter;确定厚度输入贴图是否用作散射项目贴图的基础内容。
+textureproject_reflectionworkflow;确定反照率贴图与反射率贴图如何定义金属和绝缘体的材质属性。此设置指定反照率风格、材质高光贴图所关联的对象，并决定如何转换以相反工作流制作的参考材质。
+textureproject_tangentorientation;配置项目以右手（Y+）或左手（Y-）坐标系使用并输出切线空间法线贴图。右手切线通常称为 Maya 或 OpenGL 风格，左手切线则称为 3DS Max 或 Direct3D 风格。
+;
+rendersceneobject_render_image;生成最终图像并保存到磁盘。
+rendersceneobject_open_image_location;打开图像保存所在的文件夹。
+rendersceneobject_render_video;生成最终视频并保存到磁盘。
+rendersceneobject_open_video_location;打开视频保存所在的文件夹。
+rendersceneobject_remove_camera;移除此渲染相机。
+rendersceneobject_render_camera_check;渲染截图/视频时启用或禁用此相机。
+rendersceneobject_add_camera;在场景中创建新相机并将其添加到此列表。
+rendersceneobject_render_passes;调整此渲染通道的额外参数。
+rendersceneobject_render_passes_check;渲染截图/视频时启用或禁用此渲染通道。
+rendersceneobject_render_passes_add;添加额外的渲染通道。
+rendersceneobject_pencil;打开最近保存到磁盘的渲染结果。
+rendersceneobject_magnify;预览最近保存到磁盘的渲染结果。
+rendersceneobject_remove;移除此渲染通道。
+export_output_path;浏览导出目录。
+;
+viewport_split_viewport;水平或垂直拆分此视口。
+viewport_popout;将此视口弹出为浮动窗口。
+viewport_maximize;最大化此视口。
+viewport_isactive;显示为绿色时，表示此视口处于活动状态。
+;
+materialsurfaceeditor_sample_color;在屏幕上采样指定的颜色或材质数据。
+materialsurfaceeditor_relink;将参考材质重置为原始状态。
+materialsurfaceeditor_reload;从磁盘重新加载参考材质。
+materialsurfaceeditor_remove;移除参考材质。
+materialsurfaceeditor_edit;在材质编辑器中创建此材质的副本。
+materialsurfaceeditor_import;从磁盘导入材质。
+materialsurfaceeditor_material_mode;材质模式从参考材质接收纹理内容。
+materialsurfaceeditor_texture_mode;纹理模式允许你加载自定义纹理贴图。
+materialsurfaceeditor_texture;加载或替换此纹理贴图。
+materialsurfaceeditor_reset_color;将此贴图的颜色重置为原始状态。
+materialsurfaceeditor_invert_color;反转此贴图的数值。
+materialsurfaceeditor_color;编辑此贴图类型的颜色。
+materialsurfaceeditor_grayscale;设置此贴图类型的数值。
+materialsurfaceeditor_contrast;调整此贴图类型的对比度。
+materialsurfaceeditor_tangentorientation;将此法线贴图解读为右手（Y+）或左手（Y-）坐标空间。
+;
+layerproject_add_texture_project;创建新的纹理项目。
+;
+layerwindow_layer_visibility;切换此图层的可见性。
+layerwindow_expand_layer;展开或折叠此图层的子项。
+layerwindow_layer_opacity;设置所选图层的不透明度。
+layerwindow_layer_opacity_link;切换不透明度链接，可同步所有贴图类型的不透明度设置。关闭后仅调整所选贴图类型的不透明度。
+layerwindow_layer_blend;设置所选图层的混合模式。
+;
+layersettings_tiles;选择此图层修改哪些多纹理/UDIM 平铺块。
+layersettings_activeMaps;选择此图层要修改的项目贴图。
+dimensions_width;设置纹理宽度。
+dimensions_height;设置纹理高度。
+dimensions_lock;锁定或解锁纹理的宽高比。
+;
+painttool_wandselect_tolerance;设置魔棒工具的灵敏度。
+painttool_wandselect_contiguous;确定选区是否限制在相连的网格内。
+painttool_wandselect_space;设置魔棒工具使用 3D 视口还是 2D 画布区域来创建选择
+painttool_wandselect_select_from;确定创建魔棒选区时，纹理数值是从所有图层还是当前图层采样。
+;
+painttool_select_viewport_shadowing;确定对象是否会遮挡最终的选择结果。
+painttool_select_anti_aliased;确定是否对选区边缘进行过滤以减少锯齿。
+painttool_select_feather;设置选择边缘的柔和或模糊程度。
+painttool_select_mask;淡出未选区域。
+;
+painttool_select_face_chunk;勾选后，单击将选择整个网格，而不是孤立的区块。双击始终选择整个网格。
+;
+brusheditor_pen_pressure_jitter_options;为此设置启用压力感应、倾斜或笔触渐隐等动态效果。
+brusheditor_pen_pressure_options;为此设置启用压力感应、倾斜或笔触渐隐等动态效果。
+brusheditor_texture_frames;设置笔刷精灵表的帧数，用于随机化笔刷笔触。对于自定义图像，可在文件名中添加 _Nx（N 为帧数），以便加载纹理时自动指定此值。
+brusheditor_brush_texture;加载或替换笔刷笔尖纹理。
+brusheditor_directional;确定笔刷笔尖纹理是否跟随笔触方向。
+brusheditor_adaptive_flow;确定流量是否受间距调节，启用后可使不透明度堆积更均匀。
+brusheditor_mask_value;设置蒙版值，其中 0 或黑色表示透明区域，1 或白色表示不透明区域。
+brusheditor_jitter;设置应用于此数值的随机变化量。
+brusheditor_alignment;设置笔刷相对于网格表面的投影方式。
+brusheditor_size_space;设置单位制，决定笔刷相对于网格的大小。
+brusheditor_contiguous_mesh_only;设置笔触是否限制在笔刷首次接触的网格对象上。
+brusheditor_distortion_compensation;确定笔刷纹理是否拉伸以环绕网格几何体。
+brusheditor_occlusion;确定网格是否会阻止笔触穿透并绘制到其他网格上。
+brusheditor_Hardness;设置笔刷边缘的硬度和柔和程度。
+brusheditor_Tightness;设置笔刷形状的紧致程度。
+brusheditor_Angle;设置笔刷的旋转。
+brusheditor_Scatter;设置笔刷的随机位置偏移。
+brusheditor_Opacity;设置笔刷的透明或不透明程度。
+brusheditor_Spacing;设置每个笔刷点之间的距离。
+brusheditor_Flow;设置笔刷不透明度的累积速度。
+brusheditor_Size;设置笔刷大小。
+brusheditor_Squish;设置笔刷的宽窄程度。
+brusheditor_Warp; 设置程序化笔刷形状的扭曲程度。
+brusheditor_Contrast;调整笔刷笔尖纹理的对比度。
+brusheditor_smoothing;设置输入平滑距离。数值越大，笔触越平滑，但延迟越长。
+brushcloneeditor_resetposition;在笔触结束时重置初始源位置。
+brush_library_export;将当前笔刷保存到资产库。
+brush_export; 将当前笔刷保存到磁盘。
+brush_import; 从磁盘导入笔刷（.tbtool 文件）。
+;
+brush_symmetry_enable;沿指定轴启用绘制笔触对称。
+gradient_symmetry_enable;沿指定轴启用渐变对称。
+vector_symmetry_enable;沿指定轴启用矢量形状对称。
+decal_symmetry_enable;沿指定轴启用矢量形状对称。
+brush_symmetry_axis;选择对称轴或对称平面。
+brush_symmetry_mode;在镜像模式（将笔触翻转到另一侧）与径向模式（以圆形阵列复制笔触）之间选择。
+gradient_symmetry_mode;在镜像模式（将渐变翻转到另一侧）与径向模式（以圆形阵列复制渐变）之间选择。
+vector_symmetry_mode;在镜像模式（将每个形状翻转到另一侧）与径向模式（以圆形阵列复制形状）之间选择。
+decal_symmetry_mode;在镜像模式（将每个形状翻转到另一侧）与径向模式（以圆形阵列复制形状）之间选择。
+brush_symmetry_count;设置径向对称的实例数量。
+brush_symmetry_pivot;对称轴的位置。
+brush_symmetry_rotation;对称轴的旋转。
+brush_symmetry_align;快速将对称轴与对象或几何特征对齐。
+brush_symmetry_fine_tune;在视口内调整对称轴。
+brush_symmetry_reset;重置对称轴的位置和方向。
+brush_symmetry_align_type;选择对齐模式。对象会将轴吸附到网格中心。几何允许你选择面、边或顶点。
+;
+brush_stencil_invert;反转模板覆盖区域。
+brush_stencil_fade;使模板边缘淡出。
+brush_stencil_display;视口模板叠加层的不透明度。
+brush_stencil_wrap;勾选后，模板将重复以填满视口。
+brush_stencil_hide;勾选后，绘制时模板叠加层将消失。
+brush_stencil_blur;调整应用于模板的模糊量。
+brush_stencil_transform_tiling;调整模板的平铺频率。
+brush_stencil_transform_offset;在视口内调整模板的位置。
+brush_stencil_transform_rotation;旋转模板。
+brush_stencil_transform_reset;将模板重置为默认位置。
+brush_stencil_brightness;调整模板的亮度/不透明度。
+brush_stencil_contrast;调整模板的对比度。
+
+
+
+painteffect_blur_radius;设置模糊效果的尺寸或强度。
+painteffect_blur_pixel_size;设置模糊效果的尺寸或强度。
+painteffect_blur_seamless;跨越 UV 接缝模糊。
+;
+painteffect_colormask_input_map;选择用于生成选择的输入贴图类型。需要在纹理项目中加载合适的输入贴图，此功能才能生效。
+painteffect_colormask_threshold;设置颜色匹配灵敏度。
+painteffect_colormask_new_color_selection;选择要采样的颜色。
+painteffect_colormask_delete_entry;移除此颜色选择条目。
+painteffect_colormask_colorpicker;编辑此条目的颜色。
+painteffect_colormask_add_entry;添加额外的颜色选择条目。
+;
+painteffect_cellular_intensity;设置细胞程序化纹理的强度。
+painteffect_cellular_invert;反转细胞程序化纹理。
+painteffect_cellular_scale;设置细胞程序纹理的细节大小。
+painteffect_cellular_jitter;设置细胞程序化纹理的随机性。
+painteffect_cellular_smoothing;设置细胞程序纹理的棱角或柔和程度。
+painteffect_cellular_phase;设置平滑曲线偏移，当相位达到 1 时结果会逐渐反转。
+painteffect_cellular_warp_amount;设置细胞程序纹理的扭曲程度。
+painteffect_cellular_warp_detail;设置扭曲效果的细节缩放。
+painteffect_cellular_reset_defaults;重置此效果的原始设置。
+;
+painteffect_checkered_color_A;设置主棋盘格方块的颜色。
+painteffect_checkered_color_B;设置次棋盘格方块的颜色。
+painteffect_checkered_intensity;设置棋盘格程序纹理的对比度。
+painteffect_checkered_invert;反转棋盘格程序化纹理。
+painteffect_checkered_tile_count;设置平铺块数量。
+painteffect_checkered_warp_amount;设置棋盘格程序纹理的扭曲程度。
+painteffect_checkered_warp_detail;设置扭曲效果的细节缩放。
+painteffect_checkered_reset_defaults;重置此图层的原始设置。
+;
+painteffect_clouds_intensity;设置云彩程序化纹理的强度。
+painteffect_clouds_invert;反转云彩程序化纹理。
+painteffect_clouds_scale;设置云程序纹理的细节大小。
+painteffect_clouds_granularity;设置云程序纹理的颗粒感。
+painteffect_clouds_warp_amount;设置云程序纹理的扭曲程度。
+painteffect_clouds_warp_detail;设置扭曲效果的细节缩放。
+painteffect_clouds_reset_defaults;重置此图层的原始设置。
+;
+painteffect_curvature_intensity;设置曲率处理器的强度。
+painteffect_curvature_invert;反转曲率处理器。
+painteffect_curvature_contrast;设置曲率处理器的对比度。
+painteffect_curvature_contrast_center;设置对比度效果的中点。
+painteffect_curvature_sharpen;设置细节的锐利或模糊程度。
+painteffect_curvature_edge_intensity;设置边缘或凸形区域的强度。
+painteffect_curvature_edge_thickness;设置凸形区域的宽度。
+painteffect_curvature_cavity_intensity;设置凹陷或凹形区域的强度。
+painteffect_curvature_cavity_thickness;设置凹形区域的宽度。
+painteffect_curvature_reset_defaults;重置此图层的原始设置。
+;
+painteffect_curves_reset;重置所选通道。
+painteffect_curves_reset_all;重置所有通道。
+;
+painteffect_direction_direction_axis;设置要处理的轴。
+painteffect_direction_intensity;设置方向处理器的强度。
+painteffect_direction_invert;反转方向处理器。
+painteffect_direction_contrast;设置方向处理器的对比度。
+painteffect_direction_contrast_center;设置对比度效果的中点。
+painteffect_direction_sharpen;设置细节的锐利或模糊程度。
+painteffect_direction_reset_defaults;重置此图层的原始设置。
+;
+painteffect_dirt_intensity;设置污垢处理器的强度。
+painteffect_dirt_invert;反转污渍处理器。
+painteffect_dirt_contrast;设置污渍处理器的全局对比度。
+painteffect_dirt_sharpness;设置细节的锐利或模糊程度。
+painteffect_dirt_grungemap_texture;点击加载或替换污渍效果的纹理贴图。
+painteffect_dirt_grungemap_triplanar;启用三平面模式以实现无缝纹理投影。
+painteffect_dirt_grungemap_blendmode;设置污渍贴图相对于污渍处理器其他组件的混合方式。
+painteffect_dirt_grunge_intensity;设置污渍纹理的强度。
+painteffect_dirt_grunge_invert;反转污渍纹理。
+painteffect_dirt_grunge_contrast;设置污渍纹理的对比度。
+painteffect_dirt_grunge_scale;设置污渍纹理的平铺。
+painteffect_dirt_grunge_rotation;设置污渍纹理的旋转。
+painteffect_dirt_direction_intensity;设置方向效果的强度，该效果可分离朝上与朝下的区域。
+painteffect_dirt_direction_invert;反转方向效果。
+painteffect_dirt_direction_contrast;设置方向效果的对比度。
+painteffect_dirt_crevice_intensity;设置裂隙或凹形区域的强度，适合在微观尺度上确定污垢或油污出现的位置。
+painteffect_dirt_crevice_contrast;设置缝隙效果的对比度。
+painteffect_dirt_occlusion_intensity;设置遮蔽区域的强度，适合在宏观尺度上确定污垢或油污出现的位置。
+painteffect_dirt_occlusion_contrast;设置遮蔽区域的对比度。
+painteffect_dirt_reset_defaults;重置此图层的原始设置。
+;
+painteffect_gradientmap_normalize_handles;均匀分布所有渐变点。
+painteffect_gradientmap_reset_default_gradient;重置原始图层设置。
+painteffect_gradientmap_delete_color_handle;从渐变中删除选定的颜色。
+painteffect_gradientmap_delete_alpha_handle;从透明度渐变中删除选定的灰度值。
+painteffect_gradientprojector_intensity;设置渐变程序化纹理的强度。
+painteffect_gradientprojector_invert;反转渐变程序化纹理。
+painteffect_gradientprojector_scale; 设置渐变的平铺。
+;
+painteffect_height_intensity;设置高度处理器的强度。
+painteffect_height_invert;反转高度处理器。
+painteffect_height_contrast;设置高度处理器的对比度。
+painteffect_height_contrast_center;设置对比度效果的中点。
+painteffect_height_sharpen;设置细节的锐利或模糊程度。
+painteffect_height_reset_defaults;重置此图层的原始设置。
+;
+painteffect_hsvfilter_hue;沿色轮移动色相。
+painteffect_hsvfilter_saturation;设置颜色的鲜艳或饱和程度。
+painteffect_hsvfilter_value;设置亮度。
+painteffect_hsvfilter_contrast;设置对比度。
+painteffect_hsvfilter_reset_defaults;重置此通道的原始设置。
+painteffect_hsvfilter_reset_defaults_all;重置此图层中所有通道的原始设置。
+;
+painteffect_recolor_mode;选择重新着色模式。
+painteffect_recolor_color_count;确定目标颜色的数量
+painteffect_recolor_auto_detect;检测需要多少个目标颜色。
+painteffect_recolor_reset_all;将所有目标颜色重置为原始值。
+painteffect_recolor_reset_defaults_all;重置此图层的原始设置。
+painteffect_recolor_visibility;切换当前目标颜色重新着色的可见性。
+painteffect_recolor_color_picker;设置颜色目标。
+painteffect_recolor_custom_picker;设置自定义颜色，用于确定将被重新着色的区域。
+painteffect_recolor_reset_color;将此颜色重置为原始状态。
+painteffect_recolor_invert;反转目标颜色的数值。
+painteffect_recolor_contrast;设置对比度。
+painteffect_recolor_tolerance;设置重新着色效果的强度。
+painteffect_recolor_add_custom;添加自定义颜色。
+painteffect_recolor_delete_custom;移除此自定义颜色。
+painteffect_recolor_up_down_custom;将此颜色上移或下移。
+painteffect_recolor_update_colors;源颜色不是最新的，必须更新。
+painteffect_recolor_uptodate_colors;源颜色已是最新。
+painteffect_recolor_main_colors;源颜色（自动生成）。
+painteffect_recolor_main_colors_update;你必须更新源颜色。
+;
+painteffect_levels_color_black;调整黑色区域的亮度值。
+painteffect_levels_color_gamma;调整伽马曲线。
+painteffect_levels_color_white;调整白色区域的亮度值。
+painteffect_levels_output_black;将黑色区域重映射或钳制到指定数值。
+painteffect_levels_output_white;将白色区域重映射或钳制到指定数值。
+painteffect_levels_channel;设置编辑器中显示的当前颜色通道。
+painteffect_levels_reset;重置此通道的原始设置。
+painteffect_levels_reset_all;重置所有通道的原始设置。
+;
+painteffect_occlusion_intensity;设置遮蔽处理器的强度。
+painteffect_occlusion_invert;反转遮蔽处理器。
+painteffect_occlusion_contrast;设置遮蔽处理器的对比度。
+painteffect_occlusion_contrast_center;设置对比度效果的中点。
+painteffect_occlusion_sharpen;设置细节的锐利或模糊程度。
+painteffect_occlusion_reset_defaults;重置此图层的原始设置。
+;
+painteffect_perlin_intensity;设置 Perlin 噪波程序化纹理的强度。
+painteffect_perlin_invert;反转 Perlin 程序化纹理
+painteffect_perlin_scale;设置 Perlin 程序纹理的细节大小。
+painteffect_perlin_macro_contrast;设置大尺度细节的强度。
+painteffect_perlin_micro_contrast;设置精细细节的强度。
+painteffect_perlin_macro_warp_amount;设置大细节的扭曲量。
+painteffect_perlin_macro_warp_detail;设置大尺度扭曲的细节级别。
+painteffect_perlin_micro_warp_amount;设置细小细节的扭曲量。
+painteffect_perlin_micro_warp_detail;设置细小扭曲的细节级别。
+painteffect_perlin_sampling;确定创建柔和（平滑）还是像素化（硬边）效果。
+painteffect_perlin_noisepasses;设置该效果生成并叠加的次数。更多遍数意味着更精细的细节，但性能会降低。
+painteffect_perlin_reset_defaults;重置此图层的原始设置。
+;
+painteffect_scratch_intensity;设置划痕处理器的强度。
+painteffect_scratch_invert;反转划痕污渍处理器。
+painteffect_scratch_contrast;设置划痕处理器的全局对比度。
+painteffect_scratch_sharpness;设置细节的锐利或模糊程度。
+painteffect_scratch_occlusion_intensity;设置遮蔽区域的强度，适合在宏观尺度上确定污垢或油污出现的位置。
+painteffect_scratch_occlusion_contrast;设置遮蔽区域的对比度。
+painteffect_scratch_grunge_map;点击加载或替换污渍效果的纹理贴图。
+painteffect_scratch_grunge_tri_planar;启用三平面模式以实现无缝纹理投影。
+painteffect_scratch_grunge_blend_mode;设置污渍贴图相对于划痕处理器其他组件的混合方式。
+painteffect_scratch_grunge_intensity;设置污渍纹理的强度。
+painteffect_scratch_grunge_invert;反转污渍纹理。
+painteffect_scratch_grunge_contrast;设置污渍纹理的对比度。
+painteffect_scratch_grunge_scale;设置污渍纹理的平铺。
+painteffect_scratch_grunge_rotation;设置污渍纹理的旋转。
+painteffect_scratch_scratch_map;点击加载或替换划痕效果的纹理贴图。
+painteffect_scratch_scratch_tri_planar;启用三平面模式以实现无缝纹理投影。
+painteffect_scratch_scratch_blendmode;设置划痕贴图相对于划痕处理器其他组件的混合方式。
+painteffect_scratch_scratch_intensity;设置划痕纹理的强度。
+painteffect_scratch_scratch_invert;反转划痕纹理。
+painteffect_scratch_scratch_contrast;设置划痕纹理的对比度。
+painteffect_scratch_scratch_scale;设置划痕纹理的平铺。
+painteffect_scratch_scratch_rotation;设置划痕纹理的旋转。
+painteffect_scratch_edge_intensity;设置边缘或凸形区域的强度。
+painteffect_scratch_edge_thickness;设置凸形区域的宽度。
+painteffect_scratch_edge_contrast;设置凸起区域的对比度。
+painteffect_scratch_reset_defaults;重置此图层的原始设置。
+;
+painteffect_sync_curvature_contrast;调整生成的曲率贴图的视觉对比度。
+painteffect_sync_curvature_scale;调整曲率滤镜的大小。较大的缩放值会产生更宽、更柔和的渐变。
+painteffect_sync_height_contrast;调整生成的高度贴图的视觉对比度。
+painteffect_sync_height_scale;调整相邻细节的搜索范围，较大的缩放值可能生成更准确的高度。较大的缩放值会需要更多计算时间。
+painteffect_sync_ao_quality;更高质量的环境光遮蔽会减少色带和噪点，但计算时间更长。
+painteffect_sync_ao_contrast;调整生成的环境光遮蔽贴图的视觉对比度。
+painteffect_sync_ao_scale;调整用于计算遮蔽的法线贴图细节的有效高度。较高的缩放值会产生更明显的遮蔽。
+painteffect_sync_reset_defaults;将同步点设置重置为默认值。
+;
+painteffect_thickness_intensity;设置厚度处理器的强度。
+painteffect_thickness_invert;反转厚度处理器。
+painteffect_thickness_contrast;设置厚度处理器的对比度。
+painteffect_thickness_contrast_center;设置对比度效果的中点。
+painteffect_thickness_sharpen;设置细节的锐利或模糊程度。
+painteffect_thickness_reset_defaults;重置此图层的原始设置。
+;
+painteffect_tiles_tile_color;设置主平铺区域的颜色。
+painteffect_tiles_grout_color;设置平铺之间区域的颜色。
+painteffect_tiles_shadow_color;设置紧邻平铺外侧阴影区域的颜色。
+painteffect_tiles_intensity;设置平铺程序化纹理的强度。
+painteffect_tiles_invert;反转瓷砖程序化纹理。
+painteffect_tiles_tile_count;设置相对于画布的平铺块数量。
+painteffect_tiles_tile_width;设置每块平铺的宽度。
+painteffect_tiles_tile_height;设置每块平铺的高度。
+painteffect_tiles_tile_offset;设置每一连续行的移动距离。
+painteffect_tiles_tile_depth;设置主要区域相对于缝隙和阴影区域的深度。
+painteffect_tiles_random_depth;设置每块平铺随机凸出或凹陷的程度。
+painteffect_tiles_bevel_width;设置每个平铺块边缘倒角区域的尺寸。
+painteffect_tiles_bevel_depth;设置 3D 空间中倒角区域的深度。
+painteffect_tiles_bevel_roundness;设置倒角区域的平滑或圆润程度。
+painteffect_tiles_corner_roundness;设置每块平铺的边角倒角或圆滑程度。
+painteffect_tiles_random_rotation;设置每块平铺在 3D 空间中随机旋转的程度。
+painteffect_tiles_rot_max_x;设置每个平铺块在 X 轴上的最大旋转变化量（上下倾斜）。
+painteffect_tiles_rot_max_y;设置每个平铺块在 Y 轴上的最大旋转变化量（左右倾斜）。
+painteffect_tiles_rot_max_z;设置每个平铺块在 Z 轴上的最大旋转变化量（左右旋转）。
+painteffect_tiles_grout_width;设置平铺块之间区域的尺寸，该设置同时控制平铺块的大小。
+painteffect_tiles_grout_scale_x;设置平铺之间间隙的次级相对宽度值。
+painteffect_tiles_grout_scale_y;设置平铺之间间隙的次级相对高度值。
+painteffect_tiles_groutdepth;设置 3D 空间中平铺之间区域的深度。
+painteffect_tiles_shadow_depth;设置 3D 空间中紧邻平铺区域外侧区域的深度。
+painteffect_tiles_shadow_width;设置平铺区域紧邻外部区域的尺寸。
+painteffect_tiles_reset_defaults;重置此图层的原始设置。
+;
+painteffect_turbulence_intensity;设置湍流程序化纹理的强度。
+painteffect_turbulence_invert;反转湍流程序化纹理
+painteffect_turbulence_scale;设置湍流程序纹理的细节大小。
+painteffect_turbulence_frequency;设置主波浪的波纹程度。
+painteffect_turbulence_amplitude;设置主波纹的细节级别。
+painteffect_turbulence_macro_contrast;设置大细节的对比度。
+painteffect_turbulence_micro_contrast;设置细小细节的对比度。
+painteffect_turbulence_macro_warp_amount;设置大细节的扭曲程度。
+painteffect_turbulence_macro_warp_detail;设置大尺度扭曲生成的随机变化量。
+painteffect_turbulence_micro_warp_amount;设置大细节的扭曲程度。
+painteffect_turbulence_micro_warp_detail;设置细小扭曲生成的随机变化量。
+painteffect_turbulence_noise_passes;设置该效果生成并叠加的次数。更多遍数意味着更精细的细节，但性能会降低。
+painteffect_turbulence_reset_defaults;重置此图层的原始设置。
+;
+painteffect_vector_mode;选择矢量形状的渲染/填充模式。
+painteffect_vector_space;确定矢量形状绘制和投射所用的坐标空间。
+painteffect_vector_shapes;此图层中所有矢量形状的列表。
+painteffect_vector_profile;定义置换轮廓（剖面），以沿矢量形状边缘挤出。
+painteffect_vector_profile_presets;配置文件预设列表。
+painteffect_vector_profile_edit;打开轮廓编辑器以创建自定义置换轮廓。
+painteffect_vector_profile_remove;从预设列表中移除所选轮廓。
+painteffect_vector_profile_save;将当前轮廓保存为预设。
+;
+painteffect_vector_profile_amount;设置凹凸和置换贴图中轮廓的高度缩放。
+painteffect_vector_profile_length;控制沿形状边缘平铺形状投射材质和透明度蒙版的方式。
+painteffect_vector_profile_width;设置沿形状边缘的轮廓宽度。
+painteffect_vector_profile_randomWidth;为轮廓宽度添加随机变化。
+painteffect_vector_profile_randomWidthFrequency;设置轮廓宽度随机变化的频率。
+painteffect_vector_profile_warp;为形状边缘添加随机左右摆动。
+painteffect_vector_profile_warpFrequency;设置形状边缘左右摆动的频率。
+painteffect_vector_profile_taper;控制形状边缘起点和终点处轮廓宽度的收窄程度。
+painteffect_vector_profile_rounding;控制形状边缘起点和终点的圆角端帽。
+;
+painteffect_voronoi_intensity;设置 Voronoi 程序化纹理的强度。
+painteffect_voronoi_invert;反转 Voronoi 程序化纹理。
+painteffect_voronoi_scale;设置 Voronoi 程序纹理的细节大小。
+painteffect_voronoi_jitter;设置裂缝的随机角度扭曲程度。
+painteffect_voronoi_smoothing;设置破碎效果的柔和度。
+painteffect_voronoi_phase;设置平滑曲线偏移，当相位达到 1 时结果会逐渐反转。
+painteffect_voronoi_warp_amount;设置 Voronoi 程序纹理的扭曲程度。
+painteffect_voronoi_warp_detail;设置扭曲效果的细节缩放。
+painteffect_voronoi_reset_defaults;重置此图层的原始设置。
+;
+painteffect_projection_method;设置将材质属性映射到网格上的方式。
+painteffect_projection_triplanar_fade;设置不同轴或投影平面之间过渡的锐利或柔和程度。
+painteffect_projection_normal_map_influence;设置法线贴图对各轴或投影平面之间过渡的影响程度。
+painteffect_projection_uv_tiling_u;设置材质内容在水平轴上的缩放。
+painteffect_projection_uv_tiling_v;设置材质内容在垂直轴上的缩放。
+painteffect_projection_uv_link_tiling;设置调整平铺设置时是否保持宽高比。
+painteffect_projection_uv_offset_u;设置材质属性在水平轴上的移动距离。
+painteffect_projection_uv_offset_v;设置材质属性在垂直轴上的移动距离。
+painteffect_projection_uv_rotation;设置材质属性的角度。
+painteffect_projection_clamp_planar;设置投影区域是否受到限制，或投影之外的区域是否重复。
+painteffect_projection_position_x;设置投影相对于纹理项目网格的 X 轴 3D 空间位置。
+painteffect_projection_position_y;设置投影相对于纹理项目网格的 Y 轴 3D 空间位置。
+painteffect_projection_position_z;设置投影相对于纹理项目网格的 Z 轴 3D 空间位置。
+painteffect_projection_scale_x;设置投影相对于纹理项目网格的 X 轴 3D 空间大小。
+painteffect_projection_scale_y;设置投影相对于纹理项目网格的 Y 轴 3D 空间大小。
+painteffect_projection_scale_z;设置投影相对于纹理项目网格的 Z 轴 3D 空间大小。
+painteffect_projection_rotation_x;设置投影相对于纹理项目网格的 X 轴 3D 空间旋转。
+painteffect_projection_rotation_y;设置投影相对于纹理项目网格的 Y 轴 3D 空间旋转。
+painteffect_projection_rotation_z;设置投影相对于纹理项目网格的 Z 轴 3D 空间旋转。
+painteffect_projection_spritesheet;勾选后，材质纹理贴图将被视为精灵表，其帧数与笔刷笔尖相同。
+painteffect_projection_tilestrip_frames;平铺表中的变化数量（列数）。
+painteffect_projection_tilestrip_features;平铺表中可放置特征的数量（行数减三）。
+painteffect_projection_tilestrip_loop_ends;在闭合循环的起点/终点使用端部平铺。
+painteffect_projection_tilestrip_randomize; 在空白区域随机放置特征平铺。
+painteffect_projection_uv_size_u;以纹理项目网格为比例，设置投影平面在水平轴上的尺寸。
+painteffect_projection_uv_size_v;以纹理项目网格为比例，设置投影平面在垂直轴上的尺寸。
+painteffect_projection_decal_depth;设置投影绘制的最大表面下方距离。从衰减值开始平滑淡出。
+painteffect_projection_decal_falloff;设置表面下方投影开始淡出的距离。
+painteffect_projection_decal_offset;设置投影绘制的最大表面上方距离。不应用衰减。
+painteffect_projection_decal_culling;设置投影停止绘制的最大偏离表面法线角度。不应用衰减。
+;
+spline_overlap;速度较慢但质量更高的矢量渲染模式，允许多个形状混合到同一像素上。
+spline_import_svg;将 SVG 矢量图形文件导入到此矢量图层。
+spline_text_profile_position;设置轮廓相对于每个字母边框的位置：外部（默认）、居中或内部。
+spline_per_shape_materials;设置是否为每个形状单独设置材质属性。
+spline_per_shape_fonts;设置是否为每个形状单独设置字体属性。
+;
+font_underline;下划线
+font_strikethru;删除线
+font_vertical_layout;垂直文本布局
+font_line_order;选择从左到右或从右到左的文本方向。
+TEXT_ALIGN_left;左对齐
+TEXT_ALIGN_center;居中对齐
+TEXT_ALIGN_right;右对齐
+TEXT_VERT_ALIGN_top;顶部对齐
+TEXT_VERT_ALIGN_center;居中对齐（垂直）
+TEXT_VERT_ALIGN_bottom;底部对齐
+;
+vptooldirection_rotation_x;设置自定义方向效果沿 X 轴的旋转。
+vptooldirection_rotation_y;设置自定义方向效果沿 Y 轴的旋转。
+vptooldirection_rotation_z;设置自定义方向效果沿 Z 轴的旋转。
+;
+painteffect_material_properties_shadow;为此贴图类型的输出渐变重新着色阴影部分。
+painteffect_material_properties_highlight;为此贴图类型的输出渐变重新着色高光部分。
+painteffect_material_properties_invert;反转此贴图类型的输出渐变。
+;
+painteffect_materialproperties_mask_invert;反转 x 数值。
+painteffect_materialproperties_normal_invert;反转法线数值。
+painteffect_materialproperties_albedo_invert;反转反照率数值。
+painteffect_materialproperties_specular_invert;反转高光数值。
+painteffect_materialproperties_gloss_invert;反转光泽度数值。
+painteffect_materialproperties_roughness_invert;反转粗糙度数值。
+painteffect_materialproperties_metalness_invert;反转金属度数值。
+painteffect_materialproperties_occlusion_invert;反转环境光遮蔽数值。
+painteffect_materialproperties_cavity_invert;反转凹陷数值。
+painteffect_materialproperties_transparency_invert;反转透明度数值。
+painteffect_materialproperties_displacement_invert;反转置换或高度贴图数值。
+painteffect_materialproperties_albedometal_invert;反转反照率（金属度）数值。
+painteffect_materialproperties_bump_invert;反转凹凸数值。
+painteffect_materialproperties_emissive_invert;反转自发光数值。
+painteffect_materialproperties_scatter_invert;反转次表面散射数值。
+painteffect_materialproperties_sss_mask_invert;反转次表面散射蒙版数值。
+painteffect_materialproperties_aniso_dir_invert;反转各向异性方向数值。
+painteffect_materialproperties_fuzz_invert;反转绒毛数值。
+painteffect_materialproperties_refraction_mask_invert;反转折射蒙版数值。
+;
+painteffect_seed_value;设置初始种子，可调整它以创建该效果的独特变体。
+;
+painttool_backface_culling;设置该工具相对于笔刷中心点可绘制的最大角度。
+painttool_backface_falloff;设置剔除函数渐变为最大值的缓变程度。
+painttool_use_normal_map_for_culling;设置法线贴图是否影响剔除功能。开启后，法线贴图中的表面细节将用于剔除。
+;
+painttool_floodfill_tolerance;设置该工具相对于采样点数值可填充的最大数值差异。
+painttool_floodfill_solid;确定填充工具创建形状时边缘是不透明，还是根据数值容差逐渐淡出。
+painttool_floodfill_anti_aliased;确定在何处过滤边缘以柔化并减少锯齿。
+painttool_floodfill_apply_to;确定工具将填充哪些网格元素。
+painttool_select_from;确定工具从纹理项目中的哪些元素采样。
+smudgetool_over_type;确定涂抹工具跨越各种边界时的行为方式。
+;
+painttool_gradientpainter_intensity;设置渐变的强度。
+painttool_gradientpainter_invert;反转渐变。
+painttool_gradientpainter_scale;设置渐变的平铺。
+;
+painttool_decal_falloff_planes;通过 GUI 调整贴花深度或衰减时显示参考平面。
+;
+gradientslider_edit_color_handle;编辑所选控制柄的颜色值。
+gradientslider_edit_alpha_handle;编辑所选控制柄的 Alpha 值。
+gradientslider_color_position;编辑所选颜色控制柄的水平位置。
+gradientslider_alpha_position;编辑所选 Alpha 控制柄的水平位置。
+;
+colorpicker_togglescreensampler;切换全屏采样模式。这允许从屏幕的任意部分采样，包括外部应用程序和副显示器。
+colorpicker_fromlist;确定将采样所选纹理项目的哪些元素：图层、组或最终合成结果。
+colorpicker_maplist;选择从中采样数值的纹理贴图类型。
+;
+library_assetForbidden;此资产无法使用试用许可证下载。
+objecttransform_position_x;三维空间中的 X 坐标。
+objecttransform_position_y;三维空间中的 Y 坐标。
+objecttransform_position_z;三维空间中的 Z 坐标。
+objecttransform_scale_x;沿 X 轴的缩放。
+objecttransform_scale_y;沿 Y 轴的缩放。
+objecttransform_scale_z;沿 Z 轴的缩放。
+objecttransform_rotation_x;绕 X 轴的旋转。
+objecttransform_rotation_y;绕 Y 轴的旋转。
+objecttransform_rotation_z;绕 Z 轴的旋转。
+;
+objectpivot_position_x;三维空间中的 X 坐标。
+objectpivot_position_y;三维空间中的 Y 坐标。
+objectpivot_position_z;三维空间中的 Z 坐标。
+objectpivot_scale_x;沿 X 轴的缩放。
+objectpivot_scale_y;沿 Y 轴的缩放。
+objectpivot_scale_z;沿 Z 轴的缩放。
+objectpivot_rotation_x;绕 X 轴的旋转。
+objectpivot_rotation_y;绕 Y 轴的旋转。
+objectpivot_rotation_z;绕 Z 轴的旋转。
+objecttransform_rotation_snapping;在视口中操作该工具时，仅允许旋转按固定角度步进变化。
+objecttransform_translation_snapping;在视口中操作该工具时，仅允许平移按固定世界单位步进变化。
+objecttransform_center_pivot;将轴心居中到对象边界。
+objecttransform_world_space;在视口中使用工具时，使用世界空间轴而非局部对象轴。
+objecttransform_edit_pivot_mode;编辑轴心变换。
+objecttransform_edit_object_mode;编辑对象变换。
+;
+library_root_folder;转到根文件夹。
+library_back_history;返回上一个文件夹。
+library_forward_history;前进到下一个文件夹。
+library_parent_folder;转到上级文件夹。
+library_folder_new;在当前选定的文件夹内创建新的用户文件夹。
+library_folder_delete;删除当前选定的用户文件夹。
+library_download_selected;下载所选资产。
+library_open_selected;打开所选资产。如果资产在本地不存在，将先进行下载。
+library_delete_selected;删除选定的资产。
+library_filter_first;显示 Marmoset 官方内容。
+library_filter_user;显示用户自定义内容。
+library_filter_local;显示本地存储的资产。
+library_filter_download;显示可下载的资产。
+library_filter_update;显示有可用更新的资产。
+library_filter_scene;显示场景中当前使用的材质、纹理与天空。
+library_filter_color;显示标记为此颜色的资产。
+library_filter_selection;为此资产指定颜色。
+library_properties_download; 下载该资产。
+library_properties_save; 保存对资产的更改。
+library_properties_load; 打开该资产。
+;
+vptoollightcontroller_matchHighlight;将灯光的高光放置在采样点上。禁用时，灯光将垂直于采样点的顶点法线放置。
+vptoollightcontroller_repositionLight;确定是否移动灯光以与采样点保持恒定距离。此设置仅适用于聚光灯/点光源。
+vptoollightcontroller_useNormalMap;启用后使用法线贴图采样光照方向，否则使用顶点法线。
+;
+locator_download_all;下载 Marmoset 资源库服务器上所有可用的文件。
+locator_search_folder;选择磁盘上用于搜索丢失文件的位置。
+locator_continue;继续加载场景。注意：保存文件时，被跳过的文件引用将永久丢失。
+locator_cancel;中止加载场景。
+locator_library_asset;从资源库服务器下载此文件。
+locator_local_asset;浏览以在磁盘上定位此文件。
+;
+profile_editor_sharpen_vertex;锐化所选点。
+profile_editor_smooth_vertex;平滑所选点。
+profile_editor_delete_vertex;删除选定的点。
+profile_editor_mirror_tangent_angle;镜像所选点的控制柄。
+profile_editor_mirror_tangent_length;链接所选点控制柄的长度。
+profile_editor_limit_vertically;防止将点移动到重叠位置。
+profile_editor_mirror_curve; 切换整个轮廓曲线的水平镜像。
+profile_editor_snap_to_grid; 启用后，贝塞尔顶点和切线手柄将吸附到可见网格。调整轮廓编辑器窗口大小可获得更精细的网格。
+;
+sync_point_sync_map_box; 计算所得的同步贴图预览。
+;
+carve_group_invisible_base;允许构建混合在下方图层之上的蒙版效果。
+;
+status_bar_console;打开控制台窗口。
+status_bar_clearerror;清除当前显示的错误。
+status_bar_bake;烘焙场景中的所有项目。此按钮也可暂停和继续正在进行的烘焙。
+status_bar_cancel;取消所有正在进行的烘焙。
+;
+windowstack_undock;取消停靠此窗口。
+;
+keybind_view_confirm;确认新的按键绑定。
+keybind_view_cancel;取消新的按键绑定。
+keybind_view_ignore;忽略冲突的按键绑定。
+keybind_view_reset_default;恢复默认按键绑定。
+keybind_view_clear;清除按键绑定。
+;
+keybind_name_file_new_scene;新建场景
+keybind_name_file_open_scene;打开场景
+keybind_name_file_save_scene;保存场景
+keybind_name_file_save_scene_as;场景另存为
+keybind_name_file_save_backup;保存备份
+keybind_name_file_revert;还原
+keybind_name_file_import;导入
+keybind_name_file_export;导出
+keybind_name_file_export_selected;导出所选
+keybind_name_file_open_scene_folder;打开场景文件夹
+keybind_name_file_save_scene_to_library;将场景保存到资源库
+keybind_name_file_save_selected_objects_to_library;将所选保存到资源库
+keybind_name_file_quit;退出
+keybind_name_edit_undo;撤销
+keybind_name_edit_redo;重做
+keybind_name_edit_undo_camera;撤销相机
+keybind_name_edit_redo_camera;重做相机
+keybind_name_edit_templates_set_template_scene;设置模板场景
+keybind_name_edit_templates_clear_template_scene;清除模板场景
+keybind_name_edit_templates_set_template_material;设置模板材质
+keybind_name_edit_templates_clear_template_material;清除模板材质
+keybind_name_edit_preferences;首选项
+keybind_name_edit_hotkeys;快捷键
+keybind_name_edit_plugins_run_last_plugin;再次运行
+keybind_name_view_toggle_visibility;切换可见性
+keybind_name_view_show_all;全部显示
+keybind_name_view_deselect;取消选择
+keybind_name_view_frame_selection;框选选区
+keybind_name_view_frame_scene;框选场景
+keybind_name_view_prev_vp_mode;上一视口模式
+keybind_name_view_next_vp_mode;下一个视口模式
+keybind_name_view_default_vp_mode;默认视口模式
+keybind_name_view_maximize_vp;最大化视口
+keybind_name_view_show_guides;显示/隐藏参考线
+keybind_name_view_selection_behavior_none;无
+keybind_name_view_selection_behavior_highlights;高光
+keybind_name_view_selection_behavior_outline;轮廓
+keybind_name_view_full_screen;进入/退出全屏
+keybind_name_scene_add_camera;相机
+keybind_name_scene_add_turntable;转台
+keybind_name_scene_add_directional_light;平行光
+keybind_name_scene_add_spot_light;聚光灯
+keybind_name_scene_add_omni_light;点光源
+keybind_name_scene_add_sky;天空
+keybind_name_scene_add_fog;雾
+keybind_name_scene_add_backdrop;背景板
+keybind_name_scene_add_shadow_catcher;阴影捕捉器
+keybind_name_scene_add_bake_project;烘焙项目
+keybind_name_scene_add_texture_project;纹理项目
+keybind_name_scene_lock_selection;锁定所选
+keybind_name_texture_add_layer_mask;添加图层蒙版
+keybind_name_texture_delete_layer_mask;删除图层蒙版
+keybind_name_texture_add_paint_layer;添加绘制层
+keybind_name_texture_add_fill_layer;添加填充层
+keybind_name_texture_add_decal_layer;添加贴花层
+keybind_name_texture_add_adjustments_blur;模糊
+keybind_name_texture_add_adjustments_curves;曲线
+keybind_name_texture_add_adjustments_gradient_map;渐变贴图
+keybind_name_texture_add_adjustments_hue_saturation;色相/饱和度
+keybind_name_texture_add_adjustments_invert;反转
+keybind_name_texture_add_adjustments_levels;色阶
+keybind_name_texture_add_adjustments_sharpen;锐化
+keybind_name_texture_add_adjustments_recolor;重新着色
+keybind_name_texture_add_processors_color_selection;颜色选择
+keybind_name_texture_add_processors_curvature;曲率
+keybind_name_texture_add_processors_direction;方向
+keybind_name_texture_add_processors_dirt;污垢
+keybind_name_texture_add_processors_occlusion;遮蔽
+keybind_name_texture_add_processors_scratch;划痕
+keybind_name_texture_add_processors_thickness;厚度
+keybind_name_texture_add_processors_height;高度
+keybind_name_texture_add_procedurals_cellular;细胞
+keybind_name_texture_add_procedurals_checkered;棋盘格
+keybind_name_texture_add_procedurals_clouds;云
+keybind_name_texture_add_procedurals_gradient;渐变
+keybind_name_texture_add_procedurals_perlin;Perlin
+keybind_name_texture_add_procedurals_tiles;平铺
+keybind_name_texture_add_procedurals_turbulence;湍流
+keybind_name_texture_add_procedurals_voronoi;Voronoi
+keybind_name_texture_add_procedurals_scatter;散射
+keybind_name_texture_prev_map;上一张贴图
+keybind_name_texture_next_map;下一个贴图
+keybind_name_texture_ungroup;取消编组
+keybind_name_texture_merge_selected_layers;合并所选
+keybind_name_texture_rasterize_layer;图层
+keybind_name_texture_rasterize_layer_with_children;包含子级的图层
+keybind_name_texture_rasterize_mask;蒙版
+keybind_name_texture_select_all;全部
+keybind_name_texture_select_none;无
+keybind_name_texture_select_invert;反转
+keybind_name_brush_editor_dec_brush_size;减小笔刷大小
+keybind_name_brush_editor_inc_brush_size;增大笔刷大小
+keybind_name_brush_editor_dec_brush_hardness;减小笔刷硬度
+keybind_name_brush_editor_inc_brush_hardness;增大笔刷硬度
+keybind_name_brush_editor_dec_brush_cull_angle;减小笔刷剔除角度
+keybind_name_brush_editor_inc_brush_cull_angle;增大笔刷剔除角度
+keybind_name_brush_editor_center_on_brush;居中于笔刷
+keybind_name_material_create_new;新建材质
+keybind_name_material_import;导入
+keybind_name_material_export;导出
+keybind_name_material_clear_unused;清除未使用项
+keybind_name_material_apply_to_selection;应用到选择
+keybind_name_render_viewport;渲染视口
+keybind_name_render_vp_to_clipboard;渲染视口到剪贴板
+keybind_name_render_all_imgs;渲染所有图像
+keybind_name_render_all_vids;渲染所有视频
+keybind_name_render_bake_all;全部烘焙
+keybind_name_render_open_when_done;完成后打开
+keybind_name_render_mode_enable_hybrid;启用混合模式
+keybind_name_render_mode_enable_raytracing;启用光线追踪
+keybind_name_render_options;渲染选项
+keybind_name_window_scene;场景
+keybind_name_window_materials;材质
+keybind_name_window_history;历史
+keybind_name_window_library;资源库
+keybind_name_window_tool_settings;工具设置
+keybind_name_window_layers;图层
+keybind_name_window_layer_settings;图层设置
+keybind_name_window_timeline;时间轴
+keybind_name_window_keyframes;关键帧
+keybind_name_window_workspace_bar;工作区栏
+keybind_name_window_status_bar;状态栏
+keybind_name_window_color_picker;颜色选择器
+keybind_name_window_reset_workspace;重置工作区
+keybind_name_window_add_workspace;添加工作区
+keybind_name_window_delete_workspace;删除工作区
+keybind_name_window_reset_default_workspace;重置默认工作区
+keybind_name_window_prev_workspace;上一个工作区
+keybind_name_window_next_workspace;下一个工作区
+keybind_name_toolbar_tool_0;选择工具
+keybind_name_toolbar_tool_1;矩形/椭圆工具
+keybind_name_toolbar_tool_2;套索/多边形工具
+keybind_name_toolbar_tool_3;面/UV 岛/网格工具
+keybind_name_toolbar_tool_4;倾斜工具
+keybind_name_toolbar_tool_5;魔棒工具
+keybind_name_toolbar_tool_6;笔刷工具
+keybind_name_toolbar_tool_7;克隆图章工具
+keybind_name_toolbar_tool_8;洪水填充工具
+keybind_name_toolbar_tool_9;渐变工具
+keybind_name_toolbar_tool_10;平移工具
+keybind_name_toolbar_tool_11;旋转工具
+keybind_name_toolbar_tool_12;缩放工具
+keybind_name_toolbar_tool_13;变换工具/文本工具
+keybind_name_toolbar_tool_14;贴花工具
+keybind_name_toolbar_tool_15;平铺条工具
+keybind_name_vpt_baker_paint_inverse;绘制反向
+keybind_name_vpt_focus_aperture;光圈
+keybind_name_vpt_transform_world_space;世界空间
+keybind_name_vpt_transform_pivot;编辑轴心
+keybind_name_vpt_lc_brightness;亮度
+keybind_name_vpt_lc_spot_angle;聚光灯角度
+keybind_name_vpt_lc_distance;距离
+keybind_name_vpt_vector_smooth_pt;平滑点
+keybind_name_vpt_vector_sharpen_pt;锐化点
+keybind_name_vpt_vector_toggle_snap;切换点吸附
+keybind_name_animation_toggle_play;播放/暂停
+keybind_name_animation_prev_frame;上一帧
+keybind_name_animation_next_frame;下一帧
+keybind_name_animation_tl_zoom_in_0;放大
+keybind_name_animation_tl_zoom_in_1;放大
+keybind_name_animation_tl_zoom_out_0;缩小
+keybind_name_animation_tl_zoom_out_1;缩小
+keybind_name_animation_tl_shift_left;左移
+keybind_name_animation_tl_shift_right;右移
+keybind_name_animation_set_frame_to_prev_kf;将帧设为上一关键帧
+keybind_name_animation_set_frame_to_next_kf;将帧设为下一关键帧
+keybind_name_animation_nudge_kf_up;将关键帧上移
+keybind_name_animation_nudge_kf_down;将关键帧下移
+keybind_name_baker_toggle_high_vis;切换高可见性
+keybind_name_baker_toggle_low_vis;切换低可见性
+keybind_name_baker_show_offset;显示偏移
+keybind_name_baker_show_skew;显示倾斜
+keybind_name_painting_add_carve_group;添加雕刻组
+keybind_name_painting_delete_layer;删除图层
+keybind_name_painting_symmetry_toggle;切换对称
+keybind_name_painting_symmetry_switch_axis;切换轴
+keybind_name_decal_show_falloff_planes;显示贴花衰减平面
+keybind_name_help_about;关于
+keybind_name_help_change_account;切换账户
+keybind_name_help_tutorials;教程
+keybind_name_help_docs;文档
+keybind_name_help_python_api_ref;Python API 参考
+keybind_name_help_send_feedback;发送反馈
+keybind_name_help_dev_reload_shaders;重新加载着色器
+keybind_name_help_dev_performance;切换性能窗口
+keybind_name_help_dev_console;切换控制台
+;
+keybind_desc_file_new_scene;创建新的场景文件
+keybind_desc_file_open_scene;打开场景文件
+keybind_desc_file_save_scene;保存当前场景文件
+keybind_desc_file_save_scene_as;将当前场景文件另存为新文件
+keybind_desc_file_save_backup;保存当前场景文件的备份
+keybind_desc_file_revert;将当前场景文件还原到上次保存的状态
+keybind_desc_file_import;导入文件
+keybind_desc_file_export;导出一个文件
+keybind_desc_file_export_selected;导出所选对象
+keybind_desc_file_open_scene_folder;打开包含当前场景文件的文件夹
+keybind_desc_file_save_scene_to_library;将当前场景文件保存到资源库
+keybind_desc_file_save_selected_objects_to_library;将所选对象保存到资源库
+keybind_desc_file_quit;退出 Toolbag
+keybind_desc_edit_undo;撤销上一个操作
+keybind_desc_edit_redo;重做上一个操作
+keybind_desc_edit_undo_camera;撤销上一个相机操作
+keybind_desc_edit_redo_camera;重做上一个相机操作
+keybind_desc_edit_templates_set_template_scene;设置模板场景
+keybind_desc_edit_templates_clear_template_scene;清除模板场景
+keybind_desc_edit_templates_set_template_material;设置模板材质
+keybind_desc_edit_templates_clear_template_material;清除模板材质
+keybind_desc_edit_preferences;打开首选项窗口
+keybind_desc_edit_hotkeys;打开快捷键窗口
+keybind_desc_edit_plugins_run_last_plugin;运行上一个插件
+keybind_desc_view_toggle_visibility;切换所选对象的可见性
+keybind_desc_view_show_all;显示所有对象
+keybind_desc_view_deselect;取消当前选择
+keybind_desc_view_frame_selection;将当前视口框选至所选对象
+keybind_desc_view_frame_scene;将当前视口框选至整个场景
+keybind_desc_view_prev_vp_mode;切换到上一个视口模式
+keybind_desc_view_next_vp_mode;切换到下一个视口模式
+keybind_desc_view_default_vp_mode;切换到默认视口模式
+keybind_desc_view_maximize_vp;最大化当前视口
+keybind_desc_view_show_guides;显示或隐藏当前视口参考线
+keybind_desc_view_selection_behavior_none;无
+keybind_desc_view_selection_behavior_highlights;高光
+keybind_desc_view_selection_behavior_outline;轮廓
+keybind_desc_view_full_screen;切换全屏模式
+keybind_desc_scene_add_camera;向场景添加新的相机
+keybind_desc_scene_add_turntable;向场景添加新的转台
+keybind_desc_scene_add_directional_light;向场景添加新的平行光
+keybind_desc_scene_add_spot_light;向场景添加新的聚光灯
+keybind_desc_scene_add_omni_light;向场景添加新的点光源
+keybind_desc_scene_add_sky;向场景添加新的天空
+keybind_desc_scene_add_fog;向场景添加新的雾
+keybind_desc_scene_add_backdrop;向场景添加新的背景板
+keybind_desc_scene_add_shadow_catcher;向场景添加新的阴影捕捉器
+keybind_desc_scene_add_bake_project;向场景添加新的烘焙项目
+keybind_desc_scene_add_texture_project;向场景添加新的纹理项目
+keybind_desc_scene_lock_selection;锁定所选对象
+keybind_desc_texture_add_layer_mask;添加图层蒙版
+keybind_desc_texture_delete_layer_mask;删除图层蒙版
+keybind_desc_texture_add_paint_layer;添加绘制层
+keybind_desc_texture_add_fill_layer;添加填充层
+keybind_desc_texture_add_decal_layer;添加贴花层
+keybind_desc_texture_add_adjustments_blur;添加模糊
+keybind_desc_texture_add_adjustments_curves;添加曲线
+keybind_desc_texture_add_adjustments_gradient_map;添加渐变贴图
+keybind_desc_texture_add_adjustments_hue_saturation;添加色相/饱和度
+keybind_desc_texture_add_adjustments_invert;添加反相
+keybind_desc_texture_add_adjustments_levels;添加色阶
+keybind_desc_texture_add_adjustments_sharpen;添加锐化
+keybind_desc_texture_add_adjustments_recolor;添加重新着色
+keybind_desc_texture_add_processors_color_selection;添加颜色选择
+keybind_desc_texture_add_processors_curvature;添加曲率
+keybind_desc_texture_add_processors_direction;添加方向
+keybind_desc_texture_add_processors_dirt;添加污垢
+keybind_desc_texture_add_processors_occlusion;添加遮蔽
+keybind_desc_texture_add_processors_scratch;添加划痕
+keybind_desc_texture_add_processors_thickness;添加厚度
+keybind_desc_texture_add_processors_height;添加高度
+keybind_desc_texture_add_procedurals_cellular;添加细胞
+keybind_desc_texture_add_procedurals_checkered;添加棋盘格
+keybind_desc_texture_add_procedurals_clouds;添加云
+keybind_desc_texture_add_procedurals_gradient;添加渐变
+keybind_desc_texture_add_procedurals_perlin;添加柏林噪波
+keybind_desc_texture_add_procedurals_tiles;添加平铺
+keybind_desc_texture_add_procedurals_turbulence;添加湍流
+keybind_desc_texture_add_procedurals_voronoi;添加沃罗诺伊
+keybind_desc_texture_add_procedurals_scatter;添加散射
+keybind_desc_texture_prev_map;切换到上一个贴图
+keybind_desc_texture_next_map;切换到下一张贴图
+keybind_desc_texture_ungroup;取消编组当前选择
+keybind_desc_texture_merge_selected_layers;合并所选图层
+keybind_desc_texture_rasterize_layer;栅格化图层
+keybind_desc_texture_rasterize_layer_with_children;栅格化图层及其子级
+keybind_desc_texture_rasterize_mask;栅格化蒙版
+keybind_desc_texture_select_all;全选
+keybind_desc_texture_select_none;取消选择
+keybind_desc_texture_select_invert;反选
+keybind_desc_brush_editor_dec_brush_size;在笔刷编辑器中减小笔刷大小
+keybind_desc_brush_editor_inc_brush_size;在笔刷编辑器中增大笔刷大小
+keybind_desc_brush_editor_dec_brush_hardness;在笔刷编辑器中减小笔刷硬度
+keybind_desc_brush_editor_inc_brush_hardness;在笔刷编辑器中增大笔刷硬度
+keybind_desc_brush_editor_dec_brush_cull_angle;在笔刷编辑器中减小笔刷剔除角度
+keybind_desc_brush_editor_inc_brush_cull_angle;在笔刷编辑器中增大笔刷剔除角度
+keybind_desc_brush_editor_center_on_brush;在笔刷编辑器中将笔刷居中
+keybind_desc_material_create_new;创建新材质
+keybind_desc_material_import;导入材质
+keybind_desc_material_export;导出材质
+keybind_desc_material_clear_unused;清除未使用的材质
+keybind_desc_material_apply_to_selection;将当前材质应用到所选对象
+keybind_desc_render_viewport;将当前视口渲染到文件
+keybind_desc_render_vp_to_clipboard;将当前视口渲染到剪贴板
+keybind_desc_render_all_imgs;渲染所有图像
+keybind_desc_render_all_vids;渲染所有视频
+keybind_desc_render_bake_all;全部烘焙
+keybind_desc_render_open_when_done;完成后切换为打开
+keybind_desc_render_mode_enable_hybrid;启用混合渲染模式
+keybind_desc_render_mode_enable_raytracing;启用光线追踪渲染模式
+keybind_desc_render_options;打开渲染选项
+keybind_desc_window_scene;切换场景窗口
+keybind_desc_window_materials;切换材质窗口
+keybind_desc_window_history;切换历史记录窗口
+keybind_desc_window_library;打开资源库窗口
+keybind_desc_window_tool_settings;切换工具设置窗口
+keybind_desc_window_layers;切换图层窗口
+keybind_desc_window_layer_settings;切换图层设置窗口
+keybind_desc_window_timeline;切换时间轴窗口
+keybind_desc_window_keyframes;切换关键帧窗口
+keybind_desc_window_workspace_bar;切换工作区栏
+keybind_desc_window_status_bar;切换状态栏
+keybind_desc_window_color_picker;打开取色器窗口
+keybind_desc_window_reset_workspace;重置工作区
+keybind_desc_window_add_workspace;基于当前工作区添加新工作区
+keybind_desc_window_delete_workspace;删除当前工作区
+keybind_desc_window_reset_default_workspace;重置默认工作区
+keybind_desc_window_prev_workspace;切换到上一个工作区
+keybind_desc_window_next_workspace;切换到下一个工作区
+keybind_desc_toolbar_tool_0;选择工具
+keybind_desc_toolbar_tool_1;在矩形/椭圆工具之间切换
+keybind_desc_toolbar_tool_2;在套索/多边形工具之间切换
+keybind_desc_toolbar_tool_3;在面/UV 岛/网格工具之间切换
+keybind_desc_toolbar_tool_4;倾斜工具
+keybind_desc_toolbar_tool_5;魔棒工具
+keybind_desc_toolbar_tool_6;笔刷工具
+keybind_desc_toolbar_tool_7;克隆图章工具
+keybind_desc_toolbar_tool_8;洪水填充工具
+keybind_desc_toolbar_tool_9;渐变工具
+keybind_desc_toolbar_tool_10;平移工具
+keybind_desc_toolbar_tool_11;旋转工具
+keybind_desc_toolbar_tool_12;缩放工具
+keybind_desc_toolbar_tool_13;变换工具/文本工具
+keybind_desc_toolbar_tool_14;贴花工具
+keybind_desc_toolbar_tool_15;平铺条工具
+keybind_desc_vpt_baker_paint_inverse;绘制反向
+keybind_desc_vpt_focus_aperture;更新相机光圈
+keybind_desc_vpt_transform_world_space;切换局部/世界空间
+keybind_desc_vpt_transform_pivot;编辑变换轴心
+keybind_desc_vpt_lc_brightness;更新灯光亮度
+keybind_desc_vpt_lc_spot_angle;更新灯光聚光角度
+keybind_desc_vpt_lc_distance;更新灯光距离
+keybind_desc_vpt_vector_smooth_pt;平滑所选点
+keybind_desc_vpt_vector_sharpen_pt;锐化所选点
+keybind_desc_vpt_vector_toggle_snap;切换所有点吸附
+keybind_desc_animation_toggle_play;播放/暂停动画
+keybind_desc_animation_prev_frame;转到上一帧
+keybind_desc_animation_next_frame;转到下一帧
+keybind_desc_animation_tl_zoom_in_0;放大
+keybind_desc_animation_tl_zoom_in_1;放大（替代）
+keybind_desc_animation_tl_zoom_out_0;缩小
+keybind_desc_animation_tl_zoom_out_1;缩小（替代）
+keybind_desc_animation_tl_shift_left;将时间轴选择左移
+keybind_desc_animation_tl_shift_right;将时间轴选择右移
+keybind_desc_animation_set_frame_to_prev_kf;将帧设为上一关键帧
+keybind_desc_animation_set_frame_to_next_kf;将帧设为下一关键帧
+keybind_desc_animation_nudge_kf_up;将所选关键帧上移
+keybind_desc_animation_nudge_kf_down;将所选关键帧下移
+keybind_desc_baker_toggle_high_vis;切换高模对象的可见性
+keybind_desc_baker_toggle_low_vis;切换低模对象的可见性
+keybind_desc_baker_show_offset;显示偏移
+keybind_desc_baker_show_skew;显示倾斜
+keybind_desc_painting_add_carve_group;添加雕刻组
+keybind_desc_painting_delete_layer;删除选定图层
+keybind_desc_painting_symmetry_toggle;切换对称
+keybind_desc_painting_symmetry_switch_axis;切换轴
+keybind_desc_decal_show_falloff_planes;显示贴花衰减平面
+keybind_desc_help_about;关于
+keybind_desc_help_change_account;切换账户
+keybind_desc_help_tutorials;转到教程页面
+keybind_desc_help_docs;转到文档页面
+keybind_desc_help_python_api_ref;转到 Python API 参考页面
+keybind_desc_help_send_feedback;发送反馈
+keybind_desc_help_dev_reload_shaders;重新加载着色器
+keybind_desc_help_dev_performance;切换性能窗口
+keybind_desc_help_dev_console;切换控制台窗口
+;

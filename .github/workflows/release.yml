@@ -1,0 +1,57 @@
+name: release
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag (e.g. v1.0.0). Leave empty to build artifacts only."
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # dist/patch.json and dist/english.txt are committed as the compiled translation, so the
+      # installer builds without the game. This only checks that the data agrees with itself.
+      - name: Check build data
+        run: python tools/check_data.py
+
+      - name: Build installer and packages
+        run: python tools/build_release.py
+
+      - name: Show artifacts
+        run: Get-ChildItem release | Format-Table Name, Length
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Toolbag5-Chinese-patch
+          path: |
+            release/Toolbag5_汉化补丁.exe
+            release/Toolbag5_汉化补丁_绿色版.zip
+            release/使用说明.txt
+
+      - name: Publish release
+        if: startsWith(github.ref, 'refs/tags/') || inputs.tag != ''
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_type == 'tag' && github.ref_name || inputs.tag }}
+          name: ${{ github.ref_type == 'tag' && github.ref_name || inputs.tag }}
+          draft: false
+          generate_release_notes: true
+          files: |
+            release/Toolbag5_汉化补丁.exe
+            release/Toolbag5_汉化补丁_绿色版.zip
+            release/使用说明.txt
